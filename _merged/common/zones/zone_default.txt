@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [0, 1, "zone_default"]
 # sources:
 #   path: bpvr_base/common/zones/00_zones_replace_Stellaris.txt

@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/zones/����_all_merged_common_items_replace.txt
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 3, "inline_script"]
 # sources:
 #   path: bpvr_compat/common/zones/!!spth_zones_replace_1834433554.txt

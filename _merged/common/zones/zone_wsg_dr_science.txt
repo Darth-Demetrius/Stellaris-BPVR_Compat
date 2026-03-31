@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 2, "zone_wsg_dr_science"]
 # sources:
 #   path: bpvr_compat/common/zones/wsg_dr_zones_replace_1747099270.txt

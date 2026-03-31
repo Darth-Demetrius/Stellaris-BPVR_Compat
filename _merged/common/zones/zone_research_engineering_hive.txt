@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [0, 51, "zone_research_engineering_hive"]
 # sources:
 #   path: pd_arcologies/common/zones/04_secondary_zones.txt

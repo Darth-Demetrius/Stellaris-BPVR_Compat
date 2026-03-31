@@ -1,7 +1,7 @@
 {
   "summary": {
     "total": 299,
-    "up-to-date": 299
+    "new-upstream": 299
   },
   "items": [
     {
@@ -10,7 +10,7 @@
       "name": "district_acot_fractured_ae_shelter",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_acot_fractured_ae_shelter.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/districts/acot_districts.txt",
@@ -50,7 +50,7 @@
       "name": "district_acot_fractured_shelter",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_acot_fractured_shelter.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/districts/acot_districts.txt",
@@ -90,7 +90,7 @@
       "name": "district_acot_soulsphere_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_acot_soulsphere_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/sm_theta_districts_replace_2820330517.txt",
@@ -140,7 +140,7 @@
       "name": "district_acot_soulsphere_forge",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_acot_soulsphere_forge.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/sm_theta_districts_replace_2820330517.txt",
@@ -170,7 +170,7 @@
       "name": "district_acot_soulsphere_fortress",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_acot_soulsphere_fortress.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/sm_theta_districts_replace_2820330517.txt",
@@ -200,7 +200,7 @@
       "name": "district_acot_soulsphere_science",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_acot_soulsphere_science.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/sm_theta_districts_replace_2820330517.txt",
@@ -230,7 +230,7 @@
       "name": "district_acot_soulsphere_silo",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_acot_soulsphere_silo.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/sm_theta_districts_replace_2820330517.txt",
@@ -260,7 +260,7 @@
       "name": "district_acot_soulsphere_stellarite",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_acot_soulsphere_stellarite.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/sm_theta_districts_replace_2820330517.txt",
@@ -290,7 +290,7 @@
       "name": "district_ag_ancient_city_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ag_ancient_city_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/ag_arcology_districts_replace_2389589691.txt",
@@ -320,7 +320,7 @@
       "name": "district_ag_ancient_city_wilderness",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ag_ancient_city_wilderness.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/ag_arcology_districts_replace_2389589691.txt",
@@ -350,7 +350,7 @@
       "name": "district_ag_ancient_hive_wilderness",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ag_ancient_hive_wilderness.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/ag_gestalt_districts_replace_2389589691.txt",
@@ -380,7 +380,7 @@
       "name": "district_ag_ancient_rw_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ag_ancient_rw_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/ag_ancient_ringworld_districts_replace_2389589691.txt",
@@ -410,7 +410,7 @@
       "name": "district_ag_ancient_rw_hive",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ag_ancient_rw_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/ag_ancient_ringworld_districts_replace_2389589691.txt",
@@ -440,7 +440,7 @@
       "name": "district_ag_ancient_rw_nexus",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ag_ancient_rw_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/ag_ancient_ringworld_districts_replace_2389589691.txt",
@@ -470,7 +470,7 @@
       "name": "district_ag_ancient_rw_wilderness",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ag_ancient_rw_wilderness.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/ag_ancient_ringworld_districts_replace_2389589691.txt",
@@ -500,7 +500,7 @@
       "name": "district_ag_hive",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ag_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/ag_gestalt_districts_replace_2389589691.txt",
@@ -530,7 +530,7 @@
       "name": "district_ag_nexus",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ag_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/ag_gestalt_districts_replace_2389589691.txt",
@@ -560,7 +560,7 @@
       "name": "district_ag_shell_world_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ag_shell_world_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/ag_shell_world_districts_replace_2389589691.txt",
@@ -590,7 +590,7 @@
       "name": "district_alderson_ecu",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_alderson_ecu.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -620,7 +620,7 @@
       "name": "district_alderson_gaia",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_alderson_gaia.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -650,7 +650,7 @@
       "name": "district_alderson_hive",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_alderson_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -680,7 +680,7 @@
       "name": "district_alderson_logistics",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_alderson_logistics.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -720,7 +720,7 @@
       "name": "district_alderson_machine",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_alderson_machine.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -750,7 +750,7 @@
       "name": "district_alderson_pcc",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_alderson_pcc.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -780,7 +780,7 @@
       "name": "district_arcology_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_arcology_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/01_arcology_districts_replace.txt",
@@ -850,7 +850,7 @@
       "name": "district_arcology_kuat_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_arcology_kuat_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/Kuat_districts_replace_2461014769.txt",
@@ -880,7 +880,7 @@
       "name": "district_arcology_leisure",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_arcology_leisure.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/01_arcology_districts_replace.txt",
@@ -950,7 +950,7 @@
       "name": "district_arcology_urban_1",
       "path": "common/districts/01_arcology_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_arcology_urban_1.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/01_arcology_districts.txt",
@@ -980,7 +980,7 @@
       "name": "district_arcology_urban_2",
       "path": "common/districts/01_arcology_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_arcology_urban_2.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/01_arcology_districts.txt",
@@ -1010,7 +1010,7 @@
       "name": "district_arcology_urban_3",
       "path": "common/districts/01_arcology_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_arcology_urban_3.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/01_arcology_districts.txt",
@@ -1040,7 +1040,7 @@
       "name": "district_arcology_wsg_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_arcology_wsg_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_districts_replace_1747099270.txt",
@@ -1070,7 +1070,7 @@
       "name": "district_auto_uf_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_auto_uf_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_uf_districts_replace_1747099270.txt",
@@ -1100,7 +1100,7 @@
       "name": "district_azur_gaia_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_azur_gaia_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/azurlane_gaia_districts_replace_1617872589.txt",
@@ -1130,7 +1130,7 @@
       "name": "district_azur_harbour_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_azur_harbour_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/azurlane_supercity_districts_replace_1617872589.txt",
@@ -1160,7 +1160,7 @@
       "name": "district_azur_mind_crisis_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_azur_mind_crisis_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/azurlane_mind_crisis_districts_replace_1617872589.txt",
@@ -1190,7 +1190,7 @@
       "name": "district_azur_ocean_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_azur_ocean_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/azurlane_ocean_districts_replace_1617872589.txt",
@@ -1220,7 +1220,7 @@
       "name": "district_azur_ringworld_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_azur_ringworld_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/azurlane_ringworld_districts_replace_1617872589.txt",
@@ -1250,7 +1250,7 @@
       "name": "district_azur_ringworld_city_bc",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_azur_ringworld_city_bc.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/azurlane_ringworld_bc_districts_replace_1617872589.txt",
@@ -1280,7 +1280,7 @@
       "name": "district_battle_thrall",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_battle_thrall.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -1350,7 +1350,7 @@
       "name": "district_birth_ring_world",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_birth_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt",
@@ -1380,7 +1380,7 @@
       "name": "district_breeding_nest_area",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_breeding_nest_area.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_TEN_districts_replace_2748029219.txt",
@@ -1410,7 +1410,7 @@
       "name": "district_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -1480,7 +1480,7 @@
       "name": "district_craglands",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_craglands.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/05_wilderness_districts_replace.txt",
@@ -1550,7 +1550,7 @@
       "name": "district_crashed_slaver_ship",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_crashed_slaver_ship.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -1620,7 +1620,7 @@
       "name": "district_depraved_tentacle_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_depraved_tentacle_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SOS_districts_replace_2748029219.txt",
@@ -1650,7 +1650,7 @@
       "name": "district_distortion_ring_world",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_distortion_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt",
@@ -1680,7 +1680,7 @@
       "name": "district_dr_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_dr_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_districts_replace_1747099270.txt",
@@ -1710,7 +1710,7 @@
       "name": "district_dragon_nest_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_dragon_nest_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt",
@@ -1740,7 +1740,7 @@
       "name": "district_eros_ring_world",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_eros_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt",
@@ -1770,7 +1770,7 @@
       "name": "district_flusion_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_flusion_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_flusion_arcology_replace_1121692237.txt",
@@ -1800,7 +1800,7 @@
       "name": "district_giga_planet_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_giga_planet_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/00_giga_urban_districts_replace_1121692237.txt",
@@ -1830,7 +1830,7 @@
       "name": "district_giga_planet_hive",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_giga_planet_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/00_giga_urban_districts_replace_1121692237.txt",
@@ -1860,7 +1860,7 @@
       "name": "district_giga_planet_nexus",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_giga_planet_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/00_giga_urban_districts_replace_1121692237.txt",
@@ -1890,7 +1890,7 @@
       "name": "district_hab_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_hab_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/03_habitat_districts_replace.txt",
@@ -1950,7 +1950,7 @@
       "name": "district_hive",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -2020,7 +2020,7 @@
       "name": "district_hive_1",
       "path": "common/districts/00_urban_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_hive_1.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -2050,7 +2050,7 @@
       "name": "district_hive_2",
       "path": "common/districts/00_urban_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_hive_2.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -2080,7 +2080,7 @@
       "name": "district_hive_3",
       "path": "common/districts/00_urban_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_hive_3.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -2110,7 +2110,7 @@
       "name": "district_holylight_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_holylight_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_INN_districts_replace_2748029219.txt",
@@ -2140,7 +2140,7 @@
       "name": "district_holylight_god_holy",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_holylight_god_holy.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_INN_districts_replace_2748029219.txt",
@@ -2170,7 +2170,7 @@
       "name": "district_holylight_hab_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_holylight_hab_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_INN_districts_replace_2748029219.txt",
@@ -2200,7 +2200,7 @@
       "name": "district_holylight_ring_world_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_holylight_ring_world_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_INN_districts_replace_2748029219.txt",
@@ -2230,7 +2230,7 @@
       "name": "district_macripp_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_macripp_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/aot_phanon_macripp_districts_replace_2178603631.txt",
@@ -2260,7 +2260,7 @@
       "name": "district_maginot_ringworld_barracks",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_maginot_ringworld_barracks.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_maginot_districts_replace_1121692237.txt",
@@ -2290,7 +2290,7 @@
       "name": "district_maginot_world_barracks",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_maginot_world_barracks.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_maginot_districts_replace_1121692237.txt",
@@ -2320,7 +2320,7 @@
       "name": "district_mindlink",
       "path": "common/districts/00_special_districts_replace_replace_bpvr_base.txt",
       "merged_file": "_merged/common/districts/district_mindlink.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_special_districts_replace.txt",
@@ -2350,7 +2350,7 @@
       "name": "district_nexus",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -2420,7 +2420,7 @@
       "name": "district_nexus_1",
       "path": "common/districts/00_urban_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_nexus_1.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -2450,7 +2450,7 @@
       "name": "district_nexus_2",
       "path": "common/districts/00_urban_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_nexus_2.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -2480,7 +2480,7 @@
       "name": "district_nexus_3",
       "path": "common/districts/00_urban_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_nexus_3.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -2510,7 +2510,7 @@
       "name": "district_pd_commercial_arcology_housing",
       "path": "common/districts/pd_arcology_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_pd_commercial_arcology_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/districts/district_pd_arcologies_housing.txt",
@@ -2540,7 +2540,7 @@
       "name": "district_pd_fortress_arcology_housing",
       "path": "common/districts/pd_arcology_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_pd_fortress_arcology_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/districts/district_pd_arcologies_housing.txt",
@@ -2570,7 +2570,7 @@
       "name": "district_pd_garden_arcology_housing",
       "path": "common/districts/pd_arcology_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_pd_garden_arcology_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/districts/district_pd_arcologies_housing.txt",
@@ -2600,7 +2600,7 @@
       "name": "district_prison",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_prison.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -2670,7 +2670,7 @@
       "name": "district_prison_industrial",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_prison_industrial.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -2740,7 +2740,7 @@
       "name": "district_prostitution_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_prostitution_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt",
@@ -2770,7 +2770,7 @@
       "name": "district_prostitution_ring_world_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_prostitution_ring_world_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt",
@@ -2800,7 +2800,7 @@
       "name": "district_resort",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_resort.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -2870,7 +2870,7 @@
       "name": "district_resort_1",
       "path": "common/districts/00_urban_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_resort_1.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -2900,7 +2900,7 @@
       "name": "district_resort_2",
       "path": "common/districts/00_urban_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_resort_2.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -2930,7 +2930,7 @@
       "name": "district_resort_3",
       "path": "common/districts/00_urban_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_resort_3.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -2960,7 +2960,7 @@
       "name": "district_rw_auto_uf_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_rw_auto_uf_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_uf_districts_replace_1747099270.txt",
@@ -2990,7 +2990,7 @@
       "name": "district_rw_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_rw_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/04_ringworld_districts_replace.txt",
@@ -3050,7 +3050,7 @@
       "name": "district_rw_hive",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_rw_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/04_ringworld_districts_replace.txt",
@@ -3110,7 +3110,7 @@
       "name": "district_rw_nexus",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_rw_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/04_ringworld_districts_replace.txt",
@@ -3170,7 +3170,7 @@
       "name": "district_rw_sh_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_rw_sh_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_sh_districts_replace_1747099270.txt",
@@ -3200,7 +3200,7 @@
       "name": "district_rw_uf_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_rw_uf_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_uf_districts_replace_1747099270.txt",
@@ -3230,7 +3230,7 @@
       "name": "district_rw_water_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_rw_water_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_districts_replace_1747099270.txt",
@@ -3260,7 +3260,7 @@
       "name": "district_rw_wsg_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_rw_wsg_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_districts_replace_1747099270.txt",
@@ -3290,7 +3290,7 @@
       "name": "district_sacrifice_ring_world",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_sacrifice_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt",
@@ -3320,7 +3320,7 @@
       "name": "district_schicksal",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_schicksal.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_common_districts_replace_2748029219.txt",
@@ -3350,7 +3350,7 @@
       "name": "district_sex_city_prostitute",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_sex_city_prostitute.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt",
@@ -3380,7 +3380,7 @@
       "name": "district_sexgod_create",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_sexgod_create.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt",
@@ -3410,7 +3410,7 @@
       "name": "district_sh_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_sh_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_sh_districts_replace_1747099270.txt",
@@ -3440,7 +3440,7 @@
       "name": "district_slave",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_slave.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -3510,7 +3510,7 @@
       "name": "district_sofe_omega_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_sofe_omega_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/z_sbtg_districts_override_replace_3550189681.txt",
@@ -3540,7 +3540,7 @@
       "name": "district_solaripp_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_solaripp_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/aot_sigma_solaripp_districts_replace_2178603631.txt",
@@ -3570,7 +3570,7 @@
       "name": "district_space_shrine_sp_produce_base",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_space_shrine_sp_produce_base.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/spth_megastructure_districts_replace_1834433554.txt",
@@ -3600,7 +3600,7 @@
       "name": "district_spiritual_power_research",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_spiritual_power_research.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/pc_spiritual_power_habitat_districts_replace_1834433554.txt",
@@ -3630,7 +3630,7 @@
       "name": "district_spore_planet_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_spore_planet_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_TEN_districts_replace_2748029219.txt",
@@ -3660,7 +3660,7 @@
       "name": "district_spth_sp_produce",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_spth_sp_produce.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/!!spth_normal_districts_replace_1834433554.txt",
@@ -3690,7 +3690,7 @@
       "name": "district_srw_commercial",
       "path": "common/districts/00_urban_districts_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/districts/district_srw_commercial.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -3720,7 +3720,7 @@
       "name": "district_ssh_black_hole_shell_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ssh_black_hole_shell_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/05_black_hole_shellworld_districts_replace_3022132203.txt",
@@ -3750,7 +3750,7 @@
       "name": "district_ssh_black_hole_shell_hive",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ssh_black_hole_shell_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/05_black_hole_shellworld_districts_replace_3022132203.txt",
@@ -3780,7 +3780,7 @@
       "name": "district_ssh_black_hole_shell_nexus",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ssh_black_hole_shell_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/05_black_hole_shellworld_districts_replace_3022132203.txt",
@@ -3810,7 +3810,7 @@
       "name": "district_ssh_bwc_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ssh_bwc_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/03_bwc_districts_replace_3022132203.txt",
@@ -3840,7 +3840,7 @@
       "name": "district_ssh_bwc_hive",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ssh_bwc_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/03_bwc_districts_replace_3022132203.txt",
@@ -3870,7 +3870,7 @@
       "name": "district_ssh_bwc_nexus",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ssh_bwc_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/03_bwc_districts_replace_3022132203.txt",
@@ -3900,7 +3900,7 @@
       "name": "district_ssh_edersphere_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ssh_edersphere_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/01_edersphere_districts_replace_3022132203.txt",
@@ -3930,7 +3930,7 @@
       "name": "district_ssh_edersphere_hive",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ssh_edersphere_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/01_edersphere_districts_replace_3022132203.txt",
@@ -3960,7 +3960,7 @@
       "name": "district_ssh_edersphere_nexus",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ssh_edersphere_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/01_edersphere_districts_replace_3022132203.txt",
@@ -3990,7 +3990,7 @@
       "name": "district_ssh_gas_shellworld_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ssh_gas_shellworld_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/00_gas_giant_shellworld_districts_replace_3022132203.txt",
@@ -4020,7 +4020,7 @@
       "name": "district_ssh_stellar_hoop_maintenance",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_ssh_stellar_hoop_maintenance.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/02_stellar_hoop_districts_replace_3022132203.txt",
@@ -4050,7 +4050,7 @@
       "name": "district_torifune_shrine_fuka_produce_base",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_torifune_shrine_fuka_produce_base.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/spth_megastructure_districts_replace_1834433554.txt",
@@ -4080,7 +4080,7 @@
       "name": "district_transsex_ring_world",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_transsex_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt",
@@ -4110,7 +4110,7 @@
       "name": "district_truth_ring_world",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_truth_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt",
@@ -4140,7 +4140,7 @@
       "name": "district_uf_glory_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_uf_glory_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_uf_glory_world_districts_replace_1747099270.txt",
@@ -4170,7 +4170,7 @@
       "name": "district_uf_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_uf_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_uf_districts_replace_1747099270.txt",
@@ -4200,7 +4200,7 @@
       "name": "district_water_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_water_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_districts_replace_1747099270.txt",
@@ -4230,7 +4230,7 @@
       "name": "district_wg_forge",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_wg_forge.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_wg_warhammer_districts_replace_1747099270.txt",
@@ -4260,7 +4260,7 @@
       "name": "district_wg_hive_world_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_wg_hive_world_housing.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/wsg_wg_warhammer_districts_replace_1747099270.txt",
@@ -4290,7 +4290,7 @@
       "name": "tech_pre_industrial_steel_construction",
       "path": "common/technology/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/technology/tech_pre_industrial_steel_construction.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/technology/000_dummy_technology.txt",
@@ -4330,7 +4330,7 @@
       "name": "tech_touhou_psionic_conduit_zone",
       "path": "common/technology/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/technology/tech_touhou_psionic_conduit_zone.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/technology/000_dummy_technology.txt",
@@ -4360,7 +4360,7 @@
       "name": "gensokyo_renli_zone",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/gensokyo_renli_zone.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/!!spth_zones_replace_1834433554.txt",
@@ -4390,7 +4390,7 @@
       "name": "inline_script",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/inline_script.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/!!spth_zones_replace_1834433554.txt",
@@ -4420,7 +4420,7 @@
       "name": "spth_sp_produce_common_zone",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/spth_sp_produce_common_zone.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/!!spth_zones_replace_1834433554.txt",
@@ -4450,7 +4450,7 @@
       "name": "touhou_generic_ag_psionic_conduit_zone",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/touhou_generic_ag_psionic_conduit_zone.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/!!spth_ag_zones_replace_1834433554.txt",
@@ -4480,7 +4480,7 @@
       "name": "zone_acot_ae_energy",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_energy.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4510,7 +4510,7 @@
       "name": "zone_acot_ae_factory",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_factory.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4540,7 +4540,7 @@
       "name": "zone_acot_ae_food",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_food.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4570,7 +4570,7 @@
       "name": "zone_acot_ae_fortress",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_fortress.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4600,7 +4600,7 @@
       "name": "zone_acot_ae_foundry",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_foundry.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4630,7 +4630,7 @@
       "name": "zone_acot_ae_industry",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_industry.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4660,7 +4660,7 @@
       "name": "zone_acot_ae_minerals",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_minerals.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4690,7 +4690,7 @@
       "name": "zone_acot_ae_research",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_research.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4720,7 +4720,7 @@
       "name": "zone_acot_ae_trade",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_trade.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4750,7 +4750,7 @@
       "name": "zone_acot_ae_urban",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_urban.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4780,7 +4780,7 @@
       "name": "zone_acot_dm_energy",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_energy.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4810,7 +4810,7 @@
       "name": "zone_acot_dm_factory",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_factory.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4840,7 +4840,7 @@
       "name": "zone_acot_dm_food",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_food.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4870,7 +4870,7 @@
       "name": "zone_acot_dm_fortress",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_fortress.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4900,7 +4900,7 @@
       "name": "zone_acot_dm_foundry",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_foundry.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4930,7 +4930,7 @@
       "name": "zone_acot_dm_industry",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_industry.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4960,7 +4960,7 @@
       "name": "zone_acot_dm_minerals",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_minerals.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -4990,7 +4990,7 @@
       "name": "zone_acot_dm_research",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_research.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -5020,7 +5020,7 @@
       "name": "zone_acot_dm_trade",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_trade.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -5050,7 +5050,7 @@
       "name": "zone_acot_dm_urban",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_urban.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -5080,7 +5080,7 @@
       "name": "zone_acot_fractured",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_fractured.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5110,7 +5110,7 @@
       "name": "zone_acot_fractured_shield",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_fractured_shield.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5140,7 +5140,7 @@
       "name": "zone_acot_vault_a",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_a.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5170,7 +5170,7 @@
       "name": "zone_acot_vault_a_01",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_a_01.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5200,7 +5200,7 @@
       "name": "zone_acot_vault_b",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_b.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5230,7 +5230,7 @@
       "name": "zone_acot_vault_b_01",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_b_01.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5260,7 +5260,7 @@
       "name": "zone_acot_vault_c",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_c.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5290,7 +5290,7 @@
       "name": "zone_acot_vault_c_01",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_c_01.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5320,7 +5320,7 @@
       "name": "zone_acot_vault_main",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_main.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5350,7 +5350,7 @@
       "name": "zone_acot_vault_main_sub",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_main_sub.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5380,7 +5380,7 @@
       "name": "zone_acot_void_forge",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_forge.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5410,7 +5410,7 @@
       "name": "zone_acot_void_forge_01",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_forge_01.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5440,7 +5440,7 @@
       "name": "zone_acot_void_fortress",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_fortress.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5470,7 +5470,7 @@
       "name": "zone_acot_void_fortress_01",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_fortress_01.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5500,7 +5500,7 @@
       "name": "zone_acot_void_main",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_main.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5530,7 +5530,7 @@
       "name": "zone_acot_void_main_sub",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_main_sub.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5560,7 +5560,7 @@
       "name": "zone_acot_void_science",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_science.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5590,7 +5590,7 @@
       "name": "zone_acot_void_science_01",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_science_01.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5620,7 +5620,7 @@
       "name": "zone_acot_void_silo",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_silo.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5650,7 +5650,7 @@
       "name": "zone_acot_void_silo_01",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_silo_01.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5680,7 +5680,7 @@
       "name": "zone_acot_void_stellarite",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_stellarite.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -5710,7 +5710,7 @@
       "name": "zone_agrarian_anglers",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_agrarian_anglers.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/zones/00_zones_replace_Stellaris.txt",
@@ -5760,7 +5760,7 @@
       "name": "zone_agrarian_urban",
       "path": "common/zones/00_zones_replace_Stellaris_replace_bpvr_base.txt",
       "merged_file": "_merged/common/zones/zone_agrarian_urban.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/zones/00_zones_replace_Stellaris.txt",
@@ -5790,7 +5790,7 @@
       "name": "zone_azur_1",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_azur_1.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/azur_zones_replace_1617872589.txt",
@@ -5820,7 +5820,7 @@
       "name": "zone_azur_2",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_azur_2.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/azur_zones_replace_1617872589.txt",
@@ -5850,7 +5850,7 @@
       "name": "zone_azur_3",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_azur_3.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/azur_zones_replace_1617872589.txt",
@@ -5880,7 +5880,7 @@
       "name": "zone_azur_4",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_azur_4.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/azur_zones_replace_1617872589.txt",
@@ -5910,7 +5910,7 @@
       "name": "zone_azur_city",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_azur_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/azur_zones_replace_1617872589.txt",
@@ -5940,7 +5940,7 @@
       "name": "zone_betharian_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_betharian_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -5970,7 +5970,7 @@
       "name": "zone_betharian_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_betharian_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6000,7 +6000,7 @@
       "name": "zone_bugged_livestock",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_bugged_livestock.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/bugged_zones_replace_2517213262.txt",
@@ -6030,7 +6030,7 @@
       "name": "zone_bugged_rooftop_farms",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_bugged_rooftop_farms.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/bugged_zones_replace_2517213262.txt",
@@ -6060,7 +6060,7 @@
       "name": "zone_default",
       "path": "common/zones/00_zones_replace_Stellaris_replace_bpvr_base.txt",
       "merged_file": "_merged/common/zones/zone_default.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/zones/00_zones_replace_Stellaris.txt",
@@ -6090,7 +6090,7 @@
       "name": "zone_default_giga",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_default_giga.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/giga_zones_replace_1121692237.txt",
@@ -6120,7 +6120,7 @@
       "name": "zone_energy_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_energy_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6150,7 +6150,7 @@
       "name": "zone_energy_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_energy_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6180,7 +6180,7 @@
       "name": "zone_energy_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_energy_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6210,7 +6210,7 @@
       "name": "zone_exotic_gases_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_exotic_gases_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6240,7 +6240,7 @@
       "name": "zone_exotic_gases_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_exotic_gases_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6270,7 +6270,7 @@
       "name": "zone_factory_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_factory_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/zones/zones_pd_arcologies.txt",
@@ -6310,7 +6310,7 @@
       "name": "zone_factory_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_factory_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6340,7 +6340,7 @@
       "name": "zone_factory_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_factory_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6370,7 +6370,7 @@
       "name": "zone_factory_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_factory_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6400,7 +6400,7 @@
       "name": "zone_food_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_food_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6430,7 +6430,7 @@
       "name": "zone_food_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_food_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6460,7 +6460,7 @@
       "name": "zone_fortress_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_fortress_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/zones/zones_pd_arcologies.txt",
@@ -6500,7 +6500,7 @@
       "name": "zone_fortress_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_fortress_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6530,7 +6530,7 @@
       "name": "zone_fortress_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_fortress_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6560,7 +6560,7 @@
       "name": "zone_fortress_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_fortress_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6590,7 +6590,7 @@
       "name": "zone_foundry_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_foundry_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/zones/zones_pd_arcologies.txt",
@@ -6630,7 +6630,7 @@
       "name": "zone_foundry_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_foundry_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6660,7 +6660,7 @@
       "name": "zone_foundry_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_foundry_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6690,7 +6690,7 @@
       "name": "zone_foundry_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_foundry_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6720,7 +6720,7 @@
       "name": "zone_habitat_knights",
       "path": "common/zones/01_habitat_zones_replace_Stellaris_replace_bpvr_base.txt",
       "merged_file": "_merged/common/zones/zone_habitat_knights.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/zones/01_habitat_zones_replace_Stellaris.txt",
@@ -6750,7 +6750,7 @@
       "name": "zone_industrial_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_industrial_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6780,7 +6780,7 @@
       "name": "zone_industrial_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_industrial_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6810,7 +6810,7 @@
       "name": "zone_industrial_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_industrial_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6840,7 +6840,7 @@
       "name": "zone_industrial_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_industrial_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -6870,7 +6870,7 @@
       "name": "zone_kuat_Khaydarin",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_kuat_Khaydarin.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/kuat_zones_replace_2461014769.txt",
@@ -6900,7 +6900,7 @@
       "name": "zone_kuat_Military",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_kuat_Military.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/kuat_zones_replace_2461014769.txt",
@@ -6930,7 +6930,7 @@
       "name": "zone_kuat_city",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_kuat_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/kuat_zones_replace_2461014769.txt",
@@ -6960,7 +6960,7 @@
       "name": "zone_kuat_eternal_Khaydarin",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_kuat_eternal_Khaydarin.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/kuat_zones_replace_2461014769.txt",
@@ -6990,7 +6990,7 @@
       "name": "zone_kuat_industry",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_kuat_industry.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/kuat_zones_replace_2461014769.txt",
@@ -7020,7 +7020,7 @@
       "name": "zone_kuat_science",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_kuat_science.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/kuat_zones_replace_2461014769.txt",
@@ -7050,7 +7050,7 @@
       "name": "zone_minerals_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_minerals_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7080,7 +7080,7 @@
       "name": "zone_minerals_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_minerals_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7110,7 +7110,7 @@
       "name": "zone_rare_crystals_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_rare_crystals_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7140,7 +7140,7 @@
       "name": "zone_rare_crystals_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_rare_crystals_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7170,7 +7170,7 @@
       "name": "zone_research_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/zones/zones_pd_arcologies.txt",
@@ -7210,7 +7210,7 @@
       "name": "zone_research_engineering_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_engineering_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/zones/zones_pd_arcologies.txt",
@@ -7250,7 +7250,7 @@
       "name": "zone_research_engineering_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_engineering_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7280,7 +7280,7 @@
       "name": "zone_research_engineering_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_engineering_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7310,7 +7310,7 @@
       "name": "zone_research_engineering_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_engineering_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7340,7 +7340,7 @@
       "name": "zone_research_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7370,7 +7370,7 @@
       "name": "zone_research_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7400,7 +7400,7 @@
       "name": "zone_research_physics_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_physics_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/zones/zones_pd_arcologies.txt",
@@ -7440,7 +7440,7 @@
       "name": "zone_research_physics_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_physics_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7470,7 +7470,7 @@
       "name": "zone_research_physics_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_physics_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7500,7 +7500,7 @@
       "name": "zone_research_physics_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_physics_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7530,7 +7530,7 @@
       "name": "zone_research_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7560,7 +7560,7 @@
       "name": "zone_research_society_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_society_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/zones/zones_pd_arcologies.txt",
@@ -7600,7 +7600,7 @@
       "name": "zone_research_society_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_society_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7630,7 +7630,7 @@
       "name": "zone_research_society_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_society_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7660,7 +7660,7 @@
       "name": "zone_research_society_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_society_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7690,7 +7690,7 @@
       "name": "zone_rw_sh_alloys",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_rw_sh_alloys.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_rw_sh_planet_zones_replace_1747099270.txt",
@@ -7720,7 +7720,7 @@
       "name": "zone_rw_sh_goods",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_rw_sh_goods.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_rw_sh_planet_zones_replace_1747099270.txt",
@@ -7750,7 +7750,7 @@
       "name": "zone_rw_sh_soldier",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_rw_sh_soldier.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_rw_sh_planet_zones_replace_1747099270.txt",
@@ -7780,7 +7780,7 @@
       "name": "zone_spawning_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_spawning_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7810,7 +7810,7 @@
       "name": "zone_subterranean_urban",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_subterranean_urban.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/zones/00_zones_replace_Stellaris.txt",
@@ -7860,7 +7860,7 @@
       "name": "zone_trade_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_trade_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/zones/zones_pd_arcologies.txt",
@@ -7900,7 +7900,7 @@
       "name": "zone_trade_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_trade_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7930,7 +7930,7 @@
       "name": "zone_trade_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_trade_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7960,7 +7960,7 @@
       "name": "zone_trade_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_trade_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -7990,7 +7990,7 @@
       "name": "zone_unity_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/zones/zones_pd_arcologies.txt",
@@ -8030,7 +8030,7 @@
       "name": "zone_unity_bio_trophy_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_bio_trophy_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/zones/zones_pd_arcologies.txt",
@@ -8070,7 +8070,7 @@
       "name": "zone_unity_bio_trophy_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_bio_trophy_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -8100,7 +8100,7 @@
       "name": "zone_unity_bio_trophy_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_bio_trophy_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -8130,7 +8130,7 @@
       "name": "zone_unity_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -8160,7 +8160,7 @@
       "name": "zone_unity_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -8190,7 +8190,7 @@
       "name": "zone_unity_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -8220,7 +8220,7 @@
       "name": "zone_unity_spiritualist_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_spiritualist_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "my_patch/common/zones/zones_pd_arcologies.txt",
@@ -8260,7 +8260,7 @@
       "name": "zone_unity_spiritualist_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_spiritualist_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -8290,7 +8290,7 @@
       "name": "zone_unity_spiritualist_ring_world",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_spiritualist_ring_world.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -8320,7 +8320,7 @@
       "name": "zone_urban",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_urban.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/zones/00_zones_replace_Stellaris.txt",
@@ -8370,7 +8370,7 @@
       "name": "zone_urban_wilderness",
       "path": "common/zones/03_wilderness_zones_replace_Stellaris_replace_bpvr_base.txt",
       "merged_file": "_merged/common/zones/zone_urban_wilderness.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_base/common/zones/03_wilderness_zones_replace_Stellaris.txt",
@@ -8400,7 +8400,7 @@
       "name": "zone_volatile_motes_hive",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_volatile_motes_hive.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -8430,7 +8430,7 @@
       "name": "zone_volatile_motes_nexus",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_volatile_motes_nexus.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -8460,7 +8460,7 @@
       "name": "zone_water_generator",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_water_generator.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_water_planet_zones_replace_1747099270.txt",
@@ -8490,7 +8490,7 @@
       "name": "zone_water_ktv",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_water_ktv.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_water_planet_zones_replace_1747099270.txt",
@@ -8520,7 +8520,7 @@
       "name": "zone_wsg_arcology_military",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_arcology_military.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_port_arcology_zones_replace_1747099270.txt",
@@ -8550,7 +8550,7 @@
       "name": "zone_wsg_arcology_neo",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_arcology_neo.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_port_arcology_zones_replace_1747099270.txt",
@@ -8580,7 +8580,7 @@
       "name": "zone_wsg_arcology_neo_alpha",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_arcology_neo_alpha.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_port_arcology_zones_replace_1747099270.txt",
@@ -8610,7 +8610,7 @@
       "name": "zone_wsg_arcology_rw_alloys",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_arcology_rw_alloys.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_rw_port_arclogy_zones_replace_1747099270.txt",
@@ -8640,7 +8640,7 @@
       "name": "zone_wsg_arcology_rw_science",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_arcology_rw_science.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_rw_port_arclogy_zones_replace_1747099270.txt",
@@ -8670,7 +8670,7 @@
       "name": "zone_wsg_arcology_rw_soildier",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_arcology_rw_soildier.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_rw_port_arclogy_zones_replace_1747099270.txt",
@@ -8700,7 +8700,7 @@
       "name": "zone_wsg_arcology_science",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_arcology_science.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_port_arcology_zones_replace_1747099270.txt",
@@ -8730,7 +8730,7 @@
       "name": "zone_wsg_auto_uf_alloys",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_auto_uf_alloys.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt",
@@ -8760,7 +8760,7 @@
       "name": "zone_wsg_auto_uf_hyperdimensional_matter",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_auto_uf_hyperdimensional_matter.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt",
@@ -8790,7 +8790,7 @@
       "name": "zone_wsg_auto_uf_military",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_auto_uf_military.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt",
@@ -8820,7 +8820,7 @@
       "name": "zone_wsg_auto_uf_science",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_auto_uf_science.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt",
@@ -8850,7 +8850,7 @@
       "name": "zone_wsg_city",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_city.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_zones_replace_1747099270.txt",
@@ -8880,7 +8880,7 @@
       "name": "zone_wsg_dr_generator",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_dr_generator.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_dr_zones_replace_1747099270.txt",
@@ -8910,7 +8910,7 @@
       "name": "zone_wsg_dr_industrial",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_dr_industrial.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_dr_zones_replace_1747099270.txt",
@@ -8940,7 +8940,7 @@
       "name": "zone_wsg_dr_roller_coaster",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_dr_roller_coaster.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_dr_zones_replace_1747099270.txt",
@@ -8970,7 +8970,7 @@
       "name": "zone_wsg_dr_science",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_dr_science.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_dr_zones_replace_1747099270.txt",
@@ -9000,7 +9000,7 @@
       "name": "zone_wsg_foundry_shpc",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_foundry_shpc.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_sh_planet_zones_replace_1747099270.txt",
@@ -9030,7 +9030,7 @@
       "name": "zone_wsg_mining_uncapped",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_mining_uncapped.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_sh_planet_zones_replace_1747099270.txt",
@@ -9060,7 +9060,7 @@
       "name": "zone_wsg_rw_auto_uf_alloys",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_rw_auto_uf_alloys.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt",
@@ -9090,7 +9090,7 @@
       "name": "zone_wsg_rw_auto_uf_hyperdimensional_matter",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_rw_auto_uf_hyperdimensional_matter.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt",
@@ -9120,7 +9120,7 @@
       "name": "zone_wsg_rw_auto_uf_military",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_rw_auto_uf_military.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt",
@@ -9150,7 +9150,7 @@
       "name": "zone_wsg_rw_auto_uf_rare_resource",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_rw_auto_uf_rare_resource.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt",
@@ -9180,7 +9180,7 @@
       "name": "zone_wsg_rw_auto_uf_science",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_rw_auto_uf_science.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt",
@@ -9210,7 +9210,7 @@
       "name": "zone_wsg_rw_water_food",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_rw_water_food.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_water_rw_planet_zones_replace_1747099270.txt",
@@ -9240,7 +9240,7 @@
       "name": "zone_wsg_rw_water_generator",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_rw_water_generator.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_water_rw_planet_zones_replace_1747099270.txt",
@@ -9270,7 +9270,7 @@
       "name": "zone_wsg_rw_water_ktv",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_rw_water_ktv.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_water_rw_planet_zones_replace_1747099270.txt",
@@ -9300,7 +9300,7 @@
       "name": "zone_wsg_sh_generator_uncapped",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_sh_generator_uncapped.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_sh_planet_zones_replace_1747099270.txt",
@@ -9330,7 +9330,7 @@
       "name": "zone_wsg_sh_pantsu_shpc",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_sh_pantsu_shpc.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_sh_planet_zones_replace_1747099270.txt",
@@ -9360,7 +9360,7 @@
       "name": "zone_wsg_sh_science_shpc",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_sh_science_shpc.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_sh_planet_zones_replace_1747099270.txt",
@@ -9390,7 +9390,7 @@
       "name": "zone_wsg_uf_alloys",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_alloys.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_normal_zones_replace_1747099270.txt",
@@ -9420,7 +9420,7 @@
       "name": "zone_wsg_uf_entertainment",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_entertainment.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_normal_zones_replace_1747099270.txt",
@@ -9450,7 +9450,7 @@
       "name": "zone_wsg_uf_glory_auto_hyperdimensional_matter",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_glory_auto_hyperdimensional_matter.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_glory_zones_replace_1747099270.txt",
@@ -9480,7 +9480,7 @@
       "name": "zone_wsg_uf_glory_auto_industry",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_glory_auto_industry.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_glory_zones_replace_1747099270.txt",
@@ -9510,7 +9510,7 @@
       "name": "zone_wsg_uf_glory_auto_rare_resource",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_glory_auto_rare_resource.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_glory_zones_replace_1747099270.txt",
@@ -9540,7 +9540,7 @@
       "name": "zone_wsg_uf_glory_auto_science",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_glory_auto_science.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_glory_zones_replace_1747099270.txt",
@@ -9570,7 +9570,7 @@
       "name": "zone_wsg_uf_glory_base_resources",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_glory_base_resources.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_glory_zones_replace_1747099270.txt",
@@ -9600,7 +9600,7 @@
       "name": "zone_wsg_uf_glory_base_resources_2",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_glory_base_resources_2.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_glory_zones_replace_1747099270.txt",
@@ -9630,7 +9630,7 @@
       "name": "zone_wsg_uf_glory_military",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_glory_military.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_glory_zones_replace_1747099270.txt",
@@ -9660,7 +9660,7 @@
       "name": "zone_wsg_uf_hyperdimensional_matter",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_hyperdimensional_matter.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_normal_zones_replace_1747099270.txt",
@@ -9690,7 +9690,7 @@
       "name": "zone_wsg_uf_military",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_military.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_normal_zones_replace_1747099270.txt",
@@ -9720,7 +9720,7 @@
       "name": "zone_wsg_uf_science",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_uf_science.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_uf_normal_zones_replace_1747099270.txt",
@@ -9750,7 +9750,7 @@
       "name": "zone_wsg_wg_forge_research",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_wg_forge_research.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_warhammer_planet_replace_1747099270.txt",
@@ -9780,7 +9780,7 @@
       "name": "zone_wsg_wg_hive_world_admin",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_wsg_wg_hive_world_admin.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/wsg_warhammer_planet_replace_1747099270.txt",

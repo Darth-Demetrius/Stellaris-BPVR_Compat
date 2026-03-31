@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 1, "zone_wsg_sh_generator_uncapped"]
 # sources:
 #   path: bpvr_compat/common/zones/wsg_sh_planet_zones_replace_1747099270.txt

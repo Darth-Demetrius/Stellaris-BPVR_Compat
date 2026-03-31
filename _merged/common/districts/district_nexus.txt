@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/����_all_merged_common_items_replace.txt
 # supported_version: 4.3.*
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [0, 13, "district_nexus"]
 # sources:
 #   path: bpvr_base/common/districts/00_urban_districts_replace.txt

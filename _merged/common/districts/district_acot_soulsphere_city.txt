@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/z_sm_theta_districts_override_replace_3550189681_fix.txt
 # supported_version: 4.3.*
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 1, "district_acot_soulsphere_city"]
 # sources:
 #   path: bpvr_compat/common/districts/sm_theta_districts_replace_2820330517.txt

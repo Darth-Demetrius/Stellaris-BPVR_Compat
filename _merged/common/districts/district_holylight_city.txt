@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 1, "district_holylight_city"]
 # sources:
 #   path: bpvr_compat/common/districts/CG_INN_districts_replace_2748029219.txt

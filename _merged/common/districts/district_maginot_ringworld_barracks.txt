@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 2, "district_maginot_ringworld_barracks"]
 # sources:
 #   path: bpvr_compat/common/districts/giga_maginot_districts_replace_1121692237.txt

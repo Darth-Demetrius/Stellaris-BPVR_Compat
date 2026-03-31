@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 1, "touhou_generic_ag_psionic_conduit_zone"]
 # sources:
 #   path: bpvr_compat/common/zones/!!spth_ag_zones_replace_1834433554.txt

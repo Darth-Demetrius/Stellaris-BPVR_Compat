@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 1, "district_arcology_kuat_housing"]
 # sources:
 #   path: bpvr_compat/common/districts/Kuat_districts_replace_2461014769.txt

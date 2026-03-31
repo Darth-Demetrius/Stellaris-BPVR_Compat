@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/giga_alderson_replace_1121692237.txt
 # supported_version: 4.2.4
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 1, "district_alderson_logistics"]
 # sources:
 #   path: bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt

@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 1, "zone_wsg_uf_glory_military"]
 # sources:
 #   path: bpvr_compat/common/zones/wsg_uf_glory_zones_replace_1747099270.txt

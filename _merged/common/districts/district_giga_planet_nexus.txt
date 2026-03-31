@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 3, "district_giga_planet_nexus"]
 # sources:
 #   path: bpvr_compat/common/districts/00_giga_urban_districts_replace_1121692237.txt

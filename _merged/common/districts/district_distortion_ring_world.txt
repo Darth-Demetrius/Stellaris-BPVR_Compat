@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 8, "district_distortion_ring_world"]
 # sources:
 #   path: bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt

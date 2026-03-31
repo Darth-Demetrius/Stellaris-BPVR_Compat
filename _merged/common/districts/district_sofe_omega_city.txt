@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 1, "district_sofe_omega_city"]
 # sources:
 #   path: bpvr_compat/common/districts/z_sbtg_districts_override_replace_3550189681.txt

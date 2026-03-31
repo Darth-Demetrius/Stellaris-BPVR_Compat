@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [0, 6, "district_resort_3"]
 # sources:
 #   path: pd_arcologies/common/districts/00_urban_districts.txt

@@ -10,7 +10,7 @@ printf '
 === object: common/districts :: district_acot_fractured_ae_shelter ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_acot_fractured_ae_shelter.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/acot_districts_replace_1419304439.txt
@@ -29,7 +29,7 @@ printf '
 === object: common/districts :: district_acot_fractured_shelter ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_acot_fractured_shelter.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/acot_districts_replace_1419304439.txt
@@ -48,7 +48,7 @@ printf '
 === object: common/districts :: district_acot_soulsphere_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_acot_soulsphere_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/z_sm_theta_districts_override_replace_3550189681.txt
@@ -70,7 +70,7 @@ printf '
 === object: common/districts :: district_acot_soulsphere_forge ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_acot_soulsphere_forge.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/sm_theta_districts_replace_2820330517.txt
@@ -86,7 +86,7 @@ printf '
 === object: common/districts :: district_acot_soulsphere_fortress ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_acot_soulsphere_fortress.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/sm_theta_districts_replace_2820330517.txt
@@ -102,7 +102,7 @@ printf '
 === object: common/districts :: district_acot_soulsphere_science ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_acot_soulsphere_science.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/sm_theta_districts_replace_2820330517.txt
@@ -118,7 +118,7 @@ printf '
 === object: common/districts :: district_acot_soulsphere_silo ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_acot_soulsphere_silo.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/sm_theta_districts_replace_2820330517.txt
@@ -134,7 +134,7 @@ printf '
 === object: common/districts :: district_acot_soulsphere_stellarite ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_acot_soulsphere_stellarite.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/sm_theta_districts_replace_2820330517.txt
@@ -150,7 +150,7 @@ printf '
 === object: common/districts :: district_ag_ancient_city_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ag_ancient_city_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/ag_arcology_districts_replace_2389589691.txt
@@ -166,7 +166,7 @@ printf '
 === object: common/districts :: district_ag_ancient_city_wilderness ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ag_ancient_city_wilderness.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/ag_arcology_districts_replace_2389589691.txt
@@ -182,7 +182,7 @@ printf '
 === object: common/districts :: district_ag_ancient_hive_wilderness ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ag_ancient_hive_wilderness.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/ag_gestalt_districts_replace_2389589691.txt
@@ -198,7 +198,7 @@ printf '
 === object: common/districts :: district_ag_ancient_rw_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ag_ancient_rw_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/ag_ancient_ringworld_districts_replace_2389589691.txt
@@ -214,7 +214,7 @@ printf '
 === object: common/districts :: district_ag_ancient_rw_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ag_ancient_rw_hive.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/ag_ancient_ringworld_districts_replace_2389589691.txt
@@ -230,7 +230,7 @@ printf '
 === object: common/districts :: district_ag_ancient_rw_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ag_ancient_rw_nexus.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/ag_ancient_ringworld_districts_replace_2389589691.txt
@@ -246,7 +246,7 @@ printf '
 === object: common/districts :: district_ag_ancient_rw_wilderness ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ag_ancient_rw_wilderness.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/ag_ancient_ringworld_districts_replace_2389589691.txt
@@ -262,7 +262,7 @@ printf '
 === object: common/districts :: district_ag_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ag_hive.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/ag_gestalt_districts_replace_2389589691.txt
@@ -278,7 +278,7 @@ printf '
 === object: common/districts :: district_ag_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ag_nexus.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/ag_gestalt_districts_replace_2389589691.txt
@@ -294,7 +294,7 @@ printf '
 === object: common/districts :: district_ag_shell_world_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ag_shell_world_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/ag_shell_world_districts_replace_2389589691.txt
@@ -310,7 +310,7 @@ printf '
 === object: common/districts :: district_alderson_ecu ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_alderson_ecu.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt
@@ -326,7 +326,7 @@ printf '
 === object: common/districts :: district_alderson_gaia ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_alderson_gaia.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt
@@ -342,7 +342,7 @@ printf '
 === object: common/districts :: district_alderson_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_alderson_hive.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt
@@ -358,7 +358,7 @@ printf '
 === object: common/districts :: district_alderson_logistics ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_alderson_logistics.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt
@@ -377,7 +377,7 @@ printf '
 === object: common/districts :: district_alderson_machine ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_alderson_machine.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt
@@ -393,7 +393,7 @@ printf '
 === object: common/districts :: district_alderson_pcc ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_alderson_pcc.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt
@@ -409,7 +409,7 @@ printf '
 === object: common/districts :: district_arcology_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_arcology_housing.txt
 printf 'source: %s
 ' vanilla/common/districts/01_arcology_districts.txt
@@ -437,7 +437,7 @@ printf '
 === object: common/districts :: district_arcology_kuat_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_arcology_kuat_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/Kuat_districts_replace_2461014769.txt
@@ -453,7 +453,7 @@ printf '
 === object: common/districts :: district_arcology_leisure ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_arcology_leisure.txt
 printf 'source: %s
 ' vanilla/common/districts/01_arcology_districts.txt
@@ -481,7 +481,7 @@ printf '
 === object: common/districts :: district_arcology_urban_1 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_arcology_urban_1.txt
 printf 'source: %s
 ' vanilla/common/districts/01_arcology_districts.txt
@@ -497,7 +497,7 @@ printf '
 === object: common/districts :: district_arcology_urban_2 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_arcology_urban_2.txt
 printf 'source: %s
 ' vanilla/common/districts/01_arcology_districts.txt
@@ -513,7 +513,7 @@ printf '
 === object: common/districts :: district_arcology_urban_3 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_arcology_urban_3.txt
 printf 'source: %s
 ' vanilla/common/districts/01_arcology_districts.txt
@@ -529,7 +529,7 @@ printf '
 === object: common/districts :: district_arcology_wsg_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_arcology_wsg_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_districts_replace_1747099270.txt
@@ -545,7 +545,7 @@ printf '
 === object: common/districts :: district_auto_uf_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_auto_uf_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_uf_districts_replace_1747099270.txt
@@ -561,7 +561,7 @@ printf '
 === object: common/districts :: district_azur_gaia_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_azur_gaia_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/azurlane_gaia_districts_replace_1617872589.txt
@@ -577,7 +577,7 @@ printf '
 === object: common/districts :: district_azur_harbour_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_azur_harbour_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/azurlane_supercity_districts_replace_1617872589.txt
@@ -593,7 +593,7 @@ printf '
 === object: common/districts :: district_azur_mind_crisis_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_azur_mind_crisis_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/azurlane_mind_crisis_districts_replace_1617872589.txt
@@ -609,7 +609,7 @@ printf '
 === object: common/districts :: district_azur_ocean_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_azur_ocean_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/azurlane_ocean_districts_replace_1617872589.txt
@@ -625,7 +625,7 @@ printf '
 === object: common/districts :: district_azur_ringworld_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_azur_ringworld_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/azurlane_ringworld_districts_replace_1617872589.txt
@@ -641,7 +641,7 @@ printf '
 === object: common/districts :: district_azur_ringworld_city_bc ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_azur_ringworld_city_bc.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/azurlane_ringworld_bc_districts_replace_1617872589.txt
@@ -657,7 +657,7 @@ printf '
 === object: common/districts :: district_battle_thrall ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_battle_thrall.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -685,7 +685,7 @@ printf '
 === object: common/districts :: district_birth_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_birth_ring_world.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
@@ -701,7 +701,7 @@ printf '
 === object: common/districts :: district_breeding_nest_area ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_breeding_nest_area.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_TEN_districts_replace_2748029219.txt
@@ -717,7 +717,7 @@ printf '
 === object: common/districts :: district_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_city.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -745,7 +745,7 @@ printf '
 === object: common/districts :: district_craglands ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_craglands.txt
 printf 'source: %s
 ' vanilla/common/districts/05_wilderness_districts.txt
@@ -773,7 +773,7 @@ printf '
 === object: common/districts :: district_crashed_slaver_ship ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_crashed_slaver_ship.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -801,7 +801,7 @@ printf '
 === object: common/districts :: district_depraved_tentacle_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_depraved_tentacle_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SOS_districts_replace_2748029219.txt
@@ -817,7 +817,7 @@ printf '
 === object: common/districts :: district_distortion_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_distortion_ring_world.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
@@ -833,7 +833,7 @@ printf '
 === object: common/districts :: district_dr_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_dr_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_districts_replace_1747099270.txt
@@ -849,7 +849,7 @@ printf '
 === object: common/districts :: district_dragon_nest_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_dragon_nest_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
@@ -865,7 +865,7 @@ printf '
 === object: common/districts :: district_eros_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_eros_ring_world.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
@@ -881,7 +881,7 @@ printf '
 === object: common/districts :: district_flusion_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_flusion_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/giga_flusion_arcology_replace_1121692237.txt
@@ -897,7 +897,7 @@ printf '
 === object: common/districts :: district_giga_planet_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_giga_planet_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/00_giga_urban_districts_replace_1121692237.txt
@@ -913,7 +913,7 @@ printf '
 === object: common/districts :: district_giga_planet_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_giga_planet_hive.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/00_giga_urban_districts_replace_1121692237.txt
@@ -929,7 +929,7 @@ printf '
 === object: common/districts :: district_giga_planet_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_giga_planet_nexus.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/00_giga_urban_districts_replace_1121692237.txt
@@ -945,7 +945,7 @@ printf '
 === object: common/districts :: district_hab_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_hab_housing.txt
 printf 'source: %s
 ' vanilla/common/districts/03_habitat_districts.txt
@@ -970,7 +970,7 @@ printf '
 === object: common/districts :: district_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_hive.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -998,7 +998,7 @@ printf '
 === object: common/districts :: district_hive_1 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_hive_1.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1014,7 +1014,7 @@ printf '
 === object: common/districts :: district_hive_2 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_hive_2.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1030,7 +1030,7 @@ printf '
 === object: common/districts :: district_hive_3 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_hive_3.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1046,7 +1046,7 @@ printf '
 === object: common/districts :: district_holylight_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_holylight_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_INN_districts_replace_2748029219.txt
@@ -1062,7 +1062,7 @@ printf '
 === object: common/districts :: district_holylight_god_holy ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_holylight_god_holy.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_INN_districts_replace_2748029219.txt
@@ -1078,7 +1078,7 @@ printf '
 === object: common/districts :: district_holylight_hab_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_holylight_hab_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_INN_districts_replace_2748029219.txt
@@ -1094,7 +1094,7 @@ printf '
 === object: common/districts :: district_holylight_ring_world_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_holylight_ring_world_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_INN_districts_replace_2748029219.txt
@@ -1110,7 +1110,7 @@ printf '
 === object: common/districts :: district_macripp_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_macripp_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/aot_phanon_macripp_districts_replace_2178603631.txt
@@ -1126,7 +1126,7 @@ printf '
 === object: common/districts :: district_maginot_ringworld_barracks ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_maginot_ringworld_barracks.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/giga_maginot_districts_replace_1121692237.txt
@@ -1142,7 +1142,7 @@ printf '
 === object: common/districts :: district_maginot_world_barracks ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_maginot_world_barracks.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/giga_maginot_districts_replace_1121692237.txt
@@ -1158,7 +1158,7 @@ printf '
 === object: common/districts :: district_mindlink ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_mindlink.txt
 printf 'source: %s
 ' vanilla/common/districts/00_special_districts.txt
@@ -1174,7 +1174,7 @@ printf '
 === object: common/districts :: district_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_nexus.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1202,7 +1202,7 @@ printf '
 === object: common/districts :: district_nexus_1 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_nexus_1.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1218,7 +1218,7 @@ printf '
 === object: common/districts :: district_nexus_2 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_nexus_2.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1234,7 +1234,7 @@ printf '
 === object: common/districts :: district_nexus_3 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_nexus_3.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1250,7 +1250,7 @@ printf '
 === object: common/districts :: district_pd_commercial_arcology_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_pd_commercial_arcology_housing.txt
 printf 'source: %s
 ' pd_arcologies/common/districts/pd_arcology_districts.txt
@@ -1266,7 +1266,7 @@ printf '
 === object: common/districts :: district_pd_fortress_arcology_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_pd_fortress_arcology_housing.txt
 printf 'source: %s
 ' pd_arcologies/common/districts/pd_arcology_districts.txt
@@ -1282,7 +1282,7 @@ printf '
 === object: common/districts :: district_pd_garden_arcology_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_pd_garden_arcology_housing.txt
 printf 'source: %s
 ' pd_arcologies/common/districts/pd_arcology_districts.txt
@@ -1298,7 +1298,7 @@ printf '
 === object: common/districts :: district_prison ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_prison.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1326,7 +1326,7 @@ printf '
 === object: common/districts :: district_prison_industrial ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_prison_industrial.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1354,7 +1354,7 @@ printf '
 === object: common/districts :: district_prostitution_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_prostitution_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
@@ -1370,7 +1370,7 @@ printf '
 === object: common/districts :: district_prostitution_ring_world_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_prostitution_ring_world_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
@@ -1386,7 +1386,7 @@ printf '
 === object: common/districts :: district_resort ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_resort.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1414,7 +1414,7 @@ printf '
 === object: common/districts :: district_resort_1 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_resort_1.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1430,7 +1430,7 @@ printf '
 === object: common/districts :: district_resort_2 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_resort_2.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1446,7 +1446,7 @@ printf '
 === object: common/districts :: district_resort_3 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_resort_3.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1462,7 +1462,7 @@ printf '
 === object: common/districts :: district_rw_auto_uf_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_rw_auto_uf_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_uf_districts_replace_1747099270.txt
@@ -1478,7 +1478,7 @@ printf '
 === object: common/districts :: district_rw_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_rw_city.txt
 printf 'source: %s
 ' vanilla/common/districts/04_ringworld_districts.txt
@@ -1503,7 +1503,7 @@ printf '
 === object: common/districts :: district_rw_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_rw_hive.txt
 printf 'source: %s
 ' vanilla/common/districts/04_ringworld_districts.txt
@@ -1528,7 +1528,7 @@ printf '
 === object: common/districts :: district_rw_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_rw_nexus.txt
 printf 'source: %s
 ' vanilla/common/districts/04_ringworld_districts.txt
@@ -1553,7 +1553,7 @@ printf '
 === object: common/districts :: district_rw_sh_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_rw_sh_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_sh_districts_replace_1747099270.txt
@@ -1569,7 +1569,7 @@ printf '
 === object: common/districts :: district_rw_uf_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_rw_uf_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_uf_districts_replace_1747099270.txt
@@ -1585,7 +1585,7 @@ printf '
 === object: common/districts :: district_rw_water_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_rw_water_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_districts_replace_1747099270.txt
@@ -1601,7 +1601,7 @@ printf '
 === object: common/districts :: district_rw_wsg_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_rw_wsg_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_districts_replace_1747099270.txt
@@ -1617,7 +1617,7 @@ printf '
 === object: common/districts :: district_sacrifice_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_sacrifice_ring_world.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
@@ -1633,7 +1633,7 @@ printf '
 === object: common/districts :: district_schicksal ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_schicksal.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_common_districts_replace_2748029219.txt
@@ -1649,7 +1649,7 @@ printf '
 === object: common/districts :: district_sex_city_prostitute ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_sex_city_prostitute.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
@@ -1665,7 +1665,7 @@ printf '
 === object: common/districts :: district_sexgod_create ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_sexgod_create.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
@@ -1681,7 +1681,7 @@ printf '
 === object: common/districts :: district_sh_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_sh_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_sh_districts_replace_1747099270.txt
@@ -1697,7 +1697,7 @@ printf '
 === object: common/districts :: district_slave ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_slave.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1725,7 +1725,7 @@ printf '
 === object: common/districts :: district_sofe_omega_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_sofe_omega_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/z_sbtg_districts_override_replace_3550189681.txt
@@ -1741,7 +1741,7 @@ printf '
 === object: common/districts :: district_solaripp_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_solaripp_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/aot_sigma_solaripp_districts_replace_2178603631.txt
@@ -1757,7 +1757,7 @@ printf '
 === object: common/districts :: district_space_shrine_sp_produce_base ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_space_shrine_sp_produce_base.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/spth_megastructure_districts_replace_1834433554.txt
@@ -1773,7 +1773,7 @@ printf '
 === object: common/districts :: district_spiritual_power_research ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_spiritual_power_research.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/pc_spiritual_power_habitat_districts_replace_1834433554.txt
@@ -1789,7 +1789,7 @@ printf '
 === object: common/districts :: district_spore_planet_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_spore_planet_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_TEN_districts_replace_2748029219.txt
@@ -1805,7 +1805,7 @@ printf '
 === object: common/districts :: district_spth_sp_produce ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_spth_sp_produce.txt
 printf 'source: %s
 ' 'bpvr_fix/common/districts/!!spth_normal_districts_replace_1834433554.txt'
@@ -1821,7 +1821,7 @@ printf '
 === object: common/districts :: district_srw_commercial ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_srw_commercial.txt
 printf 'source: %s
 ' vanilla/common/districts/00_urban_districts.txt
@@ -1837,7 +1837,7 @@ printf '
 === object: common/districts :: district_ssh_black_hole_shell_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ssh_black_hole_shell_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/05_black_hole_shellworld_districts_replace_3022132203.txt
@@ -1853,7 +1853,7 @@ printf '
 === object: common/districts :: district_ssh_black_hole_shell_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ssh_black_hole_shell_hive.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/05_black_hole_shellworld_districts_replace_3022132203.txt
@@ -1869,7 +1869,7 @@ printf '
 === object: common/districts :: district_ssh_black_hole_shell_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ssh_black_hole_shell_nexus.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/05_black_hole_shellworld_districts_replace_3022132203.txt
@@ -1885,7 +1885,7 @@ printf '
 === object: common/districts :: district_ssh_bwc_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ssh_bwc_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/03_bwc_districts_replace_3022132203.txt
@@ -1901,7 +1901,7 @@ printf '
 === object: common/districts :: district_ssh_bwc_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ssh_bwc_hive.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/03_bwc_districts_replace_3022132203.txt
@@ -1917,7 +1917,7 @@ printf '
 === object: common/districts :: district_ssh_bwc_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ssh_bwc_nexus.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/03_bwc_districts_replace_3022132203.txt
@@ -1933,7 +1933,7 @@ printf '
 === object: common/districts :: district_ssh_edersphere_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ssh_edersphere_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/01_edersphere_districts_replace_3022132203.txt
@@ -1949,7 +1949,7 @@ printf '
 === object: common/districts :: district_ssh_edersphere_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ssh_edersphere_hive.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/01_edersphere_districts_replace_3022132203.txt
@@ -1965,7 +1965,7 @@ printf '
 === object: common/districts :: district_ssh_edersphere_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ssh_edersphere_nexus.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/01_edersphere_districts_replace_3022132203.txt
@@ -1981,7 +1981,7 @@ printf '
 === object: common/districts :: district_ssh_gas_shellworld_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ssh_gas_shellworld_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/00_gas_giant_shellworld_districts_replace_3022132203.txt
@@ -1997,7 +1997,7 @@ printf '
 === object: common/districts :: district_ssh_stellar_hoop_maintenance ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_ssh_stellar_hoop_maintenance.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/02_stellar_hoop_districts_replace_3022132203.txt
@@ -2013,7 +2013,7 @@ printf '
 === object: common/districts :: district_torifune_shrine_fuka_produce_base ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_torifune_shrine_fuka_produce_base.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/spth_megastructure_districts_replace_1834433554.txt
@@ -2029,7 +2029,7 @@ printf '
 === object: common/districts :: district_transsex_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_transsex_ring_world.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
@@ -2045,7 +2045,7 @@ printf '
 === object: common/districts :: district_truth_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_truth_ring_world.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
@@ -2061,7 +2061,7 @@ printf '
 === object: common/districts :: district_uf_glory_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_uf_glory_city.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_uf_glory_world_districts_replace_1747099270.txt
@@ -2077,7 +2077,7 @@ printf '
 === object: common/districts :: district_uf_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_uf_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_uf_districts_replace_1747099270.txt
@@ -2093,7 +2093,7 @@ printf '
 === object: common/districts :: district_water_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_water_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_districts_replace_1747099270.txt
@@ -2109,7 +2109,7 @@ printf '
 === object: common/districts :: district_wg_forge ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_wg_forge.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_wg_warhammer_districts_replace_1747099270.txt
@@ -2125,7 +2125,7 @@ printf '
 === object: common/districts :: district_wg_hive_world_housing ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/districts/district_wg_hive_world_housing.txt
 printf 'source: %s
 ' bpvr_fix/common/districts/wsg_wg_warhammer_districts_replace_1747099270.txt
@@ -2141,7 +2141,7 @@ printf '
 === object: common/technology :: tech_pre_industrial_steel_construction ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/technology/tech_pre_industrial_steel_construction.txt
 printf 'source: %s
 ' bpvr_fix/common/technology/000_dummy_technology.txt
@@ -2160,7 +2160,7 @@ printf '
 === object: common/technology :: tech_touhou_psionic_conduit_zone ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/technology/tech_touhou_psionic_conduit_zone.txt
 printf 'source: %s
 ' bpvr_fix/common/technology/000_dummy_technology.txt
@@ -2176,7 +2176,7 @@ printf '
 === object: common/zones :: gensokyo_renli_zone ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/gensokyo_renli_zone.txt
 printf 'source: %s
 ' 'bpvr_fix/common/zones/!!spth_zones_replace_1834433554.txt'
@@ -2192,7 +2192,7 @@ printf '
 === object: common/zones :: inline_script ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/inline_script.txt
 printf 'source: %s
 ' 'bpvr_fix/common/zones/!!spth_zones_replace_1834433554.txt'
@@ -2208,7 +2208,7 @@ printf '
 === object: common/zones :: spth_sp_produce_common_zone ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/spth_sp_produce_common_zone.txt
 printf 'source: %s
 ' 'bpvr_fix/common/zones/!!spth_zones_replace_1834433554.txt'
@@ -2224,7 +2224,7 @@ printf '
 === object: common/zones :: touhou_generic_ag_psionic_conduit_zone ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/touhou_generic_ag_psionic_conduit_zone.txt
 printf 'source: %s
 ' 'bpvr_fix/common/zones/!!spth_ag_zones_replace_1834433554.txt'
@@ -2240,7 +2240,7 @@ printf '
 === object: common/zones :: zone_acot_ae_energy ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_ae_energy.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2256,7 +2256,7 @@ printf '
 === object: common/zones :: zone_acot_ae_factory ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_ae_factory.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2272,7 +2272,7 @@ printf '
 === object: common/zones :: zone_acot_ae_food ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_ae_food.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2288,7 +2288,7 @@ printf '
 === object: common/zones :: zone_acot_ae_fortress ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_ae_fortress.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2304,7 +2304,7 @@ printf '
 === object: common/zones :: zone_acot_ae_foundry ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_ae_foundry.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2320,7 +2320,7 @@ printf '
 === object: common/zones :: zone_acot_ae_industry ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_ae_industry.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2336,7 +2336,7 @@ printf '
 === object: common/zones :: zone_acot_ae_minerals ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_ae_minerals.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2352,7 +2352,7 @@ printf '
 === object: common/zones :: zone_acot_ae_research ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_ae_research.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2368,7 +2368,7 @@ printf '
 === object: common/zones :: zone_acot_ae_trade ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_ae_trade.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2384,7 +2384,7 @@ printf '
 === object: common/zones :: zone_acot_ae_urban ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_ae_urban.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2400,7 +2400,7 @@ printf '
 === object: common/zones :: zone_acot_dm_energy ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_dm_energy.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2416,7 +2416,7 @@ printf '
 === object: common/zones :: zone_acot_dm_factory ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_dm_factory.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2432,7 +2432,7 @@ printf '
 === object: common/zones :: zone_acot_dm_food ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_dm_food.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2448,7 +2448,7 @@ printf '
 === object: common/zones :: zone_acot_dm_fortress ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_dm_fortress.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2464,7 +2464,7 @@ printf '
 === object: common/zones :: zone_acot_dm_foundry ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_dm_foundry.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2480,7 +2480,7 @@ printf '
 === object: common/zones :: zone_acot_dm_industry ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_dm_industry.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2496,7 +2496,7 @@ printf '
 === object: common/zones :: zone_acot_dm_minerals ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_dm_minerals.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2512,7 +2512,7 @@ printf '
 === object: common/zones :: zone_acot_dm_research ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_dm_research.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2528,7 +2528,7 @@ printf '
 === object: common/zones :: zone_acot_dm_trade ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_dm_trade.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2544,7 +2544,7 @@ printf '
 === object: common/zones :: zone_acot_dm_urban ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_dm_urban.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
@@ -2560,7 +2560,7 @@ printf '
 === object: common/zones :: zone_acot_fractured ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_fractured.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2576,7 +2576,7 @@ printf '
 === object: common/zones :: zone_acot_fractured_shield ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_fractured_shield.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2592,7 +2592,7 @@ printf '
 === object: common/zones :: zone_acot_vault_a ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_vault_a.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2608,7 +2608,7 @@ printf '
 === object: common/zones :: zone_acot_vault_a_01 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_vault_a_01.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2624,7 +2624,7 @@ printf '
 === object: common/zones :: zone_acot_vault_b ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_vault_b.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2640,7 +2640,7 @@ printf '
 === object: common/zones :: zone_acot_vault_b_01 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_vault_b_01.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2656,7 +2656,7 @@ printf '
 === object: common/zones :: zone_acot_vault_c ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_vault_c.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2672,7 +2672,7 @@ printf '
 === object: common/zones :: zone_acot_vault_c_01 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_vault_c_01.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2688,7 +2688,7 @@ printf '
 === object: common/zones :: zone_acot_vault_main ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_vault_main.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2704,7 +2704,7 @@ printf '
 === object: common/zones :: zone_acot_vault_main_sub ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_vault_main_sub.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2720,7 +2720,7 @@ printf '
 === object: common/zones :: zone_acot_void_forge ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_void_forge.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2736,7 +2736,7 @@ printf '
 === object: common/zones :: zone_acot_void_forge_01 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_void_forge_01.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2752,7 +2752,7 @@ printf '
 === object: common/zones :: zone_acot_void_fortress ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_void_fortress.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2768,7 +2768,7 @@ printf '
 === object: common/zones :: zone_acot_void_fortress_01 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_void_fortress_01.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2784,7 +2784,7 @@ printf '
 === object: common/zones :: zone_acot_void_main ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_void_main.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2800,7 +2800,7 @@ printf '
 === object: common/zones :: zone_acot_void_main_sub ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_void_main_sub.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2816,7 +2816,7 @@ printf '
 === object: common/zones :: zone_acot_void_science ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_void_science.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2832,7 +2832,7 @@ printf '
 === object: common/zones :: zone_acot_void_science_01 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_void_science_01.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2848,7 +2848,7 @@ printf '
 === object: common/zones :: zone_acot_void_silo ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_void_silo.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2864,7 +2864,7 @@ printf '
 === object: common/zones :: zone_acot_void_silo_01 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_void_silo_01.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2880,7 +2880,7 @@ printf '
 === object: common/zones :: zone_acot_void_stellarite ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_acot_void_stellarite.txt
 printf 'source: %s
 ' bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
@@ -2896,7 +2896,7 @@ printf '
 === object: common/zones :: zone_agrarian_anglers ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_agrarian_anglers.txt
 printf 'source: %s
 ' vanilla/common/zones/00_zones.txt
@@ -2918,7 +2918,7 @@ printf '
 === object: common/zones :: zone_agrarian_urban ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_agrarian_urban.txt
 printf 'source: %s
 ' vanilla/common/zones/00_zones.txt
@@ -2934,7 +2934,7 @@ printf '
 === object: common/zones :: zone_azur_1 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_azur_1.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/azur_zones_replace_1617872589.txt
@@ -2950,7 +2950,7 @@ printf '
 === object: common/zones :: zone_azur_2 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_azur_2.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/azur_zones_replace_1617872589.txt
@@ -2966,7 +2966,7 @@ printf '
 === object: common/zones :: zone_azur_3 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_azur_3.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/azur_zones_replace_1617872589.txt
@@ -2982,7 +2982,7 @@ printf '
 === object: common/zones :: zone_azur_4 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_azur_4.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/azur_zones_replace_1617872589.txt
@@ -2998,7 +2998,7 @@ printf '
 === object: common/zones :: zone_azur_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_azur_city.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/azur_zones_replace_1617872589.txt
@@ -3014,7 +3014,7 @@ printf '
 === object: common/zones :: zone_betharian_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_betharian_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3030,7 +3030,7 @@ printf '
 === object: common/zones :: zone_betharian_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_betharian_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3046,7 +3046,7 @@ printf '
 === object: common/zones :: zone_bugged_livestock ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_bugged_livestock.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/bugged_zones_replace_2517213262.txt
@@ -3062,7 +3062,7 @@ printf '
 === object: common/zones :: zone_bugged_rooftop_farms ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_bugged_rooftop_farms.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/bugged_zones_replace_2517213262.txt
@@ -3078,7 +3078,7 @@ printf '
 === object: common/zones :: zone_default ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_default.txt
 printf 'source: %s
 ' vanilla/common/zones/00_zones.txt
@@ -3094,7 +3094,7 @@ printf '
 === object: common/zones :: zone_default_giga ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_default_giga.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/giga_zones_replace_1121692237.txt
@@ -3110,7 +3110,7 @@ printf '
 === object: common/zones :: zone_energy_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_energy_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3126,7 +3126,7 @@ printf '
 === object: common/zones :: zone_energy_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_energy_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3142,7 +3142,7 @@ printf '
 === object: common/zones :: zone_energy_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_energy_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3158,7 +3158,7 @@ printf '
 === object: common/zones :: zone_exotic_gases_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_exotic_gases_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3174,7 +3174,7 @@ printf '
 === object: common/zones :: zone_exotic_gases_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_exotic_gases_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3190,7 +3190,7 @@ printf '
 === object: common/zones :: zone_factory_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_factory_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3209,7 +3209,7 @@ printf '
 === object: common/zones :: zone_factory_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_factory_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3225,7 +3225,7 @@ printf '
 === object: common/zones :: zone_factory_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_factory_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3241,7 +3241,7 @@ printf '
 === object: common/zones :: zone_factory_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_factory_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3257,7 +3257,7 @@ printf '
 === object: common/zones :: zone_food_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_food_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3273,7 +3273,7 @@ printf '
 === object: common/zones :: zone_food_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_food_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3289,7 +3289,7 @@ printf '
 === object: common/zones :: zone_fortress_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_fortress_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3308,7 +3308,7 @@ printf '
 === object: common/zones :: zone_fortress_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_fortress_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3324,7 +3324,7 @@ printf '
 === object: common/zones :: zone_fortress_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_fortress_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3340,7 +3340,7 @@ printf '
 === object: common/zones :: zone_fortress_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_fortress_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3356,7 +3356,7 @@ printf '
 === object: common/zones :: zone_foundry_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_foundry_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3375,7 +3375,7 @@ printf '
 === object: common/zones :: zone_foundry_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_foundry_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3391,7 +3391,7 @@ printf '
 === object: common/zones :: zone_foundry_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_foundry_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3407,7 +3407,7 @@ printf '
 === object: common/zones :: zone_foundry_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_foundry_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3423,7 +3423,7 @@ printf '
 === object: common/zones :: zone_habitat_knights ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_habitat_knights.txt
 printf 'source: %s
 ' vanilla/common/zones/01_habitat_zones.txt
@@ -3439,7 +3439,7 @@ printf '
 === object: common/zones :: zone_industrial_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_industrial_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3455,7 +3455,7 @@ printf '
 === object: common/zones :: zone_industrial_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_industrial_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3471,7 +3471,7 @@ printf '
 === object: common/zones :: zone_industrial_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_industrial_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3487,7 +3487,7 @@ printf '
 === object: common/zones :: zone_industrial_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_industrial_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3503,7 +3503,7 @@ printf '
 === object: common/zones :: zone_kuat_Khaydarin ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_kuat_Khaydarin.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/kuat_zones_replace_2461014769.txt
@@ -3519,7 +3519,7 @@ printf '
 === object: common/zones :: zone_kuat_Military ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_kuat_Military.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/kuat_zones_replace_2461014769.txt
@@ -3535,7 +3535,7 @@ printf '
 === object: common/zones :: zone_kuat_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_kuat_city.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/kuat_zones_replace_2461014769.txt
@@ -3551,7 +3551,7 @@ printf '
 === object: common/zones :: zone_kuat_eternal_Khaydarin ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_kuat_eternal_Khaydarin.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/kuat_zones_replace_2461014769.txt
@@ -3567,7 +3567,7 @@ printf '
 === object: common/zones :: zone_kuat_industry ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_kuat_industry.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/kuat_zones_replace_2461014769.txt
@@ -3583,7 +3583,7 @@ printf '
 === object: common/zones :: zone_kuat_science ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_kuat_science.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/kuat_zones_replace_2461014769.txt
@@ -3599,7 +3599,7 @@ printf '
 === object: common/zones :: zone_minerals_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_minerals_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3615,7 +3615,7 @@ printf '
 === object: common/zones :: zone_minerals_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_minerals_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3631,7 +3631,7 @@ printf '
 === object: common/zones :: zone_rare_crystals_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_rare_crystals_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3647,7 +3647,7 @@ printf '
 === object: common/zones :: zone_rare_crystals_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_rare_crystals_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3663,7 +3663,7 @@ printf '
 === object: common/zones :: zone_research_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3682,7 +3682,7 @@ printf '
 === object: common/zones :: zone_research_engineering_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_engineering_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3701,7 +3701,7 @@ printf '
 === object: common/zones :: zone_research_engineering_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_engineering_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3717,7 +3717,7 @@ printf '
 === object: common/zones :: zone_research_engineering_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_engineering_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3733,7 +3733,7 @@ printf '
 === object: common/zones :: zone_research_engineering_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_engineering_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3749,7 +3749,7 @@ printf '
 === object: common/zones :: zone_research_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3765,7 +3765,7 @@ printf '
 === object: common/zones :: zone_research_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3781,7 +3781,7 @@ printf '
 === object: common/zones :: zone_research_physics_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_physics_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3800,7 +3800,7 @@ printf '
 === object: common/zones :: zone_research_physics_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_physics_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3816,7 +3816,7 @@ printf '
 === object: common/zones :: zone_research_physics_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_physics_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3832,7 +3832,7 @@ printf '
 === object: common/zones :: zone_research_physics_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_physics_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3848,7 +3848,7 @@ printf '
 === object: common/zones :: zone_research_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3864,7 +3864,7 @@ printf '
 === object: common/zones :: zone_research_society_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_society_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3883,7 +3883,7 @@ printf '
 === object: common/zones :: zone_research_society_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_society_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3899,7 +3899,7 @@ printf '
 === object: common/zones :: zone_research_society_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_society_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3915,7 +3915,7 @@ printf '
 === object: common/zones :: zone_research_society_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_research_society_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3931,7 +3931,7 @@ printf '
 === object: common/zones :: zone_rw_sh_alloys ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_rw_sh_alloys.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_rw_sh_planet_zones_replace_1747099270.txt
@@ -3947,7 +3947,7 @@ printf '
 === object: common/zones :: zone_rw_sh_goods ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_rw_sh_goods.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_rw_sh_planet_zones_replace_1747099270.txt
@@ -3963,7 +3963,7 @@ printf '
 === object: common/zones :: zone_rw_sh_soldier ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_rw_sh_soldier.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_rw_sh_planet_zones_replace_1747099270.txt
@@ -3979,7 +3979,7 @@ printf '
 === object: common/zones :: zone_spawning_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_spawning_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -3995,7 +3995,7 @@ printf '
 === object: common/zones :: zone_subterranean_urban ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_subterranean_urban.txt
 printf 'source: %s
 ' vanilla/common/zones/00_zones.txt
@@ -4017,7 +4017,7 @@ printf '
 === object: common/zones :: zone_trade_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_trade_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4036,7 +4036,7 @@ printf '
 === object: common/zones :: zone_trade_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_trade_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4052,7 +4052,7 @@ printf '
 === object: common/zones :: zone_trade_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_trade_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4068,7 +4068,7 @@ printf '
 === object: common/zones :: zone_trade_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_trade_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4084,7 +4084,7 @@ printf '
 === object: common/zones :: zone_unity_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_unity_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4103,7 +4103,7 @@ printf '
 === object: common/zones :: zone_unity_bio_trophy_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_unity_bio_trophy_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4122,7 +4122,7 @@ printf '
 === object: common/zones :: zone_unity_bio_trophy_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_unity_bio_trophy_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4138,7 +4138,7 @@ printf '
 === object: common/zones :: zone_unity_bio_trophy_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_unity_bio_trophy_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4154,7 +4154,7 @@ printf '
 === object: common/zones :: zone_unity_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_unity_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4170,7 +4170,7 @@ printf '
 === object: common/zones :: zone_unity_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_unity_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4186,7 +4186,7 @@ printf '
 === object: common/zones :: zone_unity_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_unity_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4202,7 +4202,7 @@ printf '
 === object: common/zones :: zone_unity_spiritualist_arcology ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_unity_spiritualist_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4221,7 +4221,7 @@ printf '
 === object: common/zones :: zone_unity_spiritualist_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_unity_spiritualist_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4237,7 +4237,7 @@ printf '
 === object: common/zones :: zone_unity_spiritualist_ring_world ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_unity_spiritualist_ring_world.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4253,7 +4253,7 @@ printf '
 === object: common/zones :: zone_urban ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_urban.txt
 printf 'source: %s
 ' vanilla/common/zones/00_zones.txt
@@ -4275,7 +4275,7 @@ printf '
 === object: common/zones :: zone_urban_wilderness ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_urban_wilderness.txt
 printf 'source: %s
 ' vanilla/common/zones/03_wilderness_zones.txt
@@ -4291,7 +4291,7 @@ printf '
 === object: common/zones :: zone_volatile_motes_hive ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_volatile_motes_hive.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4307,7 +4307,7 @@ printf '
 === object: common/zones :: zone_volatile_motes_nexus ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_volatile_motes_nexus.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -4323,7 +4323,7 @@ printf '
 === object: common/zones :: zone_water_generator ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_water_generator.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_water_planet_zones_replace_1747099270.txt
@@ -4339,7 +4339,7 @@ printf '
 === object: common/zones :: zone_water_ktv ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_water_ktv.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_water_planet_zones_replace_1747099270.txt
@@ -4355,7 +4355,7 @@ printf '
 === object: common/zones :: zone_wsg_arcology_military ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_arcology_military.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_port_arcology_zones_replace_1747099270.txt
@@ -4371,7 +4371,7 @@ printf '
 === object: common/zones :: zone_wsg_arcology_neo ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_arcology_neo.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_port_arcology_zones_replace_1747099270.txt
@@ -4387,7 +4387,7 @@ printf '
 === object: common/zones :: zone_wsg_arcology_neo_alpha ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_arcology_neo_alpha.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_port_arcology_zones_replace_1747099270.txt
@@ -4403,7 +4403,7 @@ printf '
 === object: common/zones :: zone_wsg_arcology_rw_alloys ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_arcology_rw_alloys.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_rw_port_arclogy_zones_replace_1747099270.txt
@@ -4419,7 +4419,7 @@ printf '
 === object: common/zones :: zone_wsg_arcology_rw_science ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_arcology_rw_science.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_rw_port_arclogy_zones_replace_1747099270.txt
@@ -4435,7 +4435,7 @@ printf '
 === object: common/zones :: zone_wsg_arcology_rw_soildier ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_arcology_rw_soildier.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_rw_port_arclogy_zones_replace_1747099270.txt
@@ -4451,7 +4451,7 @@ printf '
 === object: common/zones :: zone_wsg_arcology_science ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_arcology_science.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_port_arcology_zones_replace_1747099270.txt
@@ -4467,7 +4467,7 @@ printf '
 === object: common/zones :: zone_wsg_auto_uf_alloys ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_auto_uf_alloys.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt
@@ -4483,7 +4483,7 @@ printf '
 === object: common/zones :: zone_wsg_auto_uf_hyperdimensional_matter ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_auto_uf_hyperdimensional_matter.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt
@@ -4499,7 +4499,7 @@ printf '
 === object: common/zones :: zone_wsg_auto_uf_military ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_auto_uf_military.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt
@@ -4515,7 +4515,7 @@ printf '
 === object: common/zones :: zone_wsg_auto_uf_science ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_auto_uf_science.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt
@@ -4531,7 +4531,7 @@ printf '
 === object: common/zones :: zone_wsg_city ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_city.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_zones_replace_1747099270.txt
@@ -4547,7 +4547,7 @@ printf '
 === object: common/zones :: zone_wsg_dr_generator ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_dr_generator.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_dr_zones_replace_1747099270.txt
@@ -4563,7 +4563,7 @@ printf '
 === object: common/zones :: zone_wsg_dr_industrial ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_dr_industrial.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_dr_zones_replace_1747099270.txt
@@ -4579,7 +4579,7 @@ printf '
 === object: common/zones :: zone_wsg_dr_roller_coaster ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_dr_roller_coaster.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_dr_zones_replace_1747099270.txt
@@ -4595,7 +4595,7 @@ printf '
 === object: common/zones :: zone_wsg_dr_science ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_dr_science.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_dr_zones_replace_1747099270.txt
@@ -4611,7 +4611,7 @@ printf '
 === object: common/zones :: zone_wsg_foundry_shpc ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_foundry_shpc.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_sh_planet_zones_replace_1747099270.txt
@@ -4627,7 +4627,7 @@ printf '
 === object: common/zones :: zone_wsg_mining_uncapped ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_mining_uncapped.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_sh_planet_zones_replace_1747099270.txt
@@ -4643,7 +4643,7 @@ printf '
 === object: common/zones :: zone_wsg_rw_auto_uf_alloys ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_rw_auto_uf_alloys.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt
@@ -4659,7 +4659,7 @@ printf '
 === object: common/zones :: zone_wsg_rw_auto_uf_hyperdimensional_matter ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_rw_auto_uf_hyperdimensional_matter.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt
@@ -4675,7 +4675,7 @@ printf '
 === object: common/zones :: zone_wsg_rw_auto_uf_military ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_rw_auto_uf_military.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt
@@ -4691,7 +4691,7 @@ printf '
 === object: common/zones :: zone_wsg_rw_auto_uf_rare_resource ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_rw_auto_uf_rare_resource.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt
@@ -4707,7 +4707,7 @@ printf '
 === object: common/zones :: zone_wsg_rw_auto_uf_science ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_rw_auto_uf_science.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt
@@ -4723,7 +4723,7 @@ printf '
 === object: common/zones :: zone_wsg_rw_water_food ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_rw_water_food.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_water_rw_planet_zones_replace_1747099270.txt
@@ -4739,7 +4739,7 @@ printf '
 === object: common/zones :: zone_wsg_rw_water_generator ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_rw_water_generator.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_water_rw_planet_zones_replace_1747099270.txt
@@ -4755,7 +4755,7 @@ printf '
 === object: common/zones :: zone_wsg_rw_water_ktv ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_rw_water_ktv.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_water_rw_planet_zones_replace_1747099270.txt
@@ -4771,7 +4771,7 @@ printf '
 === object: common/zones :: zone_wsg_sh_generator_uncapped ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_sh_generator_uncapped.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_sh_planet_zones_replace_1747099270.txt
@@ -4787,7 +4787,7 @@ printf '
 === object: common/zones :: zone_wsg_sh_pantsu_shpc ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_sh_pantsu_shpc.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_sh_planet_zones_replace_1747099270.txt
@@ -4803,7 +4803,7 @@ printf '
 === object: common/zones :: zone_wsg_sh_science_shpc ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_sh_science_shpc.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_sh_planet_zones_replace_1747099270.txt
@@ -4819,7 +4819,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_alloys ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_alloys.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_normal_zones_replace_1747099270.txt
@@ -4835,7 +4835,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_entertainment ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_entertainment.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_normal_zones_replace_1747099270.txt
@@ -4851,7 +4851,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_glory_auto_hyperdimensional_matter ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_glory_auto_hyperdimensional_matter.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_glory_zones_replace_1747099270.txt
@@ -4867,7 +4867,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_glory_auto_industry ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_glory_auto_industry.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_glory_zones_replace_1747099270.txt
@@ -4883,7 +4883,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_glory_auto_rare_resource ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_glory_auto_rare_resource.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_glory_zones_replace_1747099270.txt
@@ -4899,7 +4899,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_glory_auto_science ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_glory_auto_science.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_glory_zones_replace_1747099270.txt
@@ -4915,7 +4915,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_glory_base_resources ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_glory_base_resources.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_glory_zones_replace_1747099270.txt
@@ -4931,7 +4931,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_glory_base_resources_2 ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_glory_base_resources_2.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_glory_zones_replace_1747099270.txt
@@ -4947,7 +4947,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_glory_military ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_glory_military.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_glory_zones_replace_1747099270.txt
@@ -4963,7 +4963,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_hyperdimensional_matter ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_hyperdimensional_matter.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_normal_zones_replace_1747099270.txt
@@ -4979,7 +4979,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_military ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_military.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_normal_zones_replace_1747099270.txt
@@ -4995,7 +4995,7 @@ printf '
 === object: common/zones :: zone_wsg_uf_science ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_uf_science.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_uf_normal_zones_replace_1747099270.txt
@@ -5011,7 +5011,7 @@ printf '
 === object: common/zones :: zone_wsg_wg_forge_research ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_wg_forge_research.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_warhammer_planet_replace_1747099270.txt
@@ -5027,7 +5027,7 @@ printf '
 === object: common/zones :: zone_wsg_wg_hive_world_admin ===
 '
 printf 'status: %s
-' up-to-date
+' new-upstream
 code --reuse-window _merged/common/zones/zone_wsg_wg_hive_world_admin.txt
 printf 'source: %s
 ' bpvr_fix/common/zones/wsg_warhammer_planet_replace_1747099270.txt

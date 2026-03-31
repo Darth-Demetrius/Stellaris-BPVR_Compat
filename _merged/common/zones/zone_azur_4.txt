@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
+# upstream_status: new-upstream
 # sort_key: [1, 5, "zone_azur_4"]
 # sources:
 #   path: bpvr_compat/common/zones/azur_zones_replace_1617872589.txt
