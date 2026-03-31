@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: new-upstream
+# upstream_status: up-to-date
 # sort_key: [0, 4, "district_mindlink"]
 # sources:
 #   path: bpvr_base/common/districts/00_special_districts_replace.txt

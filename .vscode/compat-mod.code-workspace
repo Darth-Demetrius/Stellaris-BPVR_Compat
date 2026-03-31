@@ -13,8 +13,9 @@
       "python3 .scripts/": true,
     },
     "cwtools.ignore_patterns": [
-      "**/*Imports/**", // ignore all imports folders
-      "**/_tracking/**", // ignore all tracking folders
+      "**/*Imports/**",
+      "**/_tracking/**",
+      "**/_My Patch/**",
     ],
     "cwtools.errors.ignore": [
       "CW100", // localization key not found

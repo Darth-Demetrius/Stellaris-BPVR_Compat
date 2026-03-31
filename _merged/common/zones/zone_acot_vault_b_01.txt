@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: new-upstream
+# upstream_status: up-to-date
 # sort_key: [1, 19, "zone_acot_vault_b_01"]
 # sources:
 #   path: acot/common/zones/acot_special_zones.txt

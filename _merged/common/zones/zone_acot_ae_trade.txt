@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: new-upstream
+# upstream_status: up-to-date
 # sort_key: [1, 14, "zone_acot_ae_trade"]
 # sources:
 #   path: acot/common/zones/acot_vanilla_zones.txt
