@@ -1,8 +1,7 @@
 {
   "summary": {
     "total": 90,
-    "source-missing": 11,
-    "up-to-date": 79
+    "up-to-date": 90
   },
   "items": [
     {
@@ -2771,7 +2770,7 @@
       "name": "zone_factory_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_factory_arcology.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -2801,7 +2800,7 @@
       "name": "zone_fortress_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_fortress_arcology.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -2831,7 +2830,7 @@
       "name": "zone_foundry_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_foundry_arcology.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -3011,7 +3010,7 @@
       "name": "zone_research_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_arcology.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -3041,7 +3040,7 @@
       "name": "zone_research_engineering_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_engineering_arcology.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -3071,7 +3070,7 @@
       "name": "zone_research_physics_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_physics_arcology.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -3101,7 +3100,7 @@
       "name": "zone_research_society_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_research_society_arcology.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -3211,7 +3210,7 @@
       "name": "zone_trade_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_trade_arcology.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -3241,7 +3240,7 @@
       "name": "zone_unity_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_arcology.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -3271,7 +3270,7 @@
       "name": "zone_unity_bio_trophy_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_bio_trophy_arcology.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
@@ -3301,7 +3300,7 @@
       "name": "zone_unity_spiritualist_arcology",
       "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
       "merged_file": "_merged/common/zones/zone_unity_spiritualist_arcology.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",

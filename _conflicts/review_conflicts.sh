@@ -1328,7 +1328,7 @@ printf '
 === object: common/zones :: zone_factory_arcology ===
 '
 printf 'status: %s
-' source-missing
+' up-to-date
 code --reuse-window _merged/common/zones/zone_factory_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -1344,7 +1344,7 @@ printf '
 === object: common/zones :: zone_fortress_arcology ===
 '
 printf 'status: %s
-' source-missing
+' up-to-date
 code --reuse-window _merged/common/zones/zone_fortress_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -1360,7 +1360,7 @@ printf '
 === object: common/zones :: zone_foundry_arcology ===
 '
 printf 'status: %s
-' source-missing
+' up-to-date
 code --reuse-window _merged/common/zones/zone_foundry_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -1456,7 +1456,7 @@ printf '
 === object: common/zones :: zone_research_arcology ===
 '
 printf 'status: %s
-' source-missing
+' up-to-date
 code --reuse-window _merged/common/zones/zone_research_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -1472,7 +1472,7 @@ printf '
 === object: common/zones :: zone_research_engineering_arcology ===
 '
 printf 'status: %s
-' source-missing
+' up-to-date
 code --reuse-window _merged/common/zones/zone_research_engineering_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -1488,7 +1488,7 @@ printf '
 === object: common/zones :: zone_research_physics_arcology ===
 '
 printf 'status: %s
-' source-missing
+' up-to-date
 code --reuse-window _merged/common/zones/zone_research_physics_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -1504,7 +1504,7 @@ printf '
 === object: common/zones :: zone_research_society_arcology ===
 '
 printf 'status: %s
-' source-missing
+' up-to-date
 code --reuse-window _merged/common/zones/zone_research_society_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -1558,7 +1558,7 @@ printf '
 === object: common/zones :: zone_trade_arcology ===
 '
 printf 'status: %s
-' source-missing
+' up-to-date
 code --reuse-window _merged/common/zones/zone_trade_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -1574,7 +1574,7 @@ printf '
 === object: common/zones :: zone_unity_arcology ===
 '
 printf 'status: %s
-' source-missing
+' up-to-date
 code --reuse-window _merged/common/zones/zone_unity_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -1590,7 +1590,7 @@ printf '
 === object: common/zones :: zone_unity_bio_trophy_arcology ===
 '
 printf 'status: %s
-' source-missing
+' up-to-date
 code --reuse-window _merged/common/zones/zone_unity_bio_trophy_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
@@ -1606,7 +1606,7 @@ printf '
 === object: common/zones :: zone_unity_spiritualist_arcology ===
 '
 printf 'status: %s
-' source-missing
+' up-to-date
 code --reuse-window _merged/common/zones/zone_unity_spiritualist_arcology.txt
 printf 'source: %s
 ' vanilla/common/zones/04_secondary_zones.txt
