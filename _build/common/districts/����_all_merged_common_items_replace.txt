@@ -49,13 +49,13 @@ district_arcology_housing = {
 		district_nexus
 		district_hive
 		district_mindlink
-        # AG Mod Integration
-        district_ag_shell_world_housing
-        district_ag_ancient_city_housing
-        district_ag_ancient_city_wilderness
-        district_ag_hive
-        district_ag_ancient_hive_wilderness
-        district_ag_nexus
+		# AG Mod Integration
+		district_ag_shell_world_housing
+		district_ag_ancient_city_housing
+		district_ag_ancient_city_wilderness
+		district_ag_hive
+		district_ag_ancient_hive_wilderness
+		district_ag_nexus
 		# PD Arcologies Integration
 		district_pd_garden_arcology_housing
 		district_pd_fortress_arcology_housing
@@ -291,13 +291,13 @@ district_city = {
 		district_crashed_slaver_ship
 		district_resort
 		district_slave
-        # AG Mod Integration
-        district_ag_shell_world_housing
-        district_ag_ancient_city_housing
-        district_ag_ancient_city_wilderness
-        district_ag_hive
-        district_ag_ancient_hive_wilderness
-        district_ag_nexus
+		# AG Mod Integration
+		district_ag_shell_world_housing
+		district_ag_ancient_city_housing
+		district_ag_ancient_city_wilderness
+		district_ag_hive
+		district_ag_ancient_hive_wilderness
+		district_ag_nexus
 		# PD Arcologies Integration
 		district_pd_garden_arcology_housing
 		district_pd_fortress_arcology_housing
@@ -585,7 +585,7 @@ district_city = {
 # City (blue)
 district_craglands = {
 	base_buildtime = @wilderness_district_build_long
-    is_capped_by_modifier = no
+	is_capped_by_modifier = no
 	overlay_icon = GFX_district_government
 
 	show_on_uncolonized = {
@@ -616,17 +616,17 @@ district_craglands = {
 		district_hive
 		district_city
 		district_mindlink
-        # AG Mod Integration
-        district_ag_shell_world_housing
-        district_ag_ancient_city_housing
-        district_ag_ancient_city_wilderness
-        district_ag_hive
-        district_ag_ancient_hive_wilderness
-        district_ag_nexus
+		# AG Mod Integration
+		district_ag_shell_world_housing
+		district_ag_ancient_city_housing
+		district_ag_ancient_city_wilderness
+		district_ag_hive
+		district_ag_ancient_hive_wilderness
+		district_ag_nexus
 	}
 
 	# EPM Mod Integration
-    resources = {
+	resources = {
 		category = planet_districts_cities
 		cost = {
 			biomass = @biomass_cost
@@ -1218,13 +1218,13 @@ district_arcology_leisure = {
 		district_nexus
 		district_hive
 		district_arcology_housing
-        # AG Mod Integration
-        district_ag_shell_world_housing
-        district_ag_ancient_city_housing
-        district_ag_ancient_city_wilderness
-        district_ag_hive
-        district_ag_ancient_hive_wilderness
-        district_ag_nexus
+		# AG Mod Integration
+		district_ag_shell_world_housing
+		district_ag_ancient_city_housing
+		district_ag_ancient_city_wilderness
+		district_ag_hive
+		district_ag_ancient_hive_wilderness
+		district_ag_nexus
 	}
 
 	resources = {
@@ -2680,13 +2680,13 @@ district_hive = {
 		district_city
 		district_craglands
 		district_mindlink
-        # AG Mod Integration
-        district_ag_shell_world_housing
-        district_ag_ancient_city_housing
-        district_ag_ancient_city_wilderness
-        district_ag_hive
-        district_ag_ancient_hive_wilderness
-        district_ag_nexus
+		# AG Mod Integration
+		district_ag_shell_world_housing
+		district_ag_ancient_city_housing
+		district_ag_ancient_city_wilderness
+		district_ag_hive
+		district_ag_ancient_hive_wilderness
+		district_ag_nexus
 	}
 
 	# EPM Mod Integration
@@ -2996,13 +2996,13 @@ district_nexus = {
 		district_hive
 		district_craglands
 		district_mindlink
-        # AG Mod Integration
-        district_ag_shell_world_housing
-        district_ag_ancient_city_housing
-        district_ag_ancient_city_wilderness
-        district_ag_hive
-        district_ag_ancient_hive_wilderness
-        district_ag_nexus
+		# AG Mod Integration
+		district_ag_shell_world_housing
+		district_ag_ancient_city_housing
+		district_ag_ancient_city_wilderness
+		district_ag_hive
+		district_ag_ancient_hive_wilderness
+		district_ag_nexus
 	}
 
 	# EPM Mod Integration
