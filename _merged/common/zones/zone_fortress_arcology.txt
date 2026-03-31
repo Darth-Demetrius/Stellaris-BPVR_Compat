@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/zones/04_secondary_zones_replace_1732447147.txt
 # supported_version: 4.3.*
-# upstream_status: new-upstream
+# upstream_status: up-to-date
 # sort_key: [0, 11, "zone_fortress_arcology"]
 # sources:
 #   path: my_patch/common/zones/zones_pd_arcologies.txt
