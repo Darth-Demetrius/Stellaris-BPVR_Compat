@@ -1,0 +1,162 @@
+# record_type: object
+# path: common/districts/����_all_merged_common_items_replace.txt
+# supported_version: 4.3.*
+# upstream_status: new-upstream
+# sort_key: [0, 3, "district_rw_nexus"]
+# sources:
+#   path: bpvr_base/common/districts/04_ringworld_districts_replace.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_compat/common/districts/����_all_merged_common_items.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
+#   supported_version: 4.2.4
+#
+#   path: bpvr_fix/common/districts/����_all_merged_common_items.txt
+#   supported_version: 4.2.4
+#
+#   path: vanilla/common/districts/04_ringworld_districts.txt
+#   supported_version:
+
+district_rw_nexus = {
+	base_buildtime = @rw_district_buildtime
+
+	exempt_from_ai_planet_specialization = yes
+	overlay_icon = GFX_district_government
+
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_city_01 SLOT2 = slot_city_02 SLOT3 = slot_city_02 SLOT4 = slot_city_02 SLOT5 = slot_city_02 SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+
+	show_on_uncolonized = {
+		exists = from
+		from = { is_machine_empire = yes }
+		uses_district_set = ring_world
+	}
+
+	potential = {
+		exists = owner
+		owner = { is_machine_empire = yes }
+		uses_district_set = ring_world
+		NAND = {
+			is_capital = yes
+			owner = {
+				has_menace_perk = menp_behemoth_mind_meld
+			}
+		}
+	}
+
+	conversion_ratio = 0.5
+	convert_to = {
+		district_rw_hive
+		district_rw_city
+		district_mindlink
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = @rw_cost
+		}
+		upkeep = {
+			energy = @rw_maintenance
+		}
+		produces = {
+			trigger = {
+				has_global_flag = ecology_pops_patch_flag
+				has_deposit = d_eco_city_park
+			}
+			waste = -125
+		}
+		upkeep = {
+			energy = 3
+			trigger = {
+				has_global_flag = ecology_pops_patch_flag
+				has_deposit = d_eco_city_park
+			}
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 2500
+		job_technician_drone_add = @base_district_jobs
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			has_global_flag = ecology_pops_patch_flag
+			has_deposit = d_eco_city_park
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			planet_amenities_add = 800
+			planet_housing_add = -500
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			has_global_flag = ecology_pops_patch_flag
+			has_deposit = d_eco_city_park
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			planet_amenities_no_happiness_add = 800
+			planet_housing_add = -500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_technology = tech_housing_1 }
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_technology = tech_housing_2 }
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_prosperity_optimized_nexus }
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_tankbound_empire = yes }
+		}
+		modifier = {
+			job_production_overseer_add = 100
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			planet = {
+				has_deposit = d_arcane_generator
+				NOT = { has_district = district_rw_nexus }
+			}
+		}
+		text = arcane_generator_upkeep_desc
+	}
+
+	inline_script = {
+		script = districts/district_triggered_name_machine
+	}
+}

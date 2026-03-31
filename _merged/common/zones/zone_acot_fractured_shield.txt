@@ -1,0 +1,69 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 2, "zone_acot_fractured_shield"]
+# sources:
+#   path: acot/common/zones/acot_special_zones.txt
+#   supported_version: 4.3.*
+#
+#   path: bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
+#   supported_version: 4.*
+
+zone_acot_fractured_shield = {
+	icon = GFX_acot_zone_dm_shielded
+	base_buildtime = @zone_buildtime
+	potential = { # planet scope
+		OR = {
+			is_planet_class = pc_dark_fractured
+			is_planet_class = pc_acot_enigmatic
+		}
+	}
+
+	unlock = { # planet scope
+		hidden_trigger = {
+			exists = owner
+		}
+	}
+
+	resources = {
+		category = planet_zones
+		cost = {
+			alloys = @zone_cost
+		}
+	}
+
+	triggered_district_planet_modifier = {
+		planet_housing_add = 800
+	}
+
+	max_buildings = @BPV_ZONE_SLOT
+
+	zone_sets = {
+		acot_fractured_shield
+	}
+
+	include = {
+		all
+	}
+
+	excluded_building_sets = {
+		#generator
+		#mining
+		#farming
+		knights
+		betharian
+		generator_automation
+		mining_automation
+		farming_automation
+		#urban_automation_arcology
+	}
+
+
+	planet_modifier = {
+		zone_building_slots_add = 3
+	}
+
+	ai_priority = 2
+	ai_weight_coefficient = 0.5
+}

@@ -1,0 +1,49 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 1, "zone_kuat_city"]
+# sources:
+#   path: bpvr_compat/common/zones/kuat_zones_replace_2461014769.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/zones/kuat_zones_replace_2461014769.txt
+#   supported_version: 4.2.4
+
+zone_kuat_city = {
+	icon = GFX_district_specialization_urban
+	base_buildtime = @zone_buildtime
+	potential = { # planet scope
+	}
+
+	unlock = { uses_district_set = Eternal_city }
+
+	# Global flag to check if the Kuat mod is installed
+	potential = {
+		has_global_flag = install_kuat_mod
+	}
+
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = @BPV_CITY_SLOT
+	}
+
+	max_buildings = @BPV_CITY_SLOT
+
+	include = {
+		all
+	}
+
+	excluded_building_sets = {
+		urban_automation
+		generator_automation
+		mining_automation
+		farming_automation
+	}
+}

@@ -1,0 +1,68 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 11, "district_dragon_nest_city"]
+# sources:
+#   path: bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
+#   supported_version: 4.2.4
+
+district_dragon_nest_city = {
+	base_buildtime = @suc_district_time1
+	is_capped_by_modifier = no
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_city_01 SLOT2 = slot_city_02 SLOT3 = slot_city_02 SLOT4 = slot_city_02 SLOT5 = slot_city_02 SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+	show_on_uncolonized = {
+		exists = from
+		uses_district_set = dragon_nest_planet
+	}
+	potential = {
+		exists = owner
+		uses_district_set = dragon_nest_planet
+	}
+	conversion_ratio = 1
+	convert_to = {
+		district_arcology_housing
+		district_nexus
+		district_hive
+	}
+	resources = {
+		category = planet_districts_cities
+		cost = {
+			minerals = 1000
+			food = 2000
+		}
+		upkeep = {
+			energy = 5
+			food = 5
+		}
+	}
+	planet_modifier = {
+		planet_housing_add = 800
+	}
+	triggered_planet_modifier = {
+		potential = { owner = { is_gestalt = yes } }
+		job_postpartum_placement_girls_drone_add = 100
+		job_pregnancy_counselor_drone_add = 100
+		job_pregnant_drone_add = 100
+	}
+	triggered_planet_modifier = {
+		potential = { owner = { is_gestalt = no } }
+		job_postpartum_placement_girls_add = 100
+		job_pregnancy_counselor_add = 100
+		job_pregnant_add = 100
+	}
+	ai_weight = {
+		weight = 0
+		modifier = {
+			add = 1000
+			planet = {
+				planet_devastation < 1
+				years_passed > 10
+				free_housing < 4
+			}
+		}
+	}
+}

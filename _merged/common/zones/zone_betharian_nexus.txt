@@ -1,0 +1,35 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [0, 40, "zone_betharian_nexus"]
+# sources:
+#   path: pd_arcologies/common/zones/04_secondary_zones.txt
+#   supported_version: 4.3.*
+#
+#   path: vanilla/common/zones/04_secondary_zones.txt
+#   supported_version:
+
+zone_betharian_nexus = {
+	planet_limit = 1
+	inline_script = {
+		script = zones/shared_betharian_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	triggered_district_planet_modifier = {
+		planet_housing_add = 1
+		mult = modifier:mining_district_housing_add
+	}
+
+	swap_type = district_nexus_betharian
+	swap_type_weight = 5
+
+	zone_sets = {
+		nexus
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+}

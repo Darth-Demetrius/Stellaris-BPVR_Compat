@@ -1,0 +1,123 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 5, "zone_azur_4"]
+# sources:
+#   path: bpvr_compat/common/zones/azur_zones_replace_1617872589.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/zones/azur_zones_replace_1617872589.txt
+#   supported_version: 4.2.4
+
+zone_azur_4 = {
+	icon = GFX_district_specialization_industrial
+	base_buildtime = @zone_buildtime
+	potential = {
+		has_global_flag = azurlane_KuRUMiiii
+	}
+
+	unlock = {
+		has_global_flag = azurlane_KuRUMiiii
+		OR = {
+			uses_district_set = azur_gaia
+			uses_district_set = azur_mind_crisis
+			uses_district_set = azur_ocean
+			uses_district_set = azur_black_core_ringworld
+			uses_district_set = azur_ringworld
+			uses_district_set = azur_harbour
+		}
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			uses_district_set = azur_gaia
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+			has_active_building = azur_building_club_control_center
+		}
+		job_azur_researcher_add = 100
+		planet_housing_add = 100
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			uses_district_set = azur_mind_crisis
+		}
+		job_azur_technician_add = 100
+		planet_housing_add = 100
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			uses_district_set = azur_ocean
+			exists = owner
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+			has_active_building = azur_building_club_control_center
+		}
+		job_physicist_add = 100
+		job_biologist_add = 100
+		job_engineer_add = 100
+		planet_housing_add = 300
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			uses_district_set = azur_black_core_ringworld
+		}
+		job_foundry_add = 100
+		job_alloy_expert_add = 100
+		job_azur_shippartbox_expert_add = 100
+		job_club_artist_add = 100
+		job_artisan_add = 100
+		job_azur_researcher_add = 100
+		job_physicist_add = 100
+		job_biologist_add = 100
+		job_engineer_add = 100
+		planet_housing_add = 900
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			uses_district_set = azur_ringworld
+		}
+		job_club_expert_add = 100
+		job_azur_shippartbox_expert_add = 100
+		job_azur_manufacturing_technician_add = 100
+		planet_housing_add = 300
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			uses_district_set = azur_harbour
+		}
+		job_azur_technician_add = 100
+		planet_housing_add = 100
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = @BPV_ZONE_SLOT
+	}
+
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+
+	max_buildings = @BPV_ZONE_SLOT
+
+	include = {
+		all
+	}
+
+	excluded_building_sets = {
+		fallen_empire
+	}
+}

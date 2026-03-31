@@ -1,0 +1,29 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [0, 45, "zone_industrial_hive"]
+# sources:
+#   path: pd_arcologies/common/zones/04_secondary_zones.txt
+#   supported_version: 4.3.*
+#
+#   path: vanilla/common/zones/04_secondary_zones.txt
+#   supported_version:
+
+zone_industrial_hive = {
+	inline_script = {
+		script = zones/shared_industrial_zone
+		AMOUNT = @doubled_scaling_district_2_jobs
+	}
+
+	swap_type = district_hive_industrial
+	swap_type_weight = 5
+
+	zone_sets = {
+		hive
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+}

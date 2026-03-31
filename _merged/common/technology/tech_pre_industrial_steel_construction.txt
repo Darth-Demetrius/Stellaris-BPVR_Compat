@@ -1,0 +1,14 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 2, "tech_pre_industrial_steel_construction"]
+# sources:
+#   path: bpvr_compat/common/technology/000_dummy_technology.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_compat_improved/common/technology/000_dummy_technology_fixed.txt
+#   supported_version: 4.2.4
+#
+#   path: bpvr_fix/common/technology/000_dummy_technology.txt
+#   supported_version: 4.2.4

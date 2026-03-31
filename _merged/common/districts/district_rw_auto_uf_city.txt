@@ -1,0 +1,61 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 4, "district_rw_auto_uf_city"]
+# sources:
+#   path: bpvr_compat/common/districts/wsg_uf_districts_replace_1747099270.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/districts/wsg_uf_districts_replace_1747099270.txt
+#   supported_version: 4.2.4
+
+##自动化超维环世界
+district_rw_auto_uf_city = {
+	base_buildtime = 1800
+	is_capped_by_modifier = no
+	icon = district_uf_housing
+	#default_starting_district = yes
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_wsg_city SLOT1 = slot_wsg_city_01 SLOT2 = slot_wsg_city_02 SLOT3 = slot_wsg_city_02 SLOT4 = slot_wsg_city_02 SLOT5 = slot_wsg_city_02 SLOT6 = slot_wsg_city_02 SLOT7 = slot_wsg_city_02 SLOT8 = slot_wsg_city_02 SLOT9 = slot_wsg_city_02 SLOT10 = slot_wsg_city_02 }
+	show_on_uncolonized = {
+		exists = from
+		from = { is_regular_empire = yes }
+		uses_district_set = rw_auto_uf_world
+	}
+
+	potential = {
+		exists = owner
+		uses_district_set = rw_auto_uf_world
+	}
+	conversion_ratio = 1
+	convert_to = {
+		district_rw_uf_city
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 2000
+			sr_uf = 100
+		}
+		upkeep = {
+			energy = 15
+			sr_uf = 5
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 6000
+		job_uf_entertainer_add = 3000
+		job_uf_food_writer_add = 2000
+		planet_stability_add = 5
+		planet_jobs_produces_mult = 0.05
+	}
+
+	triggered_desc = {
+		text = job_uf_entertainer_effect_desc
+	}
+	triggered_desc = {
+		text = job_uf_food_writer_effect_desc
+	}
+}

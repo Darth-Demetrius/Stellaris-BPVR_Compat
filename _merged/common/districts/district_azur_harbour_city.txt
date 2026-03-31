@@ -1,0 +1,101 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 1, "district_azur_harbour_city"]
+# sources:
+#   path: bpvr_compat/common/districts/azurlane_supercity_districts_replace_1617872589.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/districts/azurlane_supercity_districts_replace_1617872589.txt
+#   supported_version: 4.2.4
+
+district_azur_harbour_city = {
+	base_buildtime = @azur_time_t2
+	is_capped_by_modifier = no
+	show_on_uncolonized = {
+		has_global_flag = azurlane_KuRUMiiii
+		uses_district_set = azur_harbour
+	}
+	exempt_from_ai_planet_specialization = yes
+	potential = {
+		has_global_flag = azurlane_KuRUMiiii
+		uses_district_set = azur_harbour
+	}
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = @azur_minerals_t2
+			mind_club = @azur_cube_t1
+		}
+		upkeep = {
+			energy = @azur_upkeep_t1
+		}
+	}
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_azur_city SLOT1 = slot_azur_city01 SLOT2 = slot_azur_city02 SLOT3 = slot_azur_city02 SLOT4 = slot_azur_city02 SLOT5 = slot_azur_city02 SLOT6 = slot_azur_city02 SLOT7 = slot_azur_city02 SLOT8 = slot_azur_city02 SLOT9 = slot_azur_city02 SLOT10 = slot_azur_city02 }
+
+	conversion_ratio = 1
+	convert_to = {
+		district_city
+	}
+
+	planet_modifier = {
+		planet_housing_add = 2000
+		job_azur_clerk_add = 400
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+			has_active_building = azur_building_hall_judgment
+		}
+		modifier = {
+			job_enforcer_add = 100
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+			has_active_building = azur_building_cathedral
+		}
+		modifier = {
+			job_azur_nun_add = 100
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+			has_active_building = azur_building_trade_megaplex
+		}
+		modifier = {
+			job_azur_clerk_add = 100
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+			has_active_building = azur_building_military_academy
+		}
+		modifier = {
+			job_soldier_add = 100
+		}
+	}
+	# triggered_desc = {
+	# 	text = job_azur_clerk_effect_desc
+	# }
+}

@@ -1,0 +1,96 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 1, "district_macripp_housing"]
+# sources:
+#   path: bpvr_compat/common/districts/aot_phanon_macripp_districts_replace_2178603631.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/districts/aot_phanon_macripp_districts_replace_2178603631.txt
+#   supported_version: 4.2.4
+
+#####################
+# Phanon (Phi)
+#####################
+district_macripp_housing = {
+	base_buildtime = 300
+	is_capped_by_modifier = no
+	show_on_uncolonized = {
+		uses_district_set = phanon_macripp
+	}
+	potential = {
+		uses_district_set = phanon_macripp
+	}
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_city_01 SLOT2 = slot_city_02 SLOT3 = slot_city_02 SLOT4 = slot_city_02 SLOT5 = slot_city_02 SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+	resources = {
+		category = planet_districts_phanon_macripp
+		cost = {
+			minerals = @hab_cost
+			alloys = @hab_cost
+			aot_sr_runic_power = @hab_cost_phanon
+		}
+		upkeep = {
+			energy = @hab_maintenance
+		}
+	}
+	planet_modifier = {
+		planet_housing_add = @planet_housing_generic
+		planet_max_buildings_add = 1
+		job_merchant_add = 100
+		job_phanon_clerk_add = 1000
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			job_maintenance_drone_add = 400
+		}
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		text = job_maintenance_drone_desc
+	}
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 250
+			planet = {
+				num_districts = {
+					type = district_hab_housing
+					value < 1
+				}
+			}
+		}
+		modifier = {
+			weight = 250
+			planet = {
+				owner = {
+					is_individualistic_empire = yes
+					has_ascension_perk = ap_master_builders
+				}
+				num_districts = {
+					type = district_hab_housing
+					value < 2
+				}
+			}
+		}
+	}
+	# Better Planet View compatibility.
+	# This script duplicates END specialization until reaching user-requested counts
+	inline_script = {
+		script = districts/BPV_district_slots2
+		GOVERNMENT = slot_city_government
+		SLOT1 = slot_city_01
+		SLOT_END = slot_city_02
+	}
+}

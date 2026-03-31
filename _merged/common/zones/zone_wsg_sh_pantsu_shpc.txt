@@ -1,0 +1,46 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 4, "zone_wsg_sh_pantsu_shpc"]
+# sources:
+#   path: bpvr_compat/common/zones/wsg_sh_planet_zones_replace_1747099270.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/zones/wsg_sh_planet_zones_replace_1747099270.txt
+#   supported_version: 4.2.4
+
+zone_wsg_sh_pantsu_shpc = {
+	icon = GFX_district_specialization_industrial
+	base_buildtime = @zone_buildtime
+	potential = {
+		uses_district_set = sh_world
+	}
+	unlock = {
+		uses_district_set = sh_world
+	}
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+	max_buildings = @BPV_ZONE_SLOT
+	include = {
+		all
+	}
+	#uses_district_set = sh_world
+	triggered_district_planet_modifier = {
+		job_sh_pantsu_maker_add = 100
+		planet_housing_add = 100
+	}
+	planet_modifier = {
+		zone_building_slots_add = @BPV_ZONE_SLOT
+	}
+	excluded_building_sets = {
+		urban_automation
+		generator_automation
+		mining_automation
+		farming_automation
+	}
+}

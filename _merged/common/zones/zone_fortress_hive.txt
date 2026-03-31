@@ -1,0 +1,29 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [0, 53, "zone_fortress_hive"]
+# sources:
+#   path: pd_arcologies/common/zones/04_secondary_zones.txt
+#   supported_version: 4.3.*
+#
+#   path: vanilla/common/zones/04_secondary_zones.txt
+#   supported_version:
+
+zone_fortress_hive = {
+	inline_script = {
+		script = zones/shared_fortress_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	swap_type = district_hive_fortress
+	swap_type_weight = 5
+
+	zone_sets = {
+		hive
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+}

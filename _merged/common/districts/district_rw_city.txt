@@ -1,0 +1,306 @@
+# record_type: object
+# path: common/districts/����_all_merged_common_items_replace.txt
+# supported_version: 4.3.*
+# upstream_status: new-upstream
+# sort_key: [0, 1, "district_rw_city"]
+# sources:
+#   path: bpvr_base/common/districts/04_ringworld_districts_replace.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_compat/common/districts/����_all_merged_common_items.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
+#   supported_version: 4.2.4
+#
+#   path: bpvr_fix/common/districts/����_all_merged_common_items.txt
+#   supported_version: 4.2.4
+#
+#   path: vanilla/common/districts/04_ringworld_districts.txt
+#   supported_version:
+
+district_rw_city = {
+	base_buildtime = @rw_district_buildtime
+
+	exempt_from_ai_planet_specialization = yes
+	overlay_icon = GFX_district_government
+
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_city_01 SLOT2 = slot_city_02 SLOT3 = slot_city_02 SLOT4 = slot_city_02 SLOT5 = slot_city_02 SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+
+	show_on_uncolonized = {
+		exists = from
+		from = { is_gestalt = no }
+		uses_district_set = ring_world
+	}
+
+	potential = {
+		exists = owner
+		owner = { is_gestalt = no }
+		uses_district_set = ring_world
+		NAND = {
+			is_capital = yes
+			owner = {
+				has_menace_perk = menp_behemoth_mind_meld
+			}
+		}
+	}
+
+	conversion_ratio = 0.5
+	convert_to = {
+		district_rw_nexus
+		district_rw_hive
+		district_mindlink
+	}
+
+	# EPM Mod Integration
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = @rw_cost
+		}
+		upkeep = {
+			energy = @rw_maintenance
+		}
+		produces = {
+			trigger = {
+				has_global_flag = ecology_pops_patch_flag
+				has_deposit = d_eco_city_park
+			}
+			waste = -125
+		}
+		upkeep = {
+			energy = 3
+			trigger = {
+				has_global_flag = ecology_pops_patch_flag
+				has_deposit = d_eco_city_park
+			}
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 2500
+	}
+
+	inline_script = {
+		script = jobs/enforcers_add
+		AMOUNT = @base_district_jobs
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			has_global_flag = ecology_pops_patch_flag
+			has_deposit = d_eco_city_park
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			planet_amenities_add = 800
+			planet_housing_add = -500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			has_global_flag = ecology_pops_patch_flag
+			has_deposit = d_eco_city_park
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			planet_amenities_no_happiness_add = 800
+			planet_housing_add = -500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				OR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_fallen_empire = yes
+				}
+			}
+		}
+		modifier = {
+			planet_housing_add = -500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_fallen_empire = no
+				is_tankbound_empire = no
+			}
+		}
+		modifier = {
+			job_clerk_add = 300
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_fallen_empire = no
+				is_tankbound_empire = yes
+			}
+		}
+		modifier = {
+			job_production_overseer_add = 300
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_fallen_empire = no
+				has_active_tradition = tr_virtuality_4
+				is_tankbound_empire = no
+			}
+		}
+		modifier = {
+			job_clerk_add = 600
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_regular_empire = yes
+				is_fallen_empire = no
+				has_active_tradition = tr_virtuality_4
+				is_tankbound_empire = yes
+			}
+		}
+		modifier = {
+			job_production_overseer_add = 600
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_prosperity_public_works }
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_1
+			}
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_2
+				NOR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
+			}
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+
+	# EAC Mod Integration
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner															# Modded
+			owner = { has_active_tradition = tr_mercantile_trickle_up_economics }	# Modded
+		}
+		modifier = {
+			#job_clerk_add = 300	#Steam: These are here in vanilla but are probably a bug?
+			job_trader_add = 300														# Modded
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner															# Modded
+			owner = {
+				has_valid_civic = civic_peaceful_urbanism							# Modded
+			}
+		}
+		modifier = {
+			planet_amenities_add = 500												# Modded
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				OR = {
+					has_valid_civic = civic_consumerism									# Modded
+					has_valid_civic = civic_consumerism_corporate						# Modded
+				}
+			}
+		}
+		modifier = {
+			#job_clerk_add = 100	#Steam: These are here in vanilla but are probably a bug?
+			job_trader_add = 100														# Modded
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_welfare_state								# Modded
+			}
+		}
+		modifier = {
+			planet_housing_add = 500													# Modded
+		}
+	}
+
+	#END EAC Mod Integration
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_tankbound_empire = yes
+			}
+		}
+		modifier = {
+			job_production_overseer_add = 100
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			planet = {
+				has_deposit = d_arcane_generator
+				NOT = { has_district = district_rw_city }
+			}
+		}
+		text = arcane_generator_upkeep_desc
+	}
+
+	inline_script = {
+		script = districts/district_triggered_name_urban
+	}
+}

@@ -1,0 +1,60 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 4, "district_holylight_hab_housing"]
+# sources:
+#   path: bpvr_compat/common/districts/CG_INN_districts_replace_2748029219.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/districts/CG_INN_districts_replace_2748029219.txt
+#   supported_version: 4.2.4
+
+district_holylight_hab_housing = {
+	base_buildtime = 240
+	is_capped_by_modifier = no
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_city_01 SLOT2 = slot_city_02 SLOT3 = slot_city_02 SLOT4 = slot_city_02 SLOT5 = slot_city_02 SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+	exempt_from_ai_planet_specialization = yes
+	show_on_uncolonized = { uses_district_set = old_empire_holylight_habitat }
+	potential = { uses_district_set = old_empire_holylight_habitat }
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = @hab_cost
+		}
+		upkeep = {
+			energy = @hab_maintenance
+		}
+	}
+	planet_modifier = {
+		planet_housing_add = 800
+	}
+	triggered_planet_modifier = {
+		potential = { owner = { has_origin = origin_INN_destruction_light } }
+		empire_size_districts_mult = -0.01
+		species_empire_size_mult = -0.01
+	}
+	triggered_planet_modifier = {
+		potential = { is_pure_empire = yes }
+		modifier = {
+			planet_housing_add = -200
+			job_holy_sister_add = 200
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_maintenance_drone_add = 200
+		}
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_maintenance_drone_effect_desc
+	}
+}

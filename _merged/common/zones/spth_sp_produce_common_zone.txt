@@ -1,0 +1,40 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 4, "spth_sp_produce_common_zone"]
+# sources:
+#   path: bpvr_compat/common/zones/!!spth_zones_replace_1834433554.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/zones/!!spth_zones_replace_1834433554.txt
+#   supported_version: 4.2.4
+
+spth_sp_produce_common_zone = {
+	icon = GFX_district_gensokyo
+	base_buildtime = 30
+	potential = {
+		spth_check_gensokyo_auth = yes
+		spth_use_spth_sp_produce_6_bld_zone = no
+	}
+	unlock = { always = yes }
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	max_buildings = @BPV_CITY_SLOT
+	include = {
+		all
+	}
+	excluded_building_sets = {
+		knights
+	}
+	zone_sets = {
+		spth_sp_produce
+	}
+}

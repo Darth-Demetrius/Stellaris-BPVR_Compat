@@ -1,0 +1,66 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 1, "district_spiritual_power_research"]
+# sources:
+#   path: bpvr_compat/common/districts/pc_spiritual_power_habitat_districts_replace_1834433554.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/districts/pc_spiritual_power_habitat_districts_replace_1834433554.txt
+#   supported_version: 4.2.4
+
+district_spiritual_power_research = {
+	base_buildtime = 360
+	is_capped_by_modifier = no
+	icon = "district_gensokyo_jitan"
+	show_on_uncolonized = {
+		OR = {
+			uses_district_set = spiritual_power_habitat
+		}
+	}
+	potential = {
+		uses_district_set = spiritual_power_habitat
+	}
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_spiritual_power_research SLOT1 = slot_spth_generic_01 SLOT2 = slot_spth_generic_02 SLOT3 = slot_spth_generic_02 SLOT4 = slot_spth_generic_02 SLOT5 = slot_spth_generic_02 SLOT6 = slot_spth_generic_02 SLOT7 = slot_spth_generic_02 SLOT8 = slot_spth_generic_02 SLOT9 = slot_spth_generic_02 SLOT10 = slot_spth_generic_02 }
+	conversion_ratio = 1
+	convert_to = {
+		district_hab_science
+	}
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 720
+		}
+		upkeep = {
+			energy = 4
+			sr_lingli = 0.5
+			multiplier = planet.modifier:planet_barrier_capacity_use
+		}
+		produces = {
+			physics_research = 2
+			society_research = 2
+			engineering_research = 2
+			multiplier = planet.modifier:planet_barrier_capacity_add
+		}
+		produces = {
+			physics_research = 0.1
+			society_research = 0.1
+			engineering_research = 0.1
+			multiplier = planet.value:spth_num_pops
+		}
+	}
+	planet_modifier = {
+		planet_housing_add = 300
+		job_spth_story_chief_researcher_add = 100
+		job_spth_story_researcher_add = 400
+	}
+	triggered_planet_modifier = {
+		potential = { has_planet_flag = spth_story_sol_system_torifune }
+		planet_housing_add = 100
+		planet_jobs_physics_research_produces_mult = 0.01
+		planet_jobs_society_research_produces_mult = 0.01
+		planet_jobs_engineering_research_produces_mult = 0.01
+		mult = planet.modifier:planet_barrier_capacity_add
+	}
+}

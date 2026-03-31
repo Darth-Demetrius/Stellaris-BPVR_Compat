@@ -1,0 +1,106 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 3, "district_alderson_hive"]
+# sources:
+#   path: bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt
+#   supported_version: 4.2.4
+
+district_alderson_hive = {
+	icon = district_alderson_hive
+	base_buildtime = @rw_district_buildtime
+	is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+	#overlay_icon = GFX_district_housing
+	has_primary_zone = yes
+	custom_gui = planet_district_entry_width_3
+	district_width = 3
+
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_giga_government SLOT1 = slot_district_alderson_gaia_01 SLOT2 = slot_district_alderson_gaia_02 SLOT3 = slot_district_alderson_gaia_03 SLOT4 = slot_district_alderson_gaia_04 SLOT5 = slot_district_alderson_gaia_04 SLOT6 = slot_district_alderson_gaia_04 SLOT7 = slot_district_alderson_gaia_04 SLOT8 = slot_district_alderson_gaia_04 SLOT9 = slot_district_alderson_gaia_04 SLOT10 = slot_district_alderson_gaia_04 }
+
+	show_on_uncolonized = {
+		exists = from
+		from = { is_hive_empire = yes }
+		uses_district_set = giga_alderson
+	}
+
+	potential = {
+		exists = owner
+		owner = { is_hive_empire = yes }
+		uses_district_set = giga_alderson
+	}
+
+	base_buildtime = @giga_alderson_district_buildtime
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = @giga_alderson_cost
+		}
+		upkeep = {
+			energy = @giga_alderson_maintenance
+		}
+	}
+
+	conversion_ratio = 1
+	convert_to = {
+		district_alderson_machine
+		district_alderson_gaia
+	}
+
+
+	planet_modifier = {
+		planet_housing_add = 2500
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_agrarian_idyll
+			}
+		}
+		modifier = {
+			planet_housing_add = -500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_prosperity_public_works }
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_1
+			}
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_2
+				NOT = { has_valid_civic = civic_agrarian_idyll }
+			}
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+}

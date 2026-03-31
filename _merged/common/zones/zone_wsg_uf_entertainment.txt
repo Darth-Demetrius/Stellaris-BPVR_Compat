@@ -1,0 +1,59 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 4, "zone_wsg_uf_entertainment"]
+# sources:
+#   path: bpvr_compat/common/zones/wsg_uf_normal_zones_replace_1747099270.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/zones/wsg_uf_normal_zones_replace_1747099270.txt
+#   supported_version: 4.2.4
+
+zone_wsg_uf_entertainment = {
+	icon = GFX_district_specialization_urban
+	base_buildtime = @zone_buildtime
+	potential = {
+		OR = {
+			uses_district_set = uf_world
+			uses_district_set = rw_uf_world
+		}
+	}
+	unlock = {
+		OR = {
+			uses_district_set = uf_world
+			uses_district_set = rw_uf_world
+		}
+	}
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+	planet_modifier = {
+		zone_building_slots_add = @BPV_ZONE_SLOT
+	}
+	#uses_district_set = uf_world
+	triggered_district_planet_modifier = {
+		potential = {
+			OR = {
+				uses_district_set = uf_world
+				uses_district_set = rw_uf_world
+			}
+		}
+		job_uf_entertainer_add = 500
+		job_uf_food_writer_add = 500
+		planet_housing_add = 1000
+	}
+	max_buildings = @BPV_ZONE_SLOT
+	include = {
+		all
+	}
+	excluded_building_sets = {
+		urban_automation
+		generator_automation
+		mining_automation
+		farming_automation
+	}
+}

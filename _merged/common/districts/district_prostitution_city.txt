@@ -1,0 +1,99 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 1, "district_prostitution_city"]
+# sources:
+#   path: bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/districts/CG_SUC_districts_replace_2748029219.txt
+#   supported_version: 4.2.4
+
+#秘密花园丛居区
+district_prostitution_city = {
+	base_buildtime = @suc_district_time1
+	is_capped_by_modifier = no
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_city_01 SLOT2 = slot_city_02 SLOT3 = slot_city_02 SLOT4 = slot_city_02 SLOT5 = slot_city_02 SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+	icon = prostitution_city
+	show_on_uncolonized = {
+		exists = from
+		from = { is_lust_empire = yes }
+		uses_district_set = prostitution_city
+	}
+	potential = {
+		exists = owner
+		owner = { is_lust_empire = yes }
+		uses_district_set = prostitution_city
+	}
+	allow = {
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
+		owner = { is_lust_empire = yes }
+	}
+	conversion_ratio = 0.5
+	convert_to = {
+		district_arcology_housing
+		district_nexus
+		district_hive
+	}
+	resources = {
+		category = planet_districts
+		produces = {
+			sr_beauty = @district_sr_beauty_produce
+		}
+		cost = {
+			minerals = @suc_district_cost1
+			love_juice = @suc_district_cost2
+			rare_crystals = @suc_district_cost3
+		}
+		upkeep = {
+			energy = @suc_district_upkeep1
+			love_juice = @suc_district_upkeep2
+			rare_crystals = @suc_district_upkeep3
+		}
+	}
+	planet_modifier = {
+		planet_housing_add = 500
+	}
+	triggered_planet_modifier = {
+		potential = { owner = { is_gestalt = yes } }
+		job_slave_trader_drone_add = 100
+	}
+	triggered_planet_modifier = {
+		potential = { owner = { is_gestalt = no } }
+		job_slave_trader_add = 100
+	}
+	triggered_desc = { text = job_slave_trader_effect_desc }
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { NOT = { has_valid_civic = civic_sacrifice_lustgod } }
+		}
+		job_women_pr_add = 400
+	}
+	triggered_planet_modifier = {
+		potential = { owner = { is_gestalt = yes } }
+		job_women_pr_drone_add = 400
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { NOT = { has_valid_civic = civic_sacrifice_lustgod } }
+		}
+		text = job_women_pr_effect_desc
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_hive_empire = no
+				has_valid_civic = civic_sacrifice_lustgod
+			}
+		}
+		job_lust_priest_add = 400
+	}
+	ai_weight = { weight = 1000 }
+}

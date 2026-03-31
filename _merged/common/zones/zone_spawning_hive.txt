@@ -1,0 +1,29 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [0, 62, "zone_spawning_hive"]
+# sources:
+#   path: pd_arcologies/common/zones/04_secondary_zones.txt
+#   supported_version: 4.3.*
+#
+#   path: vanilla/common/zones/04_secondary_zones.txt
+#   supported_version:
+
+zone_spawning_hive = {
+	inline_script = {
+		script = zones/shared_spawning_zone
+		AMOUNT = 50
+	}
+
+	swap_type = district_hive_spawning
+	swap_type_weight = 5
+
+	zone_sets = {
+		hive
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+}

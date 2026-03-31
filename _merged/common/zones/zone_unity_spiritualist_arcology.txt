@@ -1,0 +1,45 @@
+# record_type: object
+# path: common/zones/04_secondary_zones_replace_1732447147.txt
+# supported_version: 4.3.*
+# upstream_status: new-upstream
+# sort_key: [0, 9, "zone_unity_spiritualist_arcology"]
+# sources:
+#   path: pd_arcologies/common/zones/04_secondary_zones.txt
+#   supported_version: 4.3.*
+#
+#   path: vanilla/common/zones/04_secondary_zones.txt
+#   supported_version:
+
+zone_unity_spiritualist_arcology = {
+	inline_script = {
+		script = zones/shared_unity_spiritualist_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	swap_type = district_arcology_spiritualist
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_garden_arcology
+		pd_fortress_arcology
+		pd_commercial_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+
+	convert_to = {
+		zone_unity_arcology
+		zone_unity_bio_trophy_arcology
+	}
+}

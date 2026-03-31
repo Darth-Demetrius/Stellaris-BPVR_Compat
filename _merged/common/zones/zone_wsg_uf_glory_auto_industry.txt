@@ -1,0 +1,47 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 4, "zone_wsg_uf_glory_auto_industry"]
+# sources:
+#   path: bpvr_compat/common/zones/wsg_uf_glory_zones_replace_1747099270.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/zones/wsg_uf_glory_zones_replace_1747099270.txt
+#   supported_version: 4.2.4
+
+zone_wsg_uf_glory_auto_industry = {
+	icon = GFX_district_specialization_factory
+	base_buildtime = @zone_buildtime
+	potential = {
+		uses_district_set = uf_glory_world
+	}
+	unlock = {
+		uses_district_set = uf_glory_world
+	}
+	resources = {
+		category = planet_zones
+		cost = {
+			sr_uf = 1000
+		}
+	}
+	planet_modifier = {
+		zone_building_slots_add = @BPV_ZONE_SLOT
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			uses_district_set = uf_glory_world
+		}
+		pop_bonus_workforce_mult = 0.35
+	}
+	max_buildings = @BPV_ZONE_SLOT
+	include = {
+		all
+	}
+	excluded_building_sets = {
+		urban_automation
+		generator_automation
+		mining_automation
+		farming_automation
+	}
+}

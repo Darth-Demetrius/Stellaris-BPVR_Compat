@@ -1,0 +1,101 @@
+# record_type: object
+# path: common/districts/����_all_merged_common_items_replace.txt
+# supported_version: 4.3.*
+# upstream_status: new-upstream
+# sort_key: [0, 18, "district_battle_thrall"]
+# sources:
+#   path: bpvr_base/common/districts/00_urban_districts_replace.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_compat/common/districts/����_all_merged_common_items.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
+#   supported_version: 4.2.4
+#
+#   path: bpvr_fix/common/districts/����_all_merged_common_items.txt
+#   supported_version: 4.2.4
+#
+#   path: pd_arcologies/common/districts/00_urban_districts.txt
+#   supported_version: 4.3.*
+#
+#   path: vanilla/common/districts/00_urban_districts.txt
+#   supported_version:
+
+district_battle_thrall = {
+	base_buildtime = 480
+
+	overlay_icon = GFX_district_fortress
+
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_city_01 SLOT2 = slot_city_02 SLOT3 = slot_city_02 SLOT4 = slot_city_02 SLOT5 = slot_city_02 SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+
+	prerequisites = {
+		tech_basic_industry
+	}
+
+	show_on_uncolonized = {
+		exists = from
+		has_modifier = slave_colony
+	}
+
+	potential = {
+		always = no
+	}
+
+	allow = {
+		hidden_trigger = {
+			has_modifier = slave_colony
+		}
+		custom_tooltip = {
+			fail_text = arcology_project_construction_fail_tt
+			NOT = { has_planet_flag = arcology_project_construction }
+		}
+	}
+
+	conversion_ratio = 1
+	convert_to = {
+		district_arcology_arms_industry
+		district_rw_industrial
+		#district_industrial
+		district_prison_industrial
+		district_bioforge_stomach
+		district_mf_alloy
+	}
+
+	resources = {
+		category = planet_districts_industrial
+		cost = {
+			minerals = @city_cost
+		}
+		upkeep = {
+			energy = 2
+		}
+
+		upkeep = {
+			trigger = {
+				exists = owner
+				owner = {
+					has_edict = industrial_maintenance
+				}
+			}
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 200
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+		}
+		modifier = {
+			job_battle_thrall_add = @base_district_jobs
+		}
+	}
+}

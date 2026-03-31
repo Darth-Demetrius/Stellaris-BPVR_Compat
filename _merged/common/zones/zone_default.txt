@@ -1,0 +1,59 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [0, 1, "zone_default"]
+# sources:
+#   path: bpvr_base/common/zones/00_zones_replace_Stellaris.txt
+#   supported_version: 4.*
+#
+#   path: vanilla/common/zones/00_zones.txt
+#   supported_version:
+
+zone_default = {
+	icon = GFX_diplomatic_weight_large
+	base_buildtime = @zone_buildtime
+	potential = { # planet scope
+	}
+
+	unlock = { # planet scope
+		NOT = {
+			has_designation = col_resort
+		}
+	}
+
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+
+	max_buildings = 6
+
+	zone_sets = {
+		default
+	}
+
+	include = {
+		all
+	}
+
+	excluded_building_sets = {
+		generator
+		mining
+		farming
+		knights
+		betharian
+		fallen_empire_generator
+		fallen_empire_farming
+		fallen_empire_mining
+		urban_automation
+		urban_automation_arcology
+		generator_automation
+		mining_automation
+		farming_automation
+	}
+
+	ai_priority = 0
+}

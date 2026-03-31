@@ -1,0 +1,49 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 1, "zone_wsg_wg_hive_world_admin"]
+# sources:
+#   path: bpvr_compat/common/zones/wsg_warhammer_planet_replace_1747099270.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/zones/wsg_warhammer_planet_replace_1747099270.txt
+#   supported_version: 4.2.4
+
+zone_wsg_wg_hive_world_admin = {
+	icon = GFX_district_specialization_bureaucrat
+	base_buildtime = @zone_buildtime
+	potential = {
+		uses_district_set = wg_hive_city_world
+	}
+	unlock = {
+		uses_district_set = wg_hive_city_world
+	}
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+	#uses_district_set = wg_hive_city_world
+	triggered_district_planet_modifier = {
+		potential = {
+			uses_district_set = wg_hive_city_world
+		}
+		job_wg_hive_city_soldier_add = 500
+		planet_housing_add = 500
+	}
+	planet_modifier = {
+		zone_building_slots_add = @BPV_ZONE_SLOT
+	}
+	max_buildings = @BPV_ZONE_SLOT
+	include = {
+		all
+	}
+	excluded_building_sets = {
+		urban_automation
+		generator_automation
+		mining_automation
+		farming_automation
+	}
+}

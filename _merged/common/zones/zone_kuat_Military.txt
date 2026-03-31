@@ -1,0 +1,63 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 2, "zone_kuat_Military"]
+# sources:
+#   path: bpvr_compat/common/zones/kuat_zones_replace_2461014769.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/zones/kuat_zones_replace_2461014769.txt
+#   supported_version: 4.2.4
+
+zone_kuat_Military = {
+	icon = GFX_district_specialization_foundry
+	base_buildtime = @zone_buildtime
+
+	# Global flag to check if the Kuat mod is installed
+	potential = {
+		has_global_flag = install_kuat_mod
+	}
+
+
+	unlock = { uses_district_set = Eternal_city }
+
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+			NOT = { has_planet_flag = has_building_kuat_command_center_auto }
+		}
+		job_Kuat_foundry_add = 300
+		job_Kuat_artisan_add = 300
+		planet_housing_add = 600
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = @BPV_ZONE_SLOT
+	}
+
+	zone_sets = {
+		urban
+	}
+
+	max_buildings = @BPV_ZONE_SLOT
+
+	include = {
+		all
+	}
+
+	excluded_building_sets = {
+		urban_automation
+		generator_automation
+		mining_automation
+		farming_automation
+	}
+}

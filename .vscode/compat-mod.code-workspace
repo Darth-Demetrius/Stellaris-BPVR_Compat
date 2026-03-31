@@ -1,0 +1,30 @@
+{
+  "folders": [
+    {
+      "name": "mod",
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "window.openFoldersInNewWindow": "off",
+    "chat.tools.terminal.autoApprove": {
+      "bash .scripts/": true,
+      "python .scripts/": true,
+      "python3 .scripts/": true,
+    },
+    "cwtools.ignore_patterns": [
+      "**/*Imports/**", // ignore all imports folders
+      "**/_tracking/**", // ignore all tracking folders
+    ],
+    "cwtools.errors.ignore": [
+      "CW100", // localization key not found
+      "CW101", // undefined variable
+      "CW113", // file not found
+      "CW240", // wrong value type
+      "CW242", // missing required property
+      "CW262", // unexpected trigger
+      "CW263", // unexpected effect
+      "CW264", // missing inline_script
+    ],
+  }
+}

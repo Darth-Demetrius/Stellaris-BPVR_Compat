@@ -1,0 +1,40 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 5, "gensokyo_renli_zone"]
+# sources:
+#   path: bpvr_compat/common/zones/!!spth_zones_replace_1834433554.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/zones/!!spth_zones_replace_1834433554.txt
+#   supported_version: 4.2.4
+
+# gensokyo planet - extra
+#
+#
+#
+#
+#
+# both
+gensokyo_renli_zone = {
+	icon = GFX_district_gensokyo
+	base_buildtime = 30
+	potential = {
+		OR = {
+			uses_district_set = gensokyo_planet
+			uses_district_set = gensokyo_city
+			has_planet_flag = has_shell_world_touhou_gensokyo_city
+		}
+	}
+	unlock = { always = yes }
+	inline_script = { script = zones/spth_rss_tbl_gensokyo_renli }
+	max_buildings = @BPV_ZONE_SLOT
+	include = {
+		all
+	}
+	excluded_building_sets = {
+		knights
+	}
+	ai_priority = 10
+}

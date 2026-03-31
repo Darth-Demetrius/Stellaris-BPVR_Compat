@@ -1,0 +1,50 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 4, "zone_wsg_dr_roller_coaster"]
+# sources:
+#   path: bpvr_compat/common/zones/wsg_dr_zones_replace_1747099270.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/zones/wsg_dr_zones_replace_1747099270.txt
+#   supported_version: 4.2.4
+
+zone_wsg_dr_roller_coaster = {
+	icon = GFX_district_specialization_industrial
+	base_buildtime = @zone_buildtime
+	potential = { uses_district_set = dyson_ring_world }
+
+	unlock = { uses_district_set = dyson_ring_world }
+
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = @BPV_ZONE_SLOT
+	}
+
+	#uses_district_set = dyson_ring_world
+	triggered_district_planet_modifier = {
+		potential = { uses_district_set = dyson_ring_world }
+		job_dyson_ring_roller_coaster_add = 200
+		planet_housing_add = 200
+	}
+
+	max_buildings = @BPV_ZONE_SLOT
+
+	include = {
+		all
+	}
+
+	excluded_building_sets = {
+		urban_automation
+		generator_automation
+		mining_automation
+		farming_automation
+	}
+}

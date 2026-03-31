@@ -1,0 +1,99 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 1, "district_wg_hive_world_housing"]
+# sources:
+#   path: bpvr_compat/common/districts/wsg_wg_warhammer_districts_replace_1747099270.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/districts/wsg_wg_warhammer_districts_replace_1747099270.txt
+#   supported_version: 4.2.4
+
+#巢都
+district_wg_hive_world_housing = {
+	base_buildtime = 480
+	is_capped_by_modifier = no
+	icon = district_wg_hive_world_housing
+	#default_starting_district = yes
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_wsg_city SLOT1 = slot_wsg_city_01 SLOT2 = slot_wsg_city_02 SLOT3 = slot_wsg_city_02 SLOT4 = slot_wsg_city_02 SLOT5 = slot_wsg_city_02 SLOT6 = slot_wsg_city_02 SLOT7 = slot_wsg_city_02 SLOT8 = slot_wsg_city_02 SLOT9 = slot_wsg_city_02 SLOT10 = slot_wsg_city_02 }
+	show_on_uncolonized = {
+		exists = from
+		from = { is_regular_empire = yes }
+		uses_district_set = wg_hive_city_world
+	}
+
+	potential = {
+		exists = owner
+		uses_district_set = wg_hive_city_world
+	}
+
+	conversion_ratio = 1
+	convert_to = {
+		district_city
+		district_nexus
+		district_hive
+		district_arcology_wsg_housing
+		district_wg_forge
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1200
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 2500
+		bonus_pop_growth_mult = 0.1
+		logistic_growth_mult = 0.25
+		job_wg_hive_city_foundry_add = 700
+		job_wg_hive_city_worker_add = 1800
+		pop_happiness = -0.02
+		planet_amenities_add = -500
+		planet_crime_add = 5
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_wg_hive_city_foundry_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_wg_hive_city_worker_effect_desc
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_maintenance_drone_add = 800
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_maintenance_drone_effect_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			free_housing < 10
+		}
+	}
+}

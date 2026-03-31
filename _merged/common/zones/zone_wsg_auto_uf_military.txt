@@ -1,0 +1,46 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 1, "zone_wsg_auto_uf_military"]
+# sources:
+#   path: bpvr_compat/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt
+#   supported_version: 4.2.4
+
+zone_wsg_auto_uf_military = {
+	icon = GFX_district_specialization_fortress
+	base_buildtime = @zone_buildtime
+	potential = {
+		uses_district_set = auto_uf_world
+	}
+	unlock = {
+		uses_district_set = auto_uf_world
+	}
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+	triggered_district_planet_modifier = {
+		planet_housing_add = 1000
+		job_uf_hm_soldier_add = 500
+		job_uf_admin_add = 500
+	}
+	planet_modifier = {
+		zone_building_slots_add = @BPV_ZONE_SLOT
+	}
+	max_buildings = @BPV_ZONE_SLOT
+	include = {
+		all
+	}
+	excluded_building_sets = {
+		urban_automation
+		generator_automation
+		mining_automation
+		farming_automation
+	}
+}

@@ -1,0 +1,35 @@
+# record_type: object
+# path:
+# supported_version:
+# upstream_status: new-upstream
+# sort_key: [1, 3, "district_ag_nexus"]
+# sources:
+#   path: bpvr_compat/common/districts/ag_gestalt_districts_replace_2389589691.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_fix/common/districts/ag_gestalt_districts_replace_2389589691.txt
+#   supported_version: 4.2.4
+
+#######################################
+### 		  Machine Planet
+#######################################
+district_ag_nexus = {
+	base_buildtime = 480
+	is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = ag_slot_common_urban_zones_01 SLOT2 = ag_slot_common_urban_zones_02 SLOT3 = ag_slot_common_urban_zones_02 SLOT4 = ag_slot_common_urban_zones_02 SLOT5 = ag_slot_common_urban_zones_02 SLOT6 = ag_slot_common_urban_zones_02 SLOT7 = ag_slot_common_urban_zones_02 SLOT8 = ag_slot_common_urban_zones_02 SLOT9 = ag_slot_common_urban_zones_02 SLOT10 = ag_slot_common_urban_zones_02 }
+	show_on_uncolonized = { uses_district_set = ag_machine_world }
+	potential = { uses_district_set = ag_machine_world }
+	allow = {
+		NOT = { has_modifier = resort_colony }
+	}
+	conversion_ratio = 1
+	convert_to = { district_nexus }
+	resources = {
+		category = planet_districts_cities
+		cost = { minerals = 500 }
+		upkeep = { energy = 2 }
+	}
+	inline_script = { script = "districts/ag_machine_city_district_effect" ag_multiplier = 1.0  }
+	inline_script = "districts/ag_common_urban_secondary_district_sub_titles"
+}
