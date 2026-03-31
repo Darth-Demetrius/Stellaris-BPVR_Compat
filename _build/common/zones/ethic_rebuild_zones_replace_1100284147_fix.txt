@@ -1,0 +1,155 @@
+zone_subterranean_urban = {
+	icon = GFX_district_specialization_urban
+	base_buildtime = @zone_buildtime
+	potential = { # planet scope
+		exists = owner
+		owner = {
+			is_subterranean_empire = yes
+		}
+	}
+
+	unlock = { # planet scope
+		hidden_trigger = {
+			exists = owner
+			owner = {
+				is_subterranean_empire = yes
+				# Eac Mod Integration
+				OR = {
+					NOT = { has_global_flag = ethic_civic_classic_active } # No EaC Mod
+					has_technology = tech_pre_industrial_steel_construction # Eac req
+				}
+			}
+		}
+	}
+
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+
+	max_buildings = @BPV_ZONE_SLOT
+
+	zone_sets = {
+		minerals
+	}
+
+	included_building_sets = {
+		mining
+		urban
+		fallen_empire_mining
+		mining_automation
+	}
+
+	inline_script = {
+		script = jobs/zone_miner_add
+		AMOUNT = @bonus_scaling_district_2_jobs
+	}
+
+	inline_script = {
+		script = jobs/zone_trader_add
+		AMOUNT = @bonus_scaling_district_2_jobs
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = @BPV_ZONE_SLOT
+	}
+
+	show_in_tech = tech_pre_industrial_steel_construction
+
+	ai_priority = 1
+}
+
+zone_agrarian_anglers = {
+	icon = GFX_job_angler
+	base_buildtime = @zone_buildtime
+	potential = { # planet scope
+		exists = owner
+		owner = {
+			has_valid_civic = civic_agrarian_idyll
+			is_anglers_empire = yes
+		}
+		is_wet = yes
+	}
+
+	unlock = { # planet scope
+		hidden_trigger = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_agrarian_idyll
+				is_anglers_empire = yes
+			}
+			is_wet = yes
+		}
+	}
+
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+
+	max_buildings = @BPV_ZONE_SLOT
+
+	# Ocean Paradise Resort World
+	triggered_district_planet_modifier = {
+		potential = {
+			# Eac Mod Integration
+			OR = {
+				NOT = { has_global_flag = ethic_civic_classic_active } # No EaC Mod
+				AND = {
+					exists = owner
+					owner = {
+						is_gestalt = no
+					}
+					has_modifier = resort_colony
+				}
+			}
+		}
+		job_farmer_add = -25
+		job_resort_worker_add = 25
+		planet_housing_add = -200
+	}
+
+	zone_sets = {
+		food
+		resort_attraction
+	}
+
+	included_building_sets = {
+		farming
+		hydroponics
+		urban
+		farming_automation
+	}
+
+	inline_script = {
+		script = jobs/zone_farmers_add
+		AMOUNT = @bonus_scaling_district_3_jobs
+	}
+
+	inline_script = {
+		script = jobs/zone_factory_add
+		AMOUNT = @bonus_scaling_district_3_jobs
+	}
+
+	inline_script = {
+		script = jobs/zone_trader_add
+		AMOUNT = @bonus_scaling_district_3_jobs
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = @BPV_ZONE_SLOT
+	}
+
+	triggered_desc = {
+		trigger = {
+			always = yes
+		}
+		text = zone_anglers_triggered_desc
+	}
+
+	ai_priority = 1
+}

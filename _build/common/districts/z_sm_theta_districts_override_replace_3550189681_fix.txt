@@ -1,0 +1,106 @@
+district_acot_soulsphere_city = {
+	base_buildtime = 15
+	is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_city_01 SLOT2 = slot_city_02 SLOT3 = slot_city_02 SLOT4 = slot_city_02 SLOT5 = slot_city_02 SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+
+	show_on_uncolonized = {
+		uses_district_set = theta_soulsphere
+	}
+
+	potential = {
+		uses_district_set = theta_soulsphere
+	}
+
+	allow = {
+		exists = owner
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_sm_acot_overlord_add = 100
+			job_sm_acot_overseer_add = 200
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_sm_acot_overlord_drone_add = 100
+			job_sm_acot_overseer_drone_add = 200
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_sm_acot_overlord_droid_add = 100
+			job_sm_acot_overseer_droid_add = 200
+		}
+	}
+
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000000
+			sm_sr_perfect_runic_energy = 600
+		}
+		produces = {
+			unity = 1500
+		}
+		produces = {
+			trigger = {
+				owner = {
+					is_regular_empire = yes
+				}
+			}
+			consumer_goods = 1500
+		}
+		produces = {
+			trigger = {
+				owner = {
+					is_machine_empire = no
+				}
+			}
+			food = 1500
+		}
+		produces = {
+			trigger = {
+				owner = {
+					is_machine_empire = yes
+				}
+			}
+			energy = 1500
+		}
+		upkeep = {
+			sm_sr_perfect_runic_energy = 1
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 90000
+		planet_amenities_add = 90000
+		trade_value_add = 900
+		trade_value_mult = 5.00
+	}
+
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			free_housing < 1000
+		}
+	}
+}

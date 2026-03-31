@@ -1,0 +1,10 @@
+# Planet District Zones
+#
+# Documentation: ./99_HOW_TO_ZONE.txt
+
+inline_script = {
+	script = zones/spth_common_zones ID = spth_sp_produce
+	minerals = 1000 energy = 5 max_bld = @BPV_CITY_SLOT
+	ptl = "spth_use_spth_sp_produce_6_bld_zone = yes"
+	zone_sets = "spth_sp_produce"
+}
