@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 4, "zone_kuat_Khaydarin"]
 # sources:
 #   path: bpvr_compat/common/zones/kuat_zones_replace_2461014769.txt

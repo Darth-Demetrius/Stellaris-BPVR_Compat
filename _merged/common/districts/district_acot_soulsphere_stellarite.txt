@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 4, "district_acot_soulsphere_stellarite"]
 # sources:
 #   path: bpvr_compat/common/districts/sm_theta_districts_replace_2820330517.txt

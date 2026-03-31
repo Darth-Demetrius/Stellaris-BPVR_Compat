@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 2, "zone_wsg_wg_forge_research"]
 # sources:
 #   path: bpvr_compat/common/zones/wsg_warhammer_planet_replace_1747099270.txt

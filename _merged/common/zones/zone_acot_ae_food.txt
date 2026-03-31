@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 20, "zone_acot_ae_food"]
 # sources:
 #   path: acot/common/zones/acot_vanilla_zones.txt

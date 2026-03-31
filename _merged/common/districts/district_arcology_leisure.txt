@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/����_all_merged_common_items_replace.txt
-# supported_version:
-# upstream_status: new-upstream
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [0, 2, "district_arcology_leisure"]
 # sources:
 #   path: bpvr_base/common/districts/01_arcology_districts_replace.txt
@@ -44,13 +44,13 @@ district_arcology_leisure = {
 		district_nexus
 		district_hive
 		district_arcology_housing
-        # AG Mod Integration
-        district_ag_shell_world_housing
-        district_ag_ancient_city_housing
-        district_ag_ancient_city_wilderness
-        district_ag_hive
-        district_ag_ancient_hive_wilderness
-        district_ag_nexus
+		# AG Mod Integration
+		district_ag_shell_world_housing
+		district_ag_ancient_city_housing
+		district_ag_ancient_city_wilderness
+		district_ag_hive
+		district_ag_ancient_hive_wilderness
+		district_ag_nexus
 	}
 
 	resources = {

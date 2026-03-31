@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 3, "zone_wsg_rw_water_ktv"]
 # sources:
 #   path: bpvr_compat/common/zones/wsg_water_rw_planet_zones_replace_1747099270.txt

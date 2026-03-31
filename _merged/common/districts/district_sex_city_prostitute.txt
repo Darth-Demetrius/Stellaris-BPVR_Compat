@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 10, "district_sex_city_prostitute"]
 # sources:
 #   path: bpvr_compat/common/districts/CG_SUC_districts_replace_2748029219.txt

@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 1, "district_azur_ringworld_city_bc"]
 # sources:
 #   path: bpvr_compat/common/districts/azurlane_ringworld_bc_districts_replace_1617872589.txt

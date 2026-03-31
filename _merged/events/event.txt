@@ -1,0 +1,196 @@
+# record_type: object
+# path: events/����_all_merged_common_items_replace.txt
+# supported_version: 
+# upstream_status: up-to-date
+# sort_key: [1, 1, "event"]
+# sources:
+#   path: acot/events/acot_alpha_matter_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_dark_matter_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_diplo_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_panda_fix.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_precursor_databank_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_start_up_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_the_shadow_events .txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_war_in_hell_events.txt
+#   supported_version: 4.3.*
+#
+#   path: pd_arcologies/events/!vanilla_ow_situation_events.txt
+#   supported_version: 4.3.*
+#
+#   path: pd_arcologies/events/pd_ma_engine.txt
+#   supported_version: 4.3.*
+#
+#   path: vanilla/events/an4_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/ancient_relics_arcsite_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/apocalypse_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/assimilation_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/astral_planes_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/central_crystal_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/clone_army_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/colony_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/cosmic_storms_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/crime_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/crisis_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/crisis_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/crisis_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/crisis_trigger_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/distant_stars_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/federations_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/first_contact_dlc_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/galactic_community_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/galactic_features_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/game_start.txt
+#   supported_version:
+#
+#   path: vanilla/events/grand_archive_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/gray_goo_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/horizonsignal_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/leviathans_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/leviathans_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/machine_age_crisis_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/machine_age_crisis_menace_objective_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/machine_age_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/megastructure_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/nemesis_crisis_menace_objective_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/nemesis_custodian_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/on_action_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/on_action_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_broken_shackles.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_machine_age.txt
+#   supported_version:
+#
+#   path: vanilla/events/overlord_enclaves_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/paragon_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/pirate_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/pre_ftl_awareness_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/situation_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/timeline_events.txt
+#   supported_version:
+
+event = {
+	id = clones.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_playable_country = {
+			limit = {
+				has_origin = origin_clone_army
+			}
+			# Create a backup leader, to remember what Portrait this Species had before we overwrite it.
+			create_saved_leader = {
+				creator = this
+				name = "Backup Portrait"
+				key = "clone_army_main_species_generic_portrait"
+				species = owner_main_species
+			}
+
+			owner_main_species = {
+				change_species_characteristics = {
+					portrait = prev.ruler
+					gender = prev.ruler
+					can_change_leader = yes
+				}
+			}
+		}
+	}
+}

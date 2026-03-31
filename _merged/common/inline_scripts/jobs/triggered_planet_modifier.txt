@@ -1,0 +1,162 @@
+# record_type: object
+# path: common/inline_scripts/jobs/pd_commercial_jobs_add_replace_pd_arcologies.txt
+# supported_version: 
+# upstream_status: up-to-date
+# sort_key: [1, 1, "triggered_planet_modifier"]
+# sources:
+#   path: pd_arcologies/common/inline_scripts/jobs/pd_commercial_jobs_add.txt
+#   supported_version: 4.3.*
+#
+#   path: vanilla/common/inline_scripts/jobs/archaeoengineers_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/astral_researchers_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/bath_attendant_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/biologists_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/chemist_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/clerks_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/early_habitat_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/enforcers_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/engineers_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/entertainers_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/ethic_job_modifiers.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/ethic_job_modifiers_memorialist.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/factory_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/farmers_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/foundry_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/habitat_miners_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/habitat_researchers_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/habitat_technicians_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/healthcare_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/industrial_districts_factory_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/industrial_districts_foundry_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/industrial_prison_districts_factory_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/industrial_prison_districts_foundry_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/job_enforcer.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/job_enforcer_additional_modifiers.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/job_telepath_additional_modifiers.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/job_telepath_common_output.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/miners_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/mortal_initiates_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/physicists_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/politician_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/politician_add_from_civic.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/priests_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/refiner_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/researchers_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/roboticist_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/soldiers_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/spawning_drone_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/technicians_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/telepaths_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/thermotechnic_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/trader_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/translucer_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/unity_jobs_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/wranglers_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/zone_clerks_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/zone_researchers_add.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/jobs/zone_unity_jobs_add.txt
+#   supported_version:
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+	}
+	job_entertainer_add = $AMOUNT$
+}

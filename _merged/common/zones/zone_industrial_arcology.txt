@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [0, 1, "zone_industrial_arcology"]
 # sources:
 #   path: pd_arcologies/common/zones/04_secondary_zones.txt

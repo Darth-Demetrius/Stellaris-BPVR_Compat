@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 1, "district_macripp_housing"]
 # sources:
 #   path: bpvr_compat/common/districts/aot_phanon_macripp_districts_replace_2178603631.txt

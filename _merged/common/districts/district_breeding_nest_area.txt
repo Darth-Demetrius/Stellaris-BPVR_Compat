@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 2, "district_breeding_nest_area"]
 # sources:
 #   path: bpvr_compat/common/districts/CG_TEN_districts_replace_2748029219.txt

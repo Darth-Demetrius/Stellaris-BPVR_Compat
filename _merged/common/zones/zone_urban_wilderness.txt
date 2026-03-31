@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [0, 1, "zone_urban_wilderness"]
 # sources:
 #   path: bpvr_base/common/zones/03_wilderness_zones_replace_Stellaris.txt

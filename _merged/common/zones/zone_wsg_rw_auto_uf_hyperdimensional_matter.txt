@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 9, "zone_wsg_rw_auto_uf_hyperdimensional_matter"]
 # sources:
 #   path: bpvr_compat/common/zones/wsg_uf_automatic_zones_replace_1747099270.txt

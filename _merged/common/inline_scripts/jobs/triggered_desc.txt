@@ -1,0 +1,19 @@
+# record_type: object
+# path: common/inline_scripts/jobs/pd_commercial_jobs_add_replace_pd_arcologies.txt
+# supported_version: 
+# upstream_status: up-to-date
+# sort_key: [1, 4, "triggered_desc"]
+# sources:
+#   path: pd_arcologies/common/inline_scripts/jobs/pd_commercial_jobs_add.txt
+#   supported_version: 4.3.*
+#
+#   path: vanilla/common/inline_scripts/jobs/thermotechnic_add.txt
+#   supported_version:
+
+triggered_desc = {
+	trigger = {
+		exists = owner
+		owner = { is_gestalt = yes }
+	}
+	text = job_polytechnic_drone_effect
+}

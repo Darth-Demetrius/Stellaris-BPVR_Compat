@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 2, "district_ag_ancient_rw_hive"]
 # sources:
 #   path: bpvr_compat/common/districts/ag_ancient_ringworld_districts_replace_2389589691.txt

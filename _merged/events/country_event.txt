@@ -1,0 +1,569 @@
+# record_type: object
+# path: events/����_all_merged_common_items_replace.txt
+# supported_version: 
+# upstream_status: up-to-date
+# sort_key: [1, 1, "country_event"]
+# sources:
+#   path: acot/events/acot_ai_helper_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_alpha_matter_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_army_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_curator_overwrite_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_dark_matter_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_digsites_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_diplo_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_exterminatus_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_fallen_empire_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_fallen_empire_overwrite_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_fauna_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_final_sparks_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_galactic_features_overwrite_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_herculean_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_machine_age_cetana_overwrite_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_mega_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_options_arsenal_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_options_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_origin_overwrites_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_panda_fix.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_planets_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_pmc_mercenary_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_precursor_databank_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_ship_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_special_lumiya_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_special_menu_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_start_up_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_start_up_origins_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_stellarite_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_tech_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_test_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_the_shadow_events .txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/acot_war_in_hell_events.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/zz_acot_aot_placeholder_event.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/zz_acot_sbtg_gate_placeholder_event.txt
+#   supported_version: 4.3.*
+#
+#   path: acot/events/zz_acot_sbtg_placeholder_event.txt
+#   supported_version: 4.3.*
+#
+#   path: pd_arcologies/events/pd_ma_engine.txt
+#   supported_version: 4.3.*
+#
+#   path: vanilla/events/achievement_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/advisor_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/an4_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/ancient_relics_archaeotech_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/ancient_relics_arcsite_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/ancient_relics_arcsite_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/anomaly_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/anomaly_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/anomaly_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/anomaly_events_4.txt
+#   supported_version:
+#
+#   path: vanilla/events/apocalypse_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/aquatics_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/arcsite_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/astral_planes_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/astral_planes_situation_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/astral_rifts_0_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/astral_rifts_1_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/astral_rifts_2_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/astral_rifts_3_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/biogenesis_crisis_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/biogenesis_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/biogenesis_origin_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/central_crystal_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/clone_army_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/colony_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/colony_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/colony_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/communications_spread.txt
+#   supported_version:
+#
+#   path: vanilla/events/cosmic_storms_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/cosmic_storms_tutorial_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/country_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/country_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/crime_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/crisis_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/crisis_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/crisis_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/diplomatic_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/diplomatic_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/distant_stars_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/distant_stars_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/envoy_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/extreme_frontiers_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/faction_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/failures.txt
+#   supported_version:
+#
+#   path: vanilla/events/fallen_empire_awakening_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/fallen_empire_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/fallen_empire_tasks_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/fallen_machine_empire_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/federations_election_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/federations_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/federations_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/federations_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/federations_vote_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/first_contact_NPC_country_types_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/first_contact_dlc_espionage_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/first_contact_dlc_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/first_contact_dlc_operations_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/first_contact_dlc_situation_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/first_contact_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/focus_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/galactic_community_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/galactic_features_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/game_start.txt
+#   supported_version:
+#
+#   path: vanilla/events/grand_archive_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/gray_goo_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/horizonsignal_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/infernals_1_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/infernals_crisis_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/leader_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/leader_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/leviathans_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/leviathans_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/machine_age_crisis_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/machine_age_crisis_menace_objective_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/machine_age_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/machine_age_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/machine_age_situation_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/machine_age_situation_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/megacorp_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/megastructure_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/megastructure_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/necroids_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/necroids_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/nemesis_crisis_endgame.txt
+#   supported_version:
+#
+#   path: vanilla/events/nemesis_crisis_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/nemesis_crisis_menace_objective_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/nemesis_custodian_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/nemesis_emperor_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/nemesis_espionage_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/nemesis_operations_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/nemesis_operations_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/nomad_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/observation_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/on_action_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/on_action_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/on_action_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_1.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_4.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_5.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_astral_planes.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_broken_shackles.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_cosmic_storms.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_grand_archive.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_machine_age.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_paragon.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_shadows_shroud.txt
+#   supported_version:
+#
+#   path: vanilla/events/origin_events_wilderness.txt
+#   supported_version:
+#
+#   path: vanilla/events/overlord_enclaves_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/overlord_specialist_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/paragon_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/paragon_events_2.txt
+#   supported_version:
+#
+#   path: vanilla/events/paragon_events_3.txt
+#   supported_version:
+#
+#   path: vanilla/events/paragon_events_4.txt
+#   supported_version:
+#
+#   path: vanilla/events/pirate_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/planet_destruction_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/plantoid_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/pre_ftl_awareness_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/precursor_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/precursor_events_cosmic_storms.txt
+#   supported_version:
+#
+#   path: vanilla/events/progress_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/shroud_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/shroud_forged_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/shroud_situation_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/situation_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/story_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/strange_worlds_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/strange_worlds_observation_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/strange_worlds_terraforming_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/synthetic_dawn_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/terraforming_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/timeline_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/toxoids_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/tutorial_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/unique_system_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/unplugged_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/unrest_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/utopia_on_action_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/utopia_shroud_events.txt
+#   supported_version:
+#
+#   path: vanilla/events/war_in_heaven_events.txt
+#   supported_version:
+
+# Tutorial: Cosmic Storm Manipulation | via on_tech_increased
+country_event = {
+	id = cstorms_tutorial.1
+	title = cstorms_tutorial.1.name
+	desc = cstorms_tutorial.1.desc
+	is_advisor_event = yes
+	is_triggered_only = yes
+
+	pre_triggers = {
+		is_ai = no
+	}
+
+	trigger = {
+		has_cosmic_storms_dlc = yes
+		is_tutorial_level = 2
+		NOT = {
+			has_country_flag = storm_tech_influence_tutorial
+		}
+		has_technology = tech_storm_manipulation
+	}
+
+	immediate = {
+		set_country_flag = storm_tech_influence_tutorial
+	}
+
+	option = {
+		name = cstorms_tutorial.a
+	}
+}

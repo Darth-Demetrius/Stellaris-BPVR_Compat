@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 1, "zone_rw_sh_alloys"]
 # sources:
 #   path: bpvr_compat/common/zones/wsg_rw_sh_planet_zones_replace_1747099270.txt

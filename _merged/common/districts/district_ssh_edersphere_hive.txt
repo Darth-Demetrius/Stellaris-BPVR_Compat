@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 2, "district_ssh_edersphere_hive"]
 # sources:
 #   path: bpvr_compat/common/districts/01_edersphere_districts_replace_3022132203.txt

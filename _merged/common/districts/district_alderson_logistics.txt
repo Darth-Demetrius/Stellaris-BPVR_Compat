@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt
+# supported_version: 4.2.4
+# upstream_status: up-to-date
 # sort_key: [1, 1, "district_alderson_logistics"]
 # sources:
 #   path: bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt
@@ -55,6 +55,24 @@ district_alderson_logistics = {
 
 	planet_modifier = {
 		planet_housing_add = 2500
-		job_enforcer_add = @base_district_jobs
 	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_gestalt = no
+            }
+        }
+        job_enforcer_add = @base_district_jobs
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_gestalt = yes
+            }
+        }
+        job_patrol_drone_add = @base_district_jobs
+    }
 }

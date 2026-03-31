@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/����_all_merged_common_items_replace.txt
 # supported_version: 4.3.*
-# upstream_status: new-upstream
+# upstream_status: up-to-date
 # sort_key: [0, 1, "district_craglands"]
 # sources:
 #   path: bpvr_base/common/districts/05_wilderness_districts_replace.txt
@@ -25,7 +25,7 @@
 # City (blue)
 district_craglands = {
 	base_buildtime = @wilderness_district_build_long
-    is_capped_by_modifier = no
+	is_capped_by_modifier = no
 	overlay_icon = GFX_district_government
 
 	show_on_uncolonized = {
@@ -56,17 +56,17 @@ district_craglands = {
 		district_hive
 		district_city
 		district_mindlink
-        # AG Mod Integration
-        district_ag_shell_world_housing
-        district_ag_ancient_city_housing
-        district_ag_ancient_city_wilderness
-        district_ag_hive
-        district_ag_ancient_hive_wilderness
-        district_ag_nexus
+		# AG Mod Integration
+		district_ag_shell_world_housing
+		district_ag_ancient_city_housing
+		district_ag_ancient_city_wilderness
+		district_ag_hive
+		district_ag_ancient_hive_wilderness
+		district_ag_nexus
 	}
 
 	# EPM Mod Integration
-    resources = {
+	resources = {
 		category = planet_districts_cities
 		cost = {
 			biomass = @biomass_cost

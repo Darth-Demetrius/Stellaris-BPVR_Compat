@@ -1,7 +1,7 @@
 # record_type: object
-# path:
+# path: 
 # supported_version: 4.3.*
-# upstream_status: new-upstream
+# upstream_status: up-to-date
 # sort_key: [1, 2, "district_acot_fractured_ae_shelter"]
 # sources:
 #   path: acot/common/districts/acot_districts.txt
@@ -12,3 +12,5 @@
 #
 #   path: bpvr_fix/common/districts/acot_districts_replace_1419304439.txt
 #   supported_version: 4.2.4
+
+

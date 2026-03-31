@@ -1,0 +1,49 @@
+# record_type: object
+# path: common/inline_scripts/districts/BPV_district_slots2_replace_bpvr_base.txt
+# supported_version: 
+# upstream_status: up-to-date
+# sort_key: [1, 2, "inline_script"]
+# sources:
+#   path: bpvr_base/common/inline_scripts/districts/BPV_district_slots2.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_base/common/inline_scripts/districts/BPV_district_slots4.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_base/common/inline_scripts/districts/BPV_district_slots6.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_base/common/inline_scripts/districts/BPV_district_slots8.txt
+#   supported_version: 4.*
+#
+#   path: vanilla/common/inline_scripts/districts/ai_urban_district_extra_weighting.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/districts/district_triggered_flavor_desc_farming.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/districts/district_triggered_flavor_desc_generator.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/districts/district_triggered_flavor_desc_mining.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/districts/district_triggered_flavor_desc_urban.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/districts/district_triggered_name_farming.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/districts/district_triggered_name_generator.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/districts/district_triggered_name_mining.txt
+#   supported_version:
+#
+#   path: vanilla/common/inline_scripts/districts/district_triggered_name_urban.txt
+#   supported_version:
+
+inline_script = {
+	script = districts/ai_consumer_goods_extra_weighting
+	AMOUNT = 10
+}

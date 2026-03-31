@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [0, 19, "district_srw_commercial"]
 # sources:
 #   path: pd_arcologies/common/districts/00_urban_districts.txt

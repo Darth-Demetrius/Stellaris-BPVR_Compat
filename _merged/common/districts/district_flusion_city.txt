@@ -1,7 +1,7 @@
 # record_type: object
-# path:
-# supported_version:
-# upstream_status: new-upstream
+# path: 
+# supported_version: 
+# upstream_status: up-to-date
 # sort_key: [1, 1, "district_flusion_city"]
 # sources:
 #   path: bpvr_compat/common/districts/giga_flusion_arcology_replace_1121692237.txt
