@@ -21,6 +21,8 @@
 #   path: vanilla/common/districts/00_urban_districts.txt
 #   supported_version:
 
+@city_cost = 500
+
 district_prison_industrial = {
 	base_buildtime = 480
 

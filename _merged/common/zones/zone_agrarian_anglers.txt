@@ -1,5 +1,5 @@
 # record_type: object
-# path: common/zones/ethic_rebuild_zones_replace_1100284147_fix.txt
+# path: common/zones/ethic_rebuild_zones_replace_1100284147_update.txt
 # supported_version: 4.3.*
 # sort_key: [0, 37, "zone_agrarian_anglers"]
 # sources:
