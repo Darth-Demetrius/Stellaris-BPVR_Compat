@@ -1,8 +1,7 @@
 {
   "summary": {
     "total": 90,
-    "stale": 24,
-    "up-to-date": 66
+    "up-to-date": 90
   },
   "items": [
     {
@@ -131,7 +130,7 @@
       "name": "district_arcology_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_arcology_housing.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/01_arcology_districts_replace.txt",
@@ -201,7 +200,7 @@
       "name": "district_arcology_leisure",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_arcology_leisure.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/01_arcology_districts_replace.txt",
@@ -431,7 +430,7 @@
       "name": "district_city",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_city.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -501,7 +500,7 @@
       "name": "district_craglands",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_craglands.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/05_wilderness_districts_replace.txt",
@@ -701,7 +700,7 @@
       "name": "district_hive",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_hive.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -801,7 +800,7 @@
       "name": "district_nexus",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_nexus.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -1371,7 +1370,7 @@
       "name": "zone_acot_ae_energy",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_energy.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1401,7 +1400,7 @@
       "name": "zone_acot_ae_factory",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_factory.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1431,7 +1430,7 @@
       "name": "zone_acot_ae_food",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_food.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1461,7 +1460,7 @@
       "name": "zone_acot_ae_fortress",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_fortress.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1491,7 +1490,7 @@
       "name": "zone_acot_ae_foundry",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_foundry.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1521,7 +1520,7 @@
       "name": "zone_acot_ae_industry",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_industry.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1551,7 +1550,7 @@
       "name": "zone_acot_ae_minerals",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_minerals.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1581,7 +1580,7 @@
       "name": "zone_acot_ae_research",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_research.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1611,7 +1610,7 @@
       "name": "zone_acot_ae_trade",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_trade.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1671,7 +1670,7 @@
       "name": "zone_acot_dm_energy",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_energy.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1701,7 +1700,7 @@
       "name": "zone_acot_dm_factory",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_factory.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1731,7 +1730,7 @@
       "name": "zone_acot_dm_food",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_food.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1761,7 +1760,7 @@
       "name": "zone_acot_dm_fortress",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_fortress.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1791,7 +1790,7 @@
       "name": "zone_acot_dm_foundry",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_foundry.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1821,7 +1820,7 @@
       "name": "zone_acot_dm_industry",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_industry.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1851,7 +1850,7 @@
       "name": "zone_acot_dm_minerals",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_minerals.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1881,7 +1880,7 @@
       "name": "zone_acot_dm_research",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_research.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1911,7 +1910,7 @@
       "name": "zone_acot_dm_trade",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_trade.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
