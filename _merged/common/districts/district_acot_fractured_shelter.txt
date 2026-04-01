@@ -1,7 +1,6 @@
 # record_type: object
 # path: 
 # supported_version: 4.3.*
-# upstream_status: up-to-date
 # sort_key: [1, 1, "district_acot_fractured_shelter"]
 # sources:
 #   path: acot/common/districts/acot_districts.txt

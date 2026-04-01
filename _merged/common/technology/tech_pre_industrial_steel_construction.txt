@@ -1,7 +1,6 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
 # sort_key: [1, 2, "tech_pre_industrial_steel_construction"]
 # sources:
 #   path: bpvr_compat/common/technology/000_dummy_technology.txt

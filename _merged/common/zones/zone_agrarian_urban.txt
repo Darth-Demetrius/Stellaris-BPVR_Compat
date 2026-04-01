@@ -1,7 +1,6 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
 # sort_key: [0, 36, "zone_agrarian_urban"]
 # sources:
 #   path: bpvr_base/common/zones/00_zones_replace_Stellaris.txt

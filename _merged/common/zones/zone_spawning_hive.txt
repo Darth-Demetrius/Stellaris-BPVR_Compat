@@ -1,7 +1,6 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
 # sort_key: [0, 62, "zone_spawning_hive"]
 # sources:
 #   path: pd_arcologies/common/zones/04_secondary_zones.txt

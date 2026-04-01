@@ -1,7 +1,6 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: up-to-date
 # sort_key: [1, 11, "zone_acot_dm_fortress"]
 # sources:
 #   path: acot/common/zones/acot_vanilla_zones.txt

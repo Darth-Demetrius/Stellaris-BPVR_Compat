@@ -1,7 +1,6 @@
 # record_type: object
 # path: common/districts/����_all_merged_common_items_replace.txt
 # supported_version: 4.3.*
-# upstream_status: up-to-date
 # sort_key: [0, 1, "district_hab_housing"]
 # sources:
 #   path: bpvr_base/common/districts/03_habitat_districts_replace.txt
