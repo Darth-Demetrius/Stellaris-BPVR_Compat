@@ -1,10 +1,9 @@
 # record_type: object
 # path: common/districts/pd_arcology_districts_replace_1732447147.txt
 # supported_version: 4.3.*
-# upstream_status: new-upstream
 # sort_key: [2, 1, "district_pd_commercial_arcology_housing"]
 # sources:
-#   path: my_patch/common/districts/district_pd_arcologies_housing.txt
+#   path: my_mod/common/districts/district_pd_arcologies_housing.txt
 #   supported_version: *
 #
 #   path: pd_arcologies/common/districts/pd_arcology_districts.txt

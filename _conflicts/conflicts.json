@@ -1,7 +1,8 @@
 {
   "summary": {
-    "total": 90,
-    "up-to-date": 90
+    "total": 93,
+    "new-upstream": 14,
+    "up-to-date": 79
   },
   "items": [
     {
@@ -861,6 +862,96 @@
           ],
           "hash": "29edffb56ac97bed882d75ba084045388f49281fa2c8cb9eaf4ff01570179ca9",
           "supported_version": ""
+        }
+      ]
+    },
+    {
+      "record_type": "object",
+      "source_path": "common/districts",
+      "name": "district_pd_commercial_arcology_housing",
+      "path": "common/districts/����_all_merged_common_items_replace.txt",
+      "merged_file": "_merged/common/districts/district_pd_commercial_arcology_housing.txt",
+      "status": "new-upstream",
+      "sources": [
+        {
+          "path": "my_mod/common/districts/district_pd_arcologies_housing.txt",
+          "sort_key": [
+            2,
+            1,
+            "district_pd_commercial_arcology_housing"
+          ],
+          "hash": "ed8b8a5832cdd5ee04e30d83727d748f0e99131ac966adcb566fa8b4818785ed",
+          "supported_version": "*"
+        },
+        {
+          "path": "pd_arcologies/common/districts/pd_arcology_districts.txt",
+          "sort_key": [
+            2,
+            9,
+            "district_pd_commercial_arcology_housing"
+          ],
+          "hash": "252593234add47a1aa7c8dc2d3a9b370d712d443552aff65f897c1c01c4d9231",
+          "supported_version": "4.3.*"
+        }
+      ]
+    },
+    {
+      "record_type": "object",
+      "source_path": "common/districts",
+      "name": "district_pd_fortress_arcology_housing",
+      "path": "common/districts/����_all_merged_common_items_replace.txt",
+      "merged_file": "_merged/common/districts/district_pd_fortress_arcology_housing.txt",
+      "status": "new-upstream",
+      "sources": [
+        {
+          "path": "my_mod/common/districts/district_pd_arcologies_housing.txt",
+          "sort_key": [
+            2,
+            2,
+            "district_pd_fortress_arcology_housing"
+          ],
+          "hash": "f906cff93af21c4ad21dc3788ae81a5aa25a4fd8d8f143af98acfda2ceffdced",
+          "supported_version": "*"
+        },
+        {
+          "path": "pd_arcologies/common/districts/pd_arcology_districts.txt",
+          "sort_key": [
+            2,
+            5,
+            "district_pd_fortress_arcology_housing"
+          ],
+          "hash": "f8fb2195d6833ad953c8cd65f5e37eeb011d4f0aa71b7241527f4237a26f6ca7",
+          "supported_version": "4.3.*"
+        }
+      ]
+    },
+    {
+      "record_type": "object",
+      "source_path": "common/districts",
+      "name": "district_pd_garden_arcology_housing",
+      "path": "common/districts/����_all_merged_common_items_replace.txt",
+      "merged_file": "_merged/common/districts/district_pd_garden_arcology_housing.txt",
+      "status": "new-upstream",
+      "sources": [
+        {
+          "path": "my_mod/common/districts/district_pd_arcologies_housing.txt",
+          "sort_key": [
+            2,
+            3,
+            "district_pd_garden_arcology_housing"
+          ],
+          "hash": "e57507c3e2f1c53c806bb8d1e913d282d108e9425b9386f5c9c272105ffa4dce",
+          "supported_version": "*"
+        },
+        {
+          "path": "pd_arcologies/common/districts/pd_arcology_districts.txt",
+          "sort_key": [
+            2,
+            1,
+            "district_pd_garden_arcology_housing"
+          ],
+          "hash": "0d7034604132671ad2617967806b868310edf5edce15e92a6f556632aad63b23",
+          "supported_version": "4.3.*"
         }
       ]
     },
@@ -2768,10 +2859,20 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_factory_arcology",
-      "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
+      "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_factory_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
+        {
+          "path": "my_mod/common/zones/zones_pd_arcologies.txt",
+          "sort_key": [
+            2,
+            1,
+            "zone_factory_arcology"
+          ],
+          "hash": "17737601aedc291698c2cab11d10a47eaa6baf8eaf24095b5d77d6cfdc4ca05c",
+          "supported_version": "*"
+        },
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
           "sort_key": [
@@ -2798,10 +2899,20 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_fortress_arcology",
-      "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
+      "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_fortress_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
+        {
+          "path": "my_mod/common/zones/zones_pd_arcologies.txt",
+          "sort_key": [
+            2,
+            2,
+            "zone_fortress_arcology"
+          ],
+          "hash": "209b3b80e7d88a0736274f29a3b52317d5176e589c4056ba0302c746a6dc5872",
+          "supported_version": "*"
+        },
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
           "sort_key": [
@@ -2828,10 +2939,20 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_foundry_arcology",
-      "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
+      "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_foundry_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
+        {
+          "path": "my_mod/common/zones/zones_pd_arcologies.txt",
+          "sort_key": [
+            2,
+            3,
+            "zone_foundry_arcology"
+          ],
+          "hash": "5992a1e356c241a601f00beb8407bbbd33fc82ad8fd7139dd6c0c98dbaef7e28",
+          "supported_version": "*"
+        },
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
           "sort_key": [
@@ -3008,10 +3129,20 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_research_arcology",
-      "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
+      "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_research_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
+        {
+          "path": "my_mod/common/zones/zones_pd_arcologies.txt",
+          "sort_key": [
+            2,
+            4,
+            "zone_research_arcology"
+          ],
+          "hash": "9e03b726b700b83a53db0138b4eb4e5fd1295471a01c5ebb6ca86456b3cdb58b",
+          "supported_version": "*"
+        },
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
           "sort_key": [
@@ -3038,10 +3169,20 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_research_engineering_arcology",
-      "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
+      "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_research_engineering_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
+        {
+          "path": "my_mod/common/zones/zones_pd_arcologies.txt",
+          "sort_key": [
+            2,
+            5,
+            "zone_research_engineering_arcology"
+          ],
+          "hash": "c1a84eef37e598d7ad4d92241e8a8a1d24ec552dc4b47a9d84c5e9e0e76fd58b",
+          "supported_version": "*"
+        },
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
           "sort_key": [
@@ -3068,10 +3209,20 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_research_physics_arcology",
-      "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
+      "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_research_physics_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
+        {
+          "path": "my_mod/common/zones/zones_pd_arcologies.txt",
+          "sort_key": [
+            2,
+            6,
+            "zone_research_physics_arcology"
+          ],
+          "hash": "8852da455e0569ad240ee1cfe75e65dc086e527e2f4bb7c5815cc04ef7ca0f8a",
+          "supported_version": "*"
+        },
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
           "sort_key": [
@@ -3098,10 +3249,20 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_research_society_arcology",
-      "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
+      "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_research_society_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
+        {
+          "path": "my_mod/common/zones/zones_pd_arcologies.txt",
+          "sort_key": [
+            2,
+            7,
+            "zone_research_society_arcology"
+          ],
+          "hash": "b67eba743ec9f40f6694c4845dc0bc80edb6941e4ea1e5c51c8898fbedebfd62",
+          "supported_version": "*"
+        },
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
           "sort_key": [
@@ -3208,10 +3369,20 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_trade_arcology",
-      "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
+      "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_trade_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
+        {
+          "path": "my_mod/common/zones/zones_pd_arcologies.txt",
+          "sort_key": [
+            2,
+            8,
+            "zone_trade_arcology"
+          ],
+          "hash": "386835e82548d4ee37f744c37c1752b8d3d4c41c0ef1b6cb31ab930756d57047",
+          "supported_version": "*"
+        },
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
           "sort_key": [
@@ -3238,10 +3409,20 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_unity_arcology",
-      "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
+      "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_unity_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
+        {
+          "path": "my_mod/common/zones/zones_pd_arcologies.txt",
+          "sort_key": [
+            2,
+            9,
+            "zone_unity_arcology"
+          ],
+          "hash": "7e38c776ca5f9c95f541855214b00280ed5da3a1be951eacfb3bd56edca0dc17",
+          "supported_version": "*"
+        },
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
           "sort_key": [
@@ -3268,10 +3449,20 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_unity_bio_trophy_arcology",
-      "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
+      "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_unity_bio_trophy_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
+        {
+          "path": "my_mod/common/zones/zones_pd_arcologies.txt",
+          "sort_key": [
+            2,
+            10,
+            "zone_unity_bio_trophy_arcology"
+          ],
+          "hash": "81fdeca2a64e57908f0ae2992ea008ad68e1cde41ffcceafbc85351967a09f53",
+          "supported_version": "*"
+        },
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
           "sort_key": [
@@ -3298,10 +3489,20 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_unity_spiritualist_arcology",
-      "path": "common/zones/04_secondary_zones_replace_pd_arcologies.txt",
+      "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_unity_spiritualist_arcology.txt",
-      "status": "up-to-date",
+      "status": "new-upstream",
       "sources": [
+        {
+          "path": "my_mod/common/zones/zones_pd_arcologies.txt",
+          "sort_key": [
+            2,
+            11,
+            "zone_unity_spiritualist_arcology"
+          ],
+          "hash": "95ee76b2fe79a74873a735769835d5154f436abba44154584326576bd1013643",
+          "supported_version": "*"
+        },
         {
           "path": "pd_arcologies/common/zones/04_secondary_zones.txt",
           "sort_key": [
