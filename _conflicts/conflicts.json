@@ -1,8 +1,7 @@
 {
   "summary": {
     "total": 93,
-    "new-upstream": 14,
-    "up-to-date": 79
+    "up-to-date": 93
   },
   "items": [
     {
@@ -871,7 +870,7 @@
       "name": "district_pd_commercial_arcology_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_pd_commercial_arcology_housing.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/districts/district_pd_arcologies_housing.txt",
@@ -901,7 +900,7 @@
       "name": "district_pd_fortress_arcology_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_pd_fortress_arcology_housing.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/districts/district_pd_arcologies_housing.txt",
@@ -931,7 +930,7 @@
       "name": "district_pd_garden_arcology_housing",
       "path": "common/districts/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/districts/district_pd_garden_arcology_housing.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/districts/district_pd_arcologies_housing.txt",
@@ -940,7 +939,7 @@
             3,
             "district_pd_garden_arcology_housing"
           ],
-          "hash": "e57507c3e2f1c53c806bb8d1e913d282d108e9425b9386f5c9c272105ffa4dce",
+          "hash": "e8565032f15c7d47a48684ea5940843b82e5493d194d3b1176ab8f4be003f965",
           "supported_version": "*"
         },
         {
@@ -2861,7 +2860,7 @@
       "name": "zone_factory_arcology",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_factory_arcology.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/zones/zones_pd_arcologies.txt",
@@ -2901,7 +2900,7 @@
       "name": "zone_fortress_arcology",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_fortress_arcology.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/zones/zones_pd_arcologies.txt",
@@ -2941,7 +2940,7 @@
       "name": "zone_foundry_arcology",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_foundry_arcology.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/zones/zones_pd_arcologies.txt",
@@ -3131,7 +3130,7 @@
       "name": "zone_research_arcology",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_research_arcology.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/zones/zones_pd_arcologies.txt",
@@ -3171,7 +3170,7 @@
       "name": "zone_research_engineering_arcology",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_research_engineering_arcology.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/zones/zones_pd_arcologies.txt",
@@ -3211,7 +3210,7 @@
       "name": "zone_research_physics_arcology",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_research_physics_arcology.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/zones/zones_pd_arcologies.txt",
@@ -3251,7 +3250,7 @@
       "name": "zone_research_society_arcology",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_research_society_arcology.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/zones/zones_pd_arcologies.txt",
@@ -3371,7 +3370,7 @@
       "name": "zone_trade_arcology",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_trade_arcology.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/zones/zones_pd_arcologies.txt",
@@ -3411,7 +3410,7 @@
       "name": "zone_unity_arcology",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_unity_arcology.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/zones/zones_pd_arcologies.txt",
@@ -3451,7 +3450,7 @@
       "name": "zone_unity_bio_trophy_arcology",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_unity_bio_trophy_arcology.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/zones/zones_pd_arcologies.txt",
@@ -3491,7 +3490,7 @@
       "name": "zone_unity_spiritualist_arcology",
       "path": "common/zones/����_all_merged_common_items_replace.txt",
       "merged_file": "_merged/common/zones/zone_unity_spiritualist_arcology.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "my_mod/common/zones/zones_pd_arcologies.txt",

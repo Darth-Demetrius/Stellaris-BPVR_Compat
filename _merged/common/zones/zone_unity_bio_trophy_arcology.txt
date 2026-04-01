@@ -1,6 +1,6 @@
 # record_type: object
-# path:
-# supported_version:
+# path: 
+# supported_version: 
 # sort_key: [0, 10, "zone_unity_bio_trophy_arcology"]
 # sources:
 #   path: my_mod/common/zones/zones_pd_arcologies.txt

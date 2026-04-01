@@ -16,8 +16,7 @@ district_pd_garden_arcology_housing = {
 	exempt_from_ai_planet_specialization = yes
 	overlay_icon = GFX_district_housing
 
-	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_pd_garden_arc_01 SLOT2 = slot_pd_garden_arc_02 SLOT3 = slot_pd_garden_arc_02 SLOT4 = slot_pd_garden_arc_02 SLOT5 = slot_pd_garden_arc_02 SLOT6 = slot_pd_garden_arc_02 SLOT7 = slot_pd_garden_arc_02 SLOT8 = slot_pd_garden_arc_01 SLOT9 = slot_pd_garden_arc_01 SLOT10 = slot_pd_garden_arc_01 }
-	# comment test
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_pd_garden_arc_01 SLOT2 = slot_pd_garden_arc_02 SLOT3 = slot_pd_garden_arc_02 SLOT4 = slot_pd_garden_arc_02 SLOT5 = slot_pd_garden_arc_02 SLOT6 = slot_pd_garden_arc_02 SLOT7 = slot_pd_garden_arc_02 SLOT8 = slot_pd_garden_arc_02 SLOT9 = slot_pd_garden_arc_02 SLOT10 = slot_pd_garden_arc_02 }
 
 	show_on_uncolonized = {
 		exists = from

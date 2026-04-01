@@ -1,5 +1,5 @@
 # record_type: object
-# path:
+# path: 
 # supported_version: 4.3.*
 # sort_key: [0, 8, "zone_unity_arcology"]
 # sources:

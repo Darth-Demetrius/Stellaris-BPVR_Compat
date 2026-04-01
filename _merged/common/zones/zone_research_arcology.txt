@@ -1,5 +1,5 @@
 # record_type: object
-# path:
+# path: 
 # supported_version: 4.3.*
 # sort_key: [0, 4, "zone_research_arcology"]
 # sources:

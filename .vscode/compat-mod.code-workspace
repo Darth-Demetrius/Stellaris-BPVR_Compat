@@ -23,9 +23,11 @@
       "CW113", // file not found
       "CW240", // wrong value type
       "CW242", // missing required property
+      "CW249", // missing variable, number, or value
       "CW262", // unexpected trigger
       "CW263", // unexpected effect
       "CW264", // missing inline_script
+      "CW274", // unexpected property
     ],
   }
 }
