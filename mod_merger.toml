@@ -19,6 +19,7 @@ bpvr_compat = "Imports/BPVR - Compatibility Patch"
 bpvr_compat_improved = "Extra Imports/BPVR - Compatibility Improved"
 bpvr_fix = "Extra Imports/BPVR Fixed"
 acot = "Extra Imports/Ancient Cache of Technologies"
+giga = "Extra Imports/Gigastructural"
 
 [[conflicts.rules]]
 any_from = ["vanilla"]
@@ -30,8 +31,11 @@ with_any = ["vanilla", "my_mod", "pd_arcologies", "bpvr_base", "bpvr_compat", "b
 
 [[conflicts.rules]]
 any_from = ["bpvr_compat"]
-with_any = ["acot"]
+with_any = ["acot", "giga"]
 
 [priority]
 vanilla = 1
 bpvr_compat = 0
+
+[ordering]
+sources = ["bpvr_compat", "vanilla"]
