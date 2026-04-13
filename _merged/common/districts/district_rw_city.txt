@@ -1,5 +1,5 @@
 # record_type: object
-# path: common/districts/����_all_merged_common_items_update.txt
+# path: common/districts/����_all_merged_common_items.txt
 # supported_version: 4.3.*
 # sort_key: [0, 72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748, "000000014:district_rw_city"]
 # sources:
@@ -232,24 +232,23 @@ district_rw_city = {
 	# EAC Mod Integration
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner															# Modded
-			owner = { has_active_tradition = tr_mercantile_trickle_up_economics }	# Modded
+			exists = owner
+			owner = { has_active_tradition = tr_mercantile_trickle_up_economics }
 		}
 		modifier = {
-			#job_clerk_add = 300	#Steam: These are here in vanilla but are probably a bug?
-			job_trader_add = 300														# Modded
+			job_clerk_add = 300
 		}
 	}
 
 	triggered_planet_modifier = {
 		potential = {
-			exists = owner															# Modded
+			exists = owner
 			owner = {
-				has_valid_civic = civic_peaceful_urbanism							# Modded
+				has_valid_civic = civic_peaceful_urbanism
 			}
 		}
 		modifier = {
-			planet_amenities_add = 500												# Modded
+			planet_amenities_add = 500
 		}
 	}
 
@@ -258,14 +257,13 @@ district_rw_city = {
 			exists = owner
 			owner = {
 				OR = {
-					has_valid_civic = civic_consumerism									# Modded
-					has_valid_civic = civic_consumerism_corporate						# Modded
+					has_valid_civic = civic_consumerism
+					has_valid_civic = civic_consumerism_corporate
 				}
 			}
 		}
 		modifier = {
-			#job_clerk_add = 100	#Steam: These are here in vanilla but are probably a bug?
-			job_trader_add = 100														# Modded
+			job_clerk_add = 100
 		}
 	}
 
@@ -273,11 +271,11 @@ district_rw_city = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_welfare_state								# Modded
+				has_valid_civic = civic_welfare_state
 			}
 		}
 		modifier = {
-			planet_housing_add = 500													# Modded
+			planet_housing_add = 500
 		}
 	}
 	#END EAC Mod Integration

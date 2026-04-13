@@ -1,5 +1,5 @@
 # record_type: object
-# path: common/districts/����_all_merged_common_items_update.txt
+# path: common/districts/����_all_merged_common_items.txt
 # supported_version: 4.3.*
 # sort_key: [0, 72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748, "000000013:district_hab_housing"]
 # sources:
