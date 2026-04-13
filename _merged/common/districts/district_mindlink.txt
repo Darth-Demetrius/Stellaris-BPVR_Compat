@@ -1,5 +1,5 @@
 # record_type: object
-# path: common/districts/00_special_districts_update.txt
+# path: common/districts/����_all_merged_common_items_update.txt
 # supported_version: 4.3.*
 # sort_key: [1, 212392433708493678843552485337956881347181368735448401039161696215829108837139790481904969490659444, "000000004:district_mindlink"]
 # sources:
