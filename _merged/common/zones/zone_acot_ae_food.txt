@@ -1,7 +1,7 @@
 # record_type: object
-# path: 
-# supported_version: 
-# sort_key: [1, 20, "zone_acot_ae_food"]
+# path: common/zones/acot_vanilla_zones_replace_1419304439_update.txt
+# supported_version: 4.3.*
+# sort_key: [0, 4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620, "000000020:zone_acot_ae_food"]
 # sources:
 #   path: acot/common/zones/acot_vanilla_zones.txt
 #   supported_version: 4.3.*
@@ -71,4 +71,6 @@ zone_acot_ae_food = {
 
 	swap_type = district_acot_swap_ae_food
 	swap_type_weight = 20
+
+	ai_weight_coefficient = 1.5
 }

@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/pd_arcology_districts_replace_1732447147.txt
 # supported_version: 4.3.*
-# sort_key: [2, 1, "district_pd_garden_arcology_housing"]
+# sort_key: [2, 54372463029374381783949436246516961624878833405815413726322157232113196100899181619234472078781741172, "000000001:district_pd_garden_arcology_housing"]
 # sources:
 #   path: my_mod/common/districts/district_pd_arcologies_housing.txt
 #   supported_version: *

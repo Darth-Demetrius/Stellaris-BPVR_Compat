@@ -1,13 +1,91 @@
-# record_type: object
-# path: common/zones/acot_special_zones_replace_1419304439_update.txt
-# supported_version: 4.3.*
-# sort_key: [0, 4307830337192102975000306077884414326601537530901812696343464298825459912855862855511758724104868522873213012708471872591462955124, "000000010:zone_acot_void_silo_01"]
-# sources:
-#   path: acot/common/zones/acot_special_zones.txt
-#   supported_version: 4.3.*
-#
-#   path: bpvr_compat/common/zones/acot_special_zones_replace_1419304439.txt
-#   supported_version: 4.*
+zone_acot_void_main_sub = {
+	icon = GFX_acot_zone_ae_urban
+	base_buildtime = 360
+	potential = { # planet scope
+		is_planet_class = pc_acot_enigmopolis
+	}
+
+	unlock = { # planet scope
+		hidden_trigger = {
+			exists = owner
+		}
+	}
+
+	convert_to = {
+
+	}
+
+	resources = {
+		category = planet_zones
+		cost = {
+			alloys = 100000
+			acot_sr_dark_energy = 50000
+			sr_dark_matter = 50000
+		}
+	}
+
+	triggered_district_planet_modifier = {
+		planet_housing_add = 2000
+	}
+
+	max_buildings = @BPV_ZONE_SLOT
+
+	zone_sets = {
+		acot_void_main_01
+		acot_void_main_02
+	}
+
+	include = {
+		all
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		job_acot_overlord_add = 100
+		job_acot_overseer_add = 200
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		job_acot_overlord_drone_add = 100
+		job_acot_overseer_drone_add = 200
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		job_acot_overlord_droid_add = 100
+		job_acot_overseer_droid_add = 200
+	}
+
+	excluded_building_sets = {
+		#generator
+		#mining
+		#farming
+		knights
+		betharian
+		generator_automation
+		mining_automation
+		farming_automation
+		#urban_automation_arcology
+	}
+
+
+	planet_modifier = {
+		zone_building_slots_add = 3
+	}
+
+	ai_priority = 2
+	ai_weight_coefficient = 0.5
+}
 
 zone_acot_void_silo_01 = {
 	icon = GFX_acot_zone_ae_industry

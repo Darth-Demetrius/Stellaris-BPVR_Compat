@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# sort_key: [1, 13, "zone_acot_void_stellarite"]
+# sort_key: [0, 4307830337192102975000306077884414326601537530901812696343464298825459912855862855511758724104868522873213012708471872591462955124, "000000013:zone_acot_void_stellarite"]
 # sources:
 #   path: acot/common/zones/acot_special_zones.txt
 #   supported_version: 4.3.*

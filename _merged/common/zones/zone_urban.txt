@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 4.3.*
-# sort_key: [0, 2, "zone_urban"]
+# sort_key: [1, 624165264954328780710712318460793327251605718230497414641780, "000000002:zone_urban"]
 # sources:
 #   path: bpvr_base/common/zones/00_zones_replace_Stellaris.txt
 #   supported_version: 4.*

@@ -1,13 +1,13 @@
 # record_type: object
 # path: common/districts/giga_alderson_replace_1121692237_update.txt
-# supported_version: 4.2.4
-# sort_key: [1, 1, "district_alderson_logistics"]
+# supported_version: 4.3.*
+# sort_key: [0, 16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436, "000000001:district_alderson_logistics"]
 # sources:
 #   path: bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt
 #   supported_version: 4.*
 #
 #   path: bpvr_compat_improved/common/districts/giga_alderson_replace_1121692237_fixed.txt
-#   supported_version: 4.2.4
+#   supported_version: 4.3.*
 #
 #   path: bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt
 #   supported_version: 4.2.4
@@ -73,5 +73,15 @@ district_alderson_logistics = {
 			}
 		}
 		job_patrol_drone_add = @base_district_jobs
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_tankbound_empire = yes }
+		}
+		modifier = {
+			job_production_overseer_add = 200
+		}
 	}
 }

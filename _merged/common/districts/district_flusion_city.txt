@@ -1,11 +1,13 @@
 # record_type: object
 # path: 
 # supported_version: 
-# upstream_status: new-upstream
-# sort_key: [1, 1, "district_flusion_city"]
+# sort_key: [0, 310411889621658768552527461260847628925907732532514390925011104853516965100886818217197767069695188202414307607767797455511964581914202265886161012, "000000001:district_flusion_city"]
 # sources:
 #   path: bpvr_compat/common/districts/giga_flusion_arcology_replace_1121692237.txt
 #   supported_version: 4.*
+#
+#   path: bpvr_compat_improved/common/districts/giga_flusion_arcology_replace_1121692237_fixed.txt
+#   supported_version: 4.3.*
 #
 #   path: bpvr_fix/common/districts/giga_flusion_arcology_replace_1121692237.txt
 #   supported_version: 4.2.4

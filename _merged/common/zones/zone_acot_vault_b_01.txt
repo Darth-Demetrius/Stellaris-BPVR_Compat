@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# sort_key: [1, 19, "zone_acot_vault_b_01"]
+# sort_key: [0, 4307830337192102975000306077884414326601537530901812696343464298825459912855862855511758724104868522873213012708471872591462955124, "000000019:zone_acot_vault_b_01"]
 # sources:
 #   path: acot/common/zones/acot_special_zones.txt
 #   supported_version: 4.3.*

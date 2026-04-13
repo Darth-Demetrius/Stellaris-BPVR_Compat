@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/����_all_merged_common_items_update.txt
 # supported_version: 4.3.*
-# sort_key: [0, 1, "district_rw_city"]
+# sort_key: [1, 13919350535519841736691055679108342175968878206554654965243649894637235408641485613213595739743369590900, "000000001:district_rw_city"]
 # sources:
 #   path: bpvr_base/common/districts/04_ringworld_districts_replace.txt
 #   supported_version: 4.*
@@ -10,7 +10,7 @@
 #   supported_version: 4.*
 #
 #   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
-#   supported_version: 4.2.4
+#   supported_version: 4.3.*
 #
 #   path: bpvr_fix/common/districts/����_all_merged_common_items.txt
 #   supported_version: 4.2.4
@@ -278,7 +278,6 @@ district_rw_city = {
 			planet_housing_add = 500													# Modded
 		}
 	}
-
 	#END EAC Mod Integration
 
 	triggered_planet_modifier = {

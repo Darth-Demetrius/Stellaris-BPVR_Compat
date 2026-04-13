@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# sort_key: [0, 1, "zone_habitat_knights"]
+# sort_key: [1, 11513816902311616523668061340723323368726071145002497515498275450753946525923444, "000000001:zone_habitat_knights"]
 # sources:
 #   path: bpvr_base/common/zones/01_habitat_zones_replace_Stellaris.txt
 #   supported_version: 4.*

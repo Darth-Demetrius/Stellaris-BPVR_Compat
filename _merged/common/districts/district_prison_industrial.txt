@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# sort_key: [0, 17, "district_prison_industrial"]
+# sort_key: [1, 3240851344428919660088386311919508077196981334464284292500963412688193190474666092120457377908, "000000017:district_prison_industrial"]
 # sources:
 #   path: bpvr_base/common/districts/00_urban_districts_replace.txt
 #   supported_version: 4.*
@@ -10,7 +10,7 @@
 #   supported_version: 4.*
 #
 #   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
-#   supported_version: 4.2.4
+#   supported_version: 4.3.*
 #
 #   path: bpvr_fix/common/districts/����_all_merged_common_items.txt
 #   supported_version: 4.2.4

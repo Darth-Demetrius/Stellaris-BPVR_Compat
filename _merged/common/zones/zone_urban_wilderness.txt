@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# sort_key: [0, 1, "zone_urban_wilderness"]
+# sort_key: [1, 193169793154532889726748177414564793143339592881422058525999523885706337252404511406196, "000000001:zone_urban_wilderness"]
 # sources:
 #   path: bpvr_base/common/zones/03_wilderness_zones_replace_Stellaris.txt
 #   supported_version: 4.*

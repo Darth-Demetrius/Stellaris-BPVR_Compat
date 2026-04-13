@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/zones/ethic_rebuild_zones_replace_1100284147_update.txt
 # supported_version: 4.3.*
-# sort_key: [0, 37, "zone_agrarian_anglers"]
+# sort_key: [1, 624165264954328780710712318460793327251605718230497414641780, "000000037:zone_agrarian_anglers"]
 # sources:
 #   path: bpvr_base/common/zones/00_zones_replace_Stellaris.txt
 #   supported_version: 4.*

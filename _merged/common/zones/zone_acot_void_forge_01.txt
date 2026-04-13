@@ -1,7 +1,7 @@
 # record_type: object
-# path: 
-# supported_version: 
-# sort_key: [1, 8, "zone_acot_void_forge_01"]
+# path: common/zones/acot_vanilla_zones_replace_1419304439_update.txt
+# supported_version: 4.3.*
+# sort_key: [0, 4307830337192102975000306077884414326601537530901812696343464298825459912855862855511758724104868522873213012708471872591462955124, "000000008:zone_acot_void_forge_01"]
 # sources:
 #   path: acot/common/zones/acot_special_zones.txt
 #   supported_version: 4.3.*
@@ -46,9 +46,7 @@ zone_acot_void_forge_01 = {
 				is_gestalt = no
 			}
 		}
-		modifier = {
-			job_acot_voidsphere_forgeman_add = 200
-		}
+		job_acot_voidsphere_forgeman_add = 200
 	}
 
 	triggered_district_planet_modifier = {
@@ -58,9 +56,7 @@ zone_acot_void_forge_01 = {
 				is_gestalt = yes
 			}
 		}
-		modifier = {
-			job_acot_voidsphere_forgedrone_add = 200
-		}
+		job_acot_voidsphere_forgedrone_add = 200
 	}
 
 	max_buildings = @BPV_ZONE_SLOT

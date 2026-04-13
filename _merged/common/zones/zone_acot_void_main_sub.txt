@@ -1,7 +1,7 @@
 # record_type: object
-# path: 
-# supported_version: 
-# sort_key: [1, 4, "zone_acot_void_main_sub"]
+# path: common/zones/acot_special_zones_replace_1419304439_update.txt
+# supported_version: 4.3.*
+# sort_key: [0, 4307830337192102975000306077884414326601537530901812696343464298825459912855862855511758724104868522873213012708471872591462955124, "000000004:zone_acot_void_main_sub"]
 # sources:
 #   path: acot/common/zones/acot_special_zones.txt
 #   supported_version: 4.3.*
@@ -55,10 +55,8 @@ zone_acot_void_main_sub = {
 			exists = owner
 			owner = { is_regular_empire = yes }
 		}
-		modifier = {
-			job_acot_overlord_add = 100
-			job_acot_overseer_add = 200
-		}
+		job_acot_overlord_add = 100
+		job_acot_overseer_add = 200
 	}
 
 	triggered_district_planet_modifier = {
@@ -66,10 +64,8 @@ zone_acot_void_main_sub = {
 			exists = owner
 			owner = { is_hive_empire = yes }
 		}
-		modifier = {
-			job_acot_overlord_drone_add = 100
-			job_acot_overseer_drone_add = 200
-		}
+		job_acot_overlord_drone_add = 100
+		job_acot_overseer_drone_add = 200
 	}
 
 	triggered_district_planet_modifier = {
@@ -77,10 +73,8 @@ zone_acot_void_main_sub = {
 			exists = owner
 			owner = { is_machine_empire = yes }
 		}
-		modifier = {
-			job_acot_overlord_droid_add = 100
-			job_acot_overseer_droid_add = 200
-		}
+		job_acot_overlord_droid_add = 100
+		job_acot_overseer_droid_add = 200
 	}
 
 	excluded_building_sets = {

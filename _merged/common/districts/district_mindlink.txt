@@ -1,10 +1,13 @@
 # record_type: object
 # path: common/districts/00_special_districts_update.txt
 # supported_version: 4.3.*
-# sort_key: [0, 4, "district_mindlink"]
+# sort_key: [1, 212392433708493678843552485337956881347181368735448401039161696215829108837139790481904969490659444, "000000004:district_mindlink"]
 # sources:
 #   path: bpvr_base/common/districts/00_special_districts_replace.txt
 #   supported_version: 4.*
+#
+#   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
+#   supported_version: 4.3.*
 #
 #   path: vanilla/common/districts/00_special_districts.txt
 #   supported_version:

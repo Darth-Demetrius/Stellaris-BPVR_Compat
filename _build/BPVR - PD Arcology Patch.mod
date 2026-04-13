@@ -1,3 +1,3 @@
 name="BPVR - PD Arcology Patch"
-version="0.1"
-supported_version="*"
+version="2.0"
+supported_version="4.3.*"

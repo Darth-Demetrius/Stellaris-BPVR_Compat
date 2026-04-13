@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 4.3.*
-# sort_key: [0, 8, "zone_unity_arcology"]
+# sort_key: [1, 754569504509894100495110068025643724677582367546146636144562361330074338657710667892, "000000008:zone_unity_arcology"]
 # sources:
 #   path: pd_arcologies/common/zones/04_secondary_zones.txt
 #   supported_version: 4.3.*

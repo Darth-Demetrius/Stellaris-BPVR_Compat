@@ -1,7 +1,7 @@
 # record_type: object
-# path: 
-# supported_version: 
-# sort_key: [1, 14, "zone_acot_ae_trade"]
+# path: common/zones/acot_vanilla_zones_replace_1419304439_update.txt
+# supported_version: 4.3.*
+# sort_key: [0, 4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620, "000000014:zone_acot_ae_trade"]
 # sources:
 #   path: acot/common/zones/acot_vanilla_zones.txt
 #   supported_version: 4.3.*
@@ -67,4 +67,6 @@ zone_acot_ae_trade = {
 	inline_script = {
 		script = zones/shared_city_non_urban_zone_modifiers
 	}
+
+	ai_weight_coefficient = 1.5
 }

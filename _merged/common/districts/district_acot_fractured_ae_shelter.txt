@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 4.3.*
-# sort_key: [1, 2, "district_acot_fractured_ae_shelter"]
+# sort_key: [0, 4307830337192102961759269403608336014925677080488335811092753055378747330873891731316418680573586761486372182818647511766651926644, "000000002:district_acot_fractured_ae_shelter"]
 # sources:
 #   path: acot/common/districts/acot_districts.txt
 #   supported_version: 4.3.*

@@ -1,17 +1,3 @@
-# record_type: object
-# path:common/zones/giga_zones_replace_1121692237_update.txt
-# supported_version: 4.3.*
-# sort_key: [0, 233527950514132057820079002806946174009157482897554998070364868343995551642923515121469352155738904044842023028, "000000001:zone_default_giga"]
-# sources:
-#   path: bpvr_compat/common/zones/giga_zones_replace_1121692237.txt
-#   supported_version: 4.*
-#
-#   path: bpvr_compat_improved/common/zones/giga_zones_replace_1121692237_fixed.txt
-#   supported_version: 4.3.*
-#
-#   path: bpvr_fix/common/zones/giga_zones_replace_1121692237.txt
-#   supported_version: 4.2.4
-
 zone_default_giga = {
 	icon = GFX_diplomatic_weight_large
 	base_buildtime = @zone_buildtime

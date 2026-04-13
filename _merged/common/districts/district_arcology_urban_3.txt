@@ -1,7 +1,7 @@
 # record_type: object
 # path: 
 # supported_version: 
-# sort_key: [0, 5, "district_arcology_urban_3"]
+# sort_key: [1, 54372463029374381783949436246516961624878430420787987632187963321178936655596257235594902678753540212, "000000005:district_arcology_urban_3"]
 # sources:
 #   path: pd_arcologies/common/districts/01_arcology_districts.txt
 #   supported_version: 4.3.*

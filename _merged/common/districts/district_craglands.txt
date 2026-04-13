@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/����_all_merged_common_items_update.txt
 # supported_version: 4.3.*
-# sort_key: [0, 1, "district_craglands"]
+# sort_key: [1, 3563353737093079484592910253851735597048032822485052314251857881169897710189665587131706083264274193741940, "000000001:district_craglands"]
 # sources:
 #   path: bpvr_base/common/districts/05_wilderness_districts_replace.txt
 #   supported_version: 4.*
@@ -13,7 +13,7 @@
 #   supported_version: 4.*
 #
 #   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
-#   supported_version: 4.2.4
+#   supported_version: 4.3.*
 #
 #   path: bpvr_fix/common/districts/����_all_merged_common_items.txt
 #   supported_version: 4.2.4

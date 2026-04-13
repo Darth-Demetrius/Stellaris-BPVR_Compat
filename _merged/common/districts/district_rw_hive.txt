@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/����_all_merged_common_items_update.txt
 # supported_version: 4.3.*
-# sort_key: [0, 2, "district_rw_hive"]
+# sort_key: [1, 13919350535519841736691055679108342175968878206554654965243649894637235408641485613213595739743369590900, "000000002:district_rw_hive"]
 # sources:
 #   path: bpvr_base/common/districts/04_ringworld_districts_replace.txt
 #   supported_version: 4.*
@@ -10,7 +10,7 @@
 #   supported_version: 4.*
 #
 #   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
-#   supported_version: 4.2.4
+#   supported_version: 4.3.*
 #
 #   path: bpvr_fix/common/districts/����_all_merged_common_items.txt
 #   supported_version: 4.2.4
@@ -95,6 +95,7 @@ district_rw_hive = {
 			planet_housing_add = -500
 		}
 	}
+
 	triggered_planet_modifier = {
 		potential = {
 			has_global_flag = ecology_pops_patch_flag

@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/����_all_merged_common_items_update.txt
 # supported_version: 4.3.*
-# sort_key: [0, 13, "district_nexus"]
+# sort_key: [1, 3240851344428919660088386311919508077196981334464284292500963412688193190474666092120457377908, "000000013:district_nexus"]
 # sources:
 #   path: bpvr_base/common/districts/00_urban_districts_replace.txt
 #   supported_version: 4.*
@@ -10,7 +10,7 @@
 #   supported_version: 4.*
 #
 #   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
-#   supported_version: 4.2.4
+#   supported_version: 4.3.*
 #
 #   path: bpvr_fix/common/districts/����_all_merged_common_items.txt
 #   supported_version: 4.2.4
@@ -30,7 +30,6 @@ district_nexus = {
 	overlay_icon = GFX_district_government
 
 	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_city_01 SLOT2 = slot_city_02 SLOT3 = slot_city_02 SLOT4 = slot_city_02 SLOT5 = slot_city_02 SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
-
 
 	show_tech_unlock_if = {
 		has_global_flag = ethic_civic_classic_active # EaC Mod flag
