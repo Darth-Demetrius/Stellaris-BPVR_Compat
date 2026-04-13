@@ -361,7 +361,8 @@ district_city = {
 				NOR = {
 					has_valid_civic = civic_agrarian_idyll
 					is_bugged_agrarian_idyll = yes
-				 }
+					is_agrarian_empire = yes
+				}
 			}
 		}
 		modifier = {
@@ -474,7 +475,11 @@ district_crashed_slaver_ship = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				OR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
 			}
 		}
 		modifier = {
@@ -511,7 +516,8 @@ district_crashed_slaver_ship = {
 				has_technology = tech_housing_2
 				NOR = {
 					has_valid_civic = civic_agrarian_idyll
-					is_agrarian_empire = yes # EMP Mod Integration
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
 				}
 			}
 		}
@@ -530,7 +536,6 @@ district_crashed_slaver_ship = {
 		}
 		modifier = {
 			job_clerk_add = 100
-			#job_trader_add = 100
 		}
 	}
 
@@ -1086,7 +1091,8 @@ district_prison = {
 			owner = {
 				OR = {
 					has_valid_civic = civic_agrarian_idyll
-					is_agrarian_empire = yes # EMP Mod Integration
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
 				}
 			}
 		}
@@ -1122,9 +1128,10 @@ district_prison = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOR = {
+				OR = {
 					has_valid_civic = civic_agrarian_idyll
-					is_agrarian_empire = yes # EMP Mod Integration
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
 				}
 			}
 		}
@@ -2055,35 +2062,27 @@ district_battle_thrall = {
 	}
 }
 
-district_mindlink = {
-	overlay_icon = GFX_district_feral_insight
-	base_buildtime = 720
-
-	exempt_from_ai_planet_specialization = yes
+# City (blue)
+district_craglands = {
+	base_buildtime = @wilderness_district_build_long
+	is_capped_by_modifier = no
+	overlay_icon = GFX_district_government
 
 	show_on_uncolonized = {
-		always = no
+		uses_district_set = standard
+		exists = from
+		from = { is_wilderness_empire = yes }
 	}
 
 	potential = {
+		uses_district_set = standard
 		exists = owner
-		is_capital = yes
-		owner = {
-			has_menace_perk = menp_behemoth_mind_meld
-		}
-	}
-
-	allow = {
-		hidden_trigger = {
-			NOR = {
-				has_modifier = resort_colony
-				has_modifier = penal_colony
-				has_modifier = slave_colony
+		owner = { is_wilderness_empire = yes }
+		NAND = {
+			is_capital = yes
+			owner = {
+				has_menace_perk = menp_behemoth_mind_meld
 			}
-		}
-		custom_tooltip = {
-			fail_text = arcology_project_construction_fail_tt
-			NOT = { has_planet_flag = arcology_project_construction }
 		}
 	}
 
@@ -2093,333 +2092,107 @@ district_mindlink = {
 	convert_to = {
 		district_arcology_housing
 		district_rw_city
-		district_rw_hive
-		district_rw_nexus
-		district_city
 		district_nexus
 		district_hive
-		district_hab_housing
-		district_crashed_slaver_ship
-		district_craglands
+		district_city
+		district_mindlink
+		# AG Mod Integration
+		district_ag_shell_world_housing
+		district_ag_ancient_city_housing
+		district_ag_ancient_city_wilderness
+		district_ag_hive
+		district_ag_ancient_hive_wilderness
+		district_ag_nexus
 	}
 
+	# EPM Mod Integration
 	resources = {
 		category = planet_districts_cities
 		cost = {
-			food = 1500
+			biomass = @biomass_cost
 		}
 		cost = {
 			trigger = {
-				owner = { is_wilderness_empire = yes }
+				NOT = { has_global_flag = expanded_pops_active }
 			}
+			minerals = 500
+		}
+		cost = {
+			trigger = {
+				has_global_flag = expanded_pops_active
+				owner = { NOT = { has_valid_civic = civic_integrated_bioarchitecture } }
+			}
+			minerals = 333
+			food = 167
+		}
+		cost = {
+			trigger = {
+				has_global_flag = expanded_pops_active
+				owner = { has_valid_civic = civic_integrated_bioarchitecture }
+			}
+			food = 500
+		}
+		cost = {
 			biomass = @biomass_cost
 		}
 		upkeep = {
-			food = 2
-		}
-		produces = {
 			trigger = {
-				owner = { is_variable_set =  pops_transferred }
-				owner = { is_wilderness_empire = no }
+				NOT = { has_global_flag = expanded_pops_active }
 			}
-			unity = 1.5
-			physics_research = 0.5
-			society_research = 0.5
-			engineering_research = 0.5
-			mult = owner.value:transferred_pops_district_percent
+			energy = 2
 		}
-		produces = {
+		upkeep = {
 			trigger = {
-				owner = { is_variable_set =  pops_transferred }
-				owner = { is_wilderness_empire = yes }
+				has_global_flag = expanded_pops_active
 			}
-			unity = 300
-			physics_research = 100
-			society_research = 100
-			engineering_research = 100
-			mult = owner.value:transferred_pops_district_percent
+			energy = 1.3
+			food = 0.7
 		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 100
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_tradition = tr_domination_imperious_architecture
+			}
+		}
+		planet_defense_armies_add = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_tradition = tr_prosperity_public_works
+			}
+		}
+		planet_housing_add = 50
 	}
 
 	inline_script = {
 		script = buildings/on_all_wilderness_buildings_districts
 	}
 
-	planet_modifier = {
-		planet_housing_add = 3000
-	}
-
-	triggered_planet_modifier = { #Regular modifiers
-		potential = {
-			exists = owner
-			owner = { is_regular_empire = yes }
-		}
-		modifier = {
-			job_transference_volunteer_add = 1500
-		}
-	}
-
-	triggered_planet_modifier = { # Gestalt modifiers
-		potential = {
-			exists = owner
-			owner = {
-				is_gestalt = yes
-			}
-		}
-		modifier = {
-			planet_housing_add = 1000
-			job_transference_drone_add = 1500
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_valid_civic = civic_agrarian_idyll
-			}
-		}
-		modifier = {
-			planet_housing_add = -500
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_active_tradition = tr_prosperity_public_works }
-		}
-		modifier = {
-			planet_housing_add = 500
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_technology = tech_housing_1
-			}
-		}
-		modifier = {
-			planet_housing_add = 500
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_technology = tech_housing_2
-				NOT = { has_valid_civic = civic_agrarian_idyll }
-			}
-		}
-		modifier = {
-			planet_housing_add = 500
-		}
-	}
-
-	triggered_desc = { #same as transference drone so everyone gets it
+	ai_resource_production = {
+		unity = 5
 		trigger = {
-			exists = owner
+			OR = {
+				has_building = building_commensal_clearing_1
+				has_building = building_commensal_clearing_2
+				has_building = building_commensal_clearing_3
+				has_building = building_commensal_clearing_4
+			}
 		}
-		text = job_transference_volunteer_effect_desc
 	}
-}
-
-district_hab_housing = {
-	base_buildtime = @hab_time
 
 	exempt_from_ai_planet_specialization = yes
-	overlay_icon = GFX_district_government
-
-	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_habitat_01 SLOT2 = slot_habitat_02 SLOT3 = slot_habitat_02 SLOT4 = slot_habitat_02 SLOT5 = slot_habitat_02 SLOT6 = slot_habitat_02 SLOT7 = slot_habitat_02 SLOT8 = slot_habitat_02 SLOT9 = slot_habitat_02 SLOT10 = slot_habitat_02 }
-
-	show_on_uncolonized = {
-		uses_district_set = habitat
-	}
-
-	potential = {
-		uses_district_set = habitat
-		NAND = {
-			is_capital = yes
-			owner = {
-				has_menace_perk = menp_behemoth_mind_meld
-			}
-		}
-	}
-
-	convert_to = {
-		district_mindlink
-	}
-
-	# EPM Mod Integration
-	resources = {
-		category = planet_districts_hab
-		cost = {
-			alloys = @hab_cost
-		}
-		upkeep = {
-			energy = @hab_maintenance
-			alloys = @low_hab_maintenance
-		}
-		produces = {
-			trigger = {
-				has_global_flag = ecology_pops_patch_flag
-				has_deposit = d_eco_city_park
-			}
-			waste = -50
-		}
-		upkeep = {
-			energy = 1
-			trigger = {
-				has_global_flag = ecology_pops_patch_flag
-				has_deposit = d_eco_city_park
-			}
-		}
-	}
-
-	planet_modifier = {
-		planet_housing_add = 1000
-	}
-
-	# EPM Mod Integration
-	triggered_planet_modifier = {
-		potential = {
-			has_global_flag = ecology_pops_patch_flag
-			has_deposit = d_eco_city_park
-			exists = owner
-			owner = { is_regular_empire = yes }
-		}
-		modifier = {
-			planet_amenities_add = 300
-			planet_housing_add = -200
-		}
-	}
-	triggered_planet_modifier = {
-		potential = {
-			has_global_flag = ecology_pops_patch_flag
-			has_deposit = d_eco_city_park
-			exists = owner
-			owner = { is_gestalt = yes }
-		}
-		modifier = {
-			planet_amenities_no_happiness_add = 300
-			planet_housing_add = -200
-		}
-	}
-
-		triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_active_tradition = tr_prosperity_extended_hives }
-		}
-		modifier = {
-			planet_housing_add = 100
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_active_tradition = tr_prosperity_optimized_nexus }
-		}
-		modifier = {
-			planet_housing_add = 100
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			has_modifier = fortified_habitat
-		}
-		modifier = {
-			planet_housing_add = 100
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_technology = tech_housing_1
-			}
-		}
-		modifier = {
-			planet_housing_add = 100
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_technology = tech_housing_2
-				NOR = {
-					has_valid_civic = civic_agrarian_idyll
-					is_agrarian_empire = yes
-				}
-			}
-		}
-		modifier = {
-			planet_housing_add = 200
-		}
-	}
-
-	#End EPM Mod Integration
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_active_tradition = tr_prosperity_void_works }
-		}
-		modifier = {
-			planet_housing_add = 100
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				is_tankbound_empire = yes
-			}
-		}
-		modifier = {
-			job_production_overseer_add = 100
-		}
-	}
-
-	inline_script = {
-		script = districts/ai_urban_district_extra_weighting
-	}
-
-	# EAC Mod Integration
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner									# Modded
-			owner = {
-				has_valid_civic = civic_peaceful_urbanism	# Modded
-			}
-		}
-		modifier = {
-			planet_amenities_add = 500						# Modded
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner									# Modded
-			owner = {
-				has_valid_civic = civic_welfare_state		# Modded
-			}
-		}
-		modifier = {
-			planet_housing_add = 200							# Modded
-		}
-	}
-
-	#End EAC Mod Integration
+	ai_estimate_without_unemployment = yes
+	additional_ai_weight = 10
 }
 
 district_arcology_housing = {
@@ -2680,6 +2453,202 @@ district_arcology_leisure = {
 	}
 }
 
+district_hab_housing = {
+	base_buildtime = @hab_time
+
+	exempt_from_ai_planet_specialization = yes
+	overlay_icon = GFX_district_government
+
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_habitat_01 SLOT2 = slot_habitat_02 SLOT3 = slot_habitat_02 SLOT4 = slot_habitat_02 SLOT5 = slot_habitat_02 SLOT6 = slot_habitat_02 SLOT7 = slot_habitat_02 SLOT8 = slot_habitat_02 SLOT9 = slot_habitat_02 SLOT10 = slot_habitat_02 }
+
+	show_on_uncolonized = {
+		uses_district_set = habitat
+	}
+
+	potential = {
+		uses_district_set = habitat
+		NAND = {
+			is_capital = yes
+			owner = {
+				has_menace_perk = menp_behemoth_mind_meld
+			}
+		}
+	}
+
+	convert_to = {
+		district_mindlink
+	}
+
+	# EPM Mod Integration
+	resources = {
+		category = planet_districts_hab
+		cost = {
+			alloys = @hab_cost
+		}
+		upkeep = {
+			energy = @hab_maintenance
+			alloys = @low_hab_maintenance
+		}
+		produces = {
+			trigger = {
+				has_global_flag = ecology_pops_patch_flag
+				has_deposit = d_eco_city_park
+			}
+			waste = -50
+		}
+		upkeep = {
+			energy = 1
+			trigger = {
+				has_global_flag = ecology_pops_patch_flag
+				has_deposit = d_eco_city_park
+			}
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 1000
+	}
+
+	# EPM Mod Integration
+	triggered_planet_modifier = {
+		potential = {
+			has_global_flag = ecology_pops_patch_flag
+			has_deposit = d_eco_city_park
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			planet_amenities_add = 300
+			planet_housing_add = -200
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			has_global_flag = ecology_pops_patch_flag
+			has_deposit = d_eco_city_park
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			planet_amenities_no_happiness_add = 300
+			planet_housing_add = -200
+		}
+	}
+
+		triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_prosperity_extended_hives }
+		}
+		modifier = {
+			planet_housing_add = 100
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_prosperity_optimized_nexus }
+		}
+		modifier = {
+			planet_housing_add = 100
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			has_modifier = fortified_habitat
+		}
+		modifier = {
+			planet_housing_add = 100
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_1
+			}
+		}
+		modifier = {
+			planet_housing_add = 100
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_2
+				NOR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
+			}
+		}
+		modifier = {
+			planet_housing_add = 200
+		}
+	}
+
+	#End EPM Mod Integration
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_prosperity_void_works }
+		}
+		modifier = {
+			planet_housing_add = 100
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_tankbound_empire = yes
+			}
+		}
+		modifier = {
+			job_production_overseer_add = 100
+		}
+	}
+
+	inline_script = {
+		script = districts/ai_urban_district_extra_weighting
+	}
+
+	# EAC Mod Integration
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner									# Modded
+			owner = {
+				has_valid_civic = civic_peaceful_urbanism	# Modded
+			}
+		}
+		modifier = {
+			planet_amenities_add = 500						# Modded
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner									# Modded
+			owner = {
+				has_valid_civic = civic_welfare_state		# Modded
+			}
+		}
+		modifier = {
+			planet_housing_add = 200							# Modded
+		}
+	}
+
+	#End EAC Mod Integration
+}
+
 district_rw_city = {
 	base_buildtime = @rw_district_buildtime
 
@@ -2779,6 +2748,8 @@ district_rw_city = {
 			owner = {
 				OR = {
 					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
 					is_fallen_empire = yes
 				}
 			}
@@ -3258,27 +3229,35 @@ district_rw_nexus = {
 	}
 }
 
-# City (blue)
-district_craglands = {
-	base_buildtime = @wilderness_district_build_long
-	is_capped_by_modifier = no
-	overlay_icon = GFX_district_government
+district_mindlink = {
+	overlay_icon = GFX_district_feral_insight
+	base_buildtime = 720
+
+	exempt_from_ai_planet_specialization = yes
 
 	show_on_uncolonized = {
-		uses_district_set = standard
-		exists = from
-		from = { is_wilderness_empire = yes }
+		always = no
 	}
 
 	potential = {
-		uses_district_set = standard
 		exists = owner
-		owner = { is_wilderness_empire = yes }
-		NAND = {
-			is_capital = yes
-			owner = {
-				has_menace_perk = menp_behemoth_mind_meld
+		is_capital = yes
+		owner = {
+			has_menace_perk = menp_behemoth_mind_meld
+		}
+	}
+
+	allow = {
+		hidden_trigger = {
+			NOR = {
+				has_modifier = resort_colony
+				has_modifier = penal_colony
+				has_modifier = slave_colony
 			}
+		}
+		custom_tooltip = {
+			fail_text = arcology_project_construction_fail_tt
+			NOT = { has_planet_flag = arcology_project_construction }
 		}
 	}
 
@@ -3288,105 +3267,144 @@ district_craglands = {
 	convert_to = {
 		district_arcology_housing
 		district_rw_city
+		district_rw_hive
+		district_rw_nexus
+		district_city
 		district_nexus
 		district_hive
-		district_city
-		district_mindlink
-		# AG Mod Integration
-		district_ag_shell_world_housing
-		district_ag_ancient_city_housing
-		district_ag_ancient_city_wilderness
-		district_ag_hive
-		district_ag_ancient_hive_wilderness
-		district_ag_nexus
+		district_hab_housing
+		district_crashed_slaver_ship
+		district_craglands
 	}
 
-	# EPM Mod Integration
 	resources = {
 		category = planet_districts_cities
 		cost = {
-			biomass = @biomass_cost
+			food = 1500
 		}
 		cost = {
 			trigger = {
-				NOT = { has_global_flag = expanded_pops_active }
+				owner = { is_wilderness_empire = yes }
 			}
-			minerals = 500
-		}
-		cost = {
-			trigger = {
-				has_global_flag = expanded_pops_active
-				owner = { NOT = { has_valid_civic = civic_integrated_bioarchitecture } }
-			}
-			minerals = 333
-			food = 167
-		}
-		cost = {
-			trigger = {
-				has_global_flag = expanded_pops_active
-				owner = { has_valid_civic = civic_integrated_bioarchitecture }
-			}
-			food = 500
-		}
-		cost = {
 			biomass = @biomass_cost
 		}
 		upkeep = {
+			food = 2
+		}
+		produces = {
 			trigger = {
-				NOT = { has_global_flag = expanded_pops_active }
+				owner = { is_variable_set =  pops_transferred }
+				owner = { is_wilderness_empire = no }
 			}
-			energy = 2
+			unity = 1.5
+			physics_research = 0.5
+			society_research = 0.5
+			engineering_research = 0.5
+			mult = owner.value:transferred_pops_district_percent
 		}
-		upkeep = {
+		produces = {
 			trigger = {
-				has_global_flag = expanded_pops_active
+				owner = { is_variable_set =  pops_transferred }
+				owner = { is_wilderness_empire = yes }
 			}
-			energy = 1.3
-			food = 0.7
+			unity = 300
+			physics_research = 100
+			society_research = 100
+			engineering_research = 100
+			mult = owner.value:transferred_pops_district_percent
 		}
-	}
-
-	planet_modifier = {
-		planet_housing_add = 100
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_tradition = tr_domination_imperious_architecture
-			}
-		}
-		planet_defense_armies_add = 1
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				has_tradition = tr_prosperity_public_works
-			}
-		}
-		planet_housing_add = 50
 	}
 
 	inline_script = {
 		script = buildings/on_all_wilderness_buildings_districts
 	}
 
-	ai_resource_production = {
-		unity = 5
-		trigger = {
-			OR = {
-				has_building = building_commensal_clearing_1
-				has_building = building_commensal_clearing_2
-				has_building = building_commensal_clearing_3
-				has_building = building_commensal_clearing_4
-			}
+	planet_modifier = {
+		planet_housing_add = 3000
+	}
+
+	triggered_planet_modifier = { #Regular modifiers
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_transference_volunteer_add = 1500
 		}
 	}
 
-	exempt_from_ai_planet_specialization = yes
-	ai_estimate_without_unemployment = yes
-	additional_ai_weight = 10
+	triggered_planet_modifier = { # Gestalt modifiers
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			planet_housing_add = 1000
+			job_transference_drone_add = 1500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				OR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
+			}
+		}
+		modifier = {
+			planet_housing_add = -500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_prosperity_public_works }
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_1
+			}
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_2
+				NOR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
+			}
+		}
+		modifier = {
+			planet_housing_add = 500
+		}
+	}
+
+	triggered_desc = { #same as transference drone so everyone gets it
+		trigger = {
+			exists = owner
+		}
+		text = job_transference_volunteer_effect_desc
+	}
 }

@@ -75,7 +75,11 @@ district_pd_garden_arcology_housing = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOT = { has_valid_civic = civic_agrarian_idyll }
+				NOR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
 			}
 		}
 		modifier = {
@@ -181,7 +185,11 @@ district_pd_fortress_arcology_housing = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOT = { has_valid_civic = civic_agrarian_idyll }
+				NOR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
 			}
 		}
 		modifier = {
@@ -307,7 +315,11 @@ district_pd_commercial_arcology_housing = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOT = { has_valid_civic = civic_agrarian_idyll }
+				NOR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
 			}
 		}
 		modifier = {

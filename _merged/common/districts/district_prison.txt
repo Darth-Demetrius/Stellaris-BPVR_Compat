@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/����_all_merged_common_items_update.txt
 # supported_version: 4.3.*
-# sort_key: [1, 3240851344428919660088386311919508077196981334464284292500963412688193190474666092120457377908, "000000007:district_prison"]
+# sort_key: [0, 72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748, "000000004:district_prison"]
 # sources:
 #   path: bpvr_base/common/districts/00_urban_districts_replace.txt
 #   supported_version: 4.*
@@ -207,7 +207,8 @@ district_prison = {
 			owner = {
 				OR = {
 					has_valid_civic = civic_agrarian_idyll
-					is_agrarian_empire = yes # EMP Mod Integration
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
 				}
 			}
 		}
@@ -243,9 +244,10 @@ district_prison = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOR = {
+				OR = {
 					has_valid_civic = civic_agrarian_idyll
-					is_agrarian_empire = yes # EMP Mod Integration
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
 				}
 			}
 		}

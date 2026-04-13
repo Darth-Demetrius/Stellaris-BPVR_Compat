@@ -114,7 +114,11 @@ district_flusion_city = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOT = { has_valid_civic = civic_agrarian_idyll }
+				NOR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
 			}
 		}
 		modifier = {

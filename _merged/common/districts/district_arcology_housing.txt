@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/����_all_merged_common_items_update.txt
 # supported_version: 4.3.*
-# sort_key: [1, 54372463029374381783949436246516961624878430420787987632187963321178936655596257235594902678753540212, "000000001:district_arcology_housing"]
+# sort_key: [0, 72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748, "000000011:district_arcology_housing"]
 # sources:
 #   path: bpvr_base/common/districts/01_arcology_districts_replace.txt
 #   supported_version: 4.*

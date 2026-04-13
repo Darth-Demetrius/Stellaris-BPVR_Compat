@@ -15,7 +15,11 @@ zone_agrarian_urban = {
 	potential = { # planet scope
 		exists = owner
 		owner = {
-			has_valid_civic = civic_agrarian_idyll
+			OR = {
+				has_valid_civic = civic_agrarian_idyll
+				is_bugged_agrarian_idyll = yes
+				is_agrarian_empire = yes
+			}
 		}
 		if = {
 			limit = {
@@ -31,7 +35,11 @@ zone_agrarian_urban = {
 		hidden_trigger = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				OR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
 			}
 			if = {
 				limit = {

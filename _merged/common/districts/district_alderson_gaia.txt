@@ -62,7 +62,11 @@ district_alderson_gaia = {
 		potential = {
 			exists = owner
 			owner = {
-				has_valid_civic = civic_agrarian_idyll
+				OR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_agrarian_empire = yes
+					is_bugged_agrarian_idyll = yes
+				}
 			}
 		}
 		modifier = {
@@ -97,7 +101,11 @@ district_alderson_gaia = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOT = { has_valid_civic = civic_agrarian_idyll }
+				NOR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_agrarian_empire = yes
+					is_bugged_agrarian_idyll = yes
+				}
 			}
 		}
 		modifier = {

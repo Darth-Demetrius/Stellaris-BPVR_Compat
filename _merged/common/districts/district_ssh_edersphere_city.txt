@@ -1,6 +1,6 @@
 # record_type: object
-# path: 
-# supported_version: 
+# path:
+# supported_version:
 # upstream_status: new-upstream
 # sort_key: [1, 1, "district_ssh_edersphere_city"]
 # sources:
@@ -91,7 +91,11 @@ district_ssh_edersphere_city = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOT = { has_valid_civic = civic_agrarian_idyll }
+				NOR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
 			}
 		}
 		modifier = {

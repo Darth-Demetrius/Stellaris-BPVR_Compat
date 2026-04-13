@@ -1,7 +1,7 @@
 # record_type: object
 # path: common/districts/����_all_merged_common_items_update.txt
 # supported_version: 4.3.*
-# sort_key: [1, 212392433708493678843552485337956881347181369022775152732267836135899269644154023055489988216256628, "000000001:district_hab_housing"]
+# sort_key: [0, 72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748, "000000013:district_hab_housing"]
 # sources:
 #   path: bpvr_base/common/districts/03_habitat_districts_replace.txt
 #   supported_version: 4.*
@@ -153,6 +153,7 @@ district_hab_housing = {
 				has_technology = tech_housing_2
 				NOR = {
 					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
 					is_agrarian_empire = yes
 				}
 			}

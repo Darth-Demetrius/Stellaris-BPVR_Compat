@@ -1,6 +1,6 @@
 # record_type: object
-# path: 
-# supported_version: 
+# path:
+# supported_version:
 # upstream_status: new-upstream
 # sort_key: [1, 1, "district_spore_planet_city"]
 # sources:
@@ -92,7 +92,13 @@ district_spore_planet_city = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { has_valid_civic = civic_agrarian_idyll }
+			owner = {
+				OR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
+			}
 		}
 		modifier = {
 			planet_housing_add = -100
@@ -130,7 +136,11 @@ district_spore_planet_city = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOT = { has_valid_civic = civic_agrarian_idyll }
+				NOR = {
+					has_valid_civic = civic_agrarian_idyll
+					is_bugged_agrarian_idyll = yes
+					is_agrarian_empire = yes
+				}
 			}
 		}
 		modifier = {
