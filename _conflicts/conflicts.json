@@ -1,10 +1,8 @@
 {
   "summary": {
     "total": 89,
-    "auto-merged": 23,
-    "new-upstream": 4,
-    "stale": 1,
-    "up-to-date": 61
+    "source-missing": 4,
+    "up-to-date": 85
   },
   "items": [
     {
@@ -93,7 +91,7 @@
       "name": "district_alderson_gaia",
       "path": "common/districts/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/districts/district_alderson_gaia.txt",
-      "status": "new-upstream",
+      "status": "source-missing",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -133,7 +131,7 @@
       "name": "district_alderson_logistics",
       "path": "common/districts/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/districts/district_alderson_logistics.txt",
-      "status": "auto-merged",
+      "status": "source-missing",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -683,7 +681,7 @@
       "name": "district_flusion_city",
       "path": "common/districts/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/districts/district_flusion_city.txt",
-      "status": "new-upstream",
+      "status": "source-missing",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_flusion_arcology_replace_1121692237.txt",
@@ -853,7 +851,7 @@
       "name": "district_mindlink",
       "path": "common/districts/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/districts/district_mindlink.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_special_districts_replace.txt",
@@ -1553,7 +1551,7 @@
       "name": "zone_acot_ae_energy",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_energy.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1583,7 +1581,7 @@
       "name": "zone_acot_ae_factory",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_factory.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1613,7 +1611,7 @@
       "name": "zone_acot_ae_food",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_food.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1643,7 +1641,7 @@
       "name": "zone_acot_ae_fortress",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_fortress.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1673,7 +1671,7 @@
       "name": "zone_acot_ae_foundry",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_foundry.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1703,7 +1701,7 @@
       "name": "zone_acot_ae_industry",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_industry.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1733,7 +1731,7 @@
       "name": "zone_acot_ae_minerals",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_minerals.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1763,7 +1761,7 @@
       "name": "zone_acot_ae_research",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_research.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1793,7 +1791,7 @@
       "name": "zone_acot_ae_trade",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_trade.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1823,7 +1821,7 @@
       "name": "zone_acot_ae_urban",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_urban.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1853,7 +1851,7 @@
       "name": "zone_acot_dm_energy",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_energy.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1883,7 +1881,7 @@
       "name": "zone_acot_dm_factory",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_factory.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1913,7 +1911,7 @@
       "name": "zone_acot_dm_food",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_food.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1943,7 +1941,7 @@
       "name": "zone_acot_dm_fortress",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_fortress.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -1973,7 +1971,7 @@
       "name": "zone_acot_dm_foundry",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_foundry.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -2003,7 +2001,7 @@
       "name": "zone_acot_dm_industry",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_industry.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -2033,7 +2031,7 @@
       "name": "zone_acot_dm_minerals",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_minerals.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -2063,7 +2061,7 @@
       "name": "zone_acot_dm_research",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_research.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -2093,7 +2091,7 @@
       "name": "zone_acot_dm_trade",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_trade.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -2123,7 +2121,7 @@
       "name": "zone_acot_dm_urban",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_urban.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_vanilla_zones.txt",
@@ -2483,7 +2481,7 @@
       "name": "zone_acot_void_forge_01",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_forge_01.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -2603,7 +2601,7 @@
       "name": "zone_acot_void_main_sub",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_main_sub.txt",
-      "status": "stale",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -2723,7 +2721,7 @@
       "name": "zone_acot_void_silo_01",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_silo_01.txt",
-      "status": "auto-merged",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "acot/common/zones/acot_special_zones.txt",
@@ -2893,7 +2891,7 @@
       "name": "zone_default_giga",
       "path": "common/zones/����_all_merged_common_items_update.txt",
       "merged_file": "_merged/common/zones/zone_default_giga.txt",
-      "status": "new-upstream",
+      "status": "source-missing",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/giga_zones_replace_1121692237.txt",

@@ -1,5 +1,5 @@
 # record_type: object
-# path:common/zones/giga_zones_replace_1121692237_update.txt
+# path: common/zones/giga_zones_replace_1121692237_update.txt
 # supported_version: 4.3.*
 # sort_key: [0, 233527950514132057820079002806946174009157482897554998070364868343995551642923515121469352155738904044842023028, "000000001:zone_default_giga"]
 # sources:
