@@ -1,13 +1,10 @@
 # record_type: object
-# path: common/districts/giga_alderson_replace_1121692237_update.txt
-# supported_version: 4.3.*
-# sort_key: [0, 16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436, "000000002:district_alderson_gaia"]
+# path:
+# supported_version:
+# sort_key: [0, 16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436, "000000003:district_alderson_hive"]
 # sources:
 #   path: bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt
 #   supported_version: 4.*
-#
-#   path: bpvr_compat_improved/common/districts/giga_alderson_replace_1121692237_fixed.txt
-#   supported_version: 4.3.*
 #
 #   path: bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt
 #   supported_version: 4.2.4
@@ -15,8 +12,8 @@
 #   path: giga/common/districts/giga_alderson.txt
 #   supported_version: 4.3.*
 
-district_alderson_gaia = {
-	icon = district_alderson_gaia
+district_alderson_hive = {
+	icon = district_alderson_hive
 	base_buildtime = @rw_district_buildtime
 	is_capped_by_modifier = no
 	exempt_from_ai_planet_specialization = yes
@@ -29,13 +26,13 @@ district_alderson_gaia = {
 
 	show_on_uncolonized = {
 		exists = from
-		from = { is_regular_empire = yes }
+		from = { is_hive_empire = yes }
 		uses_district_set = giga_alderson
 	}
 
 	potential = {
 		exists = owner
-		owner = { is_regular_empire = yes }
+		owner = { is_hive_empire = yes }
 		uses_district_set = giga_alderson
 	}
 
@@ -53,9 +50,10 @@ district_alderson_gaia = {
 
 	conversion_ratio = 1
 	convert_to = {
-		district_alderson_hive
 		district_alderson_machine
+		district_alderson_gaia
 	}
+
 
 	planet_modifier = {
 		planet_housing_add = 2500
@@ -65,11 +63,7 @@ district_alderson_gaia = {
 		potential = {
 			exists = owner
 			owner = {
-				OR = {
-					has_valid_civic = civic_agrarian_idyll
-					is_agrarian_empire = yes
-					is_bugged_agrarian_idyll = yes
-				}
+				has_valid_civic = civic_agrarian_idyll
 			}
 		}
 		modifier = {
@@ -104,28 +98,11 @@ district_alderson_gaia = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOR = {
-					has_valid_civic = civic_agrarian_idyll
-					is_agrarian_empire = yes
-					is_bugged_agrarian_idyll = yes
-				}
+				NOT = { has_valid_civic = civic_agrarian_idyll }
 			}
 		}
 		modifier = {
 			planet_housing_add = 500
-		}
-	}
-
-	# from bpvr_compat_improved
-	#stinky tankbound
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { is_tankbound_empire = yes }
-		}
-		modifier = {
-			job_technician_automated_workforce_mult = 1.0
-			job_farmer_automated_workforce_mult = 1.0
 		}
 	}
 }

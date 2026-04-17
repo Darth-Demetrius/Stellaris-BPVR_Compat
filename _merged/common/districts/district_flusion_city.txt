@@ -11,6 +11,9 @@
 #
 #   path: bpvr_fix/common/districts/giga_flusion_arcology_replace_1121692237.txt
 #   supported_version: 4.2.4
+#
+#   path: giga/common/districts/giga_flusion_arcology.txt
+#   supported_version: 4.3.*
 
 #Housing: Amenities
 district_flusion_city = {

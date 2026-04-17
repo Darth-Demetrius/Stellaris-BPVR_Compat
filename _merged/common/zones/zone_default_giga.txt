@@ -11,6 +11,9 @@
 #
 #   path: bpvr_fix/common/zones/giga_zones_replace_1121692237.txt
 #   supported_version: 4.2.4
+#
+#   path: giga/common/zones/giga_zones.txt
+#   supported_version: 4.3.*
 
 zone_default_giga = {
 	icon = GFX_diplomatic_weight_large

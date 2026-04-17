@@ -19,7 +19,7 @@ bpvr_compat = "Imports/BPVR - Compatibility Patch"
 bpvr_compat_improved = "Extra Imports/BPVR - Compatibility Improved"
 bpvr_fix = "Extra Imports/BPVR Fixed"
 acot = "Extra Imports/Ancient Cache of Technologies"
-giga = "Extra Imports/Gigastructural"
+giga = "Extra Imports/Gigastructural Engineering & More"
 
 [[conflicts.rules]]
 any_from = ["vanilla"]

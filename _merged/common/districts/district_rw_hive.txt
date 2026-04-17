@@ -1,12 +1,12 @@
 # record_type: object
-# path: common/districts/����_all_merged_common_items.txt
+# path: common/districts/��������_all_merged_common_items.txt
 # supported_version: 4.3.*
-# sort_key: [0, 72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748, "000000015:district_rw_hive"]
+# sort_key: [0, 5726088685287317359131476343010293946867193780431504767419204661878288579618240138816253808306942324518934941917071274003898994717072387113604206084007952759431395444, "000000015:district_rw_hive"]
 # sources:
 #   path: bpvr_base/common/districts/04_ringworld_districts_replace.txt
 #   supported_version: 4.*
 #
-#   path: bpvr_compat/common/districts/����_all_merged_common_items.txt
+#   path: bpvr_compat/common/districts/��������_all_merged_common_items.txt
 #   supported_version: 4.*
 #
 #   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
