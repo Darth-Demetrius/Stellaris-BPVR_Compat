@@ -1,13 +1,10 @@
 # record_type: object
-# path:
-# supported_version:
+# path: 
+# supported_version: 4.3.*
 # sort_key: [0, 79465443743144644749447030082776993005032379528323684134848432654129724126059608714527383637669638277323948356939907351527355694608199104979367393396, "000000002:district_maginot_ringworld_barracks"]
 # sources:
 #   path: bpvr_compat/common/districts/giga_maginot_districts_replace_1121692237.txt
 #   supported_version: 4.*
-#
-#   path: bpvr_fix/common/districts/giga_maginot_districts_replace_1121692237.txt
-#   supported_version: 4.2.4
 #
 #   path: giga/common/districts/giga_maginot_districts.txt
 #   supported_version: 4.3.*
@@ -116,7 +113,7 @@ district_maginot_ringworld_barracks = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				has_ethic = ethic_gestalt_consciousness
+				is_gestalt = yes
 			}
 		}
 		modifier = {

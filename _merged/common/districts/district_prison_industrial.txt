@@ -9,12 +9,6 @@
 #   path: bpvr_compat/common/districts/��������_all_merged_common_items.txt
 #   supported_version: 4.*
 #
-#   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
-#   supported_version: 4.3.*
-#
-#   path: bpvr_fix/common/districts/����_all_merged_common_items.txt
-#   supported_version: 4.2.4
-#
 #   path: pd_arcologies/common/districts/00_urban_districts.txt
 #   supported_version: 4.3.*
 #

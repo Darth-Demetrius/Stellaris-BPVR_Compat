@@ -1,6 +1,6 @@
 # record_type: object
 # path: common/districts/��������_all_merged_common_items.txt
-# supported_version:
+# supported_version: 4.3.*
 # sort_key: [0, 5726088685287317359131476343010293946867193780431504767419204661878288579618240138816253808306942324518934941917071274003898994717072387113604206084007952759431395444, "000000012:district_arcology_leisure"]
 # sources:
 #   path: bpvr_base/common/districts/01_arcology_districts_replace.txt
@@ -8,12 +8,6 @@
 #
 #   path: bpvr_compat/common/districts/��������_all_merged_common_items.txt
 #   supported_version: 4.*
-#
-#   path: bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt
-#   supported_version: 4.3.*
-#
-#   path: bpvr_fix/common/districts/����_all_merged_common_items.txt
-#   supported_version: 4.2.4
 #
 #   path: pd_arcologies/common/districts/01_arcology_districts.txt
 #   supported_version: 4.3.*

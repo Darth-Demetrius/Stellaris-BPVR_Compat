@@ -1,5 +1,5 @@
 # record_type: object
-# path: common/zones/acot_vanilla_zones_replace_1419304439.txt
+# path: 
 # supported_version: 4.3.*
 # sort_key: [0, 4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620, "000000006:zone_acot_ae_foundry"]
 # sources:
@@ -7,6 +7,9 @@
 #   supported_version: 4.3.*
 #
 #   path: bpvr_compat/common/zones/acot_vanilla_zones_replace_1419304439.txt
+#   supported_version: 4.*
+#
+#   path: bpvr_compat/common/zones/z_acot_vanilla_zones_override_replace_2178603631.txt
 #   supported_version: 4.*
 
 zone_acot_ae_foundry = {

@@ -1,13 +1,10 @@
 # record_type: object
-# path:
-# supported_version:
+# path: 
+# supported_version: 4.3.*
 # sort_key: [0, 20343153598245029055858439701190910209288159466205284164547548459525084647976094061006241134343381471140420651026853920820383168501134938105842517702772, "000000003:district_giga_planet_nexus"]
 # sources:
 #   path: bpvr_compat/common/districts/00_giga_urban_districts_replace_1121692237.txt
 #   supported_version: 4.*
-#
-#   path: bpvr_fix/common/districts/00_giga_urban_districts_replace_1121692237.txt
-#   supported_version: 4.2.4
 #
 #   path: giga/common/districts/00_giga_urban_districts.txt
 #   supported_version: 4.3.*
@@ -88,15 +85,6 @@ district_giga_planet_nexus = {
 
 	triggered_planet_modifier = {
 		potential = {
-			has_modifier = gestation_colony
-		}
-		modifier = {
-			job_gestation_drone_add = 100
-		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
 			exists = owner
 			owner = { has_technology = tech_housing_2 }
 		}
@@ -123,13 +111,6 @@ district_giga_planet_nexus = {
 			}
 		}
 		text = job_logistics_drone_effect_desc
-	}
-
-	triggered_desc = {
-		trigger = {
-			has_modifier = gestation_colony
-		}
-		text = job_gestation_drone_effect_desc
 	}
 
 	inline_script = {

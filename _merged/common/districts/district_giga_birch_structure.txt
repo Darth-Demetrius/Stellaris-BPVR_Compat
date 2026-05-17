@@ -1,0 +1,76 @@
+# record_type: object
+# path: 
+# supported_version: 4.3.*
+# sort_key: [0, 282317968978221659701855479634875909074169369462210298292354614261124742465626956339407863476577321460150374514240473540769387220596852, "000000001:district_giga_birch_structure"]
+# sources:
+#   path: bpvr_compat/common/districts/giga_birch_world_replace_1121692237.txt
+#   supported_version: 4.*
+#
+#   path: giga/common/districts/giga_birch_world.txt
+#   supported_version: 4.3.*
+
+district_giga_birch_structure = {
+	base_buildtime = @giga_birch_insula_time
+	is_uncapped = { always = no }
+	base_cap_amount = 1
+	can_demolish = no
+	exempt_from_ai_planet_specialization = yes
+	overlay_icon = GFX_district_government
+
+	has_primary_zone = yes
+	custom_gui = giga_planet_district_entry_birch_structure
+
+	inline_script = { script = districts/BPV_district_slots GOVERNMENT = slot_city_government SLOT1 = slot_giga_birch_structure_extra SLOT2 = slot_giga_birch_structure_extra SLOT3 = slot_giga_birch_structure_extra SLOT4 = slot_giga_birch_structure_extra SLOT5 = slot_giga_birch_structure_extra SLOT6 = slot_giga_birch_structure_extra SLOT7 = slot_giga_birch_structure_extra SLOT8 = slot_giga_birch_structure_extra SLOT9 = slot_giga_birch_structure_extra SLOT10 = slot_giga_birch_structure_extra }
+
+	show_on_uncolonized = {
+		uses_district_set = giga_birch_world
+		not = {	has_planet_flag = giga_birch_ruined	}
+	}
+
+	potential = {
+		uses_district_set = giga_birch_world
+		not = {	has_planet_flag = giga_birch_ruined	}
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = @giga_birch_insula_cost
+			alloys = @giga_birch_insula_cost
+		}
+		upkeep = { energy = @giga_birch_insula_maintenance }
+	}
+
+	planet_modifier = {
+		giga_birch_district_insula_base = 1
+		giga_birch_district_insula_per_pop = 0.0001
+	}
+	triggered_desc = {
+		trigger = { always = yes }
+		text = giga_birch_district_insula_tooltip
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		job_giga_birch_structure_manager_add = 1
+		job_giga_birch_structure_manager_per_pop = 0.01
+
+		job_enforcer_per_pop = 0.04
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		job_giga_birch_structure_manager_drone_add = 1
+		job_giga_birch_structure_manager_drone_per_pop = 0.01
+
+		job_patrol_drone_per_pop = 0.06
+	}
+
+	triggered_name = { text = district_giga_birch_structure_subtitle }
+}

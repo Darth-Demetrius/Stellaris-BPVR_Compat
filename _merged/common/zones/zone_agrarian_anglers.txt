@@ -1,5 +1,5 @@
 # record_type: object
-# path: common/zones/ethic_rebuild_zones_replace_1100284147_update.txt
+# path: 
 # supported_version: 4.3.*
 # sort_key: [0, 1102804566321178361600078355938412291113734087049377233825439806594937843793229333589903823001574657225759342384664592671375766091892, "000000003:zone_agrarian_anglers"]
 # sources:
@@ -8,9 +8,6 @@
 #
 #   path: bpvr_compat/common/zones/ethic_rebuild_zones_replace_1100284147.txt
 #   supported_version: 4.*
-#
-#   path: bpvr_fix/common/zones/ethic_rebuild_zones_replace_1100284147.txt
-#   supported_version: 4.2.4
 #
 #   path: vanilla/common/zones/00_zones.txt
 #   supported_version:

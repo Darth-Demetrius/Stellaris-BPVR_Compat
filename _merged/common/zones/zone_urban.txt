@@ -9,9 +9,6 @@
 #   path: bpvr_compat/common/zones/ethic_rebuild_zones_replace_1100284147.txt
 #   supported_version: 4.*
 #
-#   path: bpvr_fix/common/zones/ethic_rebuild_zones_replace_1100284147.txt
-#   supported_version: 4.2.4
-#
 #   path: vanilla/common/zones/00_zones.txt
 #   supported_version:
 

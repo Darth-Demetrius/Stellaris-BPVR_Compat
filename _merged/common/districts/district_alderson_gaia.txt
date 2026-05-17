@@ -6,19 +6,12 @@
 #   path: bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt
 #   supported_version: 4.*
 #
-#   path: bpvr_compat_improved/common/districts/giga_alderson_replace_1121692237_fixed.txt
-#   supported_version: 4.3.*
-#
-#   path: bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt
-#   supported_version: 4.2.4
-#
 #   path: giga/common/districts/giga_alderson.txt
 #   supported_version: 4.3.*
 
 district_alderson_gaia = {
 	icon = district_alderson_gaia
-	base_buildtime = @rw_district_buildtime
-	is_capped_by_modifier = no
+	is_uncapped = { always = yes }
 	exempt_from_ai_planet_specialization = yes
 	#overlay_icon = GFX_district_housing
 	has_primary_zone = yes
@@ -116,7 +109,6 @@ district_alderson_gaia = {
 		}
 	}
 
-	# from bpvr_compat_improved
 	#stinky tankbound
 	triggered_planet_modifier = {
 		potential = {

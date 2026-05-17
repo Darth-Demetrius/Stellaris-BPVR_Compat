@@ -1,3 +1,10 @@
+version="2.2"
+tags={
+	"Fixes"
+}
 name="BPVR - PD Arcology Patch"
-version="0.1"
-supported_version="*"
+dependencies={
+	"BPVR - More Building Slots"
+	"Planetary Diversity - More Arcologies"
+}
+supported_version="v4.3.*"

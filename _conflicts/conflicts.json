@@ -1,16 +1,14 @@
 {
   "summary": {
     "total": 99,
-    "new-upstream": 14,
-    "source-missing": 17,
-    "up-to-date": 68
+    "up-to-date": 99
   },
   "items": [
     {
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_acot_fractured_ae_shelter",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_acot_fractured_ae_shelter.txt",
       "status": "up-to-date",
       "sources": [
@@ -33,16 +31,6 @@
           ],
           "hash": "61e5ad393ce241564787e1ad525a67f683c2ca6008d9b9be7b6ca38fdda4d79a",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/acot_districts_replace_1419304439.txt",
-          "sort_key": [
-            2,
-            4307830337192102961759269403608336014925677080488335811092753055378747330873891731316418680573586761486372182818647511766651926644,
-            "000000005:district_acot_fractured_ae_shelter"
-          ],
-          "hash": "0d277c67bdef70ef1ea9a539b95317e6ba6cf16ba4768666b57a03093b9f6c85",
-          "supported_version": "4.2.4"
         }
       ]
     },
@@ -50,7 +38,7 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_acot_fractured_shelter",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_acot_fractured_shelter.txt",
       "status": "up-to-date",
       "sources": [
@@ -73,16 +61,6 @@
           ],
           "hash": "102805f09b317467d7a0b7218020259842f59f87beb58397d1813c594610d7c1",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/acot_districts_replace_1419304439.txt",
-          "sort_key": [
-            2,
-            4307830337192102961759269403608336014925677080488335811092753055378747330873891731316418680573586761486372182818647511766651926644,
-            "000000001:district_acot_fractured_shelter"
-          ],
-          "hash": "f95eeb0a421d64dd59afaaef1865147ff8a5e52ccb656861f06d6d1963a19f15",
-          "supported_version": "4.2.4"
         }
       ]
     },
@@ -90,9 +68,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_alderson_ecu",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_alderson_ecu.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -105,23 +83,13 @@
           "supported_version": "4.*"
         },
         {
-          "path": "bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436,
-            "000000005:district_alderson_ecu"
-          ],
-          "hash": "a17538d50c0072c7d5c2d7857eeb7eb78a9b3daefa2bc2aa9fe623e3383b6b78",
-          "supported_version": "4.2.4"
-        },
-        {
           "path": "giga/common/districts/giga_alderson.txt",
           "sort_key": [
             2,
             2947537126991773820999138762926584674639345390240264801176629406961977652963211380,
             "000000005:district_alderson_ecu"
           ],
-          "hash": "fcb942109f7fdef7ddefd7d59b2d08f540a9219835f0cf7a8aca1e19c8550a00",
+          "hash": "48168ce7ef240ff5d76e805108cd8a93e6afbd383072c79e21cb98eb1e21b24d",
           "supported_version": "4.3.*"
         }
       ]
@@ -130,9 +98,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_alderson_gaia",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_alderson_gaia.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -141,28 +109,8 @@
             16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436,
             "000000002:district_alderson_gaia"
           ],
-          "hash": "6b7f6bf32e7febcd39de53ad822547e2bde581f7ed7a370520da37c038c7290f",
-          "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/giga_alderson_replace_1121692237_fixed.txt",
-          "sort_key": [
-            2,
-            4736509546228924080696524982617914259733699532051306011383663103069919854449854342166228878822519001511748530420662934698480990580034344614004,
-            "000000002:district_alderson_gaia"
-          ],
           "hash": "e1d6e48f0103c98ba79d52878ba8be58bab0335cc5b5d80cd088119c5d621e03",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436,
-            "000000002:district_alderson_gaia"
-          ],
-          "hash": "6b7f6bf32e7febcd39de53ad822547e2bde581f7ed7a370520da37c038c7290f",
-          "supported_version": "4.2.4"
+          "supported_version": "4.*"
         },
         {
           "path": "giga/common/districts/giga_alderson.txt",
@@ -171,7 +119,7 @@
             2947537126991773820999138762926584674639345390240264801176629406961977652963211380,
             "000000002:district_alderson_gaia"
           ],
-          "hash": "99274bec913e3ae29a34b6570101de4c7b8b3660ed9f9f6b40d8c6b0660c1f12",
+          "hash": "6d18088ad7d6e3e82d8c391bafe2e4c17fd9b8921d35098c46deae4543e0751d",
           "supported_version": "4.3.*"
         }
       ]
@@ -180,9 +128,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_alderson_hive",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_alderson_hive.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -195,23 +143,13 @@
           "supported_version": "4.*"
         },
         {
-          "path": "bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436,
-            "000000003:district_alderson_hive"
-          ],
-          "hash": "3cd11fba88a4059c07ef91c27ab7f703b7316df9347469705ce098c3404c2a48",
-          "supported_version": "4.2.4"
-        },
-        {
           "path": "giga/common/districts/giga_alderson.txt",
           "sort_key": [
             2,
             2947537126991773820999138762926584674639345390240264801176629406961977652963211380,
             "000000003:district_alderson_hive"
           ],
-          "hash": "49617b69dcf65f76f290265da9c3abd56b7dde01f0702a9fc4e747f158e04382",
+          "hash": "535fb88c2e53c6e5c2bf36f8700ce0d67403b5081cffba09cf38253e6a94d422",
           "supported_version": "4.3.*"
         }
       ]
@@ -220,9 +158,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_alderson_logistics",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_alderson_logistics.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -231,28 +169,8 @@
             16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436,
             "000000001:district_alderson_logistics"
           ],
-          "hash": "05e01ffb6981bbf7522212197ef80ef4cd7e347d63d220750c488306b8ffa0cc",
+          "hash": "be8f6739cc1b53dfa9c9040be1e89203d6f2c7387d84e435995d9d015301bb9a",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/giga_alderson_replace_1121692237_fixed.txt",
-          "sort_key": [
-            2,
-            4736509546228924080696524982617914259733699532051306011383663103069919854449854342166228878822519001511748530420662934698480990580034344614004,
-            "000000001:district_alderson_logistics"
-          ],
-          "hash": "319defede204a1225a598d5e43a9ea9619b9e53d246215a5839d8955418b1fab",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436,
-            "000000001:district_alderson_logistics"
-          ],
-          "hash": "05e01ffb6981bbf7522212197ef80ef4cd7e347d63d220750c488306b8ffa0cc",
-          "supported_version": "4.2.4"
         },
         {
           "path": "giga/common/districts/giga_alderson.txt",
@@ -261,7 +179,7 @@
             2947537126991773820999138762926584674639345390240264801176629406961977652963211380,
             "000000001:district_alderson_logistics"
           ],
-          "hash": "8bf4c2b82616bd1634fa03692ea8880f0e7718632f4eef872962401d8c1eab45",
+          "hash": "ad547f99bb102517a81c1298f30fdc5ec4c709bd78770152cccfef59ff78b1fa",
           "supported_version": "4.3.*"
         }
       ]
@@ -270,9 +188,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_alderson_machine",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_alderson_machine.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -285,23 +203,13 @@
           "supported_version": "4.*"
         },
         {
-          "path": "bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436,
-            "000000004:district_alderson_machine"
-          ],
-          "hash": "c1f70a13b2a4303208a94693b2c8d44ad6c1e7eb658c2fb940a25cd7f15f7986",
-          "supported_version": "4.2.4"
-        },
-        {
           "path": "giga/common/districts/giga_alderson.txt",
           "sort_key": [
             2,
             2947537126991773820999138762926584674639345390240264801176629406961977652963211380,
             "000000004:district_alderson_machine"
           ],
-          "hash": "d5e44bc5c605e4732907313c1a95a110fd5529d3a6e0124022a5885c598a87a6",
+          "hash": "f305024004c92d6c1c46517214d7ff801bc2cdbf23dc333684664ba62c3c7f63",
           "supported_version": "4.3.*"
         }
       ]
@@ -310,9 +218,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_alderson_pcc",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_alderson_pcc.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt",
@@ -325,23 +233,13 @@
           "supported_version": "4.*"
         },
         {
-          "path": "bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436,
-            "000000006:district_alderson_pcc"
-          ],
-          "hash": "4e9c87446a5e89a39f8ee92d4c97e9c763b7d090239cba64d7ea743ff6c12583",
-          "supported_version": "4.2.4"
-        },
-        {
           "path": "giga/common/districts/giga_alderson.txt",
           "sort_key": [
             2,
             2947537126991773820999138762926584674639345390240264801176629406961977652963211380,
             "000000006:district_alderson_pcc"
           ],
-          "hash": "e31784436ce8975f0646e43d2fb0fa92bd1a1a5704691241ec6678a7fbcb00ac",
+          "hash": "deba498bb98fe84e3c61379844a238d7d06a8e593fa50d121d7af6ca016d0102",
           "supported_version": "4.3.*"
         }
       ]
@@ -350,9 +248,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_arcology_housing",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_arcology_housing.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/01_arcology_districts_replace.txt",
@@ -373,26 +271,6 @@
           ],
           "hash": "6314c6acfed677986824348f150730a643004d3c048425ee8d35db4cb92a7a75",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000011:district_arcology_housing"
-          ],
-          "hash": "f9769714c134ddb652fa80f686c4b81b8df7bef6ad47e30c77a4b9aaca5ac630",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000011:district_arcology_housing"
-          ],
-          "hash": "6314c6acfed677986824348f150730a643004d3c048425ee8d35db4cb92a7a75",
-          "supported_version": "4.2.4"
         },
         {
           "path": "pd_arcologies/common/districts/01_arcology_districts.txt",
@@ -420,9 +298,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_arcology_leisure",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_arcology_leisure.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/01_arcology_districts_replace.txt",
@@ -443,26 +321,6 @@
           ],
           "hash": "01064fa92271681cda3cdab29b75c2fb49759a5308b41d7ae8c9e8571449c95c",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000012:district_arcology_leisure"
-          ],
-          "hash": "e1809e9b919066ca0660dbec4092d2109f66986cc7499e749e87f7827b77056f",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000012:district_arcology_leisure"
-          ],
-          "hash": "01064fa92271681cda3cdab29b75c2fb49759a5308b41d7ae8c9e8571449c95c",
-          "supported_version": "4.2.4"
         },
         {
           "path": "pd_arcologies/common/districts/01_arcology_districts.txt",
@@ -580,9 +438,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_battle_thrall",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_battle_thrall.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -603,26 +461,6 @@
           ],
           "hash": "327c4e857ea9cea81b6166854e4206b93b9e1c921817eb98bba1e1e6d06de72d",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000009:district_battle_thrall"
-          ],
-          "hash": "a591e11744fdf9158297cfad8c14feac9d28892597191a22f4e47cefda8c576b",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000009:district_battle_thrall"
-          ],
-          "hash": "327c4e857ea9cea81b6166854e4206b93b9e1c921817eb98bba1e1e6d06de72d",
-          "supported_version": "4.2.4"
         },
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -650,9 +488,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_city",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_city.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -673,26 +511,6 @@
           ],
           "hash": "121cee08519a4bcbfd01b47e99b6a9a7d19d4a680e8f2ccc4dba70eb6f43bb51",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000001:district_city"
-          ],
-          "hash": "8d47c89b96fbe5f237b49d9412ff15e12097df7d8092d6173a4fdab37c29f820",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000001:district_city"
-          ],
-          "hash": "afc24b13dce1967f7dfb263e7d5b51a8e3a4ba36c15d6c4c808948dcc42dfc5b",
-          "supported_version": "4.2.4"
         },
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -720,9 +538,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_craglands",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_craglands.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/05_wilderness_districts_replace.txt",
@@ -755,26 +573,6 @@
           "supported_version": "4.*"
         },
         {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000010:district_craglands"
-          ],
-          "hash": "89c0a6bef0edc526494ab11cd9bc9170253ddf9a11fbe30a70fdf27ce82bc8c2",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000010:district_craglands"
-          ],
-          "hash": "de8485d16721fe7bf9a95bf09ccc7f48f6f53b994ac23676708a788c59d6cd02",
-          "supported_version": "4.2.4"
-        },
-        {
           "path": "vanilla/common/districts/05_wilderness_districts.txt",
           "sort_key": [
             1,
@@ -790,9 +588,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_crashed_slaver_ship",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_crashed_slaver_ship.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -813,26 +611,6 @@
           ],
           "hash": "b4c3d7f7908ff2268726363c0baa843f257390e2f0abd537be22ffec8a1551a0",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000002:district_crashed_slaver_ship"
-          ],
-          "hash": "615ceea98175fc16e8724256f117c3c3f98fe12a05c42afce071fb6a4fcd4edb",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000002:district_crashed_slaver_ship"
-          ],
-          "hash": "b4c3d7f7908ff2268726363c0baa843f257390e2f0abd537be22ffec8a1551a0",
-          "supported_version": "4.2.4"
         },
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -860,9 +638,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_flusion_city",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_flusion_city.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_flusion_arcology_replace_1121692237.txt",
@@ -871,28 +649,8 @@
             310411889621658768552527461260847628925907732532514390925011104853516965100886818217197767069695188202414307607767797455511964581914202265886161012,
             "000000001:district_flusion_city"
           ],
-          "hash": "980b1bab2e9964ca0326ce6c4187042eb1d81fbf4f1d1d057bc62f92aa16fb39",
+          "hash": "3dfebd18a570c86b4cab3fe479bcf28268e5e7e39485c96e67d453ec6de1a5a7",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/giga_flusion_arcology_replace_1121692237_fixed.txt",
-          "sort_key": [
-            2,
-            87373179401967122789481755722202971601365717374773792975898665535581862998145907087137926960156939781271354043128000389668923166951460819005408738667482322335860,
-            "000000001:district_flusion_city"
-          ],
-          "hash": "685d60e930360913a98ce3ccb23cf2a321b396836f09425e51fea8085f304042",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/giga_flusion_arcology_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            310411889621658768552527461260847628925907732532514390925011104853516965100886818217197767069695188202414307607767797455511964581914202265886161012,
-            "000000001:district_flusion_city"
-          ],
-          "hash": "980b1bab2e9964ca0326ce6c4187042eb1d81fbf4f1d1d057bc62f92aa16fb39",
-          "supported_version": "4.2.4"
         },
         {
           "path": "giga/common/districts/giga_flusion_arcology.txt",
@@ -909,10 +667,40 @@
     {
       "record_type": "object",
       "source_path": "common/districts",
+      "name": "district_giga_birch_structure",
+      "path": "common/districts/��������_all_merged_common_items.txt",
+      "merged_file": "_merged/common/districts/district_giga_birch_structure.txt",
+      "status": "up-to-date",
+      "sources": [
+        {
+          "path": "bpvr_compat/common/districts/giga_birch_world_replace_1121692237.txt",
+          "sort_key": [
+            0,
+            282317968978221659701855479634875909074169369462210298292354614261124742465626956339407863476577321460150374514240473540769387220596852,
+            "000000001:district_giga_birch_structure"
+          ],
+          "hash": "8399bab436bc49eb9e40416b07d7f535f2c7ae16cc122380ffb47096e95295b6",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "giga/common/districts/giga_birch_world.txt",
+          "sort_key": [
+            2,
+            49451467047560419618047886839592103228714019710665214471669923905398497685569578437212276,
+            "000000001:district_giga_birch_structure"
+          ],
+          "hash": "dd42ab4d3451a9e7e11d3eb7dfa441134e4a97c43462b3aab6c48ffe22f0c1c0",
+          "supported_version": "4.3.*"
+        }
+      ]
+    },
+    {
+      "record_type": "object",
+      "source_path": "common/districts",
       "name": "district_giga_planet_city",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_giga_planet_city.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/00_giga_urban_districts_replace_1121692237.txt",
@@ -923,16 +711,6 @@
           ],
           "hash": "17d6ec909d44e52391c78a9a64035f60e7f255d9d29a5d519ec4eeec78d8786b",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/00_giga_urban_districts_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288159466205284164547548459525084647976094061006241134343381471140420651026853920820383168501134938105842517702772,
-            "000000001:district_giga_planet_city"
-          ],
-          "hash": "17d6ec909d44e52391c78a9a64035f60e7f255d9d29a5d519ec4eeec78d8786b",
-          "supported_version": "4.2.4"
         },
         {
           "path": "giga/common/districts/00_giga_urban_districts.txt",
@@ -950,9 +728,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_giga_planet_hive",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_giga_planet_hive.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/00_giga_urban_districts_replace_1121692237.txt",
@@ -963,16 +741,6 @@
           ],
           "hash": "f7c3993f6e96b140a28f8ae94cf14764f04b1828c60873bb5bce29425046d427",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/00_giga_urban_districts_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288159466205284164547548459525084647976094061006241134343381471140420651026853920820383168501134938105842517702772,
-            "000000002:district_giga_planet_hive"
-          ],
-          "hash": "f7c3993f6e96b140a28f8ae94cf14764f04b1828c60873bb5bce29425046d427",
-          "supported_version": "4.2.4"
         },
         {
           "path": "giga/common/districts/00_giga_urban_districts.txt",
@@ -990,9 +758,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_giga_planet_nexus",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_giga_planet_nexus.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/00_giga_urban_districts_replace_1121692237.txt",
@@ -1001,18 +769,8 @@
             20343153598245029055858439701190910209288159466205284164547548459525084647976094061006241134343381471140420651026853920820383168501134938105842517702772,
             "000000003:district_giga_planet_nexus"
           ],
-          "hash": "669d706595f36a6ce7ff9e9a11b067176ea5c7f377356ca545b73bda11211285",
+          "hash": "78cdc0541f1cad71ca3700248aa0d96e794cf8fee8e13015512dd3cdf388e0ea",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/00_giga_urban_districts_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288159466205284164547548459525084647976094061006241134343381471140420651026853920820383168501134938105842517702772,
-            "000000003:district_giga_planet_nexus"
-          ],
-          "hash": "669d706595f36a6ce7ff9e9a11b067176ea5c7f377356ca545b73bda11211285",
-          "supported_version": "4.2.4"
         },
         {
           "path": "giga/common/districts/00_giga_urban_districts.txt",
@@ -1030,9 +788,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_hab_housing",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_hab_housing.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/03_habitat_districts_replace.txt",
@@ -1055,26 +813,6 @@
           "supported_version": "4.*"
         },
         {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000013:district_hab_housing"
-          ],
-          "hash": "d256dea5f2d13fb7766a84ea082a55d7c7225f67eb3df252750e214b1f10b63d",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000013:district_hab_housing"
-          ],
-          "hash": "896a5a94bae00702f6ede233635cb336691bc453b860ba64898a73a0782f7085",
-          "supported_version": "4.2.4"
-        },
-        {
           "path": "vanilla/common/districts/03_habitat_districts.txt",
           "sort_key": [
             1,
@@ -1090,9 +828,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_hive",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_hive.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -1113,26 +851,6 @@
           ],
           "hash": "51c9e585d0e505d55816e7cf54a83f007a7a820b5cf34d47016d4a9c79ae1f63",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000006:district_hive"
-          ],
-          "hash": "df1dae64820111c73b6b1a49c10068737b8747f7536added2a629bc0d752ca69",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000006:district_hive"
-          ],
-          "hash": "51c9e585d0e505d55816e7cf54a83f007a7a820b5cf34d47016d4a9c79ae1f63",
-          "supported_version": "4.2.4"
         },
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -1160,9 +878,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_maginot_ringworld_barracks",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_maginot_ringworld_barracks.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_maginot_districts_replace_1121692237.txt",
@@ -1171,18 +889,8 @@
             79465443743144644749447030082776993005032379528323684134848432654129724126059608714527383637669638277323948356939907351527355694608199104979367393396,
             "000000002:district_maginot_ringworld_barracks"
           ],
-          "hash": "d6b1835c055ce2ab632bbffa37d7c6a2b212ffb68bac95fb488aa01a2a5eb014",
+          "hash": "f971ec892a008fff0b2d512cf69c17963053b2270e1737f4330fd5868926b048",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/giga_maginot_districts_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            79465443743144644749447030082776993005032379528323684134848432654129724126059608714527383637669638277323948356939907351527355694608199104979367393396,
-            "000000002:district_maginot_ringworld_barracks"
-          ],
-          "hash": "d6b1835c055ce2ab632bbffa37d7c6a2b212ffb68bac95fb488aa01a2a5eb014",
-          "supported_version": "4.2.4"
         },
         {
           "path": "giga/common/districts/giga_maginot_districts.txt",
@@ -1200,9 +908,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_maginot_world_barracks",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_maginot_world_barracks.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/districts/giga_maginot_districts_replace_1121692237.txt",
@@ -1211,18 +919,8 @@
             79465443743144644749447030082776993005032379528323684134848432654129724126059608714527383637669638277323948356939907351527355694608199104979367393396,
             "000000001:district_maginot_world_barracks"
           ],
-          "hash": "190c71c9630f409fe4c401f2cfe1f828e83d9ae5432f6f4c85e0fea24f442246",
+          "hash": "7a5f43543d09317dfcb9e5c1a34b793ac60c5dcdf02294312e04dc5d744b64f4",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/giga_maginot_districts_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            79465443743144644749447030082776993005032379528323684134848432654129724126059608714527383637669638277323948356939907351527355694608199104979367393396,
-            "000000001:district_maginot_world_barracks"
-          ],
-          "hash": "190c71c9630f409fe4c401f2cfe1f828e83d9ae5432f6f4c85e0fea24f442246",
-          "supported_version": "4.2.4"
         },
         {
           "path": "giga/common/districts/giga_maginot_districts.txt",
@@ -1240,9 +938,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_mindlink",
-      "path": "common/districts/00_special_districts_replace_replace_bpvr_base.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_mindlink.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_special_districts_replace.txt",
@@ -1252,6 +950,16 @@
             "000000001:district_mindlink"
           ],
           "hash": "dd39069ecb091648115ce6b95719e0b56df3ea8357cd2833042d29de48659eca",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "bpvr_compat/common/districts/00_special_districts_replace copy.txt",
+          "sort_key": [
+            0,
+            4307830337192102961759269403608336014925652612452193748403311275109013813394459931694221337016994204890416205481714019093877913716,
+            "000000001:district_mindlink"
+          ],
+          "hash": "99c669cd9c5d8cefea61274665a67c8e6625599ffe8efe37434d20064816e8fc",
           "supported_version": "4.*"
         },
         {
@@ -1270,9 +978,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_nexus",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_nexus.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -1293,26 +1001,6 @@
           ],
           "hash": "e4d392cb0a15878ad1fbf044c92348bd8dff9a533097c8724d08f5363c20d0bf",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000007:district_nexus"
-          ],
-          "hash": "0a961f01c56e28bdafb0f3cafef81bdcc265de33ce3d8b0cbd6110b74f0d0243",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000007:district_nexus"
-          ],
-          "hash": "e4d392cb0a15878ad1fbf044c92348bd8dff9a533097c8724d08f5363c20d0bf",
-          "supported_version": "4.2.4"
         },
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -1340,7 +1028,7 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_pd_commercial_arcology_housing",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_pd_commercial_arcology_housing.txt",
       "status": "up-to-date",
       "sources": [
@@ -1370,7 +1058,7 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_pd_fortress_arcology_housing",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_pd_fortress_arcology_housing.txt",
       "status": "up-to-date",
       "sources": [
@@ -1400,7 +1088,7 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_pd_garden_arcology_housing",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_pd_garden_arcology_housing.txt",
       "status": "up-to-date",
       "sources": [
@@ -1430,9 +1118,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_prison",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_prison.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -1453,26 +1141,6 @@
           ],
           "hash": "1dfa56af7c8435afff08c4f2e27b73c5a585b859762e43c0c52f9a8b6d80fab9",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000004:district_prison"
-          ],
-          "hash": "f8925e4d9be83832131f2c149faa9237fd179b158b64b5e9c3463c6a0a00f042",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000004:district_prison"
-          ],
-          "hash": "1dfa56af7c8435afff08c4f2e27b73c5a585b859762e43c0c52f9a8b6d80fab9",
-          "supported_version": "4.2.4"
         },
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -1500,9 +1168,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_prison_industrial",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_prison_industrial.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -1523,26 +1191,6 @@
           ],
           "hash": "c1edb8aae4c233c02e9fd03b7acd78ffed160a24b2af05d63f81b45db2167878",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000008:district_prison_industrial"
-          ],
-          "hash": "c1edb8aae4c233c02e9fd03b7acd78ffed160a24b2af05d63f81b45db2167878",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000008:district_prison_industrial"
-          ],
-          "hash": "c1edb8aae4c233c02e9fd03b7acd78ffed160a24b2af05d63f81b45db2167878",
-          "supported_version": "4.2.4"
         },
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -1570,9 +1218,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_resort",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_resort.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -1593,26 +1241,6 @@
           ],
           "hash": "6ed1d0a9eaa34b877fdcdcedbad7e71d778b1d09fd0c1d0f4a33b7662623b745",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000003:district_resort"
-          ],
-          "hash": "ecb638e2cc14bc10693cb0d1103e37af45a17a21687509e7032f0e5571920ebc",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000003:district_resort"
-          ],
-          "hash": "6ed1d0a9eaa34b877fdcdcedbad7e71d778b1d09fd0c1d0f4a33b7662623b745",
-          "supported_version": "4.2.4"
         },
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -1640,9 +1268,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_rw_city",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_rw_city.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/04_ringworld_districts_replace.txt",
@@ -1665,26 +1293,6 @@
           "supported_version": "4.*"
         },
         {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000014:district_rw_city"
-          ],
-          "hash": "633a4256b659e19d3b3c398141fca9b8598a29c9ff7f8b1a5457399e7445b5ff",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000014:district_rw_city"
-          ],
-          "hash": "7ef32ef8e4c0066a2454277dd15da596dc25df9afaf7d4a02ea20fcc5b108f9c",
-          "supported_version": "4.2.4"
-        },
-        {
           "path": "vanilla/common/districts/04_ringworld_districts.txt",
           "sort_key": [
             1,
@@ -1700,9 +1308,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_rw_hive",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_rw_hive.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/04_ringworld_districts_replace.txt",
@@ -1725,26 +1333,6 @@
           "supported_version": "4.*"
         },
         {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000015:district_rw_hive"
-          ],
-          "hash": "d8264c7bec2b9834e9b859e0ff0e4ce644373ead9285001385fbcd312c065a33",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000015:district_rw_hive"
-          ],
-          "hash": "31a93bf6f2b0a173646e006c8adc81de4c7c3a6843a6abe3000071b997a184e0",
-          "supported_version": "4.2.4"
-        },
-        {
           "path": "vanilla/common/districts/04_ringworld_districts.txt",
           "sort_key": [
             1,
@@ -1760,9 +1348,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_rw_nexus",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_rw_nexus.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/04_ringworld_districts_replace.txt",
@@ -1785,26 +1373,6 @@
           "supported_version": "4.*"
         },
         {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000016:district_rw_nexus"
-          ],
-          "hash": "cf666a712195548e6246aa9e266e75efea7de20020c7c27dae593290a10a2b42",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000016:district_rw_nexus"
-          ],
-          "hash": "8ddcb914c09d7db7575577f685a20bbd5bd9a64f7335258e719150d6abb43b01",
-          "supported_version": "4.2.4"
-        },
-        {
           "path": "vanilla/common/districts/04_ringworld_districts.txt",
           "sort_key": [
             1,
@@ -1820,9 +1388,9 @@
       "record_type": "object",
       "source_path": "common/districts",
       "name": "district_slave",
-      "path": "common/districts/����_all_merged_common_items.txt",
+      "path": "common/districts/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/districts/district_slave.txt",
-      "status": "source-missing",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_base/common/districts/00_urban_districts_replace.txt",
@@ -1843,26 +1411,6 @@
           ],
           "hash": "cae2ac718e1578b0fd96dd1758d65b99b3afbdcd19d041fa8eaf23a8bd4db456",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/districts/����_all_merged_common_items_fixed.txt",
-          "sort_key": [
-            2,
-            20343153598245029055858439701190910209288609353107463446332320209387089615843011692020443451213989543015893476929664719328393452575305627314961641666676,
-            "000000005:district_slave"
-          ],
-          "hash": "8fc714228faccc3e38590840c45e66639b40add783a94220aa324d3d48578b3f",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/districts/����_all_merged_common_items.txt",
-          "sort_key": [
-            2,
-            72273400058424744883675002786528232722988496139420048245697785949158350205731734988107616328583978113243423553518826165488041554653509748,
-            "000000005:district_slave"
-          ],
-          "hash": "cae2ac718e1578b0fd96dd1758d65b99b3afbdcd19d041fa8eaf23a8bd4db456",
-          "supported_version": "4.2.4"
         },
         {
           "path": "pd_arcologies/common/districts/00_urban_districts.txt",
@@ -1888,49 +1436,9 @@
     },
     {
       "record_type": "object",
-      "source_path": "common/technology",
-      "name": "tech_pre_industrial_steel_construction",
-      "path": "common/technology/����_all_merged_common_items.txt",
-      "merged_file": "_merged/common/technology/tech_pre_industrial_steel_construction.txt",
-      "status": "up-to-date",
-      "sources": [
-        {
-          "path": "bpvr_compat/common/technology/000_dummy_technology.txt",
-          "sort_key": [
-            0,
-            54372463029374381905245812803038301042015770807492415259542699323960464537464815096103905979960424564,
-            "000000002:tech_pre_industrial_steel_construction"
-          ],
-          "hash": "3dbedb6c2039d43e25821f8fe316bce9f72f8e03f18f3af00befd1903abb665c",
-          "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/technology/000_dummy_technology_fixed.txt",
-          "sort_key": [
-            2,
-            15304487764894158528396980180090066856238150944975187824331144921872564511400207816356880266383571016813516913145972,
-            "000000001:tech_pre_industrial_steel_construction"
-          ],
-          "hash": "ff01ffe71c23d70ce32bbfde62be307502fa93a17c46a9863a416b50a1b39783",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/technology/000_dummy_technology.txt",
-          "sort_key": [
-            2,
-            54372463029374381905245812803038301042015770807492415259542699323960464537464815096103905979960424564,
-            "000000002:tech_pre_industrial_steel_construction"
-          ],
-          "hash": "3dbedb6c2039d43e25821f8fe316bce9f72f8e03f18f3af00befd1903abb665c",
-          "supported_version": "4.2.4"
-        }
-      ]
-    },
-    {
-      "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_ae_energy",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_energy.txt",
       "status": "up-to-date",
       "sources": [
@@ -1951,7 +1459,17 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000018:zone_acot_ae_energy"
           ],
-          "hash": "41d59681a6857fdf43f7597e30c4013170bb4a3f2bde9fbb8af025940a479bd9",
+          "hash": "552a2c07aa4929dacc1923f2bb17792dbc588a72366a63d229349ce47f01b2b5",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "bpvr_compat/common/zones/z_acot_vanilla_zones_override_replace_2178603631.txt",
+          "sort_key": [
+            0,
+            1333208914214586228302641069440386349398592885580951152734918661858664672145422718128322407367440876297476628899885823786543276328613296531324304617347774580,
+            "000000009:zone_acot_ae_energy"
+          ],
+          "hash": "b5378e584a80328e947dd1d5633c1eb2624a31c7dca2b55c6c61f8fb30b014bc",
           "supported_version": "4.*"
         }
       ]
@@ -1960,7 +1478,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_ae_factory",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_factory.txt",
       "status": "up-to-date",
       "sources": [
@@ -1981,7 +1499,17 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000008:zone_acot_ae_factory"
           ],
-          "hash": "ada26478d158c831ca43617c484a6a4efbe4ad9201a43962927abf329473b1f7",
+          "hash": "19b99c4dddaa0e6438f2b748c95e070a67d3477c8c4287859402af70f8e0d76b",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "bpvr_compat/common/zones/z_acot_vanilla_zones_override_replace_2178603631.txt",
+          "sort_key": [
+            0,
+            1333208914214586228302641069440386349398592885580951152734918661858664672145422718128322407367440876297476628899885823786543276328613296531324304617347774580,
+            "000000004:zone_acot_ae_factory"
+          ],
+          "hash": "00b45fd9c7957b2cea466283361d159363bb9b5721488c1b4c262dfe1411ddee",
           "supported_version": "4.*"
         }
       ]
@@ -1990,7 +1518,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_ae_food",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_food.txt",
       "status": "up-to-date",
       "sources": [
@@ -2011,7 +1539,17 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000020:zone_acot_ae_food"
           ],
-          "hash": "5f99bf531362eee3d16dddf1d7d080d1c4c9dd781c2321a5235bcb7c137a99f1",
+          "hash": "039332ff40ba838526b71ec623eb881324ec2dbefcc838e032f9912fdfbd2f52",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "bpvr_compat/common/zones/z_acot_vanilla_zones_override_replace_2178603631.txt",
+          "sort_key": [
+            0,
+            1333208914214586228302641069440386349398592885580951152734918661858664672145422718128322407367440876297476628899885823786543276328613296531324304617347774580,
+            "000000010:zone_acot_ae_food"
+          ],
+          "hash": "3ae5ed3e1dbd7975f7d4d92fab30f9252364815410e254d44fa39846b95ebedb",
           "supported_version": "4.*"
         }
       ]
@@ -2020,7 +1558,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_ae_fortress",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_fortress.txt",
       "status": "up-to-date",
       "sources": [
@@ -2041,7 +1579,17 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000012:zone_acot_ae_fortress"
           ],
-          "hash": "eb7dee93d6f554387fac6be181e1b8c12037bde6edb28c98019d242b15d7477e",
+          "hash": "e8378f2d99d6b610475b94dbb9dbd5c50a91be8835bf05b14d339299fbf9f315",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "bpvr_compat/common/zones/z_acot_vanilla_zones_override_replace_2178603631.txt",
+          "sort_key": [
+            0,
+            1333208914214586228302641069440386349398592885580951152734918661858664672145422718128322407367440876297476628899885823786543276328613296531324304617347774580,
+            "000000006:zone_acot_ae_fortress"
+          ],
+          "hash": "b174b61b84f372d1a2a32ec812b3da78301f4f1f3861fdc86153f1ea23cef87e",
           "supported_version": "4.*"
         }
       ]
@@ -2050,7 +1598,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_ae_foundry",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_foundry.txt",
       "status": "up-to-date",
       "sources": [
@@ -2071,7 +1619,17 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000006:zone_acot_ae_foundry"
           ],
-          "hash": "7f41c02fd781fc700a954e31e87a5b0cc65ad075cc01ffcb872a5a9a2d979e2f",
+          "hash": "218df3124e875f9eeb5367a78be8a74caad4d5fc9ca93b2a00cee98ae034f0c6",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "bpvr_compat/common/zones/z_acot_vanilla_zones_override_replace_2178603631.txt",
+          "sort_key": [
+            0,
+            1333208914214586228302641069440386349398592885580951152734918661858664672145422718128322407367440876297476628899885823786543276328613296531324304617347774580,
+            "000000003:zone_acot_ae_foundry"
+          ],
+          "hash": "887e14e3fe52494e4b8fab3e9f13219e524851e48103db574876f855fa04b49a",
           "supported_version": "4.*"
         }
       ]
@@ -2080,7 +1638,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_ae_industry",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_industry.txt",
       "status": "up-to-date",
       "sources": [
@@ -2101,7 +1659,17 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000004:zone_acot_ae_industry"
           ],
-          "hash": "5a13f627741f08704f993fad7af9971343ef5db9280d583f7c1ce1a34907510f",
+          "hash": "8f689a3c8274adbe514844a7f1324eaaeb83c2f7865b122d8dd8713ce7eecc0f",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "bpvr_compat/common/zones/z_acot_vanilla_zones_override_replace_2178603631.txt",
+          "sort_key": [
+            0,
+            1333208914214586228302641069440386349398592885580951152734918661858664672145422718128322407367440876297476628899885823786543276328613296531324304617347774580,
+            "000000002:zone_acot_ae_industry"
+          ],
+          "hash": "d6768f4745a835165ca972a53d45f633361679f69ee94174d09c3f82d8333e86",
           "supported_version": "4.*"
         }
       ]
@@ -2110,7 +1678,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_ae_minerals",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_minerals.txt",
       "status": "up-to-date",
       "sources": [
@@ -2131,7 +1699,17 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000016:zone_acot_ae_minerals"
           ],
-          "hash": "a082fbced29d6397d7318bbfa285563059dabcf06bfa683f6b7b38ba50d213c6",
+          "hash": "525d06cc1aa67405c2b3d13c1060e1f7be76df4f7fef039c30155ca3cc740404",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "bpvr_compat/common/zones/z_acot_vanilla_zones_override_replace_2178603631.txt",
+          "sort_key": [
+            0,
+            1333208914214586228302641069440386349398592885580951152734918661858664672145422718128322407367440876297476628899885823786543276328613296531324304617347774580,
+            "000000008:zone_acot_ae_minerals"
+          ],
+          "hash": "fccb3b6e90f70b822fe8f5de7924c2cfe2354f9091ec46b026ee3ef4a9b07b14",
           "supported_version": "4.*"
         }
       ]
@@ -2140,7 +1718,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_ae_research",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_research.txt",
       "status": "up-to-date",
       "sources": [
@@ -2161,7 +1739,17 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000010:zone_acot_ae_research"
           ],
-          "hash": "0f02ae5194df429ca39e0fc1b28ddee02584eee62b643bda03424d8adddcd96a",
+          "hash": "da328b343e41230a01117ed95bc4358373e74832af5197ed8c9af41092e21e44",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "bpvr_compat/common/zones/z_acot_vanilla_zones_override_replace_2178603631.txt",
+          "sort_key": [
+            0,
+            1333208914214586228302641069440386349398592885580951152734918661858664672145422718128322407367440876297476628899885823786543276328613296531324304617347774580,
+            "000000005:zone_acot_ae_research"
+          ],
+          "hash": "ca93b5af8921fba2c9405725207c390e810f1851e12ee07cb0f8928c1e2f8cee",
           "supported_version": "4.*"
         }
       ]
@@ -2170,7 +1758,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_ae_trade",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_trade.txt",
       "status": "up-to-date",
       "sources": [
@@ -2191,7 +1779,17 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000014:zone_acot_ae_trade"
           ],
-          "hash": "51e2dba248d25444bd48cdead67614f549657b6bccd04bf6f4a531ee8ef5e6a7",
+          "hash": "d68f2fb494118f0b5d3ce92b6417671ccf7723891c0321c8c7baa4788b8b5029",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "bpvr_compat/common/zones/z_acot_vanilla_zones_override_replace_2178603631.txt",
+          "sort_key": [
+            0,
+            1333208914214586228302641069440386349398592885580951152734918661858664672145422718128322407367440876297476628899885823786543276328613296531324304617347774580,
+            "000000007:zone_acot_ae_trade"
+          ],
+          "hash": "2a8149bc3a02130194f2a918f850e7300f255cde6ac2606532f20abc6852bf3d",
           "supported_version": "4.*"
         }
       ]
@@ -2200,7 +1798,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_ae_urban",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_ae_urban.txt",
       "status": "up-to-date",
       "sources": [
@@ -2221,7 +1819,17 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000002:zone_acot_ae_urban"
           ],
-          "hash": "1b2b4edb4c07fb63668f516401dcf81b8ce1f52ef60d78b5796020967773f789",
+          "hash": "e50b92c876728605285a4d107cf7045cfce2e16f93fce12c9b08a6ec028fbc5c",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "bpvr_compat/common/zones/z_acot_vanilla_zones_override_replace_2178603631.txt",
+          "sort_key": [
+            0,
+            1333208914214586228302641069440386349398592885580951152734918661858664672145422718128322407367440876297476628899885823786543276328613296531324304617347774580,
+            "000000001:zone_acot_ae_urban"
+          ],
+          "hash": "0e112f2a1685eb9239e2cdc1505c45a3bc2865c7e641026e80cf3b4de73e6ea4",
           "supported_version": "4.*"
         }
       ]
@@ -2230,7 +1838,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_dm_energy",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_energy.txt",
       "status": "up-to-date",
       "sources": [
@@ -2251,7 +1859,7 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000017:zone_acot_dm_energy"
           ],
-          "hash": "c63939494ef672d71a742688123701db902f8d086a97c74efd77abd86e5671e8",
+          "hash": "78981de1d0f2ad6e02522547ec9298d12ca0d6f4430c6d403e8ac239c2ba92f4",
           "supported_version": "4.*"
         }
       ]
@@ -2260,7 +1868,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_dm_factory",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_factory.txt",
       "status": "up-to-date",
       "sources": [
@@ -2281,7 +1889,7 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000007:zone_acot_dm_factory"
           ],
-          "hash": "03ac34616452b4f11832408d9fef8585ed55fee2b4e99171858f1d3c3106e7ca",
+          "hash": "fc4ff51422c0e26ed51e96a78d42431da23bb9a7e2343f13aeeafd4c54c330f0",
           "supported_version": "4.*"
         }
       ]
@@ -2290,7 +1898,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_dm_food",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_food.txt",
       "status": "up-to-date",
       "sources": [
@@ -2311,7 +1919,7 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000019:zone_acot_dm_food"
           ],
-          "hash": "17a183b2249b05ec4fc489c5510955da7ab777bc22981c5d53e5797d2242b391",
+          "hash": "567b787792ca64e3875033250b0a9ce6a74dd1b98b844215f42e99fbfa1ece17",
           "supported_version": "4.*"
         }
       ]
@@ -2320,7 +1928,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_dm_fortress",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_fortress.txt",
       "status": "up-to-date",
       "sources": [
@@ -2341,7 +1949,7 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000011:zone_acot_dm_fortress"
           ],
-          "hash": "1385aa7d849149e721177402c9fff5f0ef722e8efe23a3f595dbf322461dd243",
+          "hash": "a439f0f6f104d6ce6b3f4714c88460f37e09c01171277cc8215c61d1953e183e",
           "supported_version": "4.*"
         }
       ]
@@ -2350,7 +1958,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_dm_foundry",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_foundry.txt",
       "status": "up-to-date",
       "sources": [
@@ -2371,7 +1979,7 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000005:zone_acot_dm_foundry"
           ],
-          "hash": "fb7afa6e84aba80ae50dac8821f9a7d9c80eec35bbb79ffca2daf37748f81b20",
+          "hash": "319988d322ea788e08e408aa8c704e3778ce3f2c762076da8e024636521c5491",
           "supported_version": "4.*"
         }
       ]
@@ -2380,7 +1988,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_dm_industry",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_industry.txt",
       "status": "up-to-date",
       "sources": [
@@ -2401,7 +2009,7 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000003:zone_acot_dm_industry"
           ],
-          "hash": "ef94befb181a1162023750d74f45f789544e87735f73e41356172dbb67eaf2ec",
+          "hash": "8ffacf7110b75052cffb12664d8a071b874a6c71c6e3bc10f48a4d25c15f7f7e",
           "supported_version": "4.*"
         }
       ]
@@ -2410,7 +2018,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_dm_minerals",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_minerals.txt",
       "status": "up-to-date",
       "sources": [
@@ -2431,7 +2039,7 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000015:zone_acot_dm_minerals"
           ],
-          "hash": "3730fa857e3565a60befa4935388f91486bf0a92afa643ae9fd50585874d3a6a",
+          "hash": "fb237da9ff10bcfa8919f714c38e4beea68612c01f84a7e42be9f36bbf519f6a",
           "supported_version": "4.*"
         }
       ]
@@ -2440,7 +2048,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_dm_research",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_research.txt",
       "status": "up-to-date",
       "sources": [
@@ -2461,7 +2069,7 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000009:zone_acot_dm_research"
           ],
-          "hash": "47bfa0c667224879c8ab967643f299977e64c41f2fb81ed7a14f9799aaead411",
+          "hash": "9e8f609bcc361ba5e97ea15025f6305e6e084c32a15f8dd9951c0a809c2fcd9c",
           "supported_version": "4.*"
         }
       ]
@@ -2470,7 +2078,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_dm_trade",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_trade.txt",
       "status": "up-to-date",
       "sources": [
@@ -2491,7 +2099,7 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000013:zone_acot_dm_trade"
           ],
-          "hash": "c968b0d784b5b24bfe7a6246392e4ab4448c4c6157e11e694fabb425b5bbc96f",
+          "hash": "04cd4bfda5cd864b94eed458aa1a49b5ffd56475f995e96150de778457850655",
           "supported_version": "4.*"
         }
       ]
@@ -2500,7 +2108,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_dm_urban",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_dm_urban.txt",
       "status": "up-to-date",
       "sources": [
@@ -2521,7 +2129,7 @@
             4307830337192102975000306077884414326601537536616258598719236343498633557742576054334290245749786409725646299685728527615803029620,
             "000000001:zone_acot_dm_urban"
           ],
-          "hash": "d79c62ea964aa37c9dfe52a94a6a06de89116c3f1fd4a022f7b03db90560617b",
+          "hash": "e683811f637311e9267ba964368ab228a1440b78d1702ddd01f461c3b40b729d",
           "supported_version": "4.*"
         }
       ]
@@ -2530,7 +2138,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_fractured",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_fractured.txt",
       "status": "up-to-date",
       "sources": [
@@ -2560,7 +2168,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_fractured_shield",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_fractured_shield.txt",
       "status": "up-to-date",
       "sources": [
@@ -2590,7 +2198,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_vault_a",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_a.txt",
       "status": "up-to-date",
       "sources": [
@@ -2620,7 +2228,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_vault_a_01",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_a_01.txt",
       "status": "up-to-date",
       "sources": [
@@ -2650,7 +2258,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_vault_b",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_b.txt",
       "status": "up-to-date",
       "sources": [
@@ -2680,7 +2288,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_vault_b_01",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_b_01.txt",
       "status": "up-to-date",
       "sources": [
@@ -2710,7 +2318,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_vault_c",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_c.txt",
       "status": "up-to-date",
       "sources": [
@@ -2740,7 +2348,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_vault_c_01",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_c_01.txt",
       "status": "up-to-date",
       "sources": [
@@ -2770,7 +2378,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_vault_main",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_main.txt",
       "status": "up-to-date",
       "sources": [
@@ -2800,7 +2408,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_vault_main_sub",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_vault_main_sub.txt",
       "status": "up-to-date",
       "sources": [
@@ -2830,7 +2438,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_void_forge",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_forge.txt",
       "status": "up-to-date",
       "sources": [
@@ -2860,7 +2468,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_void_forge_01",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_forge_01.txt",
       "status": "up-to-date",
       "sources": [
@@ -2881,7 +2489,7 @@
             4307830337192102975000306077884414326601537530901812696343464298825459912855862855511758724104868522873213012708471872591462955124,
             "000000008:zone_acot_void_forge_01"
           ],
-          "hash": "610cc751a6ad0ab6add2bd014fa2a0aa988b71bec2bcb0450b3fabf552d3f3af",
+          "hash": "613cb8d218951b1c210643c6609c6f64b495cf85a61cb3e875986c7d4d4713f2",
           "supported_version": "4.*"
         }
       ]
@@ -2890,7 +2498,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_void_fortress",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_fortress.txt",
       "status": "up-to-date",
       "sources": [
@@ -2920,7 +2528,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_void_fortress_01",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_fortress_01.txt",
       "status": "up-to-date",
       "sources": [
@@ -2950,7 +2558,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_void_main",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_main.txt",
       "status": "up-to-date",
       "sources": [
@@ -2980,7 +2588,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_void_main_sub",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_main_sub.txt",
       "status": "up-to-date",
       "sources": [
@@ -3001,7 +2609,7 @@
             4307830337192102975000306077884414326601537530901812696343464298825459912855862855511758724104868522873213012708471872591462955124,
             "000000004:zone_acot_void_main_sub"
           ],
-          "hash": "7f238bcee40271bf23d41c5b5a097e6c482c5245006932e9a75d1196c1b33f21",
+          "hash": "7cc98d930044de53e6eca8485f3d7be013d2829c32f6db2a699f3ded85d0eb40",
           "supported_version": "4.*"
         }
       ]
@@ -3010,7 +2618,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_void_science",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_science.txt",
       "status": "up-to-date",
       "sources": [
@@ -3040,7 +2648,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_void_science_01",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_science_01.txt",
       "status": "up-to-date",
       "sources": [
@@ -3070,7 +2678,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_void_silo",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_silo.txt",
       "status": "up-to-date",
       "sources": [
@@ -3100,7 +2708,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_void_silo_01",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_silo_01.txt",
       "status": "up-to-date",
       "sources": [
@@ -3121,7 +2729,7 @@
             4307830337192102975000306077884414326601537530901812696343464298825459912855862855511758724104868522873213012708471872591462955124,
             "000000010:zone_acot_void_silo_01"
           ],
-          "hash": "0da0fdb32c89e8e13011d2cdbacff58f767f26795c0b68e6967c0515f659bf25",
+          "hash": "e52977dc9cbe7c6b7f3cda405f60ea5a7e1fd846726576c56fe57ca06664ecc9",
           "supported_version": "4.*"
         }
       ]
@@ -3130,7 +2738,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_acot_void_stellarite",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_acot_void_stellarite.txt",
       "status": "up-to-date",
       "sources": [
@@ -3160,7 +2768,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_agrarian_anglers",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_agrarian_anglers.txt",
       "status": "up-to-date",
       "sources": [
@@ -3183,16 +2791,6 @@
           ],
           "hash": "1ee110ece15cbf12e39f8197f424b8e1881a2e9c4d6e1588a1fc34803c7c1b50",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_fix/common/zones/ethic_rebuild_zones_replace_1100284147.txt",
-          "sort_key": [
-            2,
-            1102804566321178361600078355938412291113734087049377233825439806594937843793229333589903823001574657225759342384664592671375766091892,
-            "000000003:zone_agrarian_anglers"
-          ],
-          "hash": "1ee110ece15cbf12e39f8197f424b8e1881a2e9c4d6e1588a1fc34803c7c1b50",
-          "supported_version": "4.2.4"
         },
         {
           "path": "vanilla/common/zones/00_zones.txt",
@@ -3242,7 +2840,7 @@
       "name": "zone_anglers",
       "path": "common/zones/������_vop_overwrite_zones_replace_3387068412_replace_bpvr_compat.txt",
       "merged_file": "_merged/common/zones/zone_anglers.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/������_vop_overwrite_zones_replace_3387068412.txt",
@@ -3300,9 +2898,9 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_default_giga",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_default_giga.txt",
-      "status": "new-upstream",
+      "status": "up-to-date",
       "sources": [
         {
           "path": "bpvr_compat/common/zones/giga_zones_replace_1121692237.txt",
@@ -3311,35 +2909,15 @@
             233527950514132057820079002806946174009157482897554998070364868343995551642923515121469352155738904044842023028,
             "000000001:zone_default_giga"
           ],
-          "hash": "2b36fbbf8ae051af3c0a96fce28cdb33e0a5fbcb1ecd2c1ed010c59c4cfdcc86",
-          "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_compat_improved/common/zones/giga_zones_replace_1121692237_fixed.txt",
-          "sort_key": [
-            2,
-            65732274432252547836308381315375170781292566515461523706580842337062523520669159737004676544935080204108134572106051015178356,
-            "000000001:zone_default_giga"
-          ],
           "hash": "3851926dc13aac36c3dffa821cbbe97221c4650bf3539f63808ab2196d8c8190",
-          "supported_version": "4.3.*"
-        },
-        {
-          "path": "bpvr_fix/common/zones/giga_zones_replace_1121692237.txt",
-          "sort_key": [
-            2,
-            233527950514132057820079002806946174009157482897554998070364868343995551642923515121469352155738904044842023028,
-            "000000001:zone_default_giga"
-          ],
-          "hash": "2b36fbbf8ae051af3c0a96fce28cdb33e0a5fbcb1ecd2c1ed010c59c4cfdcc86",
-          "supported_version": "4.2.4"
+          "supported_version": "4.*"
         },
         {
           "path": "giga/common/zones/giga_zones.txt",
           "sort_key": [
             2,
             40905294804046890972657242502647671545740278102191265320510191732,
-            "000000001:zone_default_giga"
+            "000000002:zone_default_giga"
           ],
           "hash": "a2e9a152f3b24deae13c3199adbc48028aeaf660c36733a027394e4bc6f91790",
           "supported_version": "4.3.*"
@@ -3590,7 +3168,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_subterranean_urban",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_subterranean_urban.txt",
       "status": "up-to-date",
       "sources": [
@@ -3613,16 +3191,6 @@
           ],
           "hash": "d4a8abb36866112f049388c688141ff14b0ffaf70d52cb65d5ee502ee4577cda",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_fix/common/zones/ethic_rebuild_zones_replace_1100284147.txt",
-          "sort_key": [
-            2,
-            1102804566321178361600078355938412291113734087049377233825439806594937843793229333589903823001574657225759342384664592671375766091892,
-            "000000002:zone_subterranean_urban"
-          ],
-          "hash": "d4a8abb36866112f049388c688141ff14b0ffaf70d52cb65d5ee502ee4577cda",
-          "supported_version": "4.2.4"
         },
         {
           "path": "vanilla/common/zones/00_zones.txt",
@@ -3760,7 +3328,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_urban",
-      "path": "common/zones/����_all_merged_common_items.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_urban.txt",
       "status": "up-to-date",
       "sources": [
@@ -3783,16 +3351,6 @@
           ],
           "hash": "596cd03670cb208b5200b94cbdc34d5d82f22f1dbafba4c7068e42e1d0f7f603",
           "supported_version": "4.*"
-        },
-        {
-          "path": "bpvr_fix/common/zones/ethic_rebuild_zones_replace_1100284147.txt",
-          "sort_key": [
-            2,
-            1102804566321178361600078355938412291113734087049377233825439806594937843793229333589903823001574657225759342384664592671375766091892,
-            "000000001:zone_urban"
-          ],
-          "hash": "596cd03670cb208b5200b94cbdc34d5d82f22f1dbafba4c7068e42e1d0f7f603",
-          "supported_version": "4.2.4"
         },
         {
           "path": "vanilla/common/zones/00_zones.txt",

@@ -2,10 +2,10 @@
 @city_cost = 500
 @city_hive_food_cost = 167
 @city_hive_min_cost = 333
-@hab_cost = 150
+@hab_cost = 500
 @hab_maintenance = 2
 @hab_time = 360
-@low_hab_maintenance = 0.25
+@low_hab_maintenance = 0.2
 @rw_cost = 1000
 @rw_district_buildtime = 360
 @rw_maintenance = 5

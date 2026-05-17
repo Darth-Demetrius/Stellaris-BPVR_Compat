@@ -1,21 +1,17 @@
 # record_type: object
-# path:
-# supported_version:
+# path: common/districts/giga_alderson_replace_1121692237_update.txt
+# supported_version: 4.3
 # sort_key: [0, 16827462254656652194372146107845062558303437796962875024262242728916020888795850191024175326584067851995557882178868192352696436, "000000005:district_alderson_ecu"]
 # sources:
 #   path: bpvr_compat/common/districts/giga_alderson_replace_1121692237.txt
 #   supported_version: 4.*
-#
-#   path: bpvr_fix/common/districts/giga_alderson_replace_1121692237.txt
-#   supported_version: 4.2.4
 #
 #   path: giga/common/districts/giga_alderson.txt
 #   supported_version: 4.3.*
 
 district_alderson_ecu = {
 	icon = district_alderson_ecu
-	base_buildtime = @rw_district_buildtime
-	is_capped_by_modifier = no
+	is_uncapped = { always = yes }
 	exempt_from_ai_planet_specialization = yes
 	#overlay_icon = GFX_district_mixed_industry
 	has_primary_zone = yes

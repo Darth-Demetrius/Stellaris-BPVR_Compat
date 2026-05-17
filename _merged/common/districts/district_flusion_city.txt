@@ -1,16 +1,10 @@
 # record_type: object
 # path: 
-# supported_version: 
+# supported_version: 4.3.*
 # sort_key: [0, 310411889621658768552527461260847628925907732532514390925011104853516965100886818217197767069695188202414307607767797455511964581914202265886161012, "000000001:district_flusion_city"]
 # sources:
 #   path: bpvr_compat/common/districts/giga_flusion_arcology_replace_1121692237.txt
 #   supported_version: 4.*
-#
-#   path: bpvr_compat_improved/common/districts/giga_flusion_arcology_replace_1121692237_fixed.txt
-#   supported_version: 4.3.*
-#
-#   path: bpvr_fix/common/districts/giga_flusion_arcology_replace_1121692237.txt
-#   supported_version: 4.2.4
 #
 #   path: giga/common/districts/giga_flusion_arcology.txt
 #   supported_version: 4.3.*
@@ -20,6 +14,10 @@ district_flusion_city = {
 	base_buildtime = 480
 	is_capped_by_modifier = no
 	exempt_from_ai_planet_specialization = yes
+	overlay_icon = GFX_district_government
+	gridbox = district_city
+	district_background = district_city
+		# i think this looks better than the arcology housing one
 
 	show_on_uncolonized = {
 		is_planet_class = pc_flusion_gaia_ecu
@@ -33,8 +31,10 @@ district_flusion_city = {
 	}
 
 	allow = {
-		NOT = { has_modifier = resort_colony }
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 	}
 
 	conversion_ratio = 1
@@ -117,11 +117,7 @@ district_flusion_city = {
 			exists = owner
 			owner = {
 				has_technology = tech_housing_2
-				NOR = {
-					has_valid_civic = civic_agrarian_idyll
-					is_bugged_agrarian_idyll = yes
-					is_agrarian_empire = yes
-				}
+				NOT = { has_valid_civic = civic_agrarian_idyll }
 			}
 		}
 		modifier = {
