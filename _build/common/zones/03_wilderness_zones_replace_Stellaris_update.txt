@@ -1,17 +1,3 @@
-# record_type: object
-# path: common/zones/03_wilderness_zones_replace_Stellaris_update.txt
-# supported_version: 4.3.*
-# sort_key: [1, 193169793154532889726748177414564793143339592881422058525999523885706337252404511406196, "000000001:zone_urban_wilderness"]
-# sources:
-#   path: bpvr_base/common/zones/03_wilderness_zones_replace_Stellaris.txt
-#   supported_version: 4.*
-#
-#   path: my_mod/common/zones/vanilla_zones.txt
-#   supported_version: *
-#
-#   path: vanilla/common/zones/03_wilderness_zones.txt
-#   supported_version:
-
 zone_urban_wilderness = {
 	icon = GFX_district_specialization_wilderness_urban
 	base_buildtime = @zone_buildtime

@@ -9,6 +9,9 @@
 #   path: bpvr_compat/common/zones/ethic_rebuild_zones_replace_1100284147.txt
 #   supported_version: 4.*
 #
+#   path: eac/common/zones/ethic_rebuild_zones.txt
+#   supported_version: 4.3.7
+#
 #   path: vanilla/common/zones/00_zones.txt
 #   supported_version:
 
@@ -25,16 +28,16 @@ zone_urban = {
 	}
 
 	unlock = { # planet scope
-	hidden_trigger = { exists = owner }
-	owner = {
-		hidden_trigger = { is_wilderness_empire = no }
-		# Eac Mod Integration
-		OR = {
-			NOT = { has_global_flag = ethic_civic_classic_active } # No EaC Mod
-			has_technology = tech_pre_industrial_steel_construction # Eac req
+		hidden_trigger = { exists = owner }
+		owner = {
+			hidden_trigger = { is_wilderness_empire = no }
+			# Eac Mod Integration
+			OR = {
+				NOT = { has_global_flag = ethic_civic_classic_active } # No EaC Mod
+				has_technology = tech_pre_industrial_steel_construction # Eac req
+			}
 		}
 	}
-}
 
 	resources = {
 		category = planet_zones

@@ -1,17 +1,3 @@
-# record_type: object
-# path: common/zones/ethic_rebuild_zones_replace_1100284147_update.txt
-# supported_version: 4.3.*
-# sort_key: [1, 624165264954328780710712318460793327251605718230497414641780, "000000036:zone_agrarian_urban"]
-# sources:
-#   path: bpvr_base/common/zones/00_zones_replace_Stellaris.txt
-#   supported_version: 4.*
-#
-#   path: eac/common/zones/ethic_rebuild_zones.txt
-#   supported_version: 4.3.7
-#
-#   path: vanilla/common/zones/00_zones.txt
-#   supported_version:
-
 zone_agrarian_urban = {
 	icon = GFX_district_specialization_agrarian
 	base_buildtime = @zone_buildtime

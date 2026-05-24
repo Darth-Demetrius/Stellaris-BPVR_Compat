@@ -20,6 +20,7 @@ bpvr_compat_improved = "Extra Imports/BPVR - Compatibility Improved"
 bpvr_fix = "Extra Imports/BPVR Fixed"
 acot = "Extra Imports/Ancient Cache of Technologies"
 giga = "Extra Imports/Gigastructural Engineering & More"
+eac = "Extra Imports/Ethics & Civics Classic"
 
 [[conflicts.rules]]
 any_from = ["vanilla"]
@@ -30,8 +31,8 @@ any_from = ["my_mod", "pd_arcologies", "bpvr_base", "bpvr_compat"]
 with_any = ["vanilla", "my_mod", "pd_arcologies", "bpvr_base", "bpvr_compat", "bpvr_compat_improved", "bpvr_fix"]
 
 [[conflicts.rules]]
-any_from = ["bpvr_compat"]
-with_any = ["acot", "giga"]
+any_from = ["bpvr_compat", "my_mod"]
+with_any = ["acot", "giga", "eac"]
 
 [priority]
 vanilla = 1

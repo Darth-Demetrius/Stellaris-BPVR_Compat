@@ -1,16 +1,6 @@
-# record_type: object
-# path: common/zones/��������_all_merged_common_items.txt
-# supported_version: 4.3.*
-# sort_key: [0, 6295901091149994111138747910914750349369465700674577189164388297296611872770067030723966746599056780441990113791491577881946849480208096142518083834654959292670880903181943208052, "000000001:zone_anglers"]
-# sources:
-#   path: bpvr_compat/common/zones/������_vop_overwrite_zones_replace_3387068412.txt
-#   supported_version: 4.*
+# Planet District Zones
 #
-#   path: eac/common/zones/ethic_rebuild_zones.txt
-#   supported_version: 4.3.7
-#
-#   path: vanilla/common/zones/00_zones.txt
-#   supported_version:
+# Documentation: ./99_HOW_TO_ZONE.txt
 
 zone_anglers = {
 	icon = GFX_district_specialization_angler

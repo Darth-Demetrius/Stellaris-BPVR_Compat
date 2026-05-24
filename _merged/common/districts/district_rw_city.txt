@@ -9,6 +9,9 @@
 #   path: bpvr_compat/common/districts/��������_all_merged_common_items.txt
 #   supported_version: 4.*
 #
+#   path: eac/common/districts/04_ringworld_districts_EaC.txt
+#   supported_version: 4.3.7
+#
 #   path: vanilla/common/districts/04_ringworld_districts.txt
 #   supported_version:
 

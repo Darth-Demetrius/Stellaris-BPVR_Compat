@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total": 99,
-    "up-to-date": 99
+    "total": 100,
+    "up-to-date": 100
   },
   "items": [
     {
@@ -813,6 +813,16 @@
           "supported_version": "4.*"
         },
         {
+          "path": "eac/common/districts/03_habitat_districts_EaC.txt",
+          "sort_key": [
+            2,
+            912218556695828348055785024986044312844296401733326760146495400116374374671927086610159496170822215008548980,
+            "000000001:district_hab_housing"
+          ],
+          "hash": "d0fd0bdc50365cf1fb7cf417119f18fc17b97501dc048d01aa6e6eac10730507",
+          "supported_version": "4.3.7"
+        },
+        {
           "path": "vanilla/common/districts/03_habitat_districts.txt",
           "sort_key": [
             1,
@@ -1293,6 +1303,16 @@
           "supported_version": "4.*"
         },
         {
+          "path": "eac/common/districts/04_ringworld_districts_EaC.txt",
+          "sort_key": [
+            2,
+            59783155331617806618183927397485400086563809010959375912285492969140771863968376497606899164766226400378604517492,
+            "000000001:district_rw_city"
+          ],
+          "hash": "3b279665cf81315cbecc224364b5d60cc28d3e432e1d570320cf2228c88b6e14",
+          "supported_version": "4.3.7"
+        },
+        {
           "path": "vanilla/common/districts/04_ringworld_districts.txt",
           "sort_key": [
             1,
@@ -1431,6 +1451,36 @@
           ],
           "hash": "b755f2ba8aeb4ca8b14868c3212f772b02d20959d426e9db8a098ef580122f19",
           "supported_version": ""
+        }
+      ]
+    },
+    {
+      "record_type": "object",
+      "source_path": "common/technology",
+      "name": "tech_pre_industrial_steel_construction",
+      "path": "common/technology/��������_all_merged_common_items.txt",
+      "merged_file": "_merged/common/technology/tech_pre_industrial_steel_construction.txt",
+      "status": "up-to-date",
+      "sources": [
+        {
+          "path": "bpvr_compat/common/technology/000_dummy_technology.txt",
+          "sort_key": [
+            0,
+            54372463029374381905245812803038301042015770807492415259542699323960464537464815096103905979960424564,
+            "000000002:tech_pre_industrial_steel_construction"
+          ],
+          "hash": "3dbedb6c2039d43e25821f8fe316bce9f72f8e03f18f3af00befd1903abb665c",
+          "supported_version": "4.*"
+        },
+        {
+          "path": "eac/common/technology/PrimPlayers_00_eng_tech.txt",
+          "sort_key": [
+            2,
+            912218556695828350090800534492139032854923688678283636455339041129945423719055792470121909322033673601841268,
+            "000000013:tech_pre_industrial_steel_construction"
+          ],
+          "hash": "78a1eacebda696e57b3d861b77bc201a70cd2dc1b3abd48caba162160ece990f",
+          "supported_version": "4.3.7"
         }
       ]
     },
@@ -2793,6 +2843,16 @@
           "supported_version": "4.*"
         },
         {
+          "path": "eac/common/zones/ethic_rebuild_zones.txt",
+          "sort_key": [
+            2,
+            193169793154532889726748177414569893867279410257509483876149416821471462125826303359092,
+            "000000021:zone_agrarian_anglers"
+          ],
+          "hash": "56616cfd6afeb2c3dd1d6d34125d4741eb4aa7634752184d40aa8ed1afd2f9c1",
+          "supported_version": "4.3.7"
+        },
+        {
           "path": "vanilla/common/zones/00_zones.txt",
           "sort_key": [
             1,
@@ -2808,7 +2868,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_agrarian_urban",
-      "path": "common/zones/00_zones_replace_Stellaris_replace_bpvr_base.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_agrarian_urban.txt",
       "status": "up-to-date",
       "sources": [
@@ -2821,6 +2881,16 @@
           ],
           "hash": "d83b6b6063009434b7edf03432a48f3b72d1332954347855daa413ee7cd315e2",
           "supported_version": "4.*"
+        },
+        {
+          "path": "eac/common/zones/ethic_rebuild_zones.txt",
+          "sort_key": [
+            2,
+            193169793154532889726748177414569893867279410257509483876149416821471462125826303359092,
+            "000000020:zone_agrarian_urban"
+          ],
+          "hash": "fca8f835323d0db0c9c4b58a3ae56b7cadb9fbf2c882bf82c44f863d4bf42762",
+          "supported_version": "4.3.7"
         },
         {
           "path": "vanilla/common/zones/00_zones.txt",
@@ -2838,7 +2908,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_anglers",
-      "path": "common/zones/������_vop_overwrite_zones_replace_3387068412_replace_bpvr_compat.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_anglers.txt",
       "status": "up-to-date",
       "sources": [
@@ -2851,6 +2921,16 @@
           ],
           "hash": "ee5850305c67a84b7d25d11ab3825cf9dfd33040888f8180369c6fec41a5d120",
           "supported_version": "4.*"
+        },
+        {
+          "path": "eac/common/zones/ethic_rebuild_zones.txt",
+          "sort_key": [
+            2,
+            193169793154532889726748177414569893867279410257509483876149416821471462125826303359092,
+            "000000015:zone_anglers"
+          ],
+          "hash": "ba50ebab7ea90d64807deb2cc659fce55ecbf74219cfd73edfb6d142ed028844",
+          "supported_version": "4.3.7"
         },
         {
           "path": "vanilla/common/zones/00_zones.txt",
@@ -3193,6 +3273,16 @@
           "supported_version": "4.*"
         },
         {
+          "path": "eac/common/zones/ethic_rebuild_zones.txt",
+          "sort_key": [
+            2,
+            193169793154532889726748177414569893867279410257509483876149416821471462125826303359092,
+            "000000019:zone_subterranean_urban"
+          ],
+          "hash": "c1c7e117c1a90c799acf99044a8d6ae7d5fb4605b285843d4f22805fd7218cf1",
+          "supported_version": "4.3.7"
+        },
+        {
           "path": "vanilla/common/zones/00_zones.txt",
           "sort_key": [
             1,
@@ -3353,6 +3443,16 @@
           "supported_version": "4.*"
         },
         {
+          "path": "eac/common/zones/ethic_rebuild_zones.txt",
+          "sort_key": [
+            2,
+            193169793154532889726748177414569893867279410257509483876149416821471462125826303359092,
+            "000000001:zone_urban"
+          ],
+          "hash": "50863d8551e78d6dc3819dc389873e47f1bb15cef48f6cd310ecb4318948efd5",
+          "supported_version": "4.3.7"
+        },
+        {
           "path": "vanilla/common/zones/00_zones.txt",
           "sort_key": [
             1,
@@ -3368,7 +3468,7 @@
       "record_type": "object",
       "source_path": "common/zones",
       "name": "zone_urban_wilderness",
-      "path": "common/zones/03_wilderness_zones_replace_Stellaris_replace_bpvr_base.txt",
+      "path": "common/zones/��������_all_merged_common_items.txt",
       "merged_file": "_merged/common/zones/zone_urban_wilderness.txt",
       "status": "up-to-date",
       "sources": [
@@ -3381,6 +3481,16 @@
           ],
           "hash": "3151ad55d5368648a39cdfda0f8db6f55acd265dfd55667dde43a7dcfe76a3ec",
           "supported_version": "4.*"
+        },
+        {
+          "path": "my_mod/common/zones/vanilla_zones.txt",
+          "sort_key": [
+            2,
+            686276966471172363976720651431305651058127736321058043824371719227078772,
+            "000000001:zone_urban_wilderness"
+          ],
+          "hash": "92b38170405cf4410930f12ce9e96849f7eb88cc8354b572804f2e9e88e59e5a",
+          "supported_version": "*"
         },
         {
           "path": "vanilla/common/zones/03_wilderness_zones.txt",
