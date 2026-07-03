@@ -1,0 +1,451 @@
+@ag_district_buildtime = 360
+
+district_ag_ancient_rw_city_ark = {
+	base_buildtime = @ag_district_buildtime
+	# is_capped_by_modifier = no
+	
+	custom_gui = \"ag_planet_district_entry_ringworld_city_ark\"
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_city_government SLOT1 = ag_slot_common_urban_zones_01 SLOT2 = ag_slot_common_urban_zones_02 SLOT3 = # SLOT4 = slot_city_01 SLOT5 = # SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+
+	show_on_uncolonized = {
+		NAND = { exists = from from = { OR = { is_hive_empire = yes is_machine_empire = yes } } }
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+
+	potential = {
+		NAND = { exists = owner owner = { OR = { is_hive_empire = yes is_machine_empire = yes } } }
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+
+	conversion_ratio = 1.0
+	convert_to = {
+		district_ag_ancient_rw_city
+		district_ag_ancient_rw_nexus
+		district_ag_ancient_rw_nexus_ark
+		district_ag_ancient_rw_hive
+		district_ag_ancient_rw_hive_ark
+		district_ag_ancient_rw_wilderness
+		district_ag_ancient_rw_wilderness_ark
+	}
+
+	resources = {
+		category = planet_districts_cities
+		cost = { minerals = 2000 }
+		upkeep = { energy = 20 }
+	}
+
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		modifier = { bonus_automated_workforce_mult = 0.005 }
+		mult = value:ag_capital_tier_workforce_bonus|ag_multiplier|1.0|
+	}
+	inline_script = { script = \"districts/ag_common_city_district_effect\" ag_multiplier = 10.0 }
+	inline_script = { script = \"buildings/ag_capital_district_buff_effect\" ag_multiplier = 0.1 }
+	inline_script = { script = \"buildings/ag_all_capital_effect_t4\" ag_multiplier = @ag_ringworld_district_job_multiplier }
+	inline_script = { script = \"buildings/ag_common_capital_effect_t4\" ag_multiplier = @ag_ringworld_district_job_multiplier }
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { is_tankbound_empire = yes } }
+		modifier = { job_production_overseer_add = 600 }
+	}
+	inline_script = \"districts/ag_common_urban_secondary_district_sub_titles\"
+}
+district_ag_ancient_rw_hive_ark = {
+	base_buildtime = @ag_district_buildtime
+	# is_capped_by_modifier = no
+	
+	custom_gui = \"ag_planet_district_entry_ringworld_city\"
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_city_government SLOT1 = ag_slot_common_urban_zones_01 SLOT2 = ag_slot_common_urban_zones_02 SLOT3 = # SLOT4 = slot_city_01 SLOT5 = # SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+
+	show_on_uncolonized = {
+		exists = from
+		from = { is_hive_empire = yes is_wilderness_empire = no }
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+
+	potential = {
+		exists = owner
+		owner = { is_hive_empire = yes is_wilderness_empire = no }
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+
+	conversion_ratio = 1.0
+	convert_to = {
+		district_ag_ancient_rw_city
+		district_ag_ancient_rw_city_ark
+		district_ag_ancient_rw_nexus
+		district_ag_ancient_rw_nexus_ark
+		district_ag_ancient_rw_hive
+		district_ag_ancient_rw_wilderness
+		district_ag_ancient_rw_wilderness_ark
+	}
+
+	resources = {
+		category = planet_districts_cities
+		cost = {
+			minerals = 2000
+		}
+		upkeep = {
+			energy = 20
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		modifier = { bonus_automated_workforce_mult = 0.005 }
+		mult = value:ag_capital_tier_workforce_bonus|ag_multiplier|1.0|
+	}
+	inline_script = { script = \"districts/ag_hive_city_district_effect\" ag_multiplier = 10.0 }
+	inline_script = { script = \"buildings/ag_capital_district_buff_effect\" ag_multiplier = 0.1 }
+	inline_script = { script = \"buildings/ag_all_capital_effect_t4\" ag_multiplier = @ag_ringworld_district_job_multiplier }
+	inline_script = { script = \"buildings/ag_hive_capital_effect_t4\" ag_multiplier = @ag_ringworld_district_job_multiplier }
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { is_tankbound_empire = yes } }
+		modifier = { job_production_overseer_add = 600 }
+	}
+	inline_script = \"districts/ag_common_urban_secondary_district_sub_titles\"
+}
+district_ag_ancient_rw_wilderness_ark = {
+	base_buildtime = @ag_district_buildtime
+	# is_capped_by_modifier = no
+	icon = district_craglands
+	
+	custom_gui = \"ag_planet_district_entry_ringworld_city\"
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_city_government SLOT1 = ag_slot_common_urban_zones_01 SLOT2 = ag_slot_common_urban_zones_02 SLOT3 = # SLOT4 = slot_city_01 SLOT5 = # SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+
+	show_on_uncolonized = {
+		exists = from
+		from = { is_hive_empire = yes is_wilderness_empire = yes }
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+
+	potential = {
+		exists = owner
+		owner = { is_hive_empire = yes  is_wilderness_empire = yes }
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+
+	conversion_ratio = 1.0
+	convert_to = {
+		district_ag_ancient_rw_city
+		district_ag_ancient_rw_city_ark
+		district_ag_ancient_rw_nexus
+		district_ag_ancient_rw_nexus_ark
+		district_ag_ancient_rw_hive
+		district_ag_ancient_rw_hive_ark
+		district_ag_ancient_rw_wilderness
+	}
+
+	resources = {
+		category = planet_districts_cities
+		cost = {
+			minerals = 2000
+		}
+		cost = { biomass = 2400 }
+		upkeep = {
+			energy = 20
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		modifier = { bonus_automated_workforce_mult = 0.005 }
+		mult = value:ag_capital_tier_workforce_bonus|ag_multiplier|1.0|
+	}
+	inline_script = { script = \"districts/ag_hive_city_district_effect\" ag_multiplier = 10.0 }
+	inline_script = { script = \"buildings/ag_capital_district_buff_effect\" ag_multiplier = 0.1 }
+	inline_script = { script = \"buildings/ag_all_capital_effect_t4\" ag_multiplier = @ag_ringworld_district_job_multiplier }
+	inline_script = { script = \"buildings/ag_hive_capital_effect_t4\" ag_multiplier = @ag_ringworld_district_job_multiplier }
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { is_tankbound_empire = yes } }
+		modifier = { job_production_overseer_add = 600 }
+	}
+	inline_script = \"districts/ag_common_urban_secondary_district_sub_titles\"
+}
+district_ag_ancient_rw_nexus_ark = {
+	base_buildtime = @ag_district_buildtime
+	# is_capped_by_modifier = no
+	
+	custom_gui = \"ag_planet_district_entry_ringworld_city\"
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_city_government SLOT1 = ag_slot_common_urban_zones_01 SLOT2 = ag_slot_common_urban_zones_02 SLOT3 = # SLOT4 = slot_city_01 SLOT5 = # SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+
+	show_on_uncolonized = {
+		exists = from
+		from = { is_machine_empire = yes }
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+
+	potential = {
+		exists = owner
+		owner = { is_machine_empire = yes }
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+
+	conversion_ratio = 1.0
+	convert_to = {
+		district_ag_ancient_rw_city
+		district_ag_ancient_rw_city_ark
+		district_ag_ancient_rw_nexus
+		district_ag_ancient_rw_hive
+		district_ag_ancient_rw_hive_ark
+		district_ag_ancient_rw_wilderness
+		district_ag_ancient_rw_wilderness_ark
+	}
+
+	resources = {
+		category = planet_districts_cities
+		cost = {
+			minerals = 2000
+		}
+		upkeep = {
+			energy = 20
+		}
+	}
+
+	inline_script = { script = \"districts/ag_machine_city_district_effect\" ag_multiplier = 10.0 }
+	inline_script = { script = \"buildings/ag_capital_district_buff_effect\" ag_multiplier = 0.1 }
+	inline_script = { script = \"buildings/ag_all_capital_effect_t4\" ag_multiplier = @ag_ringworld_district_job_multiplier }
+	inline_script = { script = \"buildings/ag_machine_capital_effect_t4\" ag_multiplier = @ag_ringworld_district_job_multiplier }
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { is_tankbound_empire = yes } }
+		modifier = { job_production_overseer_add = 600 }
+	}
+	inline_script = \"districts/ag_common_urban_secondary_district_sub_titles\"
+}
+
+district_ag_ancient_rw_empty_ark_01 = {
+	base_buildtime = @ag_district_buildtime
+	# is_capped_by_modifier = no
+	zone_slots = { ag_slot_ancient_ringworld_empty_01 }
+	show_on_uncolonized = {
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+	potential = {
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+	allow = { always = yes }
+	conversion_ratio = 1
+	convert_to = {
+		district_ag_ancient_rw_empty_01
+	}
+	planet_modifier = {
+		custom_tooltip = \"ag_build_zone_to_select_district\"
+		show_only_custom_tooltip = no
+		planet_housing_add = 2500
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_valid_civic = civic_agrarian_idyll } }
+		modifier = { planet_housing_add = -500 }
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_active_tradition = tr_prosperity_public_works } }
+		modifier = { planet_housing_add = 500 }
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_technology = tech_housing_1 } }
+		modifier = { planet_housing_add = 500 }
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_technology = tech_housing_2 NOT = { has_valid_civic = civic_agrarian_idyll } } }
+		modifier = { planet_housing_add = 500 }
+	}
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_zone_energy_ancient_ringworld_01 value > 0 }
+    #             num_zones = { type = ag_zone_energy_physics_ancient_ringworld_01 value > 0 }
+    #         }
+    #     }
+    #     job_technician_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_zone_food_ancient_ringworld_01 value > 0 }
+    #             num_zones = { type = ag_zone_food_society_ancient_ringworld_01 value > 0 }
+    #         }
+    #     }
+    #     job_farmer_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+	resources = {
+		category = planet_districts
+		cost = { alloys = 1250 }
+		upkeep = { energy = 20 }
+	}
+	inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 01 }
+}
+district_ag_ancient_rw_generator_ark_01 = { icon = district_ag_ancient_rw_generator_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_ancient_rw_farming_ark_01 = { icon = district_ag_ancient_rw_farming_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_ancient_rw_science_ark_01 = { icon = district_ag_ancient_rw_science_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_ancient_rw_commercial_ark_01 = { icon = district_ag_ancient_rw_commercial_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_ancient_rw_foundry_ark_01 = { icon = district_ag_ancient_rw_foundry_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_ancient_rw_factory_ark_01 = { icon = district_ag_ancient_rw_factory_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_ancient_rw_industry_ark_01 = { icon = district_ag_ancient_rw_industry_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_ancient_rw_living_metal_ark_01 = { icon = district_ag_ancient_rw_living_metal_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_ancient_rw_nanites_ark_01 = { icon = district_ag_ancient_rw_nanites_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_ancient_rw_dark_matter_ark_01 = { icon = district_ag_ancient_rw_dark_matter_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 01 } }
+
+district_ag_ancient_rw_empty_ark_02 = {
+	base_buildtime = @ag_district_buildtime
+	# is_capped_by_modifier = no
+	zone_slots = { ag_slot_ancient_ringworld_empty_02 }
+	show_on_uncolonized = {
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+	potential = {
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+	allow = { always = yes }
+	conversion_ratio = 1
+	convert_to = {
+		district_ag_ancient_rw_empty_02
+	}
+	planet_modifier = {
+		custom_tooltip = \"ag_build_zone_to_select_district\"
+		show_only_custom_tooltip = no
+		planet_housing_add = 2500
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_valid_civic = civic_agrarian_idyll } }
+		modifier = { planet_housing_add = -500 }
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_active_tradition = tr_prosperity_public_works } }
+		modifier = { planet_housing_add = 500 }
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_technology = tech_housing_1 } }
+		modifier = { planet_housing_add = 500 }
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_technology = tech_housing_2 NOT = { has_valid_civic = civic_agrarian_idyll } } }
+		modifier = { planet_housing_add = 500 }
+	}
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_zone_energy_ancient_ringworld_02 value > 0 }
+    #             num_zones = { type = ag_zone_energy_physics_ancient_ringworld_02 value > 0 }
+    #         }
+    #     }
+    #     job_technician_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_zone_food_ancient_ringworld_02 value > 0 }
+    #             num_zones = { type = ag_zone_food_society_ancient_ringworld_02 value > 0 }
+    #         }
+    #     }
+    #     job_farmer_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+	resources = {
+		category = planet_districts
+		cost = { alloys = 1250 }
+		upkeep = { energy = 20 }
+	}
+	inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 02 }
+}
+district_ag_ancient_rw_generator_ark_02 = { icon = district_ag_ancient_rw_generator_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_ancient_rw_farming_ark_02 = { icon = district_ag_ancient_rw_farming_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_ancient_rw_science_ark_02 = { icon = district_ag_ancient_rw_science_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_ancient_rw_commercial_ark_02 = { icon = district_ag_ancient_rw_commercial_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_ancient_rw_foundry_ark_02 = { icon = district_ag_ancient_rw_foundry_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_ancient_rw_factory_ark_02 = { icon = district_ag_ancient_rw_factory_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_ancient_rw_industry_ark_02 = { icon = district_ag_ancient_rw_industry_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_ancient_rw_living_metal_ark_02 = { icon = district_ag_ancient_rw_living_metal_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_ancient_rw_nanites_ark_02 = { icon = district_ag_ancient_rw_nanites_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_ancient_rw_dark_matter_ark_02 = { icon = district_ag_ancient_rw_dark_matter_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 02 } }
+
+district_ag_ancient_rw_empty_ark_03 = {
+	base_buildtime = @ag_district_buildtime
+	# is_capped_by_modifier = no
+	zone_slots = { ag_slot_ancient_ringworld_empty_03 }
+	show_on_uncolonized = {
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+	potential = {
+		uses_district_set = ag_ancient_ringworld_ark
+	}
+	allow = { always = yes }
+	conversion_ratio = 1
+	convert_to = {
+		district_ag_ancient_rw_empty_03
+	}
+	planet_modifier = {
+		custom_tooltip = \"ag_build_zone_to_select_district\"
+		show_only_custom_tooltip = no
+		planet_housing_add = 2500
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_valid_civic = civic_agrarian_idyll } }
+		modifier = { planet_housing_add = -500 }
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_active_tradition = tr_prosperity_public_works } }
+		modifier = { planet_housing_add = 500 }
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_technology = tech_housing_1 } }
+		modifier = { planet_housing_add = 500 }
+	}
+	triggered_planet_modifier = {
+		potential = { exists = owner owner = { has_technology = tech_housing_2 NOT = { has_valid_civic = civic_agrarian_idyll } } }
+		modifier = { planet_housing_add = 500 }
+	}
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_zone_energy_ancient_ringworld_03 value > 0 }
+    #             num_zones = { type = ag_zone_energy_physics_ancient_ringworld_03 value > 0 }
+    #         }
+    #     }
+    #     job_technician_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_zone_food_ancient_ringworld_03 value > 0 }
+    #             num_zones = { type = ag_zone_food_society_ancient_ringworld_03 value > 0 }
+    #         }
+    #     }
+    #     job_farmer_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+	resources = {
+		category = planet_districts
+		cost = { alloys = 1250 }
+		upkeep = { energy = 20 }
+	}
+	inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 03 }
+}
+district_ag_ancient_rw_generator_ark_03 = { icon = district_ag_ancient_rw_generator_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_ancient_rw_farming_ark_03 = { icon = district_ag_ancient_rw_farming_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_ancient_rw_science_ark_03 = { icon = district_ag_ancient_rw_science_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_ancient_rw_commercial_ark_03 = { icon = district_ag_ancient_rw_commercial_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_ancient_rw_foundry_ark_03 = { icon = district_ag_ancient_rw_foundry_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_ancient_rw_factory_ark_03 = { icon = district_ag_ancient_rw_factory_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_ancient_rw_industry_ark_03 = { icon = district_ag_ancient_rw_industry_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_ancient_rw_living_metal_ark_03 = { icon = district_ag_ancient_rw_living_metal_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_ancient_rw_nanites_ark_03 = { icon = district_ag_ancient_rw_nanites_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_ancient_rw_dark_matter_ark_03 = { icon = district_ag_ancient_rw_dark_matter_ark inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_ancient_rw_ark_secondary_district_sub_titles\" ag_slot = 03 } }

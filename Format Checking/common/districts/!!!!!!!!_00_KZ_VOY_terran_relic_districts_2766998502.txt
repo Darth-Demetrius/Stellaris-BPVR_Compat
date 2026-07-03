@@ -1,0 +1,237 @@
+#超古代遗迹星球区划
+
+#超古代遗迹星球
+district_KZ_VOY_terran_relic_city = { #超古代遗迹都市
+	base_buildtime = @KZ_VOY_district_buildtime_standard_city
+	expansion_planner = yes
+	is_uncapped = { always = yes }
+	exempt_from_ai_planet_specialization = yes
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_KZ_VOY_city_government SLOT1 = slot_KZ_VOY_city_urban SLOT2 = slot_KZ_VOY_city_urban SLOT3 = slot_KZ_VOY_city_urban SLOT4 = slot_KZ_VOY_city_urban SLOT5 = slot_KZ_VOY_city_urban SLOT6 = slot_KZ_VOY_city_urban SLOT7 = slot_KZ_VOY_city_urban SLOT8 = slot_KZ_VOY_city_urban SLOT9 = slot_KZ_VOY_city_urban SLOT10 = slot_KZ_VOY_city_urban }
+	inline_script = { script = districts/KZ_VOY_name_city }
+	show_on_uncolonized = {
+		exists = from from = { is_wilderness_empire = no }
+		is_KZ_VOY_terran_relic_pc = yes
+	}
+	potential = {
+		owner? = { is_wilderness_empire = no }
+		is_KZ_VOY_terran_relic_pc = yes
+	}
+	allow = { no_KZ_VOY_arcology_construction = yes }
+	conversion_ratio = 1
+	convert_to = { district_KZ_VOY_HE_city district_arcology_housing district_city }
+	resources = {
+		category = planet_districts_cities
+		cost = { minerals = @KZ_VOY_district_cost_standard }
+		upkeep = { energy = @KZ_VOY_district_upkeep_standard }
+	}
+	planet_modifier = { planet_housing_add = @KZ_VOY_district_housing_city }
+	inline_script = { script = districts/KZ_VOY_on_city }
+}
+#超古代遗迹月球
+district_KZ_VOY_luna_trade_city = { #风暴洋贸易港
+	base_buildtime = @KZ_VOY_district_buildtime_standard_city
+	expansion_planner = yes
+	is_uncapped = { always = yes }
+	exempt_from_ai_planet_specialization = yes
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_KZ_VOY_city_government SLOT1 = slot_KZ_VOY_city_trade SLOT2 = slot_KZ_VOY_city_trade SLOT3 = slot_KZ_VOY_city_trade SLOT4 = slot_KZ_VOY_city_trade SLOT5 = slot_KZ_VOY_city_trade SLOT6 = slot_KZ_VOY_city_trade SLOT7 = slot_KZ_VOY_city_trade SLOT8 = slot_KZ_VOY_city_trade SLOT9 = slot_KZ_VOY_city_trade SLOT10 = slot_KZ_VOY_city_trade }
+	inline_script = { script = districts/KZ_VOY_name_city }
+	show_on_uncolonized = { KZ_VOY_is_Luna_pc = yes }
+	potential = { KZ_VOY_is_Luna_pc = yes }
+	allow = { no_KZ_VOY_arcology_construction = yes }
+	conversion_ratio = 1
+	convert_to = { district_KZ_VOY_HE_city district_arcology_housing district_city }
+	resources = {
+		category = planet_districts_cities
+		cost = { minerals = @KZ_VOY_district_cost_standard }
+		upkeep = { energy = @KZ_VOY_district_upkeep_standard }
+	}
+	planet_modifier = {
+		planet_housing_add = @KZ_VOY_district_housing_city
+		planet_amenities_add = @KZ_VOY_district_housing_city
+		pop_happiness = @KZ_VOY_district_happiness
+		job_KZ_VOY_relic_trader_add = @KZ_VOY_district_job_standard
+	}
+	triggered_desc = { text = job_KZ_VOY_relic_trader_effect_desc }
+	inline_script = { script = districts/KZ_VOY_on_city }
+}
+district_KZ_VOY_luna_relic_enegry = { #阿波罗发电网络
+	base_buildtime = @KZ_VOY_district_buildtime_standard_rural
+	expansion_planner = yes
+	is_uncapped = { always = yes }
+	show_on_uncolonized = { KZ_VOY_is_Luna_pc = yes }
+	potential = { KZ_VOY_is_Luna_pc = yes }
+	allow = { no_KZ_VOY_arcology_construction = yes }
+	conversion_ratio = 1
+	convert_to = { district_KZ_VOY_HE_1 district_arcology_urban_1 }
+	resources = {
+		category = planet_districts_generator
+		cost = { minerals = @KZ_VOY_district_cost_standard_rural }
+		upkeep = { energy = @KZ_VOY_district_upkeep_standard_rural }
+	}
+	planet_modifier = {
+		planet_housing_add = @KZ_VOY_district_housing
+		job_KZ_VOY_replicator_energy_add = @KZ_VOY_district_job_standard
+	}
+	triggered_desc = { text = job_KZ_VOY_replicator_energy_effect_desc }
+	inline_script = { script = districts/KZ_VOY_on_energy_replicator }
+}
+district_KZ_VOY_luna_research = { #智海科技产业区
+	base_buildtime = @KZ_VOY_district_buildtime_standard
+	expansion_planner = yes
+	is_uncapped = { always = yes }
+	show_on_uncolonized = { KZ_VOY_is_Luna_pc = yes }
+	potential = { KZ_VOY_is_Luna_pc = yes }
+	allow = { no_KZ_VOY_arcology_construction = yes }
+	conversion_ratio = 1
+	convert_to = { district_KZ_VOY_HE_2 district_arcology_urban_2 }
+	resources = {
+		category = planet_districts
+		cost = { minerals = @KZ_VOY_district_cost_standard }
+		upkeep = { energy = @KZ_VOY_district_upkeep_standard }
+	}
+	planet_modifier = {
+		planet_housing_add = @KZ_VOY_district_housing
+		job_KZ_VOY_relic_physicist_add = @KZ_VOY_district_job_30perc_standard
+		job_KZ_VOY_relic_biologist_add = @KZ_VOY_district_job_30perc_standard
+		job_KZ_VOY_relic_engineer_add = @KZ_VOY_district_job_30perc_standard
+		job_KZ_VOY_relic_trader_add = @KZ_VOY_district_job_10perc_standard
+	}
+	triggered_desc = { text = job_KZ_VOY_relic_physicist_effect_desc }
+	triggered_desc = { text = job_KZ_VOY_relic_biologist_effect_desc }
+	triggered_desc = { text = job_KZ_VOY_relic_engineer_effect_desc }
+	triggered_desc = { text = job_KZ_VOY_relic_trader_effect_desc }
+	inline_script = { script = districts/KZ_VOY_on_research_trade }
+}
+district_KZ_VOY_luna_reserve = { #静海保护区
+	base_buildtime = @KZ_VOY_district_buildtime_standard_rural
+	expansion_planner = yes
+	is_uncapped = { always = yes }
+	show_on_uncolonized = { KZ_VOY_is_Luna_pc = yes }
+	potential = { KZ_VOY_is_Luna_pc = yes }
+	allow = { no_KZ_VOY_arcology_construction = yes }
+	conversion_ratio = 1
+	convert_to = { district_KZ_VOY_HE_3 district_arcology_urban_3 }
+	resources = {
+		category = planet_districts
+		cost = { minerals = @KZ_VOY_district_cost_standard_rural }
+		upkeep = { energy = @KZ_VOY_district_upkeep_standard_rural }
+	}
+	planet_modifier = {
+		planet_housing_add = @KZ_VOY_district_housing
+		planet_amenities_add = @KZ_VOY_district_amenities
+		pop_happiness = @KZ_VOY_district_happiness
+		job_KZ_VOY_relic_naturalist_add = @KZ_VOY_district_job_standard
+	}
+	triggered_desc = { text = job_KZ_VOY_relic_naturalist_effect_desc }
+	inline_script = { script = districts/KZ_VOY_on_reserve }
+}
+#超古代铸造星球
+district_KZ_VOY_relic_foundry_city = { #遗迹铸造都市
+	base_buildtime = @KZ_VOY_district_buildtime_standard_city
+	expansion_planner = yes
+	is_uncapped = { always = yes }
+	exempt_from_ai_planet_specialization = yes
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_KZ_VOY_city_government SLOT1 = slot_KZ_VOY_city_replicator_foundry SLOT2 = slot_KZ_VOY_city_replicator_foundry SLOT3 = slot_KZ_VOY_city_replicator_foundry SLOT4 = slot_KZ_VOY_city_replicator_foundry SLOT5 = slot_KZ_VOY_city_replicator_foundry SLOT6 = slot_KZ_VOY_city_replicator_foundry SLOT7 = slot_KZ_VOY_city_replicator_foundry SLOT8 = slot_KZ_VOY_city_replicator_foundry SLOT9 = slot_KZ_VOY_city_replicator_foundry SLOT10 = slot_KZ_VOY_city_replicator_foundry }
+	inline_script = { script = districts/KZ_VOY_name_city }
+	show_on_uncolonized = { KZ_VOY_is_Mars_pc = yes }
+	potential = { KZ_VOY_is_Mars_pc = yes }
+	allow = { no_KZ_VOY_arcology_construction = yes }
+	conversion_ratio = 1
+	convert_to = { district_KZ_VOY_HE_city district_arcology_housing district_city }
+	resources = {
+		category = planet_districts_industrial
+		cost = {
+			minerals = @KZ_VOY_district_cost_standard
+			energy = @KZ_VOY_district_cost_standard
+		}
+		upkeep = { energy = @KZ_VOY_district_upkeep_standard }
+	}
+	planet_modifier = {
+		planet_housing_add = @KZ_VOY_district_housing_city
+		job_KZ_VOY_replicator_foundry_add = @KZ_VOY_district_job_standard
+	}
+	triggered_desc = { text = job_KZ_VOY_replicator_foundry_effect_desc }
+	inline_script = { script = districts/KZ_VOY_on_city }
+}
+district_KZ_VOY_relic_industry = { #遗迹工业区（特化区划）
+	convert_to = { district_KZ_VOY_HE_1 district_arcology_urban_1 }
+	inline_script = { script = districts/district_KZ_VOY_relic_industry }
+}
+district_KZ_VOY_relic_industry_2 = { #遗迹工业区（特化区划）
+	convert_to = { district_KZ_VOY_HE_2 district_arcology_urban_2 }
+	inline_script = { script = districts/district_KZ_VOY_relic_industry }
+}
+district_KZ_VOY_relic_industry_3 = { #遗迹工业区（特化区划）
+	convert_to = { district_KZ_VOY_HE_3 district_arcology_urban_3 }
+	inline_script = { script = districts/district_KZ_VOY_relic_industry }
+}
+district_KZ_VOY_UPS = { #乌托邦平原船坞
+	base_buildtime = @KZ_VOY_district_buildtime_standard
+	expansion_planner = yes
+	is_uncapped = { always = yes }
+	zone_slots = { slot_KZ_VOY_shipyard }
+	triggered_name = { text = KZ_VOY_district_UPS }
+	show_on_uncolonized = { is_KZ_VOY_Mars = yes is_KZ_VOY_hyper_ecumenopolis = no }
+	potential = { is_KZ_VOY_Mars = yes is_KZ_VOY_hyper_ecumenopolis = no }
+	allow = { no_KZ_VOY_arcology_construction = yes }
+	conversion_ratio = 1
+	convert_to = { district_KZ_VOY_HE_4 district_arcology_urban_1 }
+	resources = {
+		category = planet_districts_industrial
+		cost = {
+			alloys = @KZ_VOY_district_cost_standard
+			minerals = @KZ_VOY_district_cost_standard
+		}
+		upkeep = {
+			alloys = @KZ_VOY_district_upkeep_standard
+			energy = @KZ_VOY_district_upkeep_standard
+		}
+	}
+	planet_modifier = {
+		district_KZ_VOY_UPS_starbase_shipyard_capacity_add = @KZ_VOY_UPS_shipyard_capacity
+		district_KZ_VOY_UPS_starbase_shipyard_build_speed_mult = @KZ_VOY_UPS_ship_build_speed
+		job_KZ_VOY_relic_physicist_add = @KZ_VOY_district_job_20perc_standard
+		job_KZ_VOY_relic_biologist_add = @KZ_VOY_district_job_20perc_standard
+		job_KZ_VOY_relic_engineer_add = @KZ_VOY_district_job_20perc_standard
+		job_KZ_VOY_replicator_foundry_add = @KZ_VOY_district_job_40perc_standard
+	}
+	triggered_desc = { text = job_KZ_VOY_relic_physicist_effect_desc }
+	triggered_desc = { text = job_KZ_VOY_relic_biologist_effect_desc }
+	triggered_desc = { text = job_KZ_VOY_relic_engineer_effect_desc }
+	triggered_desc = { text = job_KZ_VOY_replicator_foundry_effect_desc }
+	inline_script = { script = districts/KZ_VOY_on_research_UPS }
+}
+district_KZ_VOY_UPS_research = { #乌托邦平原船坞研究设施
+	base_buildtime = @KZ_VOY_district_buildtime_standard
+	expansion_planner = yes
+	is_uncapped = { always = yes }
+	zone_slots = { slot_KZ_VOY_UPS }
+	inline_script = { script = districts/KZ_VOY_name_UPS_research }
+	show_on_uncolonized = { is_KZ_VOY_Mars = yes is_KZ_VOY_hyper_ecumenopolis = no }
+	potential = { is_KZ_VOY_Mars = yes is_KZ_VOY_hyper_ecumenopolis = no }
+	allow = { no_KZ_VOY_arcology_construction = yes }
+	conversion_ratio = 1
+	convert_to = { district_KZ_VOY_HE_5 district_arcology_urban_2 }
+	resources = {
+		category = planet_districts_industrial
+		cost = { minerals = @KZ_VOY_district_cost_standard }
+		upkeep = { energy = @KZ_VOY_district_upkeep_standard }
+	}
+	planet_modifier = {
+		planet_housing_add = @KZ_VOY_district_housing
+		job_KZ_VOY_relic_physicist_add = @KZ_VOY_district_job_30perc_standard
+		job_KZ_VOY_relic_biologist_add = @KZ_VOY_district_job_30perc_standard
+		job_KZ_VOY_relic_engineer_add = @KZ_VOY_district_job_30perc_standard
+		job_KZ_VOY_replicator_foundry_add = @KZ_VOY_district_job_10perc_standard
+	}
+	triggered_desc = { text = job_KZ_VOY_relic_physicist_effect_desc }
+	triggered_desc = { text = job_KZ_VOY_relic_biologist_effect_desc }
+	triggered_desc = { text = job_KZ_VOY_relic_engineer_effect_desc }
+	triggered_desc = { text = job_KZ_VOY_replicator_foundry_effect_desc }
+	inline_script = { script = districts/KZ_VOY_on_research_UPS }
+}
+#切换区划
+district_KZ_VOY_relic_industry_mixed = { icon = district_KZ_VOY_astral_relic_industry triggered_name = { text = zone_KZ_VOY_replicator_industrial } inline_script = { script = districts/KZ_VOY_on_swap_district } }
+district_KZ_VOY_relic_industry_foundry = { icon = district_KZ_VOY_astral_relic_industry_foundry triggered_name = { text = zone_KZ_VOY_replicator_foundry } inline_script = { script = districts/KZ_VOY_on_swap_district } }
+district_KZ_VOY_relic_industry_factory = { icon = district_KZ_VOY_astral_relic_industry_factory triggered_name = { text = zone_KZ_VOY_replicator_factory } inline_script = { script = districts/KZ_VOY_on_swap_district } }
+district_KZ_VOY_relic_industry_refinery = { icon = district_KZ_VOY_astral_relic_industry_refinery triggered_name = { text = zone_KZ_VOY_replicator_refinery } inline_script = { script = districts/KZ_VOY_on_swap_district } }

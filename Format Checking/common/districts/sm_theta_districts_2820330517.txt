@@ -1,0 +1,635 @@
+district_acot_soulsphere_city = {
+	base_buildtime = 15
+	is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_theta_soulsphere_main SLOT1 = slot_theta_soulsphere_main_01 SLOT2 = slot_theta_soulsphere_main_02 SLOT3 = slot_theta_soulsphere_main_02 SLOT4 = slot_theta_soulsphere_main_02 SLOT5 = slot_theta_soulsphere_main_02 SLOT6 = slot_theta_soulsphere_main_02 SLOT7 = slot_theta_soulsphere_main_02 SLOT8 = slot_theta_soulsphere_main_02 SLOT9 = slot_theta_soulsphere_main_02 SLOT10 = slot_theta_soulsphere_main_02 }
+
+	show_on_uncolonized = {
+		uses_district_set = theta_soulsphere
+	}
+
+	potential = {
+		uses_district_set = theta_soulsphere
+	}
+
+	allow = {
+		exists = owner
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_sm_acot_overlord_add = 100
+			job_sm_acot_overseer_add = 200
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_sm_acot_overlord_drone_add = 100
+			job_sm_acot_overseer_drone_add = 200
+		}
+	}	
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_sm_acot_overlord_droid_add = 100
+			job_sm_acot_overseer_droid_add = 200
+		}
+	}	
+
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000000
+			sm_sr_perfect_runic_energy = 600
+		}
+		produces = {
+			unity = 1500
+			trade = 1500
+		}
+		produces = {
+			trigger = {
+				is_regular_empire = yes
+			}
+			consumer_goods = 1500
+		}
+		produces = {
+			trigger = {
+				owner = {
+					is_machine_empire = no
+				}
+			}
+			food = 1500
+		}
+		produces = {
+			trigger = {
+				owner = {
+					is_machine_empire = yes
+				}
+			}
+			energy = 1500
+		}
+		upkeep = {
+			sm_sr_perfect_runic_energy = 1
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 90000
+		planet_amenities_add = 90000
+		planet_jobs_produces_mult = 0.1
+		planet_building_build_speed_mult = 0.1
+		bonus_pop_growth_mult = 0.1
+	}
+
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_soulsphere_main_sub
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_city_swap_text
+	}
+
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_soulsphere_main_sub
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_city_text_desc
+	}
+
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			free_housing < 1000
+		}
+	}
+}
+
+district_acot_soulsphere_science = {
+	base_buildtime = 15
+	is_capped_by_modifier = no
+	
+	custom_gui = planet_district_entry_width_3
+	district_width = 3
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_acot_soulsphere_science SLOT1 = slot_acot_soulsphere_science_01 SLOT2 = slot_acot_soulsphere_science_02 SLOT3 = slot_acot_soulsphere_science_03 SLOT4 = slot_acot_soulsphere_science_04 SLOT5 = slot_acot_soulsphere_science_04 SLOT6 = slot_acot_soulsphere_science_04 SLOT7 = slot_acot_soulsphere_science_04 SLOT8 = slot_acot_soulsphere_science_04 SLOT9 = slot_acot_soulsphere_science_04 SLOT10 = slot_acot_soulsphere_science_04 }
+
+	show_on_uncolonized = {
+		uses_district_set = theta_soulsphere
+	}
+
+	allow = {
+		exists = owner
+	}
+
+	potential = {
+		uses_district_set = theta_soulsphere
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		modifier = {
+			job_sm_acot_voidsphere_labman_add = 1600
+		}
+	}	
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_sm_acot_voidsphere_labdrone_add = 1600
+		}
+	}	
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000000
+			sm_sr_perfect_runic_energy = 600
+		}
+		produces = {
+			society_research = 6000
+			physics_research = 6000
+			engineering_research = 6000
+		}
+		upkeep = {
+			sm_sr_perfect_runic_energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 1000
+	}
+
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_science_01
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_science_swap_text
+	}
+
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_science_01
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_science_text_desc
+	}
+
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			free_housing < 1000
+		}
+	}
+}
+
+district_acot_soulsphere_forge = {
+	base_buildtime = 15
+	is_capped_by_modifier = no
+
+	custom_gui = planet_district_entry_width_3
+	district_width = 3
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_acot_soulsphere_forge SLOT1 = slot_acot_soulsphere_forge_01 SLOT2 = slot_acot_soulsphere_forge_02 SLOT3 = slot_acot_soulsphere_forge_03 SLOT4 = slot_acot_soulsphere_forge_04 SLOT5 = slot_acot_soulsphere_forge_04 SLOT6 = slot_acot_soulsphere_forge_04 SLOT7 = slot_acot_soulsphere_forge_04 SLOT8 = slot_acot_soulsphere_forge_04 SLOT9 = slot_acot_soulsphere_forge_04 SLOT10 = slot_acot_soulsphere_forge_04 }
+
+	show_on_uncolonized = {
+		uses_district_set = theta_soulsphere
+	}
+
+	allow = {
+	}
+
+	potential = {
+		uses_district_set = theta_soulsphere
+	}
+
+	on_built = {
+		if = {
+			limit = {
+				NOT = {
+					is_variable_set = acot_voidsphere_portal_count
+				}
+			}
+			set_variable = {
+				which = acot_voidsphere_portal_count
+				value = 0
+			}
+		}
+		change_variable = {
+			which = acot_voidsphere_portal_count
+			value = 1
+		}
+		owner = {
+			if = {
+				limit = {
+					NOT = {
+						is_variable_set = acot_voidsphere_portal_experience
+					}
+				}
+				set_variable = {
+					which = acot_voidsphere_portal_experience
+					value = 0
+				}
+			}
+		}
+	}
+
+	on_destroy = {
+		### Just In case
+		if = {
+			limit = {
+				check_variable = {
+					which = acot_voidsphere_portal_count
+					value <= 0
+				}
+			}
+			set_variable = {
+				which = acot_voidsphere_portal_count
+				value = 0
+			}
+		}
+		else = {
+			change_variable = {
+				which = acot_voidsphere_portal_count
+				value = -1
+			}		
+		}
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000000
+			sm_sr_perfect_runic_energy = 600
+		}
+		upkeep = {
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }					
+		}
+		modifier = {
+			job_sm_acot_voidsphere_forgeman_add = 800
+		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }					
+		}
+		modifier = {
+			job_sm_acot_voidsphere_forgedrone_add = 800
+		}
+	}
+
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_forge_01
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_forge_swap_text
+	}
+
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_forge_01
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_forge_text_desc
+	}
+
+	planet_modifier = {
+		planet_housing_add = 1000
+	}
+
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			free_housing < 1000
+		}
+	}
+}
+
+district_acot_soulsphere_silo = {
+	base_buildtime = 15
+	is_capped_by_modifier = no
+	show_on_uncolonized = {
+		uses_district_set = theta_soulsphere
+	}
+
+	custom_gui = planet_district_entry_width_3
+	district_width = 3
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_acot_soulsphere_silo SLOT1 = slot_acot_soulsphere_silo_01 SLOT2 = slot_acot_soulsphere_silo_02 SLOT3 = slot_acot_soulsphere_silo_03 SLOT4 = slot_acot_soulsphere_silo_04 SLOT5 = slot_acot_soulsphere_silo_04 SLOT6 = slot_acot_soulsphere_silo_04 SLOT7 = slot_acot_soulsphere_silo_04 SLOT8 = slot_acot_soulsphere_silo_04 SLOT9 = slot_acot_soulsphere_silo_04 SLOT10 = slot_acot_soulsphere_silo_04 }
+
+	allow = {
+	}
+
+	potential = {
+		uses_district_set = theta_soulsphere
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }		
+		}
+		modifier = {
+			job_sm_acot_voidsphere_siloman_add = 800
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_sm_acot_voidsphere_silodrone_add = 800
+		}
+	}
+	
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000000
+			sm_sr_perfect_runic_energy = 600
+		}
+		produces = {
+			minerals = 7500
+			energy = 7500
+			alloys = 7500
+			food = 7500
+			consumer_goods = 7500
+		}
+		upkeep = {
+			sm_sr_perfect_runic_energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 1000
+	}
+
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_silo_01
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_silo_swap_text
+	}
+
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_silo_01
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_silo_text_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			free_housing < 1000
+		}
+	}
+}
+
+district_acot_soulsphere_fortress = {
+	base_buildtime = 15
+	is_capped_by_modifier = no
+	show_on_uncolonized = {
+		uses_district_set = theta_soulsphere
+	}
+
+	custom_gui = planet_district_entry_width_3
+	district_width = 3
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_acot_soulsphere_fortress SLOT1 = slot_acot_soulsphere_fortress_01 SLOT2 = slot_acot_soulsphere_fortress_02 SLOT3 = slot_acot_soulsphere_fortress_03 SLOT4 = slot_acot_soulsphere_fortress_04 SLOT5 = slot_acot_soulsphere_fortress_04 SLOT6 = slot_acot_soulsphere_fortress_04 SLOT7 = slot_acot_soulsphere_fortress_04 SLOT8 = slot_acot_soulsphere_fortress_04 SLOT9 = slot_acot_soulsphere_fortress_04 SLOT10 = slot_acot_soulsphere_fortress_04 }
+
+	allow = {
+	}
+
+	potential = {
+		uses_district_set = theta_soulsphere
+	}
+
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000000
+			sm_sr_perfect_runic_energy = 600
+		}
+		produces = {
+			unity = 500
+		}
+		upkeep = {
+			sm_sr_perfect_runic_energy = 1
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 2000
+		planet_crime_add = -100
+		planet_stability_add = 100
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner = { 
+				is_gestalt = no 
+			}
+		}
+		modifier = {
+			job_sm_acot_enforcer_add = 800
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			owner = { 
+				is_gestalt = yes 
+			}
+		}
+		modifier = {
+			job_sm_acot_enforcer_drone_add = 800
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = { 
+			owner = { is_gestalt = no }
+		}
+		job_sm_acot_giga_fortress_operator_add = 200
+	}
+
+	triggered_planet_modifier = {
+		potential = { 
+			owner = { is_gestalt = yes }
+		}
+		job_sm_acot_giga_fortress_operator_drone_add = 200
+	}
+
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_fortress_01
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_fortress_swap_text
+	}
+
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_fortress_01
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_fortress_text_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			free_housing < 1000
+		}
+	}
+}
+district_acot_soulsphere_stellarite = {
+	base_buildtime = 15
+	is_capped_by_modifier = no
+
+	custom_gui = planet_district_entry_width_3
+	district_width = 3
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_acot_soulsphere_stellarite SLOT1 = slot_acot_soulsphere_stellarite_01 SLOT2 = slot_acot_soulsphere_stellarite_02 SLOT3 = slot_acot_soulsphere_stellarite_03 SLOT4 = slot_acot_soulsphere_stellarite_04 SLOT5 = slot_acot_soulsphere_stellarite_04 SLOT6 = slot_acot_soulsphere_stellarite_04 SLOT7 = slot_acot_soulsphere_stellarite_04 SLOT8 = slot_acot_soulsphere_stellarite_04 SLOT9 = slot_acot_soulsphere_stellarite_04 SLOT10 = slot_acot_soulsphere_stellarite_04 }
+
+	show_on_uncolonized = {
+		uses_district_set = theta_soulsphere
+	}
+
+	allow = {
+		exists = owner
+	}
+
+	potential = {
+		uses_district_set = theta_soulsphere
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 1000000
+			sm_sr_perfect_runic_energy = 600
+		}
+		produces = {
+		}
+		upkeep = {
+			sm_sr_perfect_runic_energy = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }					
+		}
+		modifier = {
+			job_acot_omniman_add = 400
+		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }					
+		}
+		modifier = {
+			job_acot_omnidrone_add = 400
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 1000
+	}
+
+	triggered_name = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_stellarite_01
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_stellarite_swap_text
+	}
+
+	triggered_flavor_desc = {
+		trigger = {
+			num_zones = {
+				type = zone_acot_theta_stellarite_01
+				value > 0
+			}
+		}
+		text = zone_acot_soulsphere_stellarite_text_desc
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 5
+			free_housing < 1000
+		}
+	}
+}

@@ -1,0 +1,332 @@
+
+district_ag_shell_world_housing = {
+	base_buildtime = 480
+	# is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+	overlay_icon = GFX_district_government
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_city_government SLOT1 = ag_slot_common_urban_zones_01 SLOT2 = ag_slot_common_urban_zones_02 SLOT3 = ag_slot_common_urban_zones_02 SLOT4 = ag_slot_common_urban_zones_02 SLOT5 = ag_slot_common_urban_zones_02 SLOT6 = ag_slot_common_urban_zones_02 SLOT7 = ag_slot_common_urban_zones_02 SLOT8 = ag_slot_common_urban_zones_02 SLOT9 = ag_slot_common_urban_zones_02 SLOT10 = ag_slot_common_urban_zones_02 }
+	show_on_uncolonized = { uses_district_set = ag_shell_world }
+	potential = {
+		uses_district_set = ag_shell_world
+		NAND = { is_capital = yes owner = { has_menace_perk = menp_behemoth_mind_meld } }
+		NOT = { has_carrier_flag = has_shell_world_touhou_gensokyo_city }
+	}
+    conversion_ratio = 1.0
+    convert_to = {
+        district_mindlink
+		district_spth_sp_produce
+    }
+	resources = {
+		category = planet_districts_hab
+		cost = { alloys = 250 }
+		upkeep = { energy = 2 alloys = 0.25 }
+	}
+	planet_modifier = { planet_housing_add = 1000 }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_valid_civic = civic_agrarian_idyll } }
+        modifier = { planet_housing_add = -200 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_active_tradition = tr_prosperity_public_works } }
+        modifier = { planet_housing_add = 100 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_technology = tech_housing_1 } }
+        modifier = { planet_housing_add = 100 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_technology = tech_housing_2 NOT = { has_valid_civic = civic_agrarian_idyll } } }
+        modifier = { planet_housing_add = 200 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { is_tankbound_empire = yes } }
+        modifier = { job_production_overseer_add = 100 }
+    }
+    inline_script = { script = districts/district_triggered_name_urban }
+    inline_script = { script = districts/district_triggered_flavor_desc_urban }
+}
+
+district_ag_shell_world_empty_01 = {
+    base_buildtime = 480
+    # is_capped_by_modifier = no
+    zone_slots = { ag_slot_shell_world_empty_01 }
+    show_on_uncolonized = { uses_district_set = ag_shell_world NOT = { has_carrier_flag = has_shell_world_touhou_gensokyo_city } }
+    potential = { uses_district_set = ag_shell_world NOT = { has_carrier_flag = has_shell_world_touhou_gensokyo_city } }
+    allow = { always = yes }
+    conversion_ratio = 1
+    planet_modifier = {
+        custom_tooltip = \"ag_build_zone_to_select_district\"
+        show_only_custom_tooltip = no
+        planet_housing_add = 1000
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_valid_civic = civic_agrarian_idyll } }
+        modifier = { planet_housing_add = -200 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_active_tradition = tr_prosperity_public_works } }
+        modifier = { planet_housing_add = 100 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_technology = tech_housing_1 } }
+        modifier = { planet_housing_add = 100 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_technology = tech_housing_2 NOT = { has_valid_civic = civic_agrarian_idyll } } }
+        modifier = { planet_housing_add = 200 }
+    }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_double_zone_energy_01 value > 0 }
+    #             num_zones = { type = ag_double_zone_energy_physics_01 value > 0 }
+    #         }
+    #     }
+    #     job_technician_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_double_zone_minerals_01 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_engineering_01 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_betharian_01 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_volatile_motes_01 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_rare_crystals_01 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_exotic_gases_01 value > 0 }
+    #         }
+    #     }
+    #     job_miner_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_double_zone_food_01 value > 0 }
+    #             num_zones = { type = ag_double_zone_food_society_01 value > 0 }
+    #         }
+    #     }
+    #     job_farmer_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    resources = {
+        category = planet_districts
+        cost = { alloys = 500 }
+        upkeep = { energy = 5 alloys = 0.5 }
+    }
+    conversion_ratio = 1.0
+    convert_to = {
+    }
+    inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 }
+}
+district_ag_shell_world_energy_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_minerals_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_food_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_foundry_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_factory_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_industry_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_living_metal_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_nanites_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_dark_matter_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_commercial_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_research_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_unity_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_fortress_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_archaeology_01 = { icon = district_ag_archaeology inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+district_ag_shell_world_psionic_conduit_01 = { inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 } }
+
+district_ag_shell_world_empty_02 = {
+    base_buildtime = 480
+    # is_capped_by_modifier = no
+    zone_slots = { ag_slot_shell_world_empty_02 }
+    show_on_uncolonized = { uses_district_set = ag_shell_world NOT = { has_carrier_flag = has_shell_world_touhou_gensokyo_city } }
+    potential = { uses_district_set = ag_shell_world NOT = { has_carrier_flag = has_shell_world_touhou_gensokyo_city } }
+    allow = { always = yes }
+    conversion_ratio = 1
+    planet_modifier = {
+        custom_tooltip = \"ag_build_zone_to_select_district\"
+        show_only_custom_tooltip = no
+        planet_housing_add = 1000
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_valid_civic = civic_agrarian_idyll } }
+        modifier = { planet_housing_add = -200 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_active_tradition = tr_prosperity_public_works } }
+        modifier = { planet_housing_add = 100 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_technology = tech_housing_1 } }
+        modifier = { planet_housing_add = 100 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_technology = tech_housing_2 NOT = { has_valid_civic = civic_agrarian_idyll } } }
+        modifier = { planet_housing_add = 200 }
+    }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_double_zone_energy_02 value > 0 }
+    #             num_zones = { type = ag_double_zone_energy_physics_02 value > 0 }
+    #         }
+    #     }
+    #     job_technician_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_double_zone_minerals_02 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_engineering_02 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_betharian_02 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_volatile_motes_02 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_rare_crystals_02 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_exotic_gases_02 value > 0 }
+    #         }
+    #     }
+    #     job_miner_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_double_zone_food_02 value > 0 }
+    #             num_zones = { type = ag_double_zone_food_society_02 value > 0 }
+    #         }
+    #     }
+    #     job_farmer_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    resources = {
+        category = planet_districts
+        cost = { alloys = 500 }
+        upkeep = { energy = 5 alloys = 0.5 }
+    }
+    conversion_ratio = 1.0
+    convert_to = {
+    }
+    inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 }
+}
+district_ag_shell_world_energy_02 = { icon = district_ag_shell_world_energy_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_minerals_02 = { icon = district_ag_shell_world_minerals_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_food_02 = { icon = district_ag_shell_world_food_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_foundry_02 = { icon = district_ag_shell_world_foundry_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_factory_02 = { icon = district_ag_shell_world_factory_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_industry_02 = { icon = district_ag_shell_world_industry_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_living_metal_02 = { icon = district_ag_shell_world_living_metal_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_nanites_02 = { icon = district_ag_shell_world_nanites_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_dark_matter_02 = { icon = district_ag_shell_world_dark_matter_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_commercial_02 = { icon = district_ag_shell_world_commercial_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_research_02 = { icon = district_ag_shell_world_research_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_unity_02 = { icon = district_ag_shell_world_unity_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_fortress_02 = { icon = district_ag_shell_world_fortress_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_archaeology_02 = { icon = district_ag_archaeology inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+district_ag_shell_world_psionic_conduit_02 = { icon = district_ag_shell_world_psionic_conduit_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 02 } }
+
+district_ag_shell_world_empty_03 = {
+    base_buildtime = 480
+    # is_capped_by_modifier = no
+    zone_slots = { ag_slot_shell_world_empty_03 }
+    show_on_uncolonized = { uses_district_set = ag_shell_world NOT = { has_carrier_flag = has_shell_world_touhou_gensokyo_city } }
+    potential = { uses_district_set = ag_shell_world NOT = { has_carrier_flag = has_shell_world_touhou_gensokyo_city } }
+    allow = { always = yes }
+    conversion_ratio = 1
+    planet_modifier = {
+        custom_tooltip = \"ag_build_zone_to_select_district\"
+        show_only_custom_tooltip = no
+        planet_housing_add = 1000
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_valid_civic = civic_agrarian_idyll } }
+        modifier = { planet_housing_add = -200 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_active_tradition = tr_prosperity_public_works } }
+        modifier = { planet_housing_add = 100 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_technology = tech_housing_1 } }
+        modifier = { planet_housing_add = 100 }
+    }
+    triggered_planet_modifier = {
+        potential = { exists = owner owner = { has_technology = tech_housing_2 NOT = { has_valid_civic = civic_agrarian_idyll } } }
+        modifier = { planet_housing_add = 200 }
+    }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_double_zone_energy_03 value > 0 }
+    #             num_zones = { type = ag_double_zone_energy_physics_03 value > 0 }
+    #         }
+    #     }
+    #     job_technician_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_double_zone_minerals_03 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_engineering_03 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_betharian_03 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_volatile_motes_03 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_rare_crystals_03 value > 0 }
+    #             num_zones = { type = ag_double_zone_minerals_exotic_gases_03 value > 0 }
+    #         }
+    #     }
+    #     job_miner_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    # triggered_planet_modifier = {
+    #     potential = {
+    #         exists = owner
+    #         owner = { is_tankbound_empire = yes }
+    #         OR = {
+    #             num_zones = { type = ag_double_zone_food_03 value > 0 }
+    #             num_zones = { type = ag_double_zone_food_society_03 value > 0 }
+    #         }
+    #     }
+    #     job_farmer_automated_workforce_mult = 1.0
+    #     job_production_overseer_add = 100
+    # }
+    resources = {
+        category = planet_districts
+        cost = { alloys = 500 }
+        upkeep = { energy = 5 alloys = 0.5 }
+    }
+    conversion_ratio = 1.0
+    convert_to = {
+    }
+    inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 01 }
+}
+district_ag_shell_world_energy_03 = { icon = district_ag_shell_world_energy_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_minerals_03 = { icon = district_ag_shell_world_minerals_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_food_03 = { icon = district_ag_shell_world_food_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_foundry_03 = { icon = district_ag_shell_world_foundry_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_factory_03 = { icon = district_ag_shell_world_factory_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_industry_03 = { icon = district_ag_shell_world_industry_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_living_metal_03 = { icon = district_ag_shell_world_living_metal_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_nanites_03 = { icon = district_ag_shell_world_nanites_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_dark_matter_03 = { icon = district_ag_shell_world_dark_matter_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_commercial_03 = { icon = district_ag_shell_world_commercial_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_research_03 = { icon = district_ag_shell_world_research_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_unity_03 = { icon = district_ag_shell_world_unity_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_fortress_03 = { icon = district_ag_shell_world_fortress_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_archaeology_03 = { icon = district_ag_archaeology inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }
+district_ag_shell_world_psionic_conduit_03 = { icon = district_ag_shell_world_psionic_conduit_01 inline_script = \"districts/ag_empty_district\" inline_script = { script = \"districts/ag_shell_world_secondary_district_sub_titles\" ag_slot = 03 } }

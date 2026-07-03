@@ -1,0 +1,299 @@
+# @zone_buildtime = 360
+# @zone_cost = 1000
+zone_mem_ancestors_grudge_industrial = {
+	icon = GFX_district_specialization_industrial
+	inline_script = {
+		script = mem_ancestors_grudge/zone_setup
+		ZONE_SET1 = urban
+		UNLOCK = \"has_mem_relicforge_zones_unlocked = yes\"
+		#BUILDING_SET1  = industrial
+	}
+	inline_script = {
+		script = mem_ancestors_grudge/zone_foundry_add
+		AMOUNT = @scaling_district_2_jobs
+	}
+	inline_script = {
+		script = mem_ancestors_grudge/zone_factory_add
+		AMOUNT = @scaling_district_2_jobs
+	}
+	# swap_type = district_arcology_civilian_industry
+	# swap_type_weight = 5
+	inline_script = {
+		script = zones/shared_city_non_urban_zone_modifiers
+	}
+}
+
+zone_mem_ancestors_grudge_foundry = {
+	icon = GFX_district_specialization_foundry
+	inline_script = {
+		script = mem_ancestors_grudge/zone_setup
+		ZONE_SET1 = urban
+		UNLOCK = \"has_mem_relicforge_zones_unlocked = yes\"
+		#BUILDING_SET1  = foundry
+	}
+	inline_script = {
+		script = mem_ancestors_grudge/zone_foundry_add
+		AMOUNT = @scaling_district_1_job
+	}
+	swap_type = district_ancestors_grudge_relic
+	swap_type_weight = 5
+	inline_script = {
+		script = zones/shared_city_non_urban_zone_modifiers
+	}
+}
+
+zone_mem_ancestors_grudge_factory = {
+	icon = GFX_district_specialization_factory
+	inline_script = {
+		script = mem_ancestors_grudge/zone_setup
+		ZONE_SET1 = urban
+		UNLOCK = \"has_mem_relicforge_zones_unlocked = yes\"
+		#BUILDING_SET1  = factory
+	}
+	inline_script = {
+		script = mem_ancestors_grudge/zone_factory_add
+		AMOUNT = @scaling_district_1_job
+	}
+	swap_type = district_ancestors_grudge_relic
+	swap_type_weight = 5
+	inline_script = {
+		script = zones/shared_city_non_urban_zone_modifiers
+	}
+}
+
+# secondary districts
+# IF WE EVER WANT TO CHANGE TO OTHER CLASSES THAN ECUS, THE SETUP INLINE NEEDS TO BE CHANGED TO ACCOUNT FOR ALL ZONES SETS
+# fix variable numbers
+zone_mem_ancestors_grudge_industrial2 = {
+	icon = GFX_district_specialization_industrial
+	inline_script = {
+		script = mem_ancestors_grudge/zone_setup
+		ZONE_SET1 = arcology
+		UNLOCK = \"has_mem_relicforge_zones_unlocked = yes\"
+		#BUILDING_SET1  = industrial
+	}
+	inline_script = {
+		script = mem_ancestors_grudge/zone_foundry_add
+		AMOUNT = @mem_vazurans_zone_jobs
+	}
+	swap_type = district_arcology_civilian_industry
+	swap_type_weight = 5
+	inline_script = {
+		script = mem_ancestors_grudge/zone_factory_add
+		AMOUNT = @mem_vazurans_zone_jobs
+	}
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+}
+
+zone_mem_ancestors_grudge_foundry2 = {
+	icon = GFX_district_specialization_foundry
+	inline_script = {
+		script = mem_ancestors_grudge/zone_setup
+		ZONE_SET1 = arcology
+		UNLOCK = \"has_mem_relicforge_zones_unlocked = yes\"
+		#BUILDING_SET1  = foundry
+	}
+	inline_script = {
+		script = mem_ancestors_grudge/zone_foundry_add
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+	swap_type = district_arcology_arms_industry
+	swap_type_weight = 5
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+}
+
+zone_mem_ancestors_grudge_factory2 = {
+	icon = GFX_district_specialization_factory
+	inline_script = {
+		script = mem_ancestors_grudge/zone_setup
+		ZONE_SET1 = arcology
+		UNLOCK = \"has_mem_relicforge_zones_unlocked = yes\"
+		#BUILDING_SET1  = factory
+	}
+	swap_type = district_arcology_civilian_industry
+	swap_type_weight = 5
+	inline_script = {
+		script = mem_ancestors_grudge/zone_factory_add
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+}
+
+# yes you can deep mine your own city planet
+# @ me : if you ever gonna change the max district again im gonna punch you
+zone_mem_ancestors_grudge_mining = {
+	icon = GFX_district_specialization_minerals
+	inline_script = {
+		script = jobs/zone_miner_add
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_housing_add = 1
+		mult = modifier:mining_district_housing_add
+	}
+	inline_script = {
+		script = mem_ancestors_grudge/zone_setup
+		ZONE_SET1 = arcology
+		UNLOCK = \"has_mem_relicforge_zones_unlocked = yes\"
+		#BUILDING_SET1  = factory
+	}
+	# planet_limit = {
+	# 	# optional: default is no limit
+	# 	base = 8
+	# 	# modifier = { 	# triggers are planet scope
+	# 	# 	add/factor = 2
+	# 	# 	has_carrier_flag = test_flag
+	# 	# }
+	# 	# Mult by -1 to remove limit (still affected by is_capped_by_modifier = yes)
+	# }
+	swap_type = district_mining
+	swap_type_weight = 5
+	triggered_planet_modifier = {
+		potential = {
+			host_has_dlc = \"Ancient Relics Story Pack\"
+		}
+		planet_miners_minor_artifacts_produces_add = 0.2
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_max_districts_add = 0.5
+		planet_structures_upkeep_mult = 0.1
+		# planet_buildings_upkeep_mult = 0.05
+		# planet_districts_upkeep_mult = 0.05
+	}
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+}
+
+zone_mem_ancestors_grudge_mining_hive = {
+	icon = GFX_district_specialization_spawning
+	# inline_script = {
+	# 	script = jobs/zone_miner_add
+	# 	AMOUNT = @doubled_scaling_district_1_job
+	# }
+	inline_script = {
+		script = mem_ancestors_grudge/zone_setup
+		ZONE_SET1 = arcology
+		UNLOCK = \"has_mem_relicforge_zones_unlocked = yes
+		owner = {
+				is_hive_empire = yes
+			}\"
+		#BUILDING_SET1  = factory
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_housing_add = 1
+		mult = modifier:mining_district_housing_add
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			# owner = {
+			# 	is_hive_empire = yes
+			# }
+		}
+		job_spawning_drone_add = 100
+	}
+	# planet_limit = {
+	# 	base = 8
+	# }
+	swap_type = district_hive_spawning
+	swap_type_weight = 5
+	triggered_district_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		#planet_miners_minor_artifacts_produces_add = 0.05
+		planet_max_districts_add = 0.5
+		planet_structures_upkeep_mult = 0.1
+	}
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+}
+
+zone_mem_ancestors_grudge_mining_ring = {
+	icon = GFX_district_specialization_minerals
+	inline_script = {
+		script = jobs/zone_miner_add
+		AMOUNT = 200
+	}
+	triggered_district_planet_modifier = {
+		planet_housing_add = 1
+		mult = modifier:mining_district_housing_add
+	}
+	base_buildtime = @zone_buildtime
+	potential = {
+		# planet scope
+		hidden_trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = no
+			}
+		}
+		has_deposit = d_mem_ancestors_grudge_dranir_dranirs_mines
+		#always = yes
+	}
+	unlock = {
+		# planet scope
+		hidden_trigger = {
+			exists = owner
+		}
+	}
+	zone_sets = {
+		minerals
+	}
+	resources = {
+		category = planet_zones
+		cost = {
+			minerals = @zone_cost
+		}
+	}
+	max_buildings = @BPV_ZONE_SLOT
+	planet_modifier = {
+		zone_building_slots_add = @BPV_ZONE_SLOT
+	}
+	included_building_sets = {
+		mining
+		fallen_empire_mining
+		mining_automation
+		government
+	}
+	ai_resource_production = {
+		minerals = 20
+	}
+	convert_to = {
+		zone_minerals
+		zone_minerals_nexus
+		zone_minerals_hive
+	}
+	ai_priority = 10
+	# swap_type = district_melting 
+	# swap_type_weight = 5
+	triggered_district_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_max_districts_add = 0.25
+		planet_structures_upkeep_mult = 0.1
+		# planet_buildings_upkeep_mult = 0.05
+		# planet_districts_upkeep_mult = 0.05
+	}
+	# inline_script = {
+	# 	script = zones/shared_arcology_zone_modifiers
+	# }
+}

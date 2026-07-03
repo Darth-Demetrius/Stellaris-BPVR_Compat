@@ -1,0 +1,211 @@
+@hb_district_buildtime = 250
+@hb_alloy_cost = 750
+@hb_sr_cost = 250
+@hb_upkeep = 5
+
+# Server District: +Jobs depending on horizon brain type
+# Triggered planet modifier: if has modifier x, add x jobs
+#							 if has modifier y, add y jobs etc
+district_ssh_horizon_brain_server = {
+	base_buildtime = @hb_district_buildtime
+	is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_ssh_horizon_brain_server_01 SLOT1 = slot_ssh_horizon_brain_server_02 SLOT2 = slot_ssh_horizon_brain_server_02 SLOT3 = slot_ssh_horizon_brain_server_02 SLOT4 = slot_ssh_horizon_brain_server_02 SLOT5 = slot_ssh_horizon_brain_server_02 SLOT6 = slot_ssh_horizon_brain_server_02 SLOT7 = slot_ssh_horizon_brain_server_02 SLOT8 = slot_ssh_horizon_brain_server_02 SLOT9 = slot_ssh_horizon_brain_server_02 SLOT10 = slot_ssh_horizon_brain_server_02 }
+
+	show_on_uncolonized = {
+		exists = from
+		from = {
+			NOT = {
+				is_wilderness_empire = yes
+			}
+		}
+		uses_district_set = horizon_brain_world
+	}
+
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = ssh_tech_vr # Required
+			NOT = { is_wilderness_empire = yes }
+		}
+		uses_district_set = horizon_brain_world
+		NAND = {
+			is_capital = yes
+			owner = {
+				has_menace_perk = menp_behemoth_mind_meld
+			}
+		}
+	}
+
+	conversion_ratio = 1
+	convert_to = {
+		district_ssh_horizon_brain_grid
+		district_mindlink
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @hb_alloy_cost
+		}
+		upkeep = {
+			energy = @hb_upkeep
+		}
+	}
+
+	# Add Admin + User/VR Drone Jobs
+	inline_script = {
+		script = districts/ssh_district_horizon_brain_jobs_regular
+		ADMIN_AMOUNT = 200
+		TWO_ADMINS_AMOUNT = 100
+		USER_AMOUNT = 1000
+		#AMOUNT = @suprashell_district_jobs
+	}
+	inline_script = {
+		script = districts/ssh_district_horizon_brain_jobs_gestalt
+		VR_DRONE_AMOUNT = 400
+	}
+
+	planet_modifier = {
+		planet_housing_add = 1500
+	}
+
+	ai_estimate_without_unemployment = yes
+	additional_ai_weight = 200
+	ai_weight_coefficient = 1.2
+}
+
+
+district_ssh_horizon_brain_grid = {
+	base_buildtime = @hb_district_buildtime
+	is_capped_by_modifier = no
+	exempt_from_ai_planet_specialization = yes
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_empty SLOT1 = ### SLOT2 = slot_cosmogenesis_government SLOT3 = slot_cosmogenesis_government SLOT4 = slot_cosmogenesis_government SLOT5 = slot_cosmogenesis_government SLOT6 = slot_cosmogenesis_government SLOT7 = slot_cosmogenesis_government SLOT8 = slot_cosmogenesis_government SLOT9 = slot_cosmogenesis_government SLOT10 = slot_cosmogenesis_government }
+
+	show_on_uncolonized = {
+		exists = from
+		from = {
+			NOT = {
+				is_wilderness_empire = yes
+			}
+		}
+		uses_district_set = horizon_brain_world
+	}
+
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = ssh_tech_vr # Required
+			NOT = { is_wilderness_empire = yes }
+		}
+		uses_district_set = horizon_brain_world
+		NAND = {
+			is_capital = yes
+			owner = {
+				has_menace_perk = menp_behemoth_mind_meld
+			}
+		}
+	}
+
+	conversion_ratio = 1
+	convert_to = {
+		district_ssh_horizon_brain_cpu
+		district_mindlink
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @hb_alloy_cost 
+			rare_crystals = @hb_sr_cost 
+		}
+		upkeep = {
+			energy = @hb_upkeep
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 3000
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = ssh_tech_vr # Required
+				NOT = { is_wilderness_empire = yes }
+			}
+		}
+		planet_jobs_upkeep_mult = 0.05
+	}
+}
+
+# Computing District (+ Output)
+# The more CPU Districts built, the higher the output - good for empires w/ few pops inside the horizon brain
+district_ssh_horizon_brain_cpu = {
+	base_buildtime = @hb_district_buildtime
+	is_capped_by_modifier = yes
+	base_cap_amount = 5
+	exempt_from_ai_planet_specialization = yes
+
+	zone_slots = {
+		slot_empty
+	}
+
+	show_on_uncolonized = {
+		exists = from
+		from = {
+			NOT = {
+				is_wilderness_empire = yes
+			}
+		}
+		uses_district_set = horizon_brain_world
+	}
+
+	potential = {
+		exists = owner
+		owner = {
+			has_technology = ssh_tech_vr # Required
+			NOT = { is_wilderness_empire = yes }
+		}
+		uses_district_set = horizon_brain_world
+	}
+
+	conversion_ratio = 1
+	convert_to = {
+		district_ssh_horizon_brain_grid
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @hb_alloy_cost 
+			rare_crystals = @hb_sr_cost 
+		}
+		upkeep = {
+			energy = @hb_upkeep
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 750
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = ssh_tech_vr # Required
+				NOT = { is_wilderness_empire = yes }
+			}
+		}
+		planet_jobs_produces_mult = 0.1 #0.05
+		planet_jobs_upkeep_mult = -0.05
+	}
+
+	ai_estimate_without_unemployment = yes
+	additional_ai_weight = 200
+	ai_weight_coefficient = 1.2
+}
