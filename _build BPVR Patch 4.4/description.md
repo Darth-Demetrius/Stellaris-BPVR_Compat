@@ -1,4 +1,4 @@
-My Update for BPVR Compatibility Patch.
+My Update for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3576949303]BPVR Compatibility Patch[/url].
 
 The way the compat mod works was just changed significantly, this seems to have led to a number of uncaught syntax errors. This mod is a fix of some of the issues I have found as well as adds compatibility for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1732447147]Planetary Diversity - More Arcologies[/url] continued from my other mod: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3612921577]BPVR - PD Arcologies Patch[/url].
 
