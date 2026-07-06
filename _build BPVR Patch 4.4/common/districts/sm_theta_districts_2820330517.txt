@@ -1,3 +1,6 @@
+inline_script = {
+  script = bpv_merger_of_rules/toggled_code
+  code = "
 district_acot_soulsphere_city = {
 	base_buildtime = 15
 	is_capped_by_modifier = no
@@ -632,4 +635,8 @@ district_acot_soulsphere_stellarite = {
 			free_housing < 1000
 		}
 	}
+}
+
+  "
+  toggle = @has_sots_mod
 }

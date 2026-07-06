@@ -1,3 +1,6 @@
+inline_script = {
+  script = bpv_merger_of_rules/toggled_code
+  code = "
 @bwc_district_buildtime = 360
 @bwc_district_cost = 1000
 @bwc_district_upkeep = 1
@@ -870,4 +873,7 @@ district_ssh_bwc_energy = {
 	}
 
 	ai_weight_coefficient = 0.8
+}
+  "
+  toggle = @has_stellar_hyperconstructs
 }

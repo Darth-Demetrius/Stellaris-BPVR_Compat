@@ -245,6 +245,11 @@ district_arcology_housing = {
 		exists = from
 		from = { is_wilderness_empire = no }
 		uses_district_set = city_world
+		NOR = {
+			has_modifier = pd_commercial_arcology
+			has_modifier = pd_garden_arcology
+			has_modifier = pd_fortress_arcology
+		}
 	}
 
 	potential = {
@@ -254,6 +259,11 @@ district_arcology_housing = {
 			owner = {
 				has_menace_perk = menp_behemoth_mind_meld
 			}
+		}
+		NOR = {
+			has_modifier = pd_commercial_arcology
+			has_modifier = pd_garden_arcology
+			has_modifier = pd_fortress_arcology
 		}
 	}
 
@@ -298,6 +308,9 @@ district_arcology_housing = {
 		district_uf_glory_city
 		district_wg_hive_world_housing
 		district_wg_forge
+		district_pd_garden_arcology_housing
+		district_pd_fortress_arcology_housing
+		district_pd_commercial_arcology_housing
 		##############################################################################
 	}
 
@@ -362,6 +375,7 @@ district_arcology_housing = {
 		}
 	}
 }
+
 district_arcology_leisure = {
 	base_buildtime = 600
 
@@ -455,6 +469,7 @@ district_arcology_leisure = {
 		AMOUNT = 600
 	}
 }
+
 district_arcology_urban_1 = {
 	icon = district_arcology_housing_secondary
 	base_buildtime = 600
@@ -468,10 +483,16 @@ district_arcology_urban_1 = {
 
 	show_on_uncolonized = {
 		uses_district_set = city_world
+		is_pd_garden_arcology = no
+		is_pd_fortress_arcology = no
+		is_pd_commercial_arcology = no
 	}
 
 	potential = {
 		uses_district_set = city_world
+		is_pd_garden_arcology = no
+		is_pd_fortress_arcology = no
+		is_pd_commercial_arcology = no
 	}
 
 	conversion_ratio = 1
@@ -580,6 +601,7 @@ district_arcology_urban_1 = {
 		text = district_arcology_name
 	}
 }
+
 district_arcology_urban_2 = {
 	icon = district_arcology_housing_secondary
 	base_buildtime = 600
@@ -593,10 +615,16 @@ district_arcology_urban_2 = {
 
 	show_on_uncolonized = {
 		uses_district_set = city_world
+		is_pd_garden_arcology = no
+		is_pd_fortress_arcology = no
+		is_pd_commercial_arcology = no
 	}
 
 	potential = {
 		uses_district_set = city_world
+		is_pd_garden_arcology = no
+		is_pd_fortress_arcology = no
+		is_pd_commercial_arcology = no
 	}
 
 	conversion_ratio = 1
@@ -704,6 +732,7 @@ district_arcology_urban_2 = {
 		text = district_arcology_name
 	}
 }
+
 district_arcology_urban_3 = {
 	icon = district_arcology_housing_secondary
 	base_buildtime = 600
@@ -717,10 +746,16 @@ district_arcology_urban_3 = {
 
 	show_on_uncolonized = {
 		uses_district_set = city_world
+		is_pd_garden_arcology = no
+		is_pd_fortress_arcology = no
+		is_pd_commercial_arcology = no
 	}
 
 	potential = {
 		uses_district_set = city_world
+		is_pd_garden_arcology = no
+		is_pd_fortress_arcology = no
+		is_pd_commercial_arcology = no
 	}
 
 	conversion_ratio = 1

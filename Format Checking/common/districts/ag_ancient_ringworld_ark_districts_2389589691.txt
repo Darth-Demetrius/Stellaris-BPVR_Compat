@@ -3,8 +3,8 @@
 district_ag_ancient_rw_city_ark = {
 	base_buildtime = @ag_district_buildtime
 	# is_capped_by_modifier = no
-	
-	custom_gui = \"ag_planet_district_entry_ringworld_city_ark\"
+
+	custom_gui = "ag_planet_district_entry_ringworld_city_ark"
 
 	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_city_government SLOT1 = ag_slot_common_urban_zones_01 SLOT2 = ag_slot_common_urban_zones_02 SLOT3 = # SLOT4 = slot_city_01 SLOT5 = # SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
 

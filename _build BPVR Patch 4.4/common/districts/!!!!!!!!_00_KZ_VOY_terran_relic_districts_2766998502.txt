@@ -1,3 +1,6 @@
+inline_script = {
+  script = bpv_merger_of_rules/toggled_code
+  code = "
 #超古代遗迹星球区划
 
 #超古代遗迹星球
@@ -235,3 +238,6 @@ district_KZ_VOY_relic_industry_mixed = { icon = district_KZ_VOY_astral_relic_ind
 district_KZ_VOY_relic_industry_foundry = { icon = district_KZ_VOY_astral_relic_industry_foundry triggered_name = { text = zone_KZ_VOY_replicator_foundry } inline_script = { script = districts/KZ_VOY_on_swap_district } }
 district_KZ_VOY_relic_industry_factory = { icon = district_KZ_VOY_astral_relic_industry_factory triggered_name = { text = zone_KZ_VOY_replicator_factory } inline_script = { script = districts/KZ_VOY_on_swap_district } }
 district_KZ_VOY_relic_industry_refinery = { icon = district_KZ_VOY_astral_relic_industry_refinery triggered_name = { text = zone_KZ_VOY_replicator_refinery } inline_script = { script = districts/KZ_VOY_on_swap_district } }
+  "
+  toggle = @vte_mod
+}
