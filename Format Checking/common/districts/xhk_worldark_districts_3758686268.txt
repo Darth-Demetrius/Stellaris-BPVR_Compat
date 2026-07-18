@@ -1,0 +1,1246 @@
+
+
+@city_cost = 250
+
+###############################################################################################################
+###############################################################################################################
+#          HABITATION
+###############################################################################################################
+###############################################################################################################
+
+district_xhk_worldark_city = {
+    base_buildtime = 360
+    exempt_from_ai_planet_specialization = yes
+
+    icon = district_ark_city
+    overlay_icon = GFX_district_government
+    district_background = district_city
+    gridbox = district_city
+
+    inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_city_government SLOT1 = slot_xhk_worldark_urban0 SLOT2 = slot_xhk_worldark_urban1 SLOT3 = slot_xhk_worldark_urban1 SLOT4 = slot_xhk_worldark_urban1 SLOT5 = slot_xhk_worldark_urban1 SLOT6 = slot_xhk_worldark_urban1 SLOT7 = slot_xhk_worldark_urban1 SLOT8 = slot_xhk_worldark_urban1 SLOT9 = slot_xhk_worldark_urban1 SLOT10 = slot_xhk_worldark_urban1 }
+
+    show_on_uncolonized = {
+        exists = from
+        from = {
+            is_nomadic = yes
+        }
+        uses_district_set = xhk_pc_worldark
+        is_special_colony_type = no
+    }
+
+    potential = {
+        OR = {
+            NOT = { exists = owner } #this condition is needed for galaxy generation
+            uses_district_set = xhk_pc_worldark
+        }
+        NAND = {
+            is_capital = yes
+            owner = {
+                has_menace_perk = menp_behemoth_mind_meld
+            }
+        }
+    }
+
+    allow = {
+        uses_district_set = xhk_pc_worldark
+    }
+
+    conversion_ratio = 1
+    convert_to = {
+        district_mindlink
+        district_ark_city
+    }
+
+    resources = {
+        category = planet_districts_cities
+        cost = {
+            alloys = @city_cost
+        }
+        upkeep = {
+            energy = 2
+        }
+    }
+
+    planet_modifier = {
+        planet_housing_add = 2500
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_valid_civic = civic_agrarian_idyll
+            }
+        }
+        modifier = {
+            planet_housing_add = -200
+        }
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { has_active_tradition = tr_prosperity_public_works_nomads }
+        }
+        modifier = {
+            planet_housing_add = 250
+        }
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_housing_1
+            }
+        }
+        modifier = {
+            planet_housing_add = 100
+        }
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_technology = tech_housing_2
+                NOT = { has_valid_civic = civic_agrarian_idyll }
+            }
+        }
+        modifier = {
+            planet_housing_add = 200
+        }
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { is_tankbound_empire = yes }
+        }
+        modifier = {
+            job_production_overseer_add = 200
+        }
+    }
+    triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = { is_tankbound_empire = yes }
+        }
+        text = job_production_overseer_effect_desc
+    }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/urban_flavor
+    }
+
+    inline_script = {
+        script = districts/ai_urban_district_extra_weighting
+    }
+}
+
+###############################################################################################################
+# MANUFACTURED GOODS
+###############################################################################################################
+
+district_xhk_worldark_foundry = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_arcology_arms_industry
+    gridbox = district_arcology_arms_industry
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_alloys
+
+    zone_slots = {
+        slot_xhk_worldark_foundry
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_1
+    }
+
+    resources = {
+        category = planet_districts_industrial
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/foundry_add
+        AMOUNT = 200
+    }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/foundry_flavor
+    }
+}
+
+district_xhk_worldark_factory = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_arcology_civilian_industry
+    gridbox = district_arcology_civilian_industry
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_consumer_goods
+
+    zone_slots = {
+        slot_xhk_worldark_factory
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_2
+    }
+
+    resources = {
+        category = planet_districts_industrial
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/factory_add
+        AMOUNT = 200
+    }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/factory_flavor
+    }
+}
+
+district_xhk_worldark_trade = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_arcology_trade
+    gridbox = district_arcology_trade
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_trade
+
+    zone_slots = {
+        slot_xhk_worldark_trade
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_3
+    }
+
+    resources = {
+        category = planet_districts_hab_trade
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/trader_add
+        AMOUNT = 200
+    }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/trade_flavor
+    }
+}
+
+###############################################################################################################
+# RAW RESOURCES
+###############################################################################################################
+
+district_xhk_worldark_generator = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_ark_generator
+    gridbox = district_generator
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_energy
+
+    zone_slots = {
+        slot_xhk_worldark_generator
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_4
+    }
+	convert_to = {
+		district_xhk_worldark_penrose
+	}
+	conversion_ratio = 0.5
+
+    resources = {
+        category = planet_districts_generator
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/technicians_add
+        AMOUNT = 200
+    }
+
+    #### FLAVOR
+    inline_script = {
+        script = xhk_worldark/district_flavor/generator_flavor
+    }
+}
+district_xhk_worldark_penrose = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_giga_frameworld_penrose
+	district_background = district_xhk_worldark_penrose
+	gridbox = district_generator
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_district_energy
+
+	zone_slots = {
+		slot_xhk_worldark_generator
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		inline_script = bpv_replace/xhk_worldark_districts_assign_5
+	}
+	convert_to = {
+		district_xhk_worldark_generator
+	}
+	conversion_ratio = 2
+
+	resources = {
+		category = planet_districts_generator
+		cost = {
+			alloys = @[xhk_district_base_cost*2]
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	inline_script = {
+		script = jobs/technicians_add
+		AMOUNT = 800
+	}
+
+	#### FLAVOR
+	triggered_name = {
+		text = xhk_worldark_penrose_subtitle
+	}
+}
+
+district_xhk_worldark_minerals = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_mining
+    gridbox = district_mining
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_minerals
+
+    zone_slots = {
+        slot_xhk_worldark_mining
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_6
+    }
+	convert_to = {
+		district_xhk_worldark_decompressor
+	}
+	conversion_ratio = 0.5
+
+    resources = {
+        category = planet_districts_mining
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/ark_harvester_add
+        AMOUNT = 200
+    }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/mining_flavor
+    }
+}
+district_xhk_worldark_decompressor = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_giga_frameworld_decompressor
+	district_background = district_xhk_worldark_decompressor
+	gridbox = district_mining
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_district_minerals
+
+	zone_slots = {
+		slot_xhk_worldark_mining
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		inline_script = bpv_replace/xhk_worldark_districts_assign_7
+	}
+	convert_to = {
+		district_xhk_worldark_minerals
+	}
+	conversion_ratio = 2
+
+	resources = {
+		category = planet_districts_mining
+		cost = {
+			alloys = @[xhk_district_base_cost * 2]
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	inline_script = {
+		script = jobs/ark_harvester_add
+		AMOUNT = 100
+	}
+	inline_script = {
+		script = jobs/miners_add
+		AMOUNT = 800
+	}
+
+	triggered_name = {
+		text = xhk_worldark_decompressor_subtitle
+	}
+}
+
+district_xhk_worldark_farming = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_ark_hydroponics
+    gridbox = district_farming
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_food
+
+    zone_slots = {
+        slot_xhk_worldark_farming
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_8
+    }
+
+    resources = {
+        category = planet_districts_farming
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/farmers_add
+        AMOUNT = 200
+    }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/farming_flavor
+    }
+}
+
+###############################################################################################################
+# INTELLECTUAL
+###############################################################################################################
+# UNITY
+district_xhk_worldark_unity = {
+    inline_script = {
+        script = xhk_worldark/districts/district_unity
+        inline_script = bpv_replace/xhk_worldark_districts_assign_9
+    }
+
+    inline_script = {
+        script = jobs/unity_jobs_add
+        AMOUNT = 200
+    }
+}
+district_xhk_worldark_unity_spiritualist = {
+    inline_script = {
+        script = xhk_worldark/districts/district_unity
+        inline_script = bpv_replace/xhk_worldark_districts_assign_10
+    }
+
+	# death cult
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_death_cult_empire = yes
+			}
+			OR = {
+				has_building = building_sacrificial_temple_1
+				has_building = building_sacrificial_temple_2
+				has_building = building_sacrificial_temple_3
+			}
+		}
+		job_mortal_initiate_add = 50
+	}
+
+    inline_script = {
+        script = jobs/unity_jobs_add
+        AMOUNT = 200
+    }
+}
+district_xhk_worldark_unity_hive = {
+    inline_script = {
+        script = xhk_worldark/districts/district_unity
+        inline_script = bpv_replace/xhk_worldark_districts_assign_11
+    }
+
+    inline_script = {
+        script = jobs/unity_jobs_add
+        AMOUNT = 200
+    }
+}
+district_xhk_worldark_unity_machine = {
+    inline_script = {
+        script = xhk_worldark/districts/district_unity
+        inline_script = bpv_replace/xhk_worldark_districts_assign_12
+    }
+
+    inline_script = {
+        script = jobs/unity_jobs_add
+        AMOUNT = 200
+    }
+}
+district_xhk_worldark_unity_servitor = {
+    inline_script = {
+        script = xhk_worldark/districts/district_unity
+        inline_script = bpv_replace/xhk_worldark_districts_assign_13
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+				has_valid_civic = civic_machine_servitor
+            }
+        }
+        job_bio_trophy_add = 1000
+    }
+}
+
+# SCIENCE
+district_xhk_worldark_research = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_arcology_research
+    gridbox = district_arcology_research
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_research
+
+    zone_slots = {
+        slot_xhk_worldark_science
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_14
+    }
+
+    resources = {
+        category = planet_districts_hab_research
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+	# experimenters
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_twisted_experimenters_empire = yes
+				is_gestalt = no
+			}
+			OR = {
+				has_building = building_experimentation_chambers_1
+				has_building = building_experimentation_chambers_2
+				has_building = building_experimentation_chambers_3
+			}
+		}
+		job_test_subject_add = 25
+		job_experiment_engineer_add = 25
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_twisted_experimenters_empire = yes
+				is_gestalt = yes
+			}
+			OR = {
+				has_building = building_experimentation_chambers_1
+				has_building = building_experimentation_chambers_2
+				has_building = building_experimentation_chambers_3
+			}
+		}
+		job_test_subject_drone_add = 25
+		job_experiment_engineer_drone_add = 25
+	}
+
+    inline_script = {
+        script = jobs/researchers_add
+        AMOUNT = 60
+    }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/research_flavor
+    }
+}
+
+# AMENITIES
+district_xhk_worldark_amenities = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_ark_forever_cruise
+    gridbox = district_resort_secondary
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_amenities
+
+    zone_slots = {
+        slot_xhk_worldark_amenities
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_15
+    }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/entertainers_add
+        AMOUNT = 200
+    }
+
+    triggered_name = {
+        text = zone_resort_entertainment
+    }
+    triggered_flavor_desc = {
+        text = zone_resort_entertainment_desc
+    }
+}
+district_xhk_worldark_amenities_dystopian = {
+    shared_capacity_modifier = district_xhk_worldark_amenities_dystopian
+    base_buildtime = @xhk_base_buildtime
+    icon = district_ark_forever_cruise
+    gridbox = district_resort_secondary
+    is_uncapped = { always = no }
+    overlay_icon = GFX_district_amenities
+
+    zone_slots = {
+        slot_xhk_worldark_amenities
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_16
+    }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    triggered_desc = {
+        trigger = { always = yes }
+        text = district_xhk_worldark_amenities_dystopian_limit
+    }
+
+    inline_script = {
+        script = jobs/politician_add
+        AMOUNT = 50
+    }
+
+    triggered_name = {
+        text = zone_xhk_worldark_amenities_dystopian
+    }
+}
+
+# ENFORCER
+district_xhk_worldark_enforcer = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_giga_anticrime
+    gridbox = district_arcology_leisure
+    district_background = district_arcology_leisure
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_giga_district_crime
+
+    zone_slots = {
+        slot_xhk_worldark_enforcer
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_17
+    }
+
+    prerequisites = { tech_colonial_centralization }
+    show_tech_unlock_if = {
+        xhk_has_worldark_origin = yes
+    }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/enforcers_add
+        AMOUNT = 200
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { is_gestalt = yes }
+        }
+        modifier = {
+            job_patrol_drone_add = 200
+        }
+    }
+
+    inline_script = {
+        script = xhk_worldark/district_flavor/enforcer_flavor
+    }
+}
+
+###############################################################################################################
+# WAR
+###############################################################################################################
+# SOLDIER
+district_xhk_worldark_ordinance = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_ark_military
+    gridbox = district_arcology_fortress
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_district_fortress
+
+    zone_slots = {
+        slot_xhk_worldark_ordinance
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_18
+    }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    inline_script = {
+        script = jobs/soldiers_add
+        AMOUNT = 200
+    }
+
+    triggered_name = {
+        text = district_ark_military_name
+    }
+
+    triggered_flavor_desc = {
+        text = district_ark_military_flavor_desc
+    }
+}
+
+###############################################################################################################
+# SPECIAL RESOURCES
+###############################################################################################################
+
+# REFINERY
+district_xhk_worldark_refinery = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_giga_refinery
+	gridbox = district_industrial
+	district_background = district_xhk_worldark_refinery
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_giga_district_strategic_resources
+
+	zone_slots = {
+		slot_xhk_worldark_refinery
+	}
+
+	potential = {
+		uses_district_set = xhk_pc_worldark
+		owner? = {
+			OR = {
+				has_technology = tech_volatile_motes
+				has_technology = tech_exotic_gases
+				has_technology = tech_rare_crystals
+			}
+		}
+	}
+	show_on_uncolonized = {
+		uses_district_set = xhk_pc_worldark
+		owner? = {
+			OR = {
+				has_technology = tech_volatile_motes
+				has_technology = tech_exotic_gases
+				has_technology = tech_rare_crystals
+			}
+		}
+	}
+	planet_modifier = {
+		planet_housing_add = 400
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @xhk_district_base_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	# CHEMIST
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_volatile_motes
+				is_gestalt = no
+			}
+		}
+		job_chemist_add = 60
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_volatile_motes
+				is_gestalt = yes
+			}
+		}
+		job_chemist_drone_add = 60
+	}
+
+	# GAS
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_exotic_gases
+				is_gestalt = no
+			}
+		}
+		job_gas_refiner_add = 60
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_exotic_gases
+				is_gestalt = yes
+			}
+		}
+		job_gas_refiner_drone_add = 60
+	}
+
+	# CRYSTAL
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_rare_crystals
+				is_gestalt = no
+			}
+		}
+		job_translucer_add = 60
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_rare_crystals
+				is_gestalt = yes
+			}
+		}
+		job_translucer_drone_add = 60
+	}
+
+	triggered_name = {
+		text = flavor_xhk_worldark_refinery_name
+	}
+}
+# fake ones
+district_xhk_worldark_refinery_motes = {
+	zone_slots = { slot_empty }
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_volatile_motes
+				is_gestalt = no
+			}
+		}
+		job_chemist_add = 60
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_volatile_motes
+				is_gestalt = yes
+			}
+		}
+		job_chemist_drone_add = 60
+	}
+
+	show_on_uncolonized = {
+		always = no
+	}
+
+	potential = {
+		always = no
+	}
+
+	prerequisites = {
+		tech_volatile_motes
+	}
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+}
+district_xhk_worldark_refinery_gases = {
+	zone_slots = { slot_empty }
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_exotic_gases
+				is_gestalt = no
+			}
+		}
+		job_gas_refiner_add = 60
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_exotic_gases
+				is_gestalt = yes
+			}
+		}
+		job_gas_refiner_drone_add = 60
+	}
+
+	show_on_uncolonized = {
+		always = no
+	}
+
+	potential = {
+		always = no
+	}
+
+	prerequisites = {
+		tech_exotic_gases
+	}
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+}
+district_xhk_worldark_refinery_crystals = {
+	zone_slots = { slot_empty }
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_rare_crystals
+				is_gestalt = no
+			}
+		}
+		job_translucer_add = 60
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_rare_crystals
+				is_gestalt = yes
+			}
+		}
+		job_translucer_drone_add = 60
+	}
+
+
+	show_on_uncolonized = {
+		always = no
+	}
+
+	potential = {
+		always = no
+	}
+
+	prerequisites = {
+		tech_rare_crystals
+	}
+
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+	}
+}
+
+# DARK MATTER
+district_xhk_worldark_darkmatter = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_cosmogenesis_world_science
+	district_background = district_xhk_worldark_darkmatter
+	gridbox = district_polytechnic
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_giga_district_dark_matter
+
+	zone_slots = {
+		slot_xhk_worldark_darkmatter
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		inline_script = bpv_replace/xhk_worldark_districts_assign_19
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @xhk_district_base_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	prerequisites = { tech_mine_dark_matter }
+	show_tech_unlock_if = { xhk_has_worldark_origin = yes }
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		job_giga_dark_matter_weaver_add = 200
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		job_giga_dark_matter_weaver_drone_add = 200
+	}
+
+	triggered_name = {
+		text = flavor_xhk_worldark_darkmatter_name
+	}
+}
+
+# SUPERTENSILES
+
+# NEG MASS
+district_xhk_worldark_negativemass = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_giga_negative_mass
+	district_background = district_xhk_worldark_negativemass
+	gridbox = district_giga_birch_orykta_negative_mass
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_giga_district_negative_mass
+
+	zone_slots = {
+		slot_xhk_worldark_negativemass
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		inline_script = bpv_replace/xhk_worldark_districts_assign_20
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @xhk_district_base_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	prerequisites = { tech_nm_utilization_2 }
+	show_tech_unlock_if = { xhk_has_worldark_origin = yes }
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		modifier = {
+			job_ehof_energy_converter_add = 200
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			job_ehof_energy_converter_drone_add = 200
+		}
+	}
+
+	triggered_name = {
+		text = flavor_xhk_worldark_negativemass_name
+	}
+}
+
+# SENT METAL
+district_xhk_worldark_sentientmetal = {
+	base_buildtime = @xhk_base_buildtime
+	icon = district_giga_sentient_metal
+	district_background = district_xhk_worldark_sentientmetal
+	gridbox = district_giga_birch_ktisma_sentient_metal
+	is_uncapped = { always = yes }
+	overlay_icon = GFX_giga_district_sentient_metal
+
+	zone_slots = {
+		slot_xhk_worldark_sentientmetal
+	}
+
+	inline_script = {
+		script = xhk_worldark/districts/district_common
+		inline_script = bpv_replace/xhk_worldark_districts_assign_21
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = @xhk_district_base_cost
+		}
+		upkeep = {
+			energy = 1
+		}
+	}
+
+	prerequisites = { tech_ehof_sentient_tier_3 }
+	show_tech_unlock_if = { xhk_has_worldark_origin = yes }
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		modifier = {
+			job_ehof_cultivator_add = 200
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			job_ehof_cultivation_drone_add = 200
+		}
+	}
+
+	triggered_name = {
+		text = flavor_xhk_worldark_sentientmetal_name
+	}
+}
+
+
+
+###############################################################################################################
+# UTIL
+###############################################################################################################
+# STORAGE
+district_xhk_worldark_storage = {
+    base_buildtime = @xhk_base_buildtime
+    icon = district_xhk_worldark_storage
+    gridbox = district_generator
+    is_uncapped = { always = yes }
+    overlay_icon = GFX_xhk_worldark_storage_spec
+
+    zone_slots = {
+        slot_xhk_worldark_storage
+    }
+
+    inline_script = {
+        script = xhk_worldark/districts/district_common
+        inline_script = bpv_replace/xhk_worldark_districts_assign_22
+    }
+
+    prerequisites = { tech_construction_templates }
+    show_tech_unlock_if = { xhk_has_worldark_origin = yes }
+
+    resources = {
+        category = planet_districts
+        cost = {
+            alloys = @xhk_district_base_cost
+        }
+        upkeep = {
+            energy = 1
+        }
+    }
+
+    triggered_desc = {
+        trigger = { always = yes }
+        text = district_xhk_worldark_storage_effect
+    }
+
+    triggered_name = {
+        text = flavor_xhk_worldark_storage_name
+    }
+}

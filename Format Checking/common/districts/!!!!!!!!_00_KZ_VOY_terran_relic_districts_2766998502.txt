@@ -13,7 +13,7 @@ district_KZ_VOY_terran_relic_city = { #超古代遗迹都市
 		is_KZ_VOY_terran_relic_pc = yes
 	}
 	potential = {
-		owner = { is_wilderness_empire = no }
+		owner? = { is_wilderness_empire = no }
 		is_KZ_VOY_terran_relic_pc = yes
 	}
 	allow = { no_KZ_VOY_arcology_construction = yes }

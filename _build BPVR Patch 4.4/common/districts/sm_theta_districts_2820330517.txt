@@ -65,14 +65,16 @@ district_acot_soulsphere_city = {
 		}
 		produces = {
 			trigger = {
-				owner = { is_regular_empire = yes }
+				owner = {
+					is_regular_empire = yes
+				}
 			}
 			consumer_goods = 1500
 		}
 		produces = {
 			trigger = {
 				owner = {
-					owner = { is_machine_empire = no }
+					is_machine_empire = no
 				}
 			}
 			food = 1500
@@ -80,7 +82,7 @@ district_acot_soulsphere_city = {
 		produces = {
 			trigger = {
 				owner = {
-					owner = { is_machine_empire = yes }
+					is_machine_empire = yes
 				}
 			}
 			energy = 1500

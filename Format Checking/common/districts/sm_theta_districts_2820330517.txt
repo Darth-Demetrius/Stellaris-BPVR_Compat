@@ -36,7 +36,7 @@ district_acot_soulsphere_city = {
 			job_sm_acot_overlord_drone_add = 100
 			job_sm_acot_overseer_drone_add = 200
 		}
-	}
+	}	
 
 	triggered_planet_modifier = {
 		potential = {
@@ -47,7 +47,7 @@ district_acot_soulsphere_city = {
 			job_sm_acot_overlord_droid_add = 100
 			job_sm_acot_overseer_droid_add = 200
 		}
-	}
+	}	
 
 
 	resources = {
@@ -62,14 +62,14 @@ district_acot_soulsphere_city = {
 		}
 		produces = {
 			trigger = {
-				owner = { is_regular_empire = yes }
+				is_regular_empire = yes
 			}
 			consumer_goods = 1500
 		}
 		produces = {
 			trigger = {
 				owner = {
-					owner = { is_machine_empire = no }
+					is_machine_empire = no
 				}
 			}
 			food = 1500
@@ -77,7 +77,7 @@ district_acot_soulsphere_city = {
 		produces = {
 			trigger = {
 				owner = {
-					owner = { is_machine_empire = yes }
+					is_machine_empire = yes
 				}
 			}
 			energy = 1500
@@ -128,7 +128,7 @@ district_acot_soulsphere_city = {
 district_acot_soulsphere_science = {
 	base_buildtime = 15
 	is_capped_by_modifier = no
-
+	
 	custom_gui = planet_district_entry_width_3
 	district_width = 3
 
@@ -154,8 +154,8 @@ district_acot_soulsphere_science = {
 		modifier = {
 			job_sm_acot_voidsphere_labman_add = 1600
 		}
-	}
-
+	}	
+	
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -164,7 +164,7 @@ district_acot_soulsphere_science = {
 		modifier = {
 			job_sm_acot_voidsphere_labdrone_add = 1600
 		}
-	}
+	}	
 
 	resources = {
 		category = planet_districts
@@ -285,7 +285,7 @@ district_acot_soulsphere_forge = {
 			change_variable = {
 				which = acot_voidsphere_portal_count
 				value = -1
-			}
+			}		
 		}
 	}
 
@@ -302,17 +302,17 @@ district_acot_soulsphere_forge = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = no }
+			owner = { is_gestalt = no }					
 		}
 		modifier = {
 			job_sm_acot_voidsphere_forgeman_add = 800
 		}
 	}
-
+	
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = yes }
+			owner = { is_gestalt = yes }					
 		}
 		modifier = {
 			job_sm_acot_voidsphere_forgedrone_add = 800
@@ -375,7 +375,7 @@ district_acot_soulsphere_silo = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = no }
+			owner = { is_gestalt = no }		
 		}
 		modifier = {
 			job_sm_acot_voidsphere_siloman_add = 800
@@ -391,7 +391,7 @@ district_acot_soulsphere_silo = {
 			job_sm_acot_voidsphere_silodrone_add = 800
 		}
 	}
-
+	
 
 	resources = {
 		category = planet_districts
@@ -486,8 +486,8 @@ district_acot_soulsphere_fortress = {
 
 	triggered_planet_modifier = {
 		potential = {
-			owner = {
-				is_gestalt = no
+			owner = { 
+				is_gestalt = no 
 			}
 		}
 		modifier = {
@@ -496,8 +496,8 @@ district_acot_soulsphere_fortress = {
 	}
 	triggered_planet_modifier = {
 		potential = {
-			owner = {
-				is_gestalt = yes
+			owner = { 
+				is_gestalt = yes 
 			}
 		}
 		modifier = {
@@ -506,14 +506,14 @@ district_acot_soulsphere_fortress = {
 	}
 
 	triggered_planet_modifier = {
-		potential = {
+		potential = { 
 			owner = { is_gestalt = no }
 		}
 		job_sm_acot_giga_fortress_operator_add = 200
 	}
 
 	triggered_planet_modifier = {
-		potential = {
+		potential = { 
 			owner = { is_gestalt = yes }
 		}
 		job_sm_acot_giga_fortress_operator_drone_add = 200
@@ -584,17 +584,17 @@ district_acot_soulsphere_stellarite = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = no }
+			owner = { is_gestalt = no }					
 		}
 		modifier = {
 			job_acot_omniman_add = 400
 		}
 	}
-
+	
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = yes }
+			owner = { is_gestalt = yes }					
 		}
 		modifier = {
 			job_acot_omnidrone_add = 400
