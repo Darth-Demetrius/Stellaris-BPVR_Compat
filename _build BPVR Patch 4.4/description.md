@@ -11,8 +11,8 @@ Changes:[list]
  [*] Syntax fixes to BPVR Compatibility files:[list]
   [*] !!!!!!!!_00_KZ_VOY_terran_relic_districts_2766998502.txt Line 19: removed "?"
   [*] sm_theta_districts_2820330517.txt Line 68: added "owner = " scope
-  [*] xhk_worldark_districts_3758686268.txt Lines 810,820: Removed "?"
-  [*] ethic_rebuild_arkship_zones_1100284147.txt Lines 9,18,20,67,187,196,198,423,425,433,435,506,508,516,518,615: Removed "?"
-  [*] giga_zones_1121692237.txt Line 741,814,888,954,1013,1077,1134,1200 Removed "?"
-  [*] oxr_mdlc_zones_world_machine_common_3163759042.txt Lines 9,13 Removed "?"[/list]
+  [*] xhk_worldark_districts_3758686268.txt Lines 810, 820: Removed "?"
+  [*] ethic_rebuild_arkship_zones_1100284147.txt Lines 9, 18, 20, 67, 187, 196, 198, 423, 425, 433, 435, 506, 508, 516, 518, 615: Removed "?"
+  [*] giga_zones_1121692237.txt Lines 741, 814, 888, 954, 1013, 1077, 1134, 1200 Removed "?"
+  [*] oxr_mdlc_zones_world_machine_common_3163759042.txt Lines 9, 13 Removed "?"[/list]
 [/list]

@@ -1,3 +1,6 @@
+inline_script = {
+	script = bpv_merger_of_rules/toggled_code
+	code = "
 @base_cost = 300
 @city_cost = 500
 @rural_district_ai_coefficient = 0.75
@@ -2304,4 +2307,8 @@ district_polytechnic = {
 	}
 	ai_weight_coefficient = 1.5
 	additional_ai_weight = 100
+}
+
+"
+toggle = @has_ancient_empire
 }
