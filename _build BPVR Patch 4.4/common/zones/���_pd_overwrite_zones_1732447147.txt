@@ -1,0 +1,394 @@
+inline_script = {
+  script = bpv_merger_of_rules/toggled_code
+  code = "
+
+zone_foundry_arcology = {
+	inline_script = {
+		script = zones/shared_industrial_foundry_zone
+		AMOUNT = @doubled_scaling_district_1_job
+		LARGE_AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	swap_type = district_arcology_arms_industry
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_fortress_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+
+	convert_to = {
+		ag_double_zone_foundry_01
+		ag_double_zone_foundry_02
+		ag_double_zone_foundry_03
+	}
+}
+zone_factory_arcology = {
+	inline_script = {
+		script = zones/shared_industrial_factory_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	swap_type = district_arcology_civilian_industry
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_commercial_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+
+	convert_to = {
+		ag_double_zone_factory_01
+		ag_double_zone_factory_02
+		ag_double_zone_factory_03
+	}
+}
+zone_research_arcology = {
+	inline_script = {
+		script = zones/shared_research_zone
+		AMOUNT = @doubled_scaling_district_3_jobs
+	}
+
+	swap_type = district_arcology_research
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_garden_arcology
+		pd_fortress_arcology
+		pd_commercial_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+
+	convert_to = {
+		ag_double_zone_research_01
+		ag_double_zone_research_02
+		ag_double_zone_research_03
+	}
+}
+zone_research_physics_arcology = {
+	inline_script = {
+		script = zones/shared_research_physics_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	inline_script = {
+		script = zones/potential_no_wilderness
+	}
+
+	swap_type = district_arcology_research_physics
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_garden_arcology
+		pd_fortress_arcology
+		pd_commercial_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+
+	convert_to = {
+		ag_double_zone_research_physics_01
+		ag_double_zone_research_physics_02
+		ag_double_zone_research_physics_03
+	}
+}
+zone_research_society_arcology = {
+	inline_script = {
+		script = zones/shared_research_society_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	inline_script = {
+		script = zones/potential_no_wilderness
+	}
+
+	swap_type = district_arcology_research_society
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_garden_arcology
+		pd_fortress_arcology
+		pd_commercial_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+
+	convert_to = {
+		ag_double_zone_research_society_01
+		ag_double_zone_research_society_02
+		ag_double_zone_research_society_03
+	}
+}
+zone_research_engineering_arcology = {
+	inline_script = {
+		script = zones/shared_research_engineering_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	inline_script = {
+		script = zones/potential_no_wilderness
+	}
+
+	swap_type = district_arcology_research_engineering
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_garden_arcology
+		pd_fortress_arcology
+		pd_commercial_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+
+	convert_to = {
+		ag_double_zone_research_engineering_01
+		ag_double_zone_research_engineering_02
+		ag_double_zone_research_engineering_03
+	}
+}
+zone_unity_arcology = {
+	inline_script = {
+		script = zones/shared_unity_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	swap_type = district_arcology_administrative
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_garden_arcology
+		pd_commercial_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+
+	convert_to = {
+		zone_unity_spiritualist_arcology
+		zone_unity_bio_trophy_arcology
+		ag_double_zone_unity_01
+		ag_double_zone_unity_02
+		ag_double_zone_unity_03
+	}
+}
+zone_unity_spiritualist_arcology = {
+	inline_script = {
+		script = zones/shared_unity_spiritualist_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	swap_type = district_arcology_spiritualist
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_garden_arcology
+		pd_fortress_arcology
+		pd_commercial_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+
+	convert_to = {
+		zone_unity_arcology
+		zone_unity_bio_trophy_arcology
+		ag_double_zone_unity_spiritualist_01
+		ag_double_zone_unity_spiritualist_02
+		ag_double_zone_unity_spiritualist_03
+	}
+}
+zone_unity_bio_trophy_arcology = {
+	inline_script = {
+		script = zones/shared_unity_bio_trophy_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	swap_type = district_arcology_organic_housing
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_garden_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	triggered_district_planet_modifier = {
+		planet_housing_add = -1500
+	}
+
+	convert_to = {
+		zone_unity_arcology
+		zone_unity_spiritualist_arcology
+		ag_double_zone_unity_01
+		ag_double_zone_unity_02
+		ag_double_zone_unity_03
+		ag_double_zone_unity_spiritualist_01
+		ag_double_zone_unity_spiritualist_02
+		ag_double_zone_unity_spiritualist_03
+	}
+}
+zone_fortress_arcology = {
+	inline_script = {
+		script = zones/shared_fortress_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	swap_type = district_arcology_fortress
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_fortress_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+
+	convert_to = {
+		ag_double_zone_fortress_01
+		ag_double_zone_fortress_02
+		ag_double_zone_fortress_03
+	}
+}
+zone_trade_arcology = {
+	inline_script = {
+		script = zones/shared_trade_zone
+		AMOUNT = @doubled_scaling_district_1_job
+	}
+
+	swap_type = district_arcology_trade
+	swap_type_weight = 5
+
+	zone_sets = {
+		arcology
+		pd_garden_arcology
+		pd_commercial_arcology
+	}
+
+	included_building_sets = {
+		urban_automation_arcology
+	}
+
+	excluded_building_sets = {
+		urban_automation
+	}
+
+	inline_script = {
+		script = zones/shared_arcology_zone_modifiers
+	}
+
+	convert_to = {
+		ag_double_zone_trade_01
+		ag_double_zone_trade_02
+		ag_double_zone_trade_03
+	}
+}
+
+  "
+  toggle = @has_planetary_diversity_more_arcologies
+}

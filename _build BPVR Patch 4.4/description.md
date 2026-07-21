@@ -7,8 +7,8 @@ I have not extensively tested this, so it's possible there are uncaught bugs. I 
 Changes:[list]
  [*] Compatibility for Planetary Diversity More Arcologies:[list]
   [*] New file: pd_arcology_districts_1732447147.txt
-  [*] Updated file: ���_ag_overwrite_districts_2389589691.txt
-  [*] Updated file: ���_ag_overwrite_zones_2389589691.txt (Added "pd_*_arcology" to "zone_*_arcology -> zone_sets" )[/list]
+  [*] New file: ���_pd_overwrite_districts_1732447147.txt
+  [*] New file: ���_pd_overwrite_zones_1732447147.txt[/list]
  [*] Syntax fixes to BPVR Compatibility files:[list]
   [*] !!!!!!!!_00_KZ_VOY_terran_relic_districts_2766998502.txt Line 19: removed "?"
   [*] sm_theta_districts_2820330517.txt Line 68: added "owner = " scope
