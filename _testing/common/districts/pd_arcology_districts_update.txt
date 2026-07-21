@@ -1,6 +1,4 @@
-inline_script = {
-  script = bpv_merger_of_rules/toggled_code
-  code = "
+#Garden Arcology
 district_pd_garden_arcology_housing = {
 	base_buildtime = 600
 
@@ -340,8 +338,4 @@ district_pd_commercial_arcology_housing = {
 		text = job_resort_worker_effect_desc
 	}
 	### Gestalt Empires - No Resort for you
-}
-
-  "
-  toggle = @has_planetary_diversity_more_arcologies
 }

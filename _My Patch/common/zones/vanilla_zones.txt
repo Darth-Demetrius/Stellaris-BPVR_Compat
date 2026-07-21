@@ -1,3 +1,0 @@
-zone_urban_wilderness = {
-	max_buildings = @BPV_ZONE_SLOT
-}
