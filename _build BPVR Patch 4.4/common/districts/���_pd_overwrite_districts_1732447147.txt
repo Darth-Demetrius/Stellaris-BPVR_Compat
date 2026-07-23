@@ -1,11 +1,7 @@
 inline_script = {
   script = bpv_merger_of_rules/toggled_code
   code = "
-@base_cost = 300
 @city_cost = 500
-@rural_district_ai_coefficient = 0.75
-@wilderness_district_build_long = 480
-@wilderness_district_build_short = 240
 
 district_city = {
 	base_buildtime = 480
@@ -21,7 +17,7 @@ district_city = {
 		from = {
 			is_regular_empire = yes
 		}
-		is_KZ_VOY_terran_relic_pc = no
+		#is_KZ_VOY_terran_relic_pc = no  # breaks if Voyage to Eternity is not active
 		OR = {
 			uses_district_set = standard
 			uses_district_set = hive_world
@@ -49,7 +45,7 @@ district_city = {
 				}
 			}
 		}
-		is_KZ_VOY_terran_relic_pc = no
+		#is_KZ_VOY_terran_relic_pc = no
 		NOT = { has_deposit = d_crashed_slaver_ship }
 		OR = {
 			uses_district_set = district_resort
@@ -789,4 +785,244 @@ district_arcology_urban_3 = {
 }
   "
   toggle = @has_planetary_diversity_more_arcologies
+}
+
+inline_script = {
+  script = bpv_merger_of_rules/toggled_code
+  code = "
+@city_cost = 500
+
+district_city = {
+	base_buildtime = 480
+
+	exempt_from_ai_planet_specialization = yes
+	default_starting_district = yes
+	overlay_icon = GFX_district_government
+
+	inline_script = { script = districts/BPV_district_slots  GOVERNMENT = slot_city_government SLOT1 = slot_city_01 SLOT2 = slot_city_02 SLOT3 = slot_city_02 SLOT4 = slot_city_02 SLOT5 = slot_city_02 SLOT6 = slot_city_02 SLOT7 = slot_city_02 SLOT8 = slot_city_02 SLOT9 = slot_city_02 SLOT10 = slot_city_02 }
+
+	show_on_uncolonized = {
+		exists = from
+		from = {
+			is_regular_empire = yes
+		}
+		is_KZ_VOY_terran_relic_pc = no
+		OR = {
+			uses_district_set = standard
+			uses_district_set = hive_world
+			uses_district_set = machine_world
+			uses_district_set = shattered_ring_world
+			uses_district_set = volcanic_world
+		}
+		is_special_colony_type = no
+	}
+
+	potential = {
+		OR = {
+			NOT = { exists = owner } #this condition is needed for galaxy generation
+			AND = {
+				exists = owner
+				owner = {
+					OR = {
+						is_regular_empire = yes
+						AND = {
+							is_country_type = primitive
+							is_hive_empire = no
+						}
+						is_country_type = mechanocalibrator
+					}
+				}
+			}
+		}
+		is_KZ_VOY_terran_relic_pc = no
+		NOT = { has_deposit = d_crashed_slaver_ship }
+		OR = {
+			uses_district_set = district_resort
+			uses_district_set = standard
+			uses_district_set = hive_world
+			uses_district_set = machine_world
+			uses_district_set = shattered_ring_world
+			uses_district_set = volcanic_world
+		}
+		is_special_colony_type = no
+
+		NAND = {
+			is_capital = yes
+			owner = {
+				has_menace_perk = menp_behemoth_mind_meld
+			}
+		}
+	}
+
+	allow = {
+		hidden_trigger = { is_special_colony_type = no }
+		custom_tooltip = {
+			fail_text = arcology_project_construction_fail_tt
+			NOT = { has_carrier_flag = arcology_project_construction }
+		}
+	}
+
+	conversion_ratio = 1
+	convert_to = {
+		district_crashed_slaver_ship
+		district_arcology_housing
+		district_rw_city
+		district_nexus
+		district_hive
+		district_prison
+		district_craglands
+		district_mindlink
+		district_crashed_slaver_ship
+		district_resort
+		district_slave
+		district_ark_city
+        # Fuck PDX's stupid conversion.
+		################################# New Contents #################################
+        district_ag_shell_world_housing
+		district_ag_ancient_city_housing
+		district_ag_ancient_city_wilderness
+		district_ag_hive
+		district_ag_ancient_hive_wilderness
+		district_ag_nexus
+		aon_city_districts
+		district_azur_gaia_city
+		district_azur_mind_crisis_city
+		district_azur_ringworld_city_bc
+		district_azur_ringworld_city
+		district_azur_harbour_city
+		district_arcology_adf_housing
+		district_arcology_adf_rw_housing
+		district_arcology_adf_ark_housing
+		district_arcology_kuat_housing
+		district_arcology_swgs_housing
+		district_arcology_swgs_rw_housing
+		district_arcology_wsg_housing
+		district_rw_wsg_city
+		district_water_housing
+		district_rw_water_housing
+		district_dr_housing
+		district_rw_sh_city
+		district_sh_city
+		district_uf_housing
+		district_rw_uf_city
+		district_auto_uf_housing
+		district_rw_auto_uf_city
+		district_uf_glory_city
+		district_wg_hive_world_housing
+		district_wg_forge
+		district_KZ_VOY_terran_relic_city
+		district_KZ_VOY_luna_trade_city
+		district_KZ_VOY_mars_relic_foundry_city
+		district_KZ_VOY_HE_city
+		district_pd_garden_arcology_housing
+		district_pd_fortress_arcology_housing
+		district_pd_commercial_arcology_housing
+		##############################################################################
+	}
+
+	resources = {
+		category = planet_districts_cities
+		cost = {
+			minerals = @city_cost
+			trigger = {
+				NOT = { has_modifier = wooden_planet }
+			}
+		}
+		cost = {
+			food = @city_cost
+			trigger = {
+				has_modifier = wooden_planet
+			}
+		}
+		upkeep = {
+			energy = 2
+			trigger = {
+				NOT = { has_modifier = wooden_planet }
+			}
+		}
+		upkeep = {
+			food = 2
+			trigger = {
+				has_modifier = wooden_planet
+			}
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 1000
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_valid_civic = civic_agrarian_idyll
+			}
+		}
+		modifier = {
+			planet_housing_add = -200
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_active_tradition = tr_prosperity_public_works }
+		}
+		modifier = {
+			planet_housing_add = 100
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_1
+			}
+		}
+		modifier = {
+			planet_housing_add = 100
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_technology = tech_housing_2
+				NOT = { has_valid_civic = civic_agrarian_idyll }
+			}
+		}
+		modifier = {
+			planet_housing_add = 200
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_tankbound_empire = yes
+			}
+		}
+		modifier = {
+			job_production_overseer_add = 100
+		}
+	}
+
+	inline_script = {
+		script = districts/district_triggered_name_urban
+	}
+
+	inline_script = {
+		script = districts/district_triggered_flavor_desc_urban
+	}
+
+	inline_script = {
+		script = districts/ai_urban_district_extra_weighting
+	}
+}
+  "
+  toggle = @vte_mod
 }
